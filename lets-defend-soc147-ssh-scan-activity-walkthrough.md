@@ -1,6 +1,6 @@
 # Let's Defend:  SOC147 - SSH Scan Activity Walkthrough
 
-Welcome to the world of Blue Teaming,as I explore it on the Let's Defend Platorm,a reknowned site for Blue Team practice
+Welcome to the world of Blue Teaming,as I explore it on the Let's Defend Platform,a reknowned site for Blue Team practice
 
 Today,we are going to get our hands dirty,with the Easy SOC Analyst Alert - SOC147 - SSH Scan Activity
 
