@@ -1,6 +1,6 @@
 # SOC145 - Ransomware Detected Walkthrough
 
-Welcome to this blog entry,as I document my journey,into the world of blue teaming.We will be tackling “SOC145 — Ransomware Detected” case on the Let’s Defend platform,which is of hard difficulty
+Welcome to this blog entry,as I document my journey,into the world of blue teaming.We will be tackling the “SOC145 — Ransomware Detected” case on the Let’s Defend platform,which is of hard difficulty
 
 Let’s jump head first into it.
 
