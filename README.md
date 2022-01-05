@@ -21,7 +21,7 @@ Cyber Security interests me as an individual, being the subject I am majoring in
 
 I am a champion for incorporating women into the field of Cyber Security,owing to remove the gate barriers that they face,which has led me to be a member of my University's Women in Cyber Security (WiCYS) Chapter.I try to contribute,to the best of my ability,for the good of this organization
 
-Empowering them,by sharing nuggets of knowlege and providing them opportunities to forster their growth gives me immense joy
+Empowering them,by sharing nuggets of knowlege and providing them opportunities to forster their learning and growth gives me immense joy
 
 #### 🌱 Experience
 
