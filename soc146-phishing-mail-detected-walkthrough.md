@@ -1,10 +1,8 @@
 # SOC146 - Phishing Mail Detected  Walkthrough
 
-Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform.
+Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform,which is of Medium difficult
 
 Let’s have a look at the case details:-
-
-​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*rf5NUnFR6Ji0-mhMhvSKrQ.png)
 
@@ -82,7 +80,7 @@ These two users have fallen victim to a phishing attack, downloading and accessi
 
 ​
 
-Now running the acquired IP Addresses on letsdefend’s log management section, we find hits for both:-
+Now running the acquired IP Addresses on Letsdefend’s log management section, we find hits for both:-
 
 ​
 
