@@ -60,7 +60,7 @@ Step 2 Are the files malicious? — Yes
 
 Step 3 Check if mail is delivered to the user? (Hint: look at the “device action” part of the alert details)
 
-Here, the receiver is \[email protected] Checking the Device Action, it says “Allowed” — probably means that the mail was in fact delivered to the intended user
+Here, the receiver is \[email protected] Checking the Device Action, it says “Allowed” — probably means that the mail was in fact delivered to the intended user ••
 
  — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —--------------------------
 
@@ -126,7 +126,17 @@ Now we add a few artifacts that were collected during the investigation (IP Addr
 
 Now, we close the alert — classifying the event as a true positive
 
-True Positive (+5 Point) Playbook Answers: Check If Someone Opened the Malicious File/URL? (+5 Point) Check If Mail Delivered to User? (+5 Point) Analyze Url/Attachment (+5 Point) Are there attachments or URLs in the email? (+5 Point)
+True Positive (+5 Point)&#x20;
+
+Playbook Answers: -
+
+Check If Someone Opened the Malicious File/URL? (+5 Point)&#x20;
+
+Check If Mail Delivered to User? (+5 Point)&#x20;
+
+Analyze Url/Attachment (+5 Point)&#x20;
+
+Are there attachments or URLs in the email? (+5 Point)
 
 ​
 
@@ -135,6 +145,8 @@ True Positive (+5 Point) Playbook Answers: Check If Someone Opened the Malicious
 ​
 
 This case was fascinating and I was double happy with the fact that I got all answers right!
+
+**Summary of the case**
 
 A phishing mail was sent from source 172.16.17.57, disguised as a harmless document, which led to two users falling for the attack, downloading the mail’s malicious content. A total of 3 files were recovered and analyzed, having malicious characteristics.
 
