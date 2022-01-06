@@ -1,28 +1,20 @@
 # SOC146 - Phishing Mail Detected  Walkthrough
 
-Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform,which is of Medium difficult
+Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform, which is of Medium difficulty
 
 Let’s have a look at the case details:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*rf5NUnFR6Ji0-mhMhvSKrQ.png)
 
-​
-
-Next, we have a look through our Letsdefend Mailbox, to find any information. Searching with the keyword ‘Trenton’ gives us:-
-
-​
+Next, we have a look through our Letsdefend Mailbox, to find any information. Searching with the keyword ‘Trenton’ gives us:-​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*B3cRVYSUY-fA1aw-fRPGCA.png)
 
-​
-
 We download the file onto the machine and unzip it, using the keyphrase: infected
 
-Now,we have a directory titled — 11f44531fb088d31307d87b01e8eabff
+Now,we have a directory titled — 11f44531fb088d31307d87b01e8eabff
 
-Opening the directory gives us 3 files (2 .dll and a .xls file).We analyze the .xls file,which we open online.It’s contents are:-
-
-​
+Opening the directory gives us 3 files (2 .dll and a .xls file).We analyze the .xls file, which we open online.Its contents are:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*VPeDJ-4OqpaFOEH42psOvg.png)
 
@@ -30,7 +22,7 @@ Opening the directory gives us 3 files (2 .dll and a .xls file).We analyze the .
 
 Next, we run the 3 files on Hybrid Analysis and VirusTotal tools
 
-Hybrid- Analysis tool gives us an overview of the malicious content of the submitted files
+The Hybrid- Analysis tool gives us an overview of the malicious content of the submitted files
 
 ​
 
@@ -42,11 +34,21 @@ Hybrid- Analysis tool gives us an overview of the malicious content of the submi
 
 ​
 
-iroto.dll — 7/68 security vendors flag it as malicious (Hash — 07d83e3cbda0ddafb93dd8b6bd3d94fdd96797242d52b4b818a5d85f82b95be0)
+iroto.dll — 7/68 security vendors flag it as malicious&#x20;
 
-iroto1.dll — 8/66 security vendors flag it as malicious (Hash — e05c717b43f7e204f315eb8c298f9715791385516335acd8f20ec9e26c3e9b0b)
+(Hash — 07d83e3cbda0ddafb93dd8b6bd3d94fdd96797242d52b4b818a5d85f82b95be0)
 
-research-1646684671.xls — 30/59 security vendors flag it as malicious (Hash -1df68d55968bb9d2db4d0d18155188a03a442850ff543c8595166ac6987df820)  — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — - Questions:-
+iroto1.dll — 8/66 security vendors flag it as malicious&#x20;
+
+(Hash — e05c717b43f7e204f315eb8c298f9715791385516335acd8f20ec9e26c3e9b0b)
+
+research-1646684671.xls — 30/59 security vendors flag it as malicious&#x20;
+
+(Hash -1df68d55968bb9d2db4d0d18155188a03a442850ff543c8595166ac6987df820)  
+
+— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —---------------------
+
+Lets Defend Questions:-
 
 Step 1 Are there any attachments or URL’s within the email — Yes
 
@@ -54,11 +56,17 @@ Step 2 Are the files malicious? — Yes
 
 (Answers gained from initial enumeration)
 
- — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — Step 3 Check if mail is delivered to the user? (Hint: look at the “device action” part of the alert details)
+ — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — -----------
+
+Step 3 Check if mail is delivered to the user? (Hint: look at the “device action” part of the alert details)
 
 Here, the receiver is \[email protected] Checking the Device Action, it says “Allowed” — probably means that the mail was in fact delivered to the intended user
 
- — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — Step 4 Q)Check If Someone Opened the Malicious File/URL? (Hint: Please go to the “Log Management” page and check if the c2 address was accessed. You can check if the malicious file is run by searching the c2 addresses of the malicious file.)
+ — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —--------------------------
+
+Step 4&#x20;
+
+Q)Check If Someone Opened the Malicious File/URL? (Hint: Please go to the “Log Management” page and check if the c2 address was accessed. You can check if the malicious file is run by searching the c2 addresses of the malicious file.)
 
 We scroll down to extracted strings and other information, from the .xls file on the Hybrid-analysis tool
 
