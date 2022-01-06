@@ -2,8 +2,6 @@
 
 Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform, which is of Medium difficulty
 
-##
-
 Let’s have a look at the case details:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*rf5NUnFR6Ji0-mhMhvSKrQ.png)
@@ -48,7 +46,7 @@ research-1646684671.xls — 30/59 security vendors flag it as malicious&#x20
 
 (Hash -1df68d55968bb9d2db4d0d18155188a03a442850ff543c8595166ac6987df820)  
 
-— — — — — — — — — — — — — — — — — — — — — — — — — — — — — — —---------------------
+\=====================================================================
 
 Lets Defend Questions:-
 
@@ -58,13 +56,13 @@ Step 2 Are the files malicious? — Yes
 
 (Answers gained from initial enumeration)
 
- — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — — -----------
+\=====================================================================
 
-Step 3 Check if mail is delivered to the user? (Hint: look at the “device action” part of the alert details)
+Step 3 - Check if mail is delivered to the user? (Hint: look at the “device action” part of the alert details)
 
 Here, the receiver is \[email protected] Checking the Device Action, it says “Allowed” — probably means that the mail was in fact delivered to the intended user ••
 
-\======================================================================
+\=====================================================================
 
 Step 4&#x20;
 
@@ -140,7 +138,7 @@ Analyze Url/Attachment (+5 Points)&#x20;
 
 Are there attachments or URLs in the email? (+5 Points)
 
-​
+**Our Score Card:-​**
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*LRG0wt1N5Upg7Na55J8uyg.png)
 
