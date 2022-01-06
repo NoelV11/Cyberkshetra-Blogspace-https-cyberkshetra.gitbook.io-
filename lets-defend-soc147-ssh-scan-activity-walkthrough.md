@@ -1,28 +1,28 @@
 # Let's Defend:  SOC147 - SSH Scan Activity Walkthrough
 
-Welcome to the world of Blue Teaming,as I explore it on the Let's Defend Platform,a reknowned site for Blue Team practice
+Welcome to the world of Blue Teaming, as I explore it on the Let's Defend Platform, a renowned site for Blue Team practice
 
-Today,we are going to get our hands dirty,with the Easy SOC Analyst Alert - SOC147 - SSH Scan Activity
+Today, we are going to get our hands dirty, with the Easy SOC Analyst Alert - SOC147 - SSH Scan Activity
 
 ![](.gitbook/assets/2.png)
 
-To start the SOC Investigation,we need to "undertake" the case.Woohoo! it is labelled as Malware!
+To start the SOC Investigation, we need to "undertake" the case. Woohoo! it is labeled as Malware!
 
-We download the given .zip file onto a VM and unzip it's contents,using the passphrase "infected"
+We download the given .zip file onto a VM and unzip its contents,using the passphrase "infected"
 
 **Enumeration**
 
-We get a file named 'nmap'. When running file command against it,we get information that it is a binary file
+We get a file named 'nmap'. When running file command against it, we get information that it is a binary file
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FLXPSbajprIvhLz5Q8hwV%2F111.png?alt=media\&token=4035f4bd-88c6-4d45-8167-65f8b9d7b5ee)
 
-Under the description,we find the hash for the file (3361bf0051cc657ba90b46be53fe5b36)
+Under the description, we find the hash for the file (3361bf0051cc657ba90b46be53fe5b36)
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FS9XYLICNTQhqdBP79gG8%2F110.png?alt=media\&token=61b785dd-7bf1-4197-92cc-94095d80b88a)
 
 **Analysis**
 
-We run the hash on VirusTotal first,but it came with 0 flagged reports - no security vendors flagged the file as malicious
+We run the hash on VirusTotal first, but it came with 0 flagged reports - no security vendors flagged the file as malicious
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FodRSbgYfbnxfpLHluTgQ%2F1.png?alt=media\&token=68a2bf07-5fd7-4f0e-a7c5-df5542241515)
 
@@ -32,7 +32,7 @@ Next,we run the file's hash on hybrid-analysis.com Under 'Report Search' - enter
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2Fm3sUvsGRtytEZ5Z5GiGf%2F3.png?alt=media\&token=758fe954-f15d-43a9-bcec-230b2f975cbe)
 
-There are many OS' acting like a sandbox- we get a hit for Linux 64bit.These are the malware's particulars:-
+There are many OS' acting like a sandbox- we get a hit for Linux 64bit. These are the malware's particulars:-
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FwKD1ILfWumdzPHuKyeKh%2F4.png?alt=media\&token=029710e4-316e-4cba-b475-3585aabb6de8)
 
@@ -44,17 +44,17 @@ Scrolling down,we get to visualize what the file looks like
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FNFHI1AdZxGz9Ihv31JrW%2F6.png?alt=media\&token=c7ce71cf-59be-4aea-afd8-5e25cb3e5afe)
 
-We also get some extracted strings at the bottom (Important)
+We also get some extracted strings at the bottom (Important)&#x20;
 
-From the particulars given in the letsdefend.io site,about the .zip file,we find:-
+From the particulars given in the letsdefend.io site, about the .zip file, we find:-
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FghMpmgpWji1XagM0zaSG%2F7.png?alt=media\&token=65ce5ff7-9de0-4a7b-9a57-c30e95ca4213)
 
-Now,let's take the IP Address - 172.16.20.5**.** We run it on the Endpoint Security and Log Management sections of LetsDefend
+Now, let's take the IP Address - 172.16.20.5**.** We run it on the Endpoint Security and Log Management sections of LetsDefend
 
-From Log Management,we get a lot of hits for the IP Address,but we try to narrow it down by the time,but dont get any matches for Jun 13,2021 - 04:23 PM (date and time stamp of SOC event occurance)
+From the Log Management section, we get a lot of hits for the IP Address, but we try to narrow it down by the time, but don't get any matches for Jun 13,2021 - 04:23 PM (date and time stamp of SOC event occurrence)
 
-Next,we move to Endpoint,where we paste the address and find a few particulars:-
+Next, we move to Endpoint, where we paste the address and find a few particulars:-
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2F14l8ZoNYwSIvjJ4izWL4%2F8.png?alt=media\&token=3b5bcdde-d3ab-4cd9-bc8b-560f5c9c11d2)
 
