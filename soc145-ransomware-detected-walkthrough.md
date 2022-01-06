@@ -54,6 +54,8 @@ File Analysis of the file on Hybrid-Analysis brings us:-
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*Q2GkYsmfdTePd9hu)
 
+\=====================================================================
+
 **Reconnaisance on Virus Total**
 
 VirusTotal — 60/68 vendors find the file suspicious
@@ -96,7 +98,9 @@ Steps to solve and close this Ransomware alert
 
 > Close the alert and state that it is a true positive
 
-Our Score Card:-
+\=====================================================================
+
+**Our Score Card:-**
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*5nmj43q3OAIiJnxqj28qAQ.png)
 
