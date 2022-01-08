@@ -6,7 +6,7 @@ Thank you for visiting my Gitbooks page, where I host my personalized walkthroug
 
 I am Noel Varghese, a Cybersecurity enthusiast - having experience in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these.
 
-Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend and CyberDefenders platforms
+Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend and Rangeforce platforms
 
 Having previous experience in pentesting will prove beneficial as I seek to identify suspicious activity and understand the methodologies exhibited by the malicious actor, to wreak havoc on computer systems, during my blue teaming journey.
 
@@ -44,3 +44,5 @@ I am always open to meeting new people and opportunities
 😄 Connect with me on Linkedin-https://www.linkedin.com/in/noel--varghese/
 
 🌱 Github Profile - [https://github.com/NoelV11](https://github.com/NoelV11)
+
+My Red Team documentation (HTB & Vulnhub Machine Walkthroughs) - [https://noelatvitb.gitbook.io/](https://noelatvitb.gitbook.io)
