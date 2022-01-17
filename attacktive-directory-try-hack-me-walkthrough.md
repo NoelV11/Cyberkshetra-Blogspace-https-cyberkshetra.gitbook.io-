@@ -14,7 +14,7 @@ Download the VPN configuration file and connect to it, via OpenVPN (for those no
 
 IP Address — 10.9.1.196\
 Machine IP — 10.10.45.156\
-\=================================================================\
+\=======================================================================\
 **Prerequisites**
 
 **Installing Impacket on VM** — git clone [https://github.com/SecureAuthCorp/impacket.git](https://github.com/SecureAuthCorp/impacket.git) (this tool is pretty important to know and perform attacks with it in this room)
