@@ -28,12 +28,14 @@ Machine IP — 10.10.45.156\
 > Command — cd /opt/impacket/ && python3 ./setup.py install
 
 After that, Impacket should be correctly installed now and it should be ready to use!\
-\========================================\
+\=======================================================================\
+\
 **Installing Bloodhound and Neo4j**
 
 > Command — apt install bloodhound neo4j
 
-\========================================\
+\=======================================================================\
+\
 **Enumeration**
 
 > Basic enumeration starts out with an nmap scan. Nmap is a relatively complex utility that has been refined over the years to detect what ports are open on a device, what services are running, and even detect what operating system is running. It’s important to note that not all services may be deteted correctly and not enumerated to it’s fullest potential. Therefore after an initial nmap scan we’ll be using other utilities to help us enumerate the services running on the device.
@@ -46,7 +48,7 @@ We get the following information from the scan report:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*Ia5RM3P4pNzp8Il9MJh57Q.png)
 
-Section1 Questions
+Section 1 Questions
 
 > Q)What tool will allow us to enumerate port 139/445?\
 > A)enum4linux
@@ -63,17 +65,18 @@ This is the information that we get:-
 
 We didn't get anything useful from this enumeration, for now
 
+Questions:-
+
 > Q)What is the NetBIOS-Domain Name of the machine?
 
 > A)THM-AD&#x20;
 
 > Q)What invalid TLD do people commonly use for their Active Directory Domain?
 
-> A).local\
-> \
->
+> A).local
 
-\========================================\
+\=======================================================================\
+\
 **Enumerating users via Kerberos**
 
 > A whole host of other services are running, including Kerberos. Kerberos is a key authentication service within Active Directory. With this port open, we can use a tool called Kerbrute (by Ronnie Flathers [@ropnop](http://twitter.com/ropnop)) to brute force discovery of users, passwords and even password spray!
@@ -114,7 +117,8 @@ Questions:-
 > A)backup
 
 \
-\========================================\
+\=======================================================================\
+\
 **Abusing Kerberos**
 
 **Introduction**
@@ -142,11 +146,10 @@ Cracked Password — management2005
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*0t0A-98QO7xRkhJMiIyhMw.png)
 
-\========================================
+\=======================================================================\
 
-Questions:-\
-\
 
+Questions:-
 
 > Q)We have two user accounts that we could potentially query a ticket from. Which user account can you query a ticket from with no password?
 
@@ -165,7 +168,8 @@ Questions:-\
 > A)management2005
 
 \
-\========================================\
+\=======================================================================\
+\
 **Enumeration**
 
 Now, we try to see what shares are present on SMB, with svc-admin’s credentials, where we find:-
@@ -224,8 +228,8 @@ Catting out the contents of SMB2, we find:-
 
 > A)backup@spookysec.local:backup2517860
 
+\=======================================================================\
 \
-\========================================\
 **Let’s Sync Up!**
 
 > Now that we have new user account credentials, we may have more privileges on the system than before. The username of the account “backup” gets us thinking. What is this the backup account to?
@@ -258,13 +262,14 @@ Questions:-
 
 > A)-H
 
-\========================================
+\=======================================================================\
+
 
 **Flag Submission Panel**
 
 Submit the flags for each user account. They can be located on each user’s desktop.
 
-For this cause, we need to download the Evil-winrm tool, that will allow us to remotely log in to another Windows machine. We supplement this tool, with the help of thepass-the-hash attack, with the help of the administrator’s NTLM hash
+For this cause, we need to download the Evil-winrm tool, that will allow us to remotely log in to another Windows machine. We supplement this tool, with the help of the pass-the-hash attack, with the help of the administrator’s NTLM hash
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*DhjDpV9J8urUoXaa-ZMykQ.png)
 
@@ -278,7 +283,10 @@ Similarly for svc-admin and backup account users:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*IPwJN97wkRYImYelntTIFw.png)![](https://cdn-images-1.medium.com/max/1000/1\*VMjcex8e16mgvqPRu7VjkA.png)
 
-\========================================
+
+
+\=======================================================================\
+
 
 **Conclusion**:-
 
