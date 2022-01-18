@@ -1,16 +1,18 @@
 # Attacktive Directory - Try Hack Me Walkthrough
 
-​![](https://cdn-images-1.medium.com/max/1000/1\*qX1t1LN5mzSIE3GWnkmkPA.png)​
+![](https://cdn-images-1.medium.com/max/1000/1\*qX1t1LN5mzSIE3GWnkmkPA.png)
 
-Hello, fellow blue teamers,Join me in this blog entry, as I guide you to solve Try to Hack Me’s: Attactive Directory” room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
+Hello, fellow blue teamers,
 
-Let’s start
+Join me in this blog entry, as I guide you to solve Try to Hack Me’s: Attactive Directory” room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
 
-Start the room’s VM and proceed with your Kali Machine or the Attack boxDownload the VPN configuration file and connect to it, via OpenVPN (for those not using TryHackMe’s Attack box)
+Start the room’s VM and proceed with your Kali Machine or the Attack box
+
+Download the VPN configuration file and connect to it, via OpenVPN (for those not using TryHackMe’s Attack box)
 
 IP Address — 10.9.1.196&#x20;
 
-Machine IP — 10.10.45.156 ===================================================================== **Prerequisites**
+Machine IP — 10.10.45.156 ======================================================================= **Prerequisites**
 
 **Installing Impacket on VM** 
 
@@ -24,7 +26,7 @@ Machine IP — 10.10.45.156 ================================================
 
 > Command — cd /opt/impacket/ && python3 ./setup.py install
 
-After that, Impacket should be correctly installed now and it should be ready to use! ===================================================================== **Installing Bloodhound and Neo4j**
+After that, Impacket should be correctly installed now and it should be ready to use! ======================================================================= **Installing Bloodhound and Neo4j**
 
 > Command — apt install bloodhound neo4j
 
@@ -36,23 +38,26 @@ We first undertake a version scan on the target, on ports 135,139, and 445 to fi
 
 > Command — nmap -sV -p 135,139,445 10.10.45.156
 
-We get the following information from the scan report:-​
+We get the following information from the scan report:-
 
-​![](https://cdn-images-1.medium.com/max/1000/1\*Ia5RM3P4pNzp8Il9MJh57Q.png)​
+​
+
+![](https://cdn-images-1.medium.com/max/1000/1\*Ia5RM3P4pNzp8Il9MJh57Q.png)
 
 Questions**:-**
 
 > Q)What tool will allow us to enumerate port 139/445? A)enum4linux
 
-Keep in mind that enum4linux is not OS-specific. You can use it to enumerate SMB and RDP ports on both Linux and WindowsWe use it to enumerate the host:-
+Keep in mind that enum4linux is not OS-specific. You can use it to enumerate SMB and RDP ports on both Linux and Windows
+
+We use it to enumerate the host:-
 
 > Command — enum4linux 10.10.45.156
 
 This is the information that we get:-
 
-​​![](https://cdn-images-1.medium.com/max/1500/1\*IwyOsLk4zLTTNb6nu-Kjaw.png)​​
+​​![](https://cdn-images-1.medium.com/max/1500/1\*IwyOsLk4zLTTNb6nu-Kjaw.png)​​​​![](https://cdn-images-1.medium.com/max/1000/1\*mbNhsgt1aAdx6xVWAtR7fA.png)\
 
-![](https://cdn-images-1.medium.com/max/1000/1\*mbNhsgt1aAdx6xVWAtR7fA.png)​
 
 We didn't get anything useful from this enumeration, for now
 
@@ -70,7 +75,7 @@ Questions:-
 
 \======================================================================= **Enumerating users via Kerberos**
 
-> A whole host of other services are running, including Kerberos. Kerberos is a key authentication service within Active Directory. With this port open, we can usea tool called Kerbrute (by Ronnie Flathers [@ropnop](http://twitter.com/ropnop)) to brute force discovery of users, passwords and even password spray!
+> A whole host of other services are running, including Kerberos. Kerberos is a key authentication service within Active Directory. With this port open, we can use a tool called Kerbrute (by Ronnie Flathers [@ropnop](http://twitter.com/ropnop)) to brute force discovery of users, passwords and even password spray!
 
 > We get a modified user and password list to spray and perform attacks on.I copy-pasted them to a seperate file named ‘Username’ and ‘Password’
 
@@ -92,11 +97,13 @@ Now to make use of the tool
 
 > Command — ./kerbrute userenum — dc 10.10.132.240 -d spookysec.local /home/kali/Downloads/Passwords
 
-We get the following accounts:-​​
+We get the following accounts:-
 
-![](https://cdn-images-1.medium.com/max/1000/1\*pdDnM5JOq6OKax2oqEPRgA.png)​
+​
 
-Questions:-
+![](https://cdn-images-1.medium.com/max/1000/1\*pdDnM5JOq6OKax2oqEPRgA.png)
+
+Questions:-​
 
 > Q)What notable account is discovered? (These should jump out at you)
 
@@ -106,7 +113,7 @@ Questions:-
 
 > A)backup
 
-\===================================================================== **Abusing Kerberos**
+\======================================================================= **Abusing Kerberos**
 
 **Introduction**
 
@@ -120,11 +127,21 @@ Next, we make use of the GetNPUsers module from impacket to get the password has
 
 > Command — python3 GetNPUsers.py spookysec.local/svc-admin -no-pass
 
-We get the password hash of the svc-admin user
+We get the password hash of the svc-admin user​
 
-​​![](https://cdn-images-1.medium.com/max/1000/1\*BrCC\_MdfMCUXVqk13hbAIQ.png)​
+![](https://cdn-images-1.medium.com/max/1000/1\*BrCC\_MdfMCUXVqk13hbAIQ.png)
 
-Now, let's use Hashcat to decrypt it:-Command — hashcat -m 18200 Password Password 18200 = Kerberos 5,etype 23,AS-REPCracked Password — management2005​​![](https://cdn-images-1.medium.com/max/1000/1\*0t0A-98QO7xRkhJMiIyhMw.png)​=======================================================================Questions:-
+Now, let's use Hashcat to decrypt it:-
+
+Command — hashcat -m 18200 Password Password 18200 = Kerberos 5,etype 23,AS-REP
+
+Cracked Password — management2005
+
+![](https://cdn-images-1.medium.com/max/1000/1\*0t0A-98QO7xRkhJMiIyhMw.png)
+
+\=======================================================================
+
+Questions:-
 
 > Q)We have two user accounts that we could potentially query a ticket from. Which user account can you query a ticket from with no password?
 
@@ -144,19 +161,19 @@ Now, let's use Hashcat to decrypt it:-Command — hashcat -m 18200 Password 
 
 > A)management2005
 
-\===================================================================== **Enumeration**
+\======================================================================= **Enumeration**
 
 Now, we try to see what shares are present on SMB, with svc-admin’s credentials, where we find:-
 
-​​![](https://cdn-images-1.medium.com/max/1000/1\*XOfpM3Rs8RHNQqpNh\_8TtA.png)​
+![](https://cdn-images-1.medium.com/max/1000/1\*XOfpM3Rs8RHNQqpNh\_8TtA.png)
 
 Now to access shares that we can:-
 
-> Command — smbclient //10.10.50.196/backup/ -U “svc-admin
+> Command — smbclient //10.10.50.196/backup/ -U “svc-admin”
 
-Inside which we find:-​
+​Inside which we find:-​
 
-​![](https://cdn-images-1.medium.com/max/1000/1\*klX\_LPhRVnuPXquD57NmQQ.png)​
+![​](https://cdn-images-1.medium.com/max/1000/1\*klX\_LPhRVnuPXquD57NmQQ.png)
 
 Now to download them onto the system, use the following commands:-
 
@@ -168,9 +185,9 @@ Now to download them onto the system, use the following commands:-
 
 > mget backup\_credentials.txt /home/kali/Downloads
 
-​​![](https://cdn-images-1.medium.com/max/1000/1\*JvgPTY4rwCYV6UNctUVzJQ.png)​
+![Questions:-](https://cdn-images-1.medium.com/max/1000/1\*JvgPTY4rwCYV6UNctUVzJQ.png)
 
-Questions:-
+​**Questions:-**
 
 > Q)What utility can we use to map remote SMB shares?
 
@@ -184,21 +201,27 @@ Questions:-
 
 > A)6
 
-Now, we cat out the contents of backup\_credentials.txt, where we find:-​​![](https://cdn-images-1.medium.com/max/1000/1\*U1ACW\_InG9rLIxExy-DZdw.png)​
+Now, we cat out the contents of backup\_credentials.txt, where we find:-
 
-Inserting the hash on Crackstation, gave us no dice, so we proceed to crack it with the help of JohnTheRipperThen I tried inserting two equal to signs (==)towards the end of the hash, mimicking a base64 hash, and then tried to decode it
+![](https://cdn-images-1.medium.com/max/1000/1\*U1ACW\_InG9rLIxExy-DZdw.png)
+
+Inserting the hash on Crackstation, gave us no dice, so we proceed to crack it with the help of JohnTheRipper
+
+Then I tried inserting two equal to signs (==)towards the end of the hash, mimicking a base64 hash, and then tried to decode it
 
 > Command — base64 — decode SMB >> SMB1
 
 Catting out the contents of SMB2, we find:-
 
-​​![](https://cdn-images-1.medium.com/max/1000/1\*xOHJihwnAsJDAhVoZQG-FQ.png)​
+​
+
+![](https://cdn-images-1.medium.com/max/1000/1\*xOHJihwnAsJDAhVoZQG-FQ.png)
 
 > Q)Decoding the contents of the file, what is the full contents?
+>
+> A) backup@spookysec.local:backup2517860
 
-> A)backup@spookysec.local:backup2517860
-
-\===================================================================== **Let’s Sync Up!**
+\======================================================================= **Let’s Sync Up!**
 
 > Now that we have new user account credentials, we may have more privileges on the system than before. The username of the account “backup” gets us thinking. What is this the backup account to?
 
@@ -210,7 +233,7 @@ Now, let’s recover the NTLM hashes of accounts on the Domain Controller, using
 
 > Command — python3 secretsdump.py spookysec.local/backup:backup2517860@10.10.50.156
 
-​​![](https://cdn-images-1.medium.com/max/1000/1\*w75hGQS12klo0brSr1hThg.png)​
+​​![](https://cdn-images-1.medium.com/max/1000/1\*w75hGQS12klo0brSr1hThg.png)
 
 Questions:-
 
@@ -230,26 +253,36 @@ Questions:-
 
 > A)-H
 
-\=====================================================================
+\=======================================================================
 
 **Flag Submission Panel**
 
-Submit the flags for each user account. They can be located on each user’s desktop.For this cause, we need to download the Evil-winrm tool, that will allow us to remotely log in to another Windows machine. We supplement this tool, with the help of the pass-the-hash attack, with the help of the administrator’s NTLM hash
+Submit the flags for each user account. They can be located on each user’s desktop.
 
-​​![](https://cdn-images-1.medium.com/max/1000/1\*DhjDpV9J8urUoXaa-ZMykQ.png)​
+For this cause, we need to download the Evil-winrm tool, that will allow us to remotely log in to another Windows machine. We supplement this tool, with the help of the pass-the-hash attack, with the help of the administrator’s NTLM hash
+
+​
+
+![](https://cdn-images-1.medium.com/max/1000/1\*DhjDpV9J8urUoXaa-ZMykQ.png)
 
 Logged in successfully to the machine
 
 Found the flag in /Desktop for Administrator
 
-​​![](https://cdn-images-1.medium.com/max/1000/1\*jVFDzefaE4Jm7Y8jdeHVaA.png)​
+![](https://cdn-images-1.medium.com/max/1000/1\*jVFDzefaE4Jm7Y8jdeHVaA.png)
 
 Similarly for svc-admin and backup account users:-
 
-​​![](https://cdn-images-1.medium.com/max/1000/1\*IPwJN97wkRYImYelntTIFw.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*IPwJN97wkRYImYelntTIFw.png)
 
-​​![](https://cdn-images-1.medium.com/max/1000/1\*VMjcex8e16mgvqPRu7VjkA.png)​​=====================================================================**Conclusion**:-
+![](https://cdn-images-1.medium.com/max/1000/1\*VMjcex8e16mgvqPRu7VjkA.png)
+
+\=======================================================================
+
+**Conclusion:-**
 
 This is a great room to practice Windows Active Directory on, especially when you are a budding Security Analyst, wanting to understand Windows infrastructure
 
-Although the concept of cracking and capturing hashes fall under the cycle of red-teaming, it is still essential to know and keep this knowledge in your armorThank you for reading this blog and stay tuned as I try to close down more SOC alerts……
+Although the concept of cracking and capturing hashes fall under the cycle of red-teaming, it is still essential to know and keep this knowledge in your armor
+
+Thank you for reading this blog and stay tuned as I try to close down more SOC alerts……
