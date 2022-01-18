@@ -10,7 +10,9 @@ Now, I am branching my journey towards Blue Teaming, where I will be documenting
 
 Having previous experience in pentesting will prove beneficial as I seek to identify suspicious activity and understand the methodologies exhibited by the malicious actor, to wreak havoc on computer systems, during my blue teaming journey.
 
-​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FvYunovVVTtLdlfrviyWf%2F1.PNG?alt=media\&token=78175fb5-61e5-4d62-b881-43763c1767c1)
+​
+
+![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FvYunovVVTtLdlfrviyWf%2F1.PNG?alt=media\&token=78175fb5-61e5-4d62-b881-43763c1767c1)
 
 ​Retaining an interest in Secure Coding, I have participated in University level Secure Coding Tournaments, achieving 3'rd rank in OWASP Bangalore Chapter and 38'th rank in Devlymics Champions Tournament, conducted by Secure Code Warriors, Australia
 
@@ -32,4 +34,10 @@ Core Team Member, R\&D (Research and Development) at VITB Cyber Warriors Club of
 
 #### 🤔 Get in touch <a href="#get-in-touch" id="get-in-touch"></a>
 
-I am always open to meeting new people and opportunities💬 Email- noelatvitb@gmail.com😄 Connect with me on Linkedin-https://www.linkedin.com/in/noel--varghese/🌱 Github Profile - [https://github.com/NoelV11](https://github.com/NoelV11)​My Red Team documentation (HTB & Vulnhub Machine Walkthroughs) - [https://noelatvitb.gitbook.io/](https://noelatvitb.gitbook.io)
+I am always open to meeting new people and opportunities
+
+💬 Email- noelatvitb@gmail.com
+
+😄 Connect with me on Linkedin-https://www.linkedin.com/in/noel--varghese/
+
+🌱 Github Profile - [https://github.com/NoelV11](https://github.com/NoelV11)​
