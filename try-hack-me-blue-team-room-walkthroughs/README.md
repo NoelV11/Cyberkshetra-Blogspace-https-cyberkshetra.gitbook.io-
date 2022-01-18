@@ -1,3 +1,3 @@
 # Try Hack Me - Blue Team Room Walkthroughs
 
-![](.gitbook/assets/THM.png)
+![](../.gitbook/assets/THM.png)
