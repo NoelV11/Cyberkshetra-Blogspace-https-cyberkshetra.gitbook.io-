@@ -1,5 +1,7 @@
 # Let's Defend:  SOC147 - SSH Scan Activity Walkthrough
 
+### Introduction
+
 Welcome to the world of Blue Teaming, as I explore it on the Let's Defend Platform, a renowned site for Blue Team practice
 
 Today, we are going to get our hands dirty, with the Easy SOC Analyst Alert - SOC147 - SSH Scan Activity
@@ -10,7 +12,7 @@ To start the SOC Investigation, we need to "undertake" the case. Woohoo! it is l
 
 We download the given .zip file onto a VM and unzip its contents,using the passphrase "infected"
 
-**Enumeration**
+### Enumeration
 
 We get a file named 'nmap'. When running file command against it, we get information that it is a binary file
 
@@ -20,7 +22,7 @@ Under the description, we find the hash for the file (3361bf0051cc657ba90b46be53
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FS9XYLICNTQhqdBP79gG8%2F110.png?alt=media\&token=61b785dd-7bf1-4197-92cc-94095d80b88a)
 
-**Analysis**
+### Analysis
 
 We run the hash on VirusTotal first, but it came with 0 flagged reports - no security vendors flagged the file as malicious
 
@@ -74,7 +76,9 @@ From Process List,we get:
 
 There is nothing much to investigate further,so let's open the playbook and enter the data we have acquired till now
 
-We enter our data and findings:-
+We enter our data and findings
+
+### Results
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FqmlyKJ9prFaOHslWJZ7c%2F11.png?alt=media\&token=76d1f192-85be-4051-97b5-7e94a16eabaf)
 
@@ -90,7 +94,7 @@ Bonus - Just checked the 'Mailbox' feature in Let's Defend and searched the IP A
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FNiVKXWBY5TOtDDyaQAyg%2F12.png?alt=media\&token=c4d10c60-a416-4dbc-b0be-a30db69cbebe)
 
-​​**Summary of Case:-**
+### Summary of Case
 
 A malware file was analyzed,with threw a false positive to the SOC Team.The file infact contained the nmap scan report on hosts,within the 172.16.20.5/24 subnet.The malware file was'nt quarantined as well
 
