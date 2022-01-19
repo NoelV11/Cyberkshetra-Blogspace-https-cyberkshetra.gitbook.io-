@@ -12,3 +12,5 @@
   * [Attacktive Directory - Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough/README.md)
     * [Investigating Windows:Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough/investigating-windows-try-hack-me-walkthrough.md)
     * [Page 1](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough/page-1.md)
+    * [Page 2](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough/page-2.md)
+  * [Attacktive Directory - Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough-1.md)
