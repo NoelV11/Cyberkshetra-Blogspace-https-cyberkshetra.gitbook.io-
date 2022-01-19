@@ -8,8 +8,6 @@ Let’s have a look at the case details:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*rf5NUnFR6Ji0-mhMhvSKrQ.png)
 
-### Enumeration
-
 Next, we have a look through our Letsdefend Mailbox, to find any information. Searching with the keyword ‘Trenton’ gives us:-​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*B3cRVYSUY-fA1aw-fRPGCA.png)
