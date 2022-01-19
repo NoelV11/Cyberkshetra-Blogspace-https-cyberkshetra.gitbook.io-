@@ -6,7 +6,7 @@ A word from the author:-&#x20;
 
 😃 I am Noel Varghese, a Cybersecurity enthusiast - having experience in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these. I am an undergraduate student pursuing Btech in CSE specialization in Cyber Security, at Vellore Institute of Technology, Bhopal.&#x20;
 
-💡Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend,Try Hack Me Rangeforce platforms,on this blog
+💡Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend,Try Hack Me & Rangeforce platforms,on this blog
 
 🔆 Having previous experience in pentesting will prove beneficial as I seek to identify suspicious activity and understand the methodologies exhibited by the malicious actor, to wreak havoc on computer systems, during my blue teaming journey.
 
