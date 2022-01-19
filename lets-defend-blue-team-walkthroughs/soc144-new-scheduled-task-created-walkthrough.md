@@ -2,6 +2,8 @@
 
 Hello readers, welcome to this blog entry. Today, we will be trying to solve the SOC144 - New scheduled task created alert, on the Let’s Defend platform.
 
+### Introduction
+
 The case particulars are given to analyze and understand:-​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*4-20uejooB2bNvYwp0k6Fg.png)
@@ -13,6 +15,8 @@ Next steps:-
 > _Create Case_
 
 Download the file to be analyzed, onto the Virtual Machine (recommended) and unzip it
+
+### Enumeration
 
 We uncover a python file titled: ‘Sorted-Algorithm.py’
 
@@ -42,7 +46,7 @@ Let’s start filling up details:-
 
 ![File Analysis](https://cdn-images-1.medium.com/max/1000/1\*N5B1Jp9O6k34p\_-2td8A-A.png)
 
-**File Analysis**
+### **File Analysis**
 
 > Check if the malware is quarantined/cleaned
 
@@ -76,19 +80,13 @@ We answer that the malware is cleaned
 
 In this previous section, we had analyzed the artifact and deduced that the file was indeed not malicious
 
-\=====================================================================
-
-**Adding artifacts**
+### **Adding artifacts to the casefile**
 
 Let’s compile the information that we have collected:-
 
 ​![](https://cdn-images-1.medium.com/max/1000/1\*Ri-lHe9vyEDoSPPXpEkXqA.png)![](https://cdn-images-1.medium.com/max/1000/1\*VPOskGSP2kuLA8Djf15zIg.png)
 
-\=====================================================================
-
-**Conclusion:-**
-
-Analyst's Notes,about the alert:-
+### Analyst's Notes,about the alert
 
 ​
 
@@ -102,14 +100,16 @@ Close Alert — with notes, describing the alert as a True Positive
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*ERfdQ19vwBWstSRcFUzzsA.png)
 
-**​Our Score Card**
+### **Alert Scorecard**
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*DM0H8NdcsYhbje3qImlHjA.png)
 
-​Points Acquired — 10/15
+​Points Acquired — 10/15.Not bad,not bad at all!
 
-**Summary of Case**
+### **Summary of Case**
 
 An incoming SOC Alert was briefed to us, about an RCE, that caused a process to be scheduled and executed. Upon analysis, the file in question did not throw up any malicious traces of activity, being described as danger-free by VirusTotal and Hybrid-Analysis tool.
+
+### Conclusion
 
 Thank you for devouring this blog entry and stay tuned as I try to close down more SOC alerts……
