@@ -4,7 +4,7 @@ A word from the author:-&#x20;
 
 👋Thank you for visiting my Gitbooks page, where I host my personalized walkthroughs of machines that I solve on the Let's Defend and Cyber Defenders platforms
 
-😃 I am Noel Varghese, a Cybersecurity enthusiast - having experience in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these.
+😃 I am Noel Varghese, a Cybersecurity enthusiast - having experience in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these. I am an undergraduate student pursuing Btech in CSE specialization in Cyber Security, at Vellore Institute of Technology, Bhopal.&#x20;
 
 💡Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend,Try Hack Me Rangeforce platforms,on this blog
 
