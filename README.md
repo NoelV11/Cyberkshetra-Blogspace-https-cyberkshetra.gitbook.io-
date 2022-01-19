@@ -10,7 +10,7 @@ A word from the author:-&#x20;
 
 🔆 Having previous experience in pentesting will prove beneficial as I seek to identify suspicious activity and understand the methodologies exhibited by the malicious actor, to wreak havoc on computer systems, during my blue teaming journey.
 
-​
+Connect with me on LinkedIn - [https://www.linkedin.com/in/noel--varghese](https://www.linkedin.com/in/noel-varghese-395146197/)
 
 ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FvYunovVVTtLdlfrviyWf%2F1.PNG?alt=media\&token=78175fb5-61e5-4d62-b881-43763c1767c1)
 
