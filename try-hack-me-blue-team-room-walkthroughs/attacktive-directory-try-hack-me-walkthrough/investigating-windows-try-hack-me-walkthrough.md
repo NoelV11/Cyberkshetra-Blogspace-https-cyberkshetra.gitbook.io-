@@ -17,8 +17,6 @@ Start the attached Virtual Machine.The attackbox is not required for this task.
 
 **Questions:-**
 
-
-
 > **Q)**Whats the version and year of the windows machine?
 
 This question can be solved mainly in two methods:-
@@ -31,9 +29,7 @@ Where we find the following info:-
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*3eLMh5IRcVsMZphd)
 
-Write a caption
-
-Alternatively using CMD
+Alternatively we can use CMD
 
 `Command — systeminfo`
 
@@ -67,9 +63,6 @@ Where we find:-
 
 > A)03/02/2019 5:48:32 PM
 
-\
-
-
 > Q)What IP does the system connect to when it first starts?
 
 When booting up the system,we see this CMD Screen connecting to System Internals:-
@@ -77,9 +70,6 @@ When booting up the system,we see this CMD Screen connecting to System Internals
 ![](https://cdn-images-1.medium.com/max/1000/1\*4Sghm33gwBx79Z6AAncqHw.png)
 
 > A)10.34.2.3
-
-\
-
 
 > Q) What two accounts had administrative privileges (other than the Administrator user)?
 
@@ -89,17 +79,11 @@ When booting up the system,we see this CMD Screen connecting to System Internals
 
 > A)Jenny,Guest
 
-\
-
-
 > Q)At what time did Windows first assign special privileges to a new logon?
 
 > Answer format: MM/DD/YYYY HH:MM:SS AM/PM
 
 > A)03/02/2019 04:04:49 PM — from analysis of Windows Event
-
-\
-
 
 > Q)Whats the name of the scheduled task that is malicous.
 
@@ -121,24 +105,15 @@ From the scheduled task’s description,we find:-
 
 > A)nc.ps1
 
-\
-
-
 > Q)What port did this file listen locally for?
 
 > A)1348
-
-\
-
 
 > Q)When did Jenny last logon?
 
 > A)Never
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*JPjmIMPB\_M1egzPgDcSMOg.png)
-
-\
-
 
 > Q)At what date did the compromise take place?
 
@@ -147,9 +122,6 @@ Answer format: MM/DD/YYYY
 When moving to Scheduled Event ->Triggers,we find the start date of this process
 
 > A)03/02/2019
-
-\
-
 
 > Q)What tool was used to get Windows passwords?
 
@@ -162,9 +134,6 @@ Upon inspecting it,we find (under ‘Actions’ tab)
 ![](https://cdn-images-1.medium.com/max/1000/1\*9Y--YcMmR6Y7PoQkGHGFRw.png)
 
 > A)mimikatz
-
-\
-
 
 > Q)What was the attackers external control and command servers IP?
 
@@ -182,9 +151,6 @@ From here,we can see that Google’s IP Address/DNS Address is given as 76.32.97
 
 > A)76.32.97.132
 
-\
-
-
 > Q)What was the extension name of the shell uploaded via the servers website?
 
 A)We can browse C:\inetpub\wwwroot .to find any files uploaded in web browser
@@ -194,9 +160,6 @@ Where,we find:-
 ![](https://cdn-images-1.medium.com/max/1000/1\*UI5woFTKEFhlJxJqhtC0xg.png)
 
 > A).jsp
-
-\
-
 
 > Q)What was the last port the attacker opened?
 
