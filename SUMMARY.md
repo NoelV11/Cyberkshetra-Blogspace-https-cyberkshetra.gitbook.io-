@@ -9,4 +9,5 @@
   * [SOC144 - New scheduled task created Walkthrough](lets-defend-blue-team-walkthroughs/soc144-new-scheduled-task-created-walkthrough.md)
   * [CVE - 2020–1472 (Zerologon Vulnerability)-Exploitation & Remediation](lets-defend-blue-team-walkthroughs/cve-2020-1472-zerologon-vulnerability-exploitation-and-remediation.md)
 * [Try Hack Me - Blue Team Room Walkthroughs](try-hack-me-blue-team-room-walkthroughs/README.md)
-  * [Attacktive Directory - Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough.md)
+  * [Attacktive Directory - Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough/README.md)
+    * [Investigating Windows:Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough/investigating-windows-try-hack-me-walkthrough.md)
