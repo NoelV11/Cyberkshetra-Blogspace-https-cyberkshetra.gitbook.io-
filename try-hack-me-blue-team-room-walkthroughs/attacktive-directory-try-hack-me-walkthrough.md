@@ -6,6 +6,8 @@ Hello, fellow blue teamers,
 
 Join me in this blog entry, as I guide you to solve Try to Hack Me’s: Attactive Directory” room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
 
+\=====================================================================
+
 ### Task 1 - Deploy the VM
 
 Start the room’s VM and proceed with your Kali Machine or the Attack box
@@ -175,6 +177,8 @@ Questions:-
 
 > A)management2005
 
+\=====================================================================
+
 ### **Task 6 - Back to the Basics**
 
 Now, we try to see what shares are present on SMB, with svc-admin’s credentials, where we find:-
@@ -234,6 +238,8 @@ Catting out the contents of SMB2, we find:-
 > Q)Decoding the contents of the file, what is the full contents?
 >
 > A) backup@spookysec.local:backup2517860
+
+\=====================================================================
 
 ### Task 7 - Elevating Privileges within the Domain
 
