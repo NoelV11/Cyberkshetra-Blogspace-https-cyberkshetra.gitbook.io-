@@ -8,6 +8,8 @@ Let’s have a look at the case details:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*rf5NUnFR6Ji0-mhMhvSKrQ.png)
 
+### Enumeration
+
 Next, we have a look through our Letsdefend Mailbox, to find any information. Searching with the keyword ‘Trenton’ gives us:-​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*B3cRVYSUY-fA1aw-fRPGCA.png)
@@ -15,6 +17,8 @@ Next, we have a look through our Letsdefend Mailbox, to find any information. Se
 We download the file onto the machine and unzip it, using the keyphrase: infected
 
 Now,we have a directory titled — 11f44531fb088d31307d87b01e8eabff
+
+\=====================================================================
 
 ### Viewing File Contents
 
@@ -122,10 +126,16 @@ Are there attachments or URLs in the email? (+5 Points)
 
 This case was fascinating and I was double happy with the fact that I got all answers right!
 
+\=====================================================================
+
 ### Summary of Case
 
 A phishing mail was sent from source 172.16.17.57, disguised as a harmless document, which led to two users falling for the attack, downloading the mail’s malicious content. A total of 3 files were recovered and analyzed, having malicious characteristics.
 
 The case was a true positive for a phishing attack and the analyst responsibly provided artifacts and notes, discussing the case characteristics and results
+
+\=====================================================================
+
+### Conclusion
 
 Thank you for reading this blog entry. Stay tuned, as I go hunting some pcap files out there….
