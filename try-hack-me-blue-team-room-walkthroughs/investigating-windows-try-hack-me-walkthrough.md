@@ -5,7 +5,7 @@
 
 Hello fellow blue teamers! Join me in this blog entry,as I attempt to solve the 'Investigating Windows' room,on Try Hack Me.This room is of Medium Difficulty
 
-Room credits go to[ tryhackme](https://tryhackme.com/p/tryhackme).Thank you!
+Room creation credits go to[ tryhackme](https://tryhackme.com/p/tryhackme).Thank you!
 
 \=====================================================================
 
