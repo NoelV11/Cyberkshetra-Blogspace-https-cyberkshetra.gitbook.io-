@@ -2,6 +2,8 @@
 
 Hello readers, welcome to this blog entry as I document my journey through the world of Blue Teaming. Today, we will be trying our hand at the SOC143 — Password Stealer Detected alert, on the Let’s Defend platform.
 
+### Introduction to the Case
+
 The case particulars are given to analyze and understand:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*0wZPA1nJXMuq1Txm30QHQw.png)
@@ -16,7 +18,9 @@ This case will be extra sweet to solve, as we get to analyze a phishing password
 
 > Start Playbook — a special component of investigation.Gives us a blueprint of steps to follow in a case,in an automated manner
 
-List of questions for us to answer:-
+\=====================================================================
+
+### List of questions for us to answer
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*J-nZRo10XtKD4FgGxtuBcQ.png)
 
@@ -26,7 +30,9 @@ Let’s have a look at our mailbox-for any information about the same. We were a
 
 Now, let’s download the attached file and unzip it, using ‘unzip’ command and using the passphrase:infected
 
-**Enumeration**
+\=====================================================================
+
+### E**numeration**
 
 We recover a file titled \[email protected]\_63963964Application.HTML, which is an HTML file. Now, let’s view it on the browser, which gives us:-
 
@@ -50,7 +56,9 @@ Answer — Yes
 
 > Analyze Url/Attachment in 3rd party sandboxes. Please click “Malicious” if it is malicious and click “Non-malicious” if it isn’t.
 
-**Analysis of infected file**
+\=====================================================================
+
+### **Analysis of infected file**
 
 We submit the HTML file for analysis on Virustotal and Hybrid-Analysis
 
@@ -80,7 +88,9 @@ So we click — Delivered
 
 > Please click “Yes” if someone has accessed the malicious address. Otherwise please click “No” button.
 
-We click yes ===================================================================== **Adding artifacts**
+We click yes =======================================================================
+
+### **Adding artifacts to the casefile**
 
 Now, it’s time to add a few artifacts to the case
 
@@ -94,9 +104,7 @@ We add artifacts,that were collected during the enumeration process:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*dHCuTZdYZ6ZMdevUwcLRHQ.png)
 
-\=====================================================================
-
-**Further Analysis of HTML File**&#x20;
+### F**urther Analysis of HTML File**&#x20;
 
 From the community section of VirusTotal,we findthe Joe sandbox analysis of the same file​
 
@@ -114,7 +122,7 @@ Close Alert — by providing notes and classifying the alert as either true 
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*0uNcxWEjae2NVJ-rXiX7Yg.png)
 
-Alert Scorecard:-​
+### Alert Scorecard
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*f8ALacksYVE641bmdxYmSQ.png)
 
@@ -122,8 +130,14 @@ Alert Scorecard:-​
 
 20/25 points acquired. We got it wrong in one question. Further enumeration would have prevented us from committing that error
 
-**Summary of Case:-**
+\=====================================================================
+
+### **Summary of Case**
 
 A SOC Alert came in, asking us if a suspected phishing mail and its attachment was indeed malicious. Upon closer inspection, we found that it was designed to capture a user’s password, mimicking Microsoft’s Outlook login page, which is a classic example of a Phishing attack
+
+\=====================================================================
+
+### Conclusion
 
 Thank you for devouring this blog entry and stay tuned as I try to close down more SOC alerts……
