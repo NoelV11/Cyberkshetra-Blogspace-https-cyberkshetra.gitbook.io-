@@ -6,13 +6,17 @@ Hello, fellow blue teamers,
 
 Join me in this blog entry, as I guide you to solve Try to Hack Me’s: Attactive Directory” room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
 
+### Introduction
+
 Start the room’s VM and proceed with your Kali Machine or the Attack box
 
 Download the VPN configuration file and connect to it, via OpenVPN (for those not using TryHackMe’s Attack box)
 
 IP Address — 10.9.1.196&#x20;
 
-Machine IP — 10.10.45.156 ======================================================================= **Prerequisites**
+Machine IP — 10.10.45.156&#x20;
+
+### Pre-requisites
 
 **Installing Impacket on VM** 
 
@@ -26,11 +30,13 @@ Machine IP — 10.10.45.156 ================================================
 
 > Command — cd /opt/impacket/ && python3 ./setup.py install
 
-After that, Impacket should be correctly installed now and it should be ready to use! ======================================================================= **Installing Bloodhound and Neo4j**
+After that, Impacket should be correctly installed now and it should be ready to use!&#x20;
 
-> Command — apt install bloodhound neo4j
+&#x20;**Installing Bloodhound and Neo4j**
 
-\======================================================================= **Enumeration**
+> Command — apt install bloodhound neo4j
+
+### **Enumeration**
 
 > Basic enumeration starts out with an nmap scan. Nmap is a relatively complex utility that has been refined over the years to detect what ports are open on a device, what services are running, and even detect what operating system is running. It’s important to note that not all services may be deteted correctly and not enumerated to it’s fullest potential. Therefore after an initial nmap scan we’ll be using other utilities to help us enumerate the services running on the device.
 
@@ -73,7 +79,7 @@ Questions:-
 >
 > A).local
 
-\======================================================================= **Enumerating users via Kerberos**
+### **Enumerating users via Kerberos**
 
 > A whole host of other services are running, including Kerberos. Kerberos is a key authentication service within Active Directory. With this port open, we can use a tool called Kerbrute (by Ronnie Flathers [@ropnop](http://twitter.com/ropnop)) to brute force discovery of users, passwords and even password spray!
 
@@ -113,7 +119,7 @@ Questions:-​
 
 > A)backup
 
-\======================================================================= **Abusing Kerberos**
+### **Abusing Kerberos**
 
 **Introduction**
 
@@ -161,7 +167,7 @@ Questions:-
 
 > A)management2005
 
-\======================================================================= **Enumeration**
+### Gaining Access to the target machine
 
 Now, we try to see what shares are present on SMB, with svc-admin’s credentials, where we find:-
 
@@ -221,7 +227,7 @@ Catting out the contents of SMB2, we find:-
 >
 > A) backup@spookysec.local:backup2517860
 
-\======================================================================= **Let’s Sync Up!**
+### **Let’s Sync Up!**
 
 > Now that we have new user account credentials, we may have more privileges on the system than before. The username of the account “backup” gets us thinking. What is this the backup account to?
 
@@ -253,9 +259,7 @@ Questions:-
 
 > A)-H
 
-\=======================================================================
-
-**Flag Submission Panel**
+### F**lag Submission Panel**
 
 Submit the flags for each user account. They can be located on each user’s desktop.
 
@@ -279,7 +283,7 @@ Similarly for svc-admin and backup account users:-
 
 \=======================================================================
 
-**Conclusion:-**
+### Conclusion
 
 This is a great room to practice Windows Active Directory on, especially when you are a budding Security Analyst, wanting to understand Windows infrastructure
 
