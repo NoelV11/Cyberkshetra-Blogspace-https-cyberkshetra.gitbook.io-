@@ -4,9 +4,7 @@ Welcome to this blog entry,as I document my journey,into the world of blue teami
 
 Let’s jump head first into it.
 
-\=====================================================================
-
-### Introduction
+### Introduction to Case
 
 Case Particulars provided to the analyst:-
 

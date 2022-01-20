@@ -2,7 +2,7 @@
 
 Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform, which is of Medium difficulty
 
-### Introduction to Case
+### Introduction to the Case
 
 Let’s have a look at the case details:-
 

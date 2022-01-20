@@ -1,16 +1,18 @@
 # Let's Defend:  SOC147 - SSH Scan Activity Walkthrough
 
-### Introduction
-
 Welcome to the world of Blue Teaming, as I explore it on the Let's Defend Platform, a renowned site for Blue Team practice
 
 Today, we are going to get our hands dirty, with the Easy SOC Analyst Alert - SOC147 - SSH Scan Activity
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FJeiGoPQBWH4Yf5q4Q1jg%2F2.png?alt=media\&token=076d2d5d-fa82-4e81-a8be-dbd62972db6d)
 
+### Introduction to the Case
+
 To start the SOC Investigation, we need to "undertake" the case. Woohoo! it is labeled as Malware!
 
 We download the given .zip file onto a VM and unzip its contents,using the passphrase "infected"
+
+
 
 ### Enumeration
 
