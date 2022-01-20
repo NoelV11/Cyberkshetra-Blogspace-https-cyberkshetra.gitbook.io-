@@ -41,7 +41,7 @@ Alternatively we can use CMD
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*XhxCW8dMQBhhmit6)​
 
-> A)Windows Server 201**6**
+> A)Windows Server 2016
 
 > Q)Which user logged in last?
 
