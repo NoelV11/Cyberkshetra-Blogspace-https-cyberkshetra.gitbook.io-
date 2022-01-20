@@ -6,6 +6,8 @@ Hello, fellow blue teamers,
 
 Join me in this blog entry, as I guide you to solve Try to Hack Me’s: Attactive Directory” room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
 
+Room credits go to [Sq00ky](https://tryhackme.com/p/Sq00ky).Great stuff!
+
 \=====================================================================
 
 ### Task 1 - Deploy the VM
