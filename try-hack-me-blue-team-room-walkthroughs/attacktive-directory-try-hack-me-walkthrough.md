@@ -6,7 +6,7 @@ Hello, fellow blue teamers,
 
 Join me in this blog entry, as I guide you to solve Try to Hack Me’s: Attactive Directory” room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
 
-### Introduction
+### Task 1 - Deploy the VM
 
 Start the room’s VM and proceed with your Kali Machine or the Attack box
 
@@ -16,7 +16,9 @@ IP Address — 10.9.1.196&#x20;
 
 Machine IP — 10.10.45.156&#x20;
 
-### Pre-requisites
+\=====================================================================
+
+### Task 2 - Pre-requisites
 
 **Installing Impacket on VM** 
 
@@ -36,7 +38,9 @@ After that, Impacket should be correctly installed now and it should be ready to
 
 > Command — apt install bloodhound neo4j
 
-### **Enumeration**
+\=====================================================================
+
+### **Task 3 - Enumeration**
 
 > Basic enumeration starts out with an nmap scan. Nmap is a relatively complex utility that has been refined over the years to detect what ports are open on a device, what services are running, and even detect what operating system is running. It’s important to note that not all services may be deteted correctly and not enumerated to it’s fullest potential. Therefore after an initial nmap scan we’ll be using other utilities to help us enumerate the services running on the device.
 
@@ -79,7 +83,9 @@ Questions:-
 >
 > A).local
 
-### **Enumerating users via Kerberos**
+\=====================================================================
+
+### **Task 4 - Enumerating users via Kerberos**
 
 > A whole host of other services are running, including Kerberos. Kerberos is a key authentication service within Active Directory. With this port open, we can use a tool called Kerbrute (by Ronnie Flathers [@ropnop](http://twitter.com/ropnop)) to brute force discovery of users, passwords and even password spray!
 
@@ -119,7 +125,9 @@ Questions:-​
 
 > A)backup
 
-### **Abusing Kerberos**
+\=====================================================================
+
+### **Task 5 - Abusing Kerberos**
 
 **Introduction**
 
@@ -167,7 +175,7 @@ Questions:-
 
 > A)management2005
 
-### Gaining Access to the target machine
+### **Task 6 - Back to the Basics**
 
 Now, we try to see what shares are present on SMB, with svc-admin’s credentials, where we find:-
 
@@ -227,7 +235,7 @@ Catting out the contents of SMB2, we find:-
 >
 > A) backup@spookysec.local:backup2517860
 
-### **Let’s Sync Up!**
+### Task 7 - Elevating Privileges within the Domain
 
 > Now that we have new user account credentials, we may have more privileges on the system than before. The username of the account “backup” gets us thinking. What is this the backup account to?
 
@@ -259,7 +267,9 @@ Questions:-
 
 > A)-H
 
-### F**lag Submission Panel**
+\=====================================================================
+
+### Task 8 - F**lag Submission Panel**
 
 Submit the flags for each user account. They can be located on each user’s desktop.
 
@@ -281,7 +291,7 @@ Similarly for svc-admin and backup account users:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*VMjcex8e16mgvqPRu7VjkA.png)
 
-\=======================================================================
+\=====================================================================
 
 ### Conclusion
 
