@@ -5,9 +5,13 @@
 
 Hello fellow blue teamers! Join me in this blog entry,as I attempt to solve the 'Investigating Windows' room,on Try Hack Me.This room is of Medium Difficulty
 
+Room credits go to[ tryhackme](https://tryhackme.com/p/tryhackme).Thank you!
+
+\=====================================================================
+
 ### Investigating Windows <a href="#investigating-windows" id="investigating-windows"></a>
 
-This is a challenge that is exactly what is says on the tin, there are a few challenges around investigating a windows machine that has been previously compromised.Connect to the machine using RDP.&#x20;
+This is a challenge that is exactly what is says on the tin, there are a few challenges around investigating a windows machine that has been previously compromised.Connect to the machine using RDP. There is no need of connecting to the VPN or making use of Attackbox
 
 The credentials for the machine are as follows:
 
@@ -169,7 +173,9 @@ A)We observed in the above picture that Google had it’s default IP )8.8.8.8.)c
 
 > A)google.com
 
-Conclusion:-
+\=====================================================================
+
+### Conclusion
 
 This room allowed me to be a bit more comfortable with Active Directory,which is a good skill to have,while following the SOC Analyst learning pathway.
 
