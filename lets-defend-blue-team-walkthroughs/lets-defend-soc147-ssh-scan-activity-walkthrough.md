@@ -2,17 +2,19 @@
 
 Welcome to the world of Blue Teaming, as I explore it on the Let's Defend Platform, a renowned site for Blue Team practice
 
-Today, we are going to get our hands dirty, with the Easy SOC Analyst Alert - SOC147 - SSH Scan Activity
 
-![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FJeiGoPQBWH4Yf5q4Q1jg%2F2.png?alt=media\&token=076d2d5d-fa82-4e81-a8be-dbd62972db6d)
+
+Today, we are going to get our hands dirty, with the Easy SOC Analyst Alert - SOC147 - SSH Scan Activity.This case is of Low difficulty
 
 ### Introduction to the Case
+
+![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FJeiGoPQBWH4Yf5q4Q1jg%2F2.png?alt=media\&token=076d2d5d-fa82-4e81-a8be-dbd62972db6d)
 
 To start the SOC Investigation, we need to "undertake" the case. Woohoo! it is labeled as Malware!
 
 We download the given .zip file onto a VM and unzip its contents,using the passphrase "infected"
 
-
+\=====================================================================
 
 ### Enumeration
 
@@ -80,6 +82,8 @@ There is nothing much to investigate further,so let's open the playbook and ente
 
 We enter our data and findings
 
+\=====================================================================
+
 ### Alert Scorecard
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FqmlyKJ9prFaOHslWJZ7c%2F11.png?alt=media\&token=76d1f192-85be-4051-97b5-7e94a16eabaf)
@@ -99,6 +103,8 @@ Bonus - Just checked the 'Mailbox' feature in Let's Defend and searched the IP A
 ### Summary of Case
 
 A malware file was analyzed,with threw a false positive to the SOC Team.The file infact contained the nmap scan report on hosts,within the 172.16.20.5/24 subnet.The malware file was'nt quarantined as well
+
+\=====================================================================
 
 ### Conclusion
 

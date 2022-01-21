@@ -1,6 +1,16 @@
 # Try Hack Me's Splunk:A Walkthrough
 
-Task 1 — Deploy
+
+
+![](../.gitbook/assets/1.png)
+
+Hello, fellow blue teamers,
+
+Join me in this blog entry, as I guide you to solve Try to Hack Me’s Splunk 1 Room.
+
+Room creation credits go to [Darkstar7471](https://twitter.com/darkstar7471).Find him on Discord! - **Bloke#2439**!
+
+### Task 1 — Deploy
 
 Deploy the Splunk virtual machine. This can take up to five to ten minutes to launch. If the webpage does not load for you after ten minutes, terminate and relaunch the machine.
 
@@ -8,7 +18,9 @@ Username: splunkadmin
 
 Password: AdminAdmin01
 
-Task 2 — Can you dig it?
+\=====================================================================
+
+### Task 2 — Can you dig it?
 
 A short quiz over the base search commands that are useful for Splunk. All you’ll need for this is the attached quick reference guide and possibly the magic of Google. Include all parts of the search query unless otherwise instructed.
 
@@ -24,22 +36,13 @@ Answer the questions below
 
 > A)search
 
-\
-
-
 > Q)When searching for values, it’s fairly typical within security to look for uncommon events. What command can we include within our search to find these?
 
 > A)rare
 
-\
-
-
 > Q)What about the inverse? What if we want the most common security event?
 
 > A)top
-
-\
-
 
 > Q)When we import data into splunk, what is it stored under?
 
@@ -51,179 +54,111 @@ Knowledge Nugget: All data in Splunk is stored in an index and hot, warm, and co
 
 > A)dashbard
 
-\
-
-
 > Q)Importing data doesn’t always go as planned and we can sometimes end up with multiple copies of the same data, what command do we include in our search to remove these copies?
 
 > A)dedup
-
-\
-
 
 > Q)Splunk can be used for more than just a SIEM and it’s commonly used in marketing to track things such as how long a shopping trip on a website lasts from start to finish. What command can we include in our search to track how long these event pairs take?
 
 > A)transaction
 
-\
-
-
 > Q)In a manner similar to Linux, we can ‘pipe’ search results into further commands, what character do we use for this?
 
 > A)|
-
-\
-
 
 > Q)In performing data analytics with Splunk (ironically what the tool is at it’s core) it’s useful to track occurrences of events over time, what command do we include to plot this?
 
 > A)timechart
 
-\
-
-
 > Q)What about if we want to gather general statistical information about a search?
 
 > A)stats
-
-\
-
 
 > Q)Data imported into Splunk is categorized into columns called what?
 
 > A)fields
 
-\
-
-
 > Q)When we import data into Splunk we can view it’s point of origination, what is this called? I’m looking for the machine aspect of this here.
 
 > A)host
-
-\
-
 
 > Q)When we import data into Splunk we can view its point of origination from within a system, what is this called?
 
 > A)source
 
-\
-
-
 > Q)We can classify these points of origination and group them all together, viewing them as their specific type. What is this called? Use the syntax found within the search query rather than the proper name for this.
 
 > A)sourcetype
-
-\
-
 
 > Q)When performing functions on data we are searching through we use a specific command prior to the evaluation itself, what is this command?
 
 > A)eval
 
-\
-
-
 > Q)Love it or hate it regular expression is a massive component to Splunk, what command do we use to specific regex within a search?
 
 > A)rex
-
-\
-
 
 > Q)It’s fairly common to create subsets and specific views for less technical Splunk users, what are these called?
 
 > A)pivot table
 
-\
-
-
 > Q)What is the proper name of the time date field in Splunk
 
 > A)\_time
-
-\
-
 
 > Q)How do I specifically include only the first few values found within my search?
 
 > A)head
 
-\
-
-
 > Q)We can collect events into specific time frames to be used in further processing. What command do we include within a search to do just that?
 
 > A)bucket
-
-\
-
 
 > Q)We can also define data into specific sections of time to be used within chart commands, what command do we use to set these lengths of time? This is different from the previous question as we are no longer collecting for further processing.
 
 > A)span
 
-\
-
-
 > Q)When producing statistics regarding a search it’s common to number the occurrences of an event, what command do we include to do this?
 
 > A)count
-
-\
-
 
 > Q)Last but not least, what is the website where you can find the Splunk apps at?
 
 > A)splunkbase.splunk.com
 
-\
-
-
 > Q)We can also add new features into Splunk, what are these called?
 
 > A)apps
-
-\
-
 
 > Q)What does SOC stand for?
 
 > A)Security Operations Center
 
-\
-
-
 > Q)What does SIEM stand for?
 
 > A)Security Information and Events Management
-
-\
-
 
 > Q)How about BOTS?
 
 > A)Boss of the SOC
 
-\
-
-
 > Q)And CIM?
 
 > A)Common Information Model
-
-\
-
 
 > Q)what is the website where you can find the Splunk forums at?
 
 > A)community.splunk.com
 
-Task 3 — BOTS!
+\=====================================================================
+
+### Task 3 — BOTS!
 
 Check out BOTS! — [https://cyberdefenders.org/search/labs/?q=Boss](https://cyberdefenders.org/search/labs/?q=Boss)
 
-Task 4 — Halp, I’m drowning in logs!
+\=====================================================================
+
+### Task 4 — Halp, I’m drowning in logs!
 
 Navigate to the webpage found at 10.10.61.42:8000 on the machine you’ve deployed for this room. The credentials for logging into Splunk are as follows:
 
@@ -246,8 +181,7 @@ These two images are the two scenarios we will be working through throughout thi
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*vUvlT90xeufwIG\_I)
 
-\
-Task 5 — Advanced Persistent Threat
+### Task 5 — Advanced Persistent Threat
 
 Work your way through the first scenario to track down P01s0n1vy! Don’t hesitate to use the material provided to give you a nudge!
 
@@ -256,14 +190,6 @@ The most important information provided by any log entry is the metadata associa
 So, let’s get our feet wet and learn how to sort logs by metadata
 
 > Query — | metadata type=sourcetypes index=botsv1
-
-\=====================================================================\
-Scenario — 1
-
-APT
-
-\
-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*gqcsDErY79a8pqvZ1HvQdQ.png)
 
@@ -292,9 +218,6 @@ So the attacker’s IP scanning our server is 40.80.148.42
 
 > A)40.80.148.42
 
-\
-
-
 > Q)What web scanner scanned the server?
 
 Since we know from answering the prior question that web vulnerability scans originated from the particular source IP 40.80.148.42, we can search for traffic from 40.80.148.42 and examine the src\_headers for clues related to the tool being used for the scan.
@@ -311,24 +234,13 @@ From the log entry dated — 8/10/16, at 10:22:27.612 PM, we can find the fo
 
 > A)Acunetix
 
-\
-
-
 > Q)What is the IP address of our web server?
-
-\
-
 
 > A)192.168.250.70 (it’s evident from the logs above)&#x20;
 
-\
-
-
 > Q)What content management system is imreallynotbatman.com using?
 
-We can find this answer, by running the same query\
-\
-
+We can find this answer, by running the same query
 
 > Command — index=botsv1 iamreallynotbaroman.com
 
@@ -337,9 +249,6 @@ We can find this information easily, in one of the recent logs
 ![](https://cdn-images-1.medium.com/max/1000/1\*QzeqykgcP\_0pdzjSHN7xbw.png)
 
 > A)Joomla
-
-\
-
 
 > Q)What address is performing the brute-forcing attack against our website?
 
@@ -363,9 +272,6 @@ The only outlier we see here is IP — 23.22.63.114, as we know the other ho
 
 > A)23.22.63.114
 
-\
-
-
 > Q)What was the first password attempted in the attack?
 
 Since the attack is web-based, the passwords are likely to have been inserted on some login page, hence generating “POST” requests, from the web browser
@@ -375,9 +281,6 @@ Adding this additional parameter to our query
 > Query— index=botsv1 sourcetype=stream:http dest=”192.168.250.70" http\_method=POST
 
 Since the question requires us to input the very first password used in the brute-force attack, we sift through 21 pages of log entries to find the first incident, that occurred on 8/10/16 at 9:45:21 PM
-
-\
-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*d0lzShJtUP63L7\_FohFn9g.png)
 
@@ -389,13 +292,7 @@ Let’s further add date and time stamps here for easy understanding
 
 > Query — index=botsv1 sourcetype=stream:http dest=”192.168.250.70" form\_data=\*username\*passwd\* table\_time | reverse
 
-\
-
-
 > A)123456789
-
-\
-
 
 > Q)One of the passwords in the brute force attack is James Brodsky’s favorite Coldplay song. Which six character song is it?
 
@@ -416,9 +313,6 @@ Naturally, a password brute force attack stops when the correct password is even
 No surprises there heh!
 
 > A)batman
-
-\
-
 
 > Q)What was the average password length used in the password brute forcing attempt rounded to closest whole integer?
 
@@ -455,9 +349,6 @@ We pull out all passwords, of length 6
 
 > A)6
 
-\
-
-
 > Q)What was the average password length used in the password brute forcing attempt rounded to closest whole integer?
 
 A)From the log analysis, we have determined that the password ‘batman’ was used twice — once used to brute force the password and the other occurrence was to log in with the password, each from different passwords
@@ -474,13 +365,7 @@ Now, let’s construct a query to find the objective of this question,i.e to fin
 
 > A)92.17
 
-\
-
-
 > Q)How many unique passwords were attempted in the brute force attempt?
-
-\
-
 
 > Query — index=botsv1 sourcetype=stream:http form\_data=\*username\*passwd\* | rex field=”form\_data \*passwd=(?\<usernamepasswd>\w+)” | stats dc(usernamepasswd)
 
@@ -488,13 +373,7 @@ where, dc — distinct count
 
 > A)412
 
-\
-
-
 > Q)What is the name of the executable uploaded by P01s0n1vy?
-
-\
-
 
 > Query -index=botsv1 sourcetype=”stream:http” dest=”192.168.250.70" \*.exe c\_ip=”40.80.148.42" \
 > because attacker’s IP — 40.80.148.42
@@ -507,9 +386,6 @@ We can find traces of the file in the below image:-\
 
 > \
 > A)3791.exe
-
-\
-
 
 > Q)What is the MD5 hash of the executable uploaded?
 
@@ -531,13 +407,7 @@ Now, let’s further refine our search,using the CommandLine parameter
 > \| stats values(MD5)\
 > A)AAE3F5A29935E6ABCC2C2754D12A9AF0
 
-\
-
-
 > A)AAE3F5A29935E6ABCC2C2754D12A9AF0
-
-\
-
 
 > Q)What is the name of the file that defaced the imreallynotbatman.com website?
 
@@ -581,16 +451,11 @@ We do find the FQDN, in the below image, from the log
 
 > A)prankglassinebracket.jumpingcrab.com
 
-\
-
-
 > Q)What IP address has P01s0n1vy tied to domains that are pre-staged to attack Wayne Enterprises?
 
 For answering this question, we can’t fully make use of Splunk. We take help from other resources like Robtex and ThreatCrowd.
 
-Let’s visit [Robtex](https://www.robtex.com) and query the FQDN \
-\
-
+Let’s visit [Robtex](https://www.robtex.com) and query the FQDN&#x20;
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*RN9zLYzfv6m7WfLt4N2qLg.png)
 
@@ -608,9 +473,6 @@ Searching the IP on VirusTotal brings us:-
 
 > A)23.22.63.114
 
-\
-
-
 > Q)Based on the data gathered from this attack and common open source intelligence sources for domain names, what is the email address that is most likely associated with P01s0n1vy APT group
 
 For this, we can use the [ThreatCrowd](https://www.threatcrowd.org) tool and reverse search the IP Address — 23.22.63.114
@@ -626,9 +488,6 @@ Conducting a whois search on po1s0n1vy.com doesn't pay dividends, as the registr
 We can get the same email address from Maltego but takes time to extract
 
 > A)[lillianrose@po1s0n1vy.com](mailto:lillianrose@po1s0n1vy.com)
-
-\
-
 
 > Q)GCPD reported that common TTPs (Tactics, Techniques, Procedures) for the P01s0n1vy APT group if initial compromise fails is to send a spear phishing email with custom malware attached to their intended target. This malware is usually connected to P01s0n1vy’s initial attack infrastructure. Using research techniques, provide the SHA256 hash of this malware.
 
@@ -648,17 +507,11 @@ SHA 256 Hash — 9709473ab351387aab9e816eff3910b9f28a7a70202e250ed46dba8f820
 
 > A)9709473ab351387aab9e816eff3910b9f28a7a70202e250ed46dba8f820f34a8
 
-\
-
-
 > Q)What special hex code is associated with the customized malware discussed in the previous question?
 
 Running through VirusTotal’s community section can be gold sometimes. This is where I got the Hex code correlating to this malware file
 
 > A)53 74 65 76 65 20 42 72 61 6e 74 27 73 20 42 65 61 72 64 20 69 73 20 61 20 70 6f 77 65 72 66 75 6c 20 74 68 69 6e 67 2e 20 46 69 6e 64 20 74 68 69 73 20 6d 65 73 73 61 67 65 20 61 6e 64 20 61 73 6b 20 68 69 6d 20 74 6f 20 62 75 79 20 79 6f 75 20 61 20 62 65 65 72 21 21 21
-
-\
-
 
 > Q)What does this hex code decode to?
 
@@ -666,7 +519,9 @@ Running the hex code on an online converter gives us the following answer:-
 
 > A)Steve Brant’s Beard is a powerful thing. Find this message and ask him to buy you a beer!!!
 
-Task 6 — Ransomware
+\=====================================================================
+
+### Task 6 — Ransomware
 
 In this scenario, one of your users is greeted by this image on a Windows desktop that is claiming that files on the system have been encrypted and payment must be made to get the files back. It appears that a machine has been infected with Cerber ransomware at Wayne Enterprises and your goal is to investigate the ransomware to reconstruct the attack.&#x20;
 
@@ -690,9 +545,6 @@ Since 192.168.250.100 has the highest percentage of visibility here, we can dete
 
 > A)192.168.250.100
 
-\
-
-
 > Q)What is the name of the USB key inserted by Bob Smith?
 
 When analyzing Windows Registry, we can find traces of USB insertion(removable media) being logged here.
@@ -707,9 +559,6 @@ So, let’s query using winregistry as sourcetype , with friendlyname as an addi
 
 > A)MIRANDA\_PRI
 
-\
-
-
 > Q)After the USB insertion, a file execution occurs that is the initial Cerber infection. This file execution creates two additional processes. What is the name of the file?
 
 We are all familiar with removable media using drive names, except the C drive.
@@ -723,9 +572,6 @@ The highlighted text is the file that we are looking for!
 ![](https://cdn-images-1.medium.com/max/1000/1\*f0bl-z0hdHMkerVz\_WZPZQ.png)
 
 > A)Miranda\_Tate\_unveiled.dotm
-
-\
-
 
 > Q)During the initial Cerber infection a VB script is run. The entire script from this execution, pre-pended by the name of the launching .exe, can be found in a field in Splunk. What is the length in characters of this field?
 
@@ -749,9 +595,6 @@ We can deduce the length of payload from the below image:-
 
 > A)4490
 
-\
-
-
 > Q)Bob Smith’s workstation (we8105desk) was connected to a file server during the ransomware outbreak. What is the IP address of the file server?
 
 First, let’s identify the source of Sysmon Events
@@ -767,9 +610,6 @@ Clicking on we8105desk.waynecorpinc.local and analyzing the corresponding logs f
 ![](https://cdn-images-1.medium.com/max/1000/1\*Xpks0KA2mvTLoulK7fsI8Q.png)
 
 > A)192.168.250.20
-
-\
-
 
 > Q)What was the first suspicious domain visited by we8105desk on 24AUG2016?
 
@@ -873,7 +713,11 @@ As we did earlier, let’s blacklist known good domains, using DNS as sourcetype
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*3kJyV0w-n9nnasNXNW03GA.png)
 
-\
+\=====================================================================
+
+### Conclusion
+
+This room was pretty exhaustive, with a steep learning curve. I am glad that I took notes as I progressed through the room's questions and can only hope to learn from this room,as I make my baby steps towards being a budding SOC Analyst\
 
 
-\
+Thank you for reading this blog entry and stay tuned as I try to close down more SOC alerts……
