@@ -6,7 +6,7 @@
 
 Hello, fellow blue teamers,
 
-Join me in this blog entry, as I guide you to solve Try to Hack Me’s Splunk 1 Room.
+Join me in this blog entry, as I guide you to solve Try to Hack Me’s Splunk 1 room.
 
 Room creation credits go to [Darkstar7471](https://twitter.com/darkstar7471).Find him on Discord! - **Bloke#2439**!
 
