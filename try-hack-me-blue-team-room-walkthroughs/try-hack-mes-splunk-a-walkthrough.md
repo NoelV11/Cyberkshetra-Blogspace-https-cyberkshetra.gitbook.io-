@@ -1,7 +1,5 @@
 # Try Hack Me's Splunk:A Walkthrough
 
-Splunk — Try Hack Me
-
 Task 1 — Deploy
 
 Deploy the Splunk virtual machine. This can take up to five to ten minutes to launch. If the webpage does not load for you after ten minutes, terminate and relaunch the machine.
@@ -47,7 +45,7 @@ Answer the questions below
 
 > A)index
 
-Knowledge Nugget:All data in Splunk is stored in an index and in hot, warm, and cold buckets depending on the size and age of the data
+Knowledge Nugget: All data in Splunk is stored in an index and hot, warm, and cold buckets depending on the size and age of the data
 
 > Q)We can create ‘views’ that allow us to consistently pull up the same search over and over again; what are these called?
 
@@ -225,7 +223,7 @@ Task 3 — BOTS!
 
 Check out BOTS! — [https://cyberdefenders.org/search/labs/?q=Boss](https://cyberdefenders.org/search/labs/?q=Boss)
 
-Task 4 — Halp,I’m drowining in logs!
+Task 4 — Halp, I’m drowning in logs!
 
 Navigate to the webpage found at 10.10.61.42:8000 on the machine you’ve deployed for this room. The credentials for logging into Splunk are as follows:
 
@@ -233,7 +231,7 @@ Username: splunkUser
 
 Password: SplunkUser#321
 
-Upon being redirected to this webpage,we can see that the site has been heavily defaced
+Upon being redirected to this webpage, we can see that the site has been heavily defaced
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*gqcsDErY79a8pqvZ1HvQdQ.png)
 
@@ -249,13 +247,13 @@ These two images are the two scenarios we will be working through throughout thi
 ![](https://cdn-images-1.medium.com/max/1000/0\*vUvlT90xeufwIG\_I)
 
 \
-Task 5 — Advanced Persistant Threat
+Task 5 — Advanced Persistent Threat
 
-Work your way through the first scenario in order to track down P01s0n1vy! Don’t hesitate to use the material provided to give you a nudge!
+Work your way through the first scenario to track down P01s0n1vy! Don’t hesitate to use the material provided to give you a nudge!
 
-The most important information provided by any log entry is the metadata associated with it.We can find itsy-bitsy details of interest like timestamps of incident,type of web requests and so on.
+The most important information provided by any log entry is the metadata associated with it. We can find itsy-bitsy details of interest like timestamps of incidents, type of web requests, and so on.
 
-So,let’s get our feet wet and learn how to sort logs by metadata
+So, let’s get our feet wet and learn how to sort logs by metadata
 
 > Query — | metadata type=sourcetypes index=botsv1
 
@@ -269,9 +267,9 @@ APT
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*gqcsDErY79a8pqvZ1HvQdQ.png)
 
-In this scenario, reports of the below graphic come in from your user community when they visit the Wayne Enterprises website, and some of the reports reference “P01s0n1vy.” In case you are unaware, P01s0n1vy is an APT group that has targeted Wayne Enterprises. Your goal, as Alice, is to investigate the defacement, with an eye towards reconstructing the attack via the Lockheed Martin Kill Chain.
+In this scenario, reports of the below graphic come in from your user community when they visit the Wayne Enterprises website, and some of the reports reference “P01s0n1vy.” In case you are unaware, P01s0n1vy is an APT group that has targeted Wayne Enterprises. Your goal, as Alice, is to investigate the defacement, to reconstruct the attack via the Lockheed Martin Kill Chain.
 
-During the scenario, we will build both Kill Chain and traffic flow diagrams to help visualize what has happened. While investigating, you may find yourself working backward to reconstruct an attack, but you may also find yourself in the middle of the Kill Chain based on indicators that are identified. If this happens, you must work BOTH backward to reconstruct the past but also forward to find if additional actions have transpired. For simplicity in this exercise, we will build across the Kill Chain using Splunk, starting with reconnaissance the adversary took and build things out as they move through the Kill Chain.&#x20;
+During the scenario, we will build both Kill Chain and traffic flow diagrams to help visualize what has happened. While investigating, you may find yourself working backward to reconstruct an attack, but you may also find yourself in the middle of the Kill Chain based on indicators that are identified. If this happens, you must work BOTH backward to reconstruct the past but also forward to find if additional actions have transpired. For simplicity in this exercise, we will build across the Kill Chain using Splunk, starting with reconnaissance the adversary took and building things out as they move through the Kill Chain.&#x20;
 
 > Q)What is the likely IP address of someone from the P01s0n1vy group scanning imreallynotbatman.com for web application vulnerabilities?
 
@@ -281,7 +279,7 @@ We can run the following Splunk query
 > Knowledge Nugget:index — new data imported to Splunk are stored in indexes
 
 We get a total of 78683 hits\
-From the first query itself,we can find the following information:-
+From the first query itself, we can find the following information:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*xvvditOndjQtM-HN3cLRbA.png)
 
@@ -289,7 +287,7 @@ From the first query itself,we can find the following information:-
 > Destination IP — Attacker’s IP
 
 \
-Splunk classiied sourcetypes for this query — Suticata \
+Splunk classified sourcetypes for this query — Suricata \
 So the attacker’s IP scanning our server is 40.80.148.42
 
 > A)40.80.148.42
@@ -305,9 +303,9 @@ Since we know from answering the prior question that web vulnerability scans ori
 
 We get a total of 21029 events here
 
-Now,let’s try to analyze the HTTP Headers for any clues
+Now, let’s try to analyze the HTTP Headers for any clues
 
-From the log entry dated — 8/10/16,at 10:22:27.612 PM,we can find the following entry made in src\_headers
+From the log entry dated — 8/10/16, at 10:22:27.612 PM, we can find the following entry made in src\_headers
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*ihZPaLlZ-4Nu6-eciXJdYA.png)
 
@@ -334,7 +332,7 @@ We can find this answer, by running the same query\
 
 > Command — index=botsv1 iamreallynotbaroman.com
 
-We can find this information easily,in one of the recent logs
+We can find this information easily, in one of the recent logs
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*QzeqykgcP\_0pdzjSHN7xbw.png)
 
@@ -345,23 +343,23 @@ We can find this information easily,in one of the recent logs
 
 > Q)What address is performing the brute-forcing attack against our website?
 
-As this is a web-based attack,we can search and filter HTTP packets and further refine it w,ith trafic being directed to 192.168.270.50 (target host)
+As this is a web-based attack, we can search and filter HTTP packets and further refine it with traffic being directed to 192.168.270.50 (target host)
 
 > Query — index botsv1 sourcetypr=stream:http dest = “192.168.270.50”
 
 8213 results arise
 
-Now to cheeck which IP is bruteforcing attacks aginst us
+Now to check which IP is brute-forcing attacks against us
 
 Inspecting ‘fields’ filter
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*izgSp\_Y2Mc9TBvErnb5Zpw.png)
 
-Selecting the c\_ip field,gives us 3 values in total:-
+Selecting the c\_ip field, gives us 3 values in total:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*ov-o-8ah9kXOUk5VhFswTA.png)
 
-The only outlier we see here is IP — 23.22.63.114,as we know the other hosts are source and destination respectively
+The only outlier we see here is IP — 23.22.63.114, as we know the other hosts are source and destination respectively
 
 > A)23.22.63.114
 
@@ -370,20 +368,20 @@ The only outlier we see here is IP — 23.22.63.114,as we know the other hos
 
 > Q)What was the first password attempted in the attack?
 
-Since the attack is web based,the passwords are likely to have been inserted on some login page,hence generating “POST” requests,from the web browser
+Since the attack is web-based, the passwords are likely to have been inserted on some login page, hence generating “POST” requests, from the web browser
 
 Adding this additional parameter to our query
 
 > Query— index=botsv1 sourcetype=stream:http dest=”192.168.250.70" http\_method=POST
 
-Since the question requires us to input the very first password used in the bruteforce attack,we sift through 21 pages of log entries to find the first incident,that occured on 8/10/16 9:45:21 PM
+Since the question requires us to input the very first password used in the brute-force attack, we sift through 21 pages of log entries to find the first incident, that occurred on 8/10/16 at 9:45:21 PM
 
 \
 
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*d0lzShJtUP63L7\_FohFn9g.png)
 
-Which can also be found,when running the following Splunk query
+This can also be found, when running the following Splunk query
 
 > Query— index=botsv1 sourcetype=stream:http dest=”192.168.250.70" form\_data=\*username\*passwd\* | reverse
 
@@ -401,17 +399,17 @@ Let’s further add date and time stamps here for easy understanding
 
 > Q)One of the passwords in the brute force attack is James Brodsky’s favorite Coldplay song. Which six character song is it?
 
-Since I am a regular Coldplay listener,their songs are familaiar to me like the back of my hand,so on Page 17 of Log entries,I found a sweet surprise!
+Since I am a regular Coldplay listener, their songs are familiar to me like the back of my hand, so on Page 17 of the Log entries, I found a sweet surprise!
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*IWiDC0j0VmVu5eyvix05HQ.png)
 
 > A)Yellow
 
-Fun Trivia:Yellow’s music video **shot entirely in slow motion** and features frontman Chris Martin walking alone along the beach.
+Fun Trivia: Yellow’s music video **shot entirely in slow motion** and features frontman Chris Martin walking alone along the beach.
 
 > Q)What was the correct password for admin access to the content management system running imreallynotbatman.com?
 
-Naturally a password bruteforce attack stops when the correct password is eventially found and that is the latest log entry,present on Page 1
+Naturally, a password brute force attack stops when the correct password is eventually found and that is the latest log entry, present on Page 1
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*OyvefJaj89yASqEgGavWMA.png)
 
@@ -424,16 +422,16 @@ No surprises there heh!
 
 > Q)What was the average password length used in the password brute forcing attempt rounded to closest whole integer?
 
-To do this,we have three queries to run:-
+To do this, we have three queries to run:-
 
 > Query — Extracting passwords from requests — index=botsv1 sourcetype=stream:http form\_data=\*username\*passwd\* \
 > \| rex field=form\_data “passwd=(?\<userpassword>\w+)” \
 > \| head 10 \
 > \| table userpassword
 
-(for now,let’s extract the first 10 passwords)
+(for now, let’s extract the first 10 passwords)
 
-Next,we calculate the lengths of the extracted passwords
+Next, we calculate the lengths of the extracted passwords
 
 > Query — index=botsv1 sourcetype=stream:http form\_data=\*username\*passwd\* \
 > \| rex field=form\_data “passwd=(?\<userpassword>\w+)” \
@@ -443,7 +441,7 @@ Next,we calculate the lengths of the extracted passwords
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*Fh63SEtIWLfJiXjwLOja8Q.png)
 
-Now,let’s refine our results
+Now, let’s refine our results
 
 > Query — index=botsv1 sourcetype=stream:http form\_data=\*username\*passwd\* \
 > \| rex field=form\_data “passwd=(?\<userpassword>\w+)” \
@@ -451,7 +449,7 @@ Now,let’s refine our results
 > \| search lenpword=6 \
 > \| table userpassword lenpword
 
-We pull out all passwords,of length 6
+We pull out all passwords, of length 6
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*RZZcVvTkNjIDabVIUdWdFA.png)
 
@@ -462,9 +460,9 @@ We pull out all passwords,of length 6
 
 > Q)What was the average password length used in the password brute forcing attempt rounded to closest whole integer?
 
-A)From the log analysis,we hace determined that the password ‘batman’ was used twice — once used to bruteforce the password and the other occurence was to login with the password,each from different passwords
+A)From the log analysis, we have determined that the password ‘batman’ was used twice — once used to brute force the password and the other occurrence was to log in with the password, each from different passwords
 
-Now,let’s construct a query to find the objective of this question,i.e to find average password length&#x20;
+Now, let’s construct a query to find the objective of this question,i.e to find the average password length&#x20;
 
 > Query — index=botsv1 sourcetype=stream:http\
 > \| rex field=form\_data “passwd=(?\<userpassword>\w+)” \
@@ -486,7 +484,7 @@ Now,let’s construct a query to find the objective of this question,i.e to find
 
 > Query — index=botsv1 sourcetype=stream:http form\_data=\*username\*passwd\* | rex field=”form\_data \*passwd=(?\<usernamepasswd>\w+)” | stats dc(usernamepasswd)
 
-where,dc — distinct count
+where, dc — distinct count
 
 > A)412
 
@@ -515,19 +513,19 @@ We can find traces of the file in the below image:-\
 
 > Q)What is the MD5 hash of the executable uploaded?
 
-Web Requests are unlikely to store MD5 hashes of uploaded files,so we instead shift our source type to Windows Sysmon (xmlwineventlog:microsoft-windows-sysmon/operational)
+Web Requests are unlikely to store MD5 hashes of uploaded files, so we instead shift our source type to Windows Sysmon (xmlwineventlog:microsoft-windows-sysmon/operational)
 
 > Query — index=botsv1 sourcetype=”xmlwineventlog:microsoft-windows-sysmon/operational” 3791.exe \
 > \| stats values(MD5)
 
-Now,we can go one step further,by grabbing the MD5 Hash,from Sysmon Event
+Now, we can go one step further, by grabbing the MD5 Hash, from Sysmon Event
 
 > Query — index=botsv1 sourcetype=”xmlwineventlog:microsoft-windows-sysmon/operational” 3791.exe EventCode=1 \
 > \| stats values(MD5)
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*X\_JmDqHf8Ew6YiCKOLO7CA.png)
 
-Now,let’s further refine our search,using CommandLine parameter
+Now, let’s further refine our search,using the CommandLine parameter
 
 > Query — index=botsv1 3791.exe CommandLine=3791.exe \
 > \| stats values(MD5)\
@@ -543,27 +541,27 @@ Now,let’s further refine our search,using CommandLine parameter
 
 > Q)What is the name of the file that defaced the imreallynotbatman.com website?
 
-Using sourcetype as suricata,we can craft the following query:-
+Using sourcetype as Suricata, we can craft the following query:-
 
 > Query — index=botsv1 src=192.168.250.70 sourcetype=suricata dest\_ip=23.22.63.114
 
-From the Web requests generated from the attacker’s IP,we can find 3 unique files:-
+From the Web requests generated from the attacker’s IP, we can find 3 unique files:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*7oRF1n5NSixJF\_tH41UrRg.png)
 
-As witnessed in the beginning of the assignment,a .jpg file had likely defaced the website and “/poisonivy-is-coming-for-you-batman.jpeg” rightly fits that bill
+As witnessed at the beginning of the assignment, a .jpg file had likely defaced the website and “/poisonivy-is-coming-for-you-batman.jpeg” rightly fits that bill
 
 > A)/poisonivy-is-coming-for-you-batman.jpeg
 
-Now,to specify the direction of communication path,using NOT command
+Now, to specify the direction of the communication path, using NOT command
 
 > Query — index=botsv1 sourcetype=fgt\_utm “192.168.250.70” NOT dest=”192.168.250.70"
 
-UTM (Unified Threat Management) devices (or next-generation firewalls) often rate or classify various web sites much like standalone web filtering gateways (e.g. Blue Coat). In this case, if we pivot down on category, we see of the nine connections the UTM logged, 3 were to malicious websites. Those sound much more intriguing than the IT sites, so let’s drill down on them.
+UTM (Unified Threat Management) devices (or next-generation firewalls) often rate or classify various websites much like standalone web filtering gateways (e.g. Blue Coat). In this case, if we pivot down on category, we see of the nine connections the UTM logged, 3 were to malicious websites. Those sound much more intriguing than the IT sites, so let’s drill down on them.
 
-In this query,we can use **Fortgate Firewall Events Unifies Threat Management(fgt\_utm)**
+In this query, we can use **FortiGate Firewall Events Unifies Threat Management(fgt\_utm)**
 
-Now,let’s confirm our hunch
+Now, let’s confirm our hunch
 
 > Query — index=botsv1 sourcetype=fgt\_utm “192.168.250.70” NOT dest=”192.168.250.70" category=”Malicious Websites”
 
@@ -571,13 +569,13 @@ Now,let’s confirm our hunch
 
 > Q)This attack used dynamic DNS to resolve to the malicious IP. What fully qualified domain name (FQDN) is associated with this attack?
 
-In this query,we can make use of fgt\_utm,as sourcetype
+In this query, we can make use of fgt\_utm, as sourcetype
 
 > Query — index=botsv1 sourcetype=fgt\_utm “poisonivy-is-coming-for-you-batman.jpeg”
 
 3 logs pop up and let’s expand the first log
 
-We do find the FQDN,in the below image,from the log
+We do find the FQDN, in the below image, from the log
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*44JqY3dtR2rsTZ5ZJM4gOQ.png)
 
@@ -588,7 +586,7 @@ We do find the FQDN,in the below image,from the log
 
 > Q)What IP address has P01s0n1vy tied to domains that are pre-staged to attack Wayne Enterprises?
 
-For answering this question,we can’t fully make use of Splunk.We take help from other resources like Robtex and ThreatCrowd.
+For answering this question, we can’t fully make use of Splunk. We take help from other resources like Robtex and ThreatCrowd.
 
 Let’s visit [Robtex](https://www.robtex.com) and query the FQDN \
 \
@@ -596,11 +594,11 @@ Let’s visit [Robtex](https://www.robtex.com) and query the FQDN \
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*RN9zLYzfv6m7WfLt4N2qLg.png)
 
-Scrolling down,we can find that 3 IP’s have been tied to domains,in order to attack Wayne Enterprises
+Scrolling down, we can find that 3 IP’s have been tied to domains, to attack Wayne Enterprises
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*15j2orKekS2UsH5kq8RPdw.png)
 
-Now,for more enumeration of the FQDN,on the [VirusTotal](https://www.virustotal.com/gui/home/upload) platform
+Now, for more enumeration of the FQDN, on the [VirusTotal](https://www.virustotal.com/gui/home/upload) platform
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*tkvtDwHn-2uJBWcftw3ACw.png)
 
@@ -615,17 +613,17 @@ Searching the IP on VirusTotal brings us:-
 
 > Q)Based on the data gathered from this attack and common open source intelligence sources for domain names, what is the email address that is most likely associated with P01s0n1vy APT group
 
-For this,we can use [ThreatCrowd](https://www.threatcrowd.org) tool and reverse search the IP Address — 23.22.63.114
+For this, we can use the [ThreatCrowd](https://www.threatcrowd.org) tool and reverse search the IP Address — 23.22.63.114
 
-Which gives us the following map layout (similar to Maltego)
+This gives us the following map layout (similar to Maltego)
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*t5xrIxSY8tRoW9q5WLAYpQ.png)
 
 We can find that an email address stands out — [lillianrose@po1s0n1vy.com](mailto:lillianrose@po1s0n1vy.com)
 
-Conducting a whois search on po1s0n1vy.com doesnt pay dividends,as the registrant’s mail address is hidden from public view
+Conducting a whois search on po1s0n1vy.com doesn't pay dividends, as the registrant’s mail address is hidden from public view
 
-We can get the same email address from Maltego,but takes time to extract
+We can get the same email address from Maltego but takes time to extract
 
 > A)[lillianrose@po1s0n1vy.com](mailto:lillianrose@po1s0n1vy.com)
 
@@ -634,9 +632,9 @@ We can get the same email address from Maltego,but takes time to extract
 
 > Q)GCPD reported that common TTPs (Tactics, Techniques, Procedures) for the P01s0n1vy APT group if initial compromise fails is to send a spear phishing email with custom malware attached to their intended target. This malware is usually connected to P01s0n1vy’s initial attack infrastructure. Using research techniques, provide the SHA256 hash of this malware.
 
-Searching up P01s0n1vy APT group on MITRE’s site did not give any leads.
+Searching up the P01s0n1vy APT group on MITRE’s site did not give any leads.
 
-From further research,I stumbled upon [threatminer.org](https://threatminer.org),where they display Malware Samples,that are potentiallly cycled by this APT group
+From further research, I stumbled upon [threatminer.org](https://threatminer.org), where they display Malware Samples,that are potentially cycled by this APT group
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*biuyGjbX1bIRv-F77FlXDg.png)
 
@@ -655,7 +653,7 @@ SHA 256 Hash — 9709473ab351387aab9e816eff3910b9f28a7a70202e250ed46dba8f820
 
 > Q)What special hex code is associated with the customized malware discussed in the previous question?
 
-Running through VirusTotal’s community section can be gold sometimes.This is where I got the Hex code correlating to this malware file
+Running through VirusTotal’s community section can be gold sometimes. This is where I got the Hex code correlating to this malware file
 
 > A)53 74 65 76 65 20 42 72 61 6e 74 27 73 20 42 65 61 72 64 20 69 73 20 61 20 70 6f 77 65 72 66 75 6c 20 74 68 69 6e 67 2e 20 46 69 6e 64 20 74 68 69 73 20 6d 65 73 73 61 67 65 20 61 6e 64 20 61 73 6b 20 68 69 6d 20 74 6f 20 62 75 79 20 79 6f 75 20 61 20 62 65 65 72 21 21 21
 
@@ -670,7 +668,7 @@ Running the hex code on an online converter gives us the following answer:-
 
 Task 6 — Ransomware
 
-In this scenario, one of your users is greeted by this image on a Windows desktop that is claiming that files on the system have been encrypted and payment must be made to get the files back. It appears that a machine has been infected with Cerber ransomware at Wayne Enterprises and your goal is to investigate the ransomware with an eye towards reconstructing the attack.&#x20;
+In this scenario, one of your users is greeted by this image on a Windows desktop that is claiming that files on the system have been encrypted and payment must be made to get the files back. It appears that a machine has been infected with Cerber ransomware at Wayne Enterprises and your goal is to investigate the ransomware to reconstruct the attack.&#x20;
 
 If we start with a basic search with the hostname and the index on the specific date that was specified, we can drill down and see which sourcetypes have events that reference that hostname value. The name of the device could be the originator of the event (host) or within the event itself.
 
@@ -680,15 +678,15 @@ It appears that we have a pretty robust set of endpoint logs from Sysmon and Win
 
 > Query — index=botsv1 we8105desk
 
-Now,let’s search for the sourcetypes associated with the desktop we810desk
+Now, let’s search for the sourcetypes associated with the desktop we810desk
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*j5k4uGL7BZhh\_oPrIIiR8g.png)
 
-Then further click on sourcetype=”XmlWinEventLog:Microsoft-Windows-Sysmon/Operational” and inspect the SourceIP field,where we find:-
+Then further click on sourcetype=”XmlWinEventLog:Microsoft-Windows-Sysmon/Operational” and inspect the SourceIP field, where we find:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*Li9BSlmF19Hd\_bGiff4NIg.png)
 
-Since 192.168.250.100 has the highest percentage of visibility here,we can determine that to be the answer here
+Since 192.168.250.100 has the highest percentage of visibility here, we can determine that to be the answer here
 
 > A)192.168.250.100
 
@@ -697,11 +695,11 @@ Since 192.168.250.100 has the highest percentage of visibility here,we can deter
 
 > Q)What is the name of the USB key inserted by Bob Smith?
 
-When analyzing Windows Registry,we can find traces of USB insertion(removable media) being logged here.
+When analyzing Windows Registry, we can find traces of USB insertion(removable media) being logged here.
 
 USB’s are tagged under a common name titled ‘friendlyname’ on Windows Registry
 
-So,let’s query using winregistry as sourcetype ,with friendlyname as an additional parameter,ordering the data in a tabular manner
+So, let’s query using winregistry as sourcetype , with friendlyname as an additional parameter, ordering the data in a tabular manner
 
 > Query — index=botsv1 sourcetype=winregistry friendlyname | table host object data
 
@@ -714,9 +712,9 @@ So,let’s query using winregistry as sourcetype ,with friendlyname as an additi
 
 > Q)After the USB insertion, a file execution occurs that is the initial Cerber infection. This file execution creates two additional processes. What is the name of the file?
 
-We are all familiar with removable media using drive names,except the C drive.
+We are all familiar with removable media using drive names, except the C drive.
 
-This will act as a powerful parameter,in our Splunk query
+This will act as a powerful parameter, in our Splunk query
 
 > Query — index=botsv1 sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational host=we8105desk “d:\\\” | reverse
 
@@ -731,7 +729,7 @@ The highlighted text is the file that we are looking for!
 
 > Q)During the initial Cerber infection a VB script is run. The entire script from this execution, pre-pended by the name of the launching .exe, can be found in a field in Splunk. What is the length in characters of this field?
 
-Let’s construct the following Splunk query,explicitly specifying .exe and sourcing our logs from XmlWinEventLog
+Let’s construct the following Splunk query, explicitly specifying .exe and sourcing our logs from XmlWinEventLog
 
 > Query — index=botsv1 sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational \*.exe \
 > \| eval length=len(CommandLine) \
@@ -756,15 +754,15 @@ We can deduce the length of payload from the below image:-
 
 > Q)Bob Smith’s workstation (we8105desk) was connected to a file server during the ransomware outbreak. What is the IP address of the file server?
 
-First,let’s identify the source of Sysmon Events
+First, let’s identify the source of Sysmon Events
 
 > Query — index=botsv1 sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational host=we8105desk
 
-Let’s double down on the ‘src’ field for values,where we find:-
+Let’s double down on the ‘src’ field for values, where we find:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*1Ma4D8D6cLQVo9296K1MGw.png)
 
-Clicking on we8105desk.waynecorpinc.local and analyzing the corresponding logs from the server,we find the corresponding IP to the server
+Clicking on we8105desk.waynecorpinc.local and analyzing the corresponding logs from the server, we find the corresponding IP to the server
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*Xpks0KA2mvTLoulK7fsI8Q.png)
 
@@ -779,7 +777,7 @@ Let’s target DNS as our sourcetype
 
 > Query — index=botsv1 sourcetype=stream:DNS src=192.168.250.100
 
-Further,let’s refine ‘A’ DNS Records from the recieved logs
+Further, let’s refine ‘A’ DNS Records from the received logs
 
 > Query — index=botsv1 sourcetype=stream:DNS src=192.168.250.100 record\_type=A
 
@@ -787,39 +785,39 @@ Where we get:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*JCCvBWCqGRkUqY4TkanOJA.png)
 
-Since we can notice that the workstation user has visited domains like microsoft.com and google.com,these are less likely places for malicious files to be found.This brings us to the following query:-
+Since we can notice that the workstation user has visited domains like microsoft.com and google.com, these are less likely places for malicious files to be found. This brings us to the following query:-
 
 > Query — index=botsv1 sourcetype=stream:DNS src=192.168.250.100 record\_type=A NOT (query{}=\*.microsoft.com OR query{}=\*.waynecorpinc.local OR query{}=\*.bing.com) | stats count by query{} | sort — 10 count
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*Bilf6pfUBPst9On49PZysA.png)
 
-&#x20;Further,let’s refine our query
+&#x20;Further, let’s refine our query
 
 > Query — index=botsv1 sourcetype=stream:DNS src=192.168.250.100 record\_type=A NOT (query{}=\*.microsoft.com OR query{}=\*.waynecorpinc.local OR query{}=\*.bing.com OR query{}=\*.windows.com OR query{}=\*.msftncsi.com) | stats count by query{} | sort — 10 count
 
 As we look at the list now, we see windows.com and msftncsi.com. A quick whois check on them likely will allow us to add them to our Microsoft whitelist of domains, which gets us down to 5 domains. What else do we have?
 
-Newly blacklisted domains,from log entries
+Newly blacklisted domains, from log entries
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*IjXMZqcBpCUX6jSiq06TuQ.png)
 
-These bring to the last 3 blacklisted domains,where **solidaritedeproximate.org** looks like the real deal
+These bring to the last 3 blacklisted domains, where **solidaritedeproximate.org** looks like the real deal
 
 > A)solidaritedeproximite.org
 
 > Q)The malware downloads a file that contains the Cerber ransomware cryptor code. What is the name of that file?
 
-To identify malicious files,we can make use of **fgt\_utm**
+To identify malicious files, we can make use of **fgt\_utm**
 
 > Query — index=botsv1 sourcetype=fgt\_utm src=192.168.250.100 app=”Cerber.Botnet” | reverse
 
-From the resulting query hits,we get the target file
+From the resulting query hits, we get the target file
 
 > A)/mhtr.jpg
 
 > Q)What is the parent process ID of 121214.tmp?
 
-We can craft a Splunk query,using XmlWinEventLog as sour sourcetype and CommandLine as an important parameter
+We can craft a Splunk query, using XmlWinEventLog as sour sourcetype and CommandLine as an important parameter
 
 > Query — index=botsv1 sourcetype=XmlWinEventLog:Microsoft-Windows-Sysmon/Operational 121214.tmp CommandLine=\* | table \_time CommandLine ProcessId ParentProcessId ParentCommandLine | reverse
 
@@ -837,7 +835,7 @@ Using Suricata sourcetype
 
 > Query — index=botsv1 sourcetype=suricata alert.signature=\*cerber\* | stats count by alert.signature alert.signature\_id | sort count
 
-We get the resulting process id and their parent process id’s in a tabular format
+We get the resulting process id and their parent processes id’s in a tabular format
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*UIqmZJpcbNPKEFO-GdAwFg.png)
 
@@ -869,10 +867,13 @@ PDF format (.pdf)is a great way to filter out resulting queries
 
 > Q)What fully qualified domain name (FQDN) does the Cerber ransomware attempt to direct the user to at the end of its encryption phase?
 
-As we did earlier,let’s blacklist known good domains,using DNS as sourcetype, to craft our query:-
+As we did earlier, let’s blacklist known good domains, using DNS as sourcetype, to craft our query:-
 
 > Query — index=botsv1 sourcetype=stream:DNS src=192.168.250.100 record\_type=A NOT (query{}=\*.microsoft.com OR query{}=\*.waynecorpinc.local OR query{}=\*.bing.com OR query{}=isatap OR query{}=wpad OR query{}=\*.windows.com OR query{}=\*.msftncsi.com) | table \_time query{} src dest
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*3kJyV0w-n9nnasNXNW03GA.png)
+
+\
+
 
 \
