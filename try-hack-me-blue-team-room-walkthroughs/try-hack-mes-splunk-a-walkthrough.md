@@ -1,7 +1,5 @@
 # Try Hack Me's Splunk:A Walkthrough
 
-
-
 ![](../.gitbook/assets/1.png)
 
 Hello, fellow blue teamers,
@@ -24,13 +22,7 @@ Password: AdminAdmin01
 
 A short quiz over the base search commands that are useful for Splunk. All you’ll need for this is the attached quick reference guide and possibly the magic of Google. Include all parts of the search query unless otherwise instructed.
 
-Download the quick reference file
-
-Enjoy the room! For future rooms and write-ups, follow [@darkstar7471](http://twitter.com/darkstar7471) on Twitter.
-
-\========================================
-
-Answer the questions below
+Answer the questions below:-
 
 > Q)Splunk queries always begin with this command implicitly unless otherwise specified. What command is this? When performing additional queries to refine received data this command must be added at the start. This is a prime example of a slight trick question.
 
@@ -156,7 +148,7 @@ Knowledge Nugget: All data in Splunk is stored in an index and hot, warm, and co
 
 Check out BOTS! — [https://cyberdefenders.org/search/labs/?q=Boss](https://cyberdefenders.org/search/labs/?q=Boss)
 
-\=====================================================================
+\====================================================================
 
 ### Task 4 — Halp, I’m drowning in logs!
 
@@ -378,9 +370,7 @@ where, dc — distinct count
 > Query -index=botsv1 sourcetype=”stream:http” dest=”192.168.250.70" \*.exe c\_ip=”40.80.148.42" \
 > because attacker’s IP — 40.80.148.42
 
-We can find traces of the file in the below image:-\
-\
-
+We can find traces of the file in the below image:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*7ibVtdtGrVgj7kOqQmcoqg.png)
 
@@ -519,7 +509,7 @@ Running the hex code on an online converter gives us the following answer:-
 
 > A)Steve Brant’s Beard is a powerful thing. Find this message and ask him to buy you a beer!!!
 
-\=====================================================================
+\====================================================================
 
 ### Task 6 — Ransomware
 
@@ -713,7 +703,7 @@ As we did earlier, let’s blacklist known good domains, using DNS as sourcetype
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*3kJyV0w-n9nnasNXNW03GA.png)
 
-\=====================================================================
+\====================================================================
 
 ### Conclusion
 
