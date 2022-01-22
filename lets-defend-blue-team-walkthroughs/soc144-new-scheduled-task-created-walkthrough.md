@@ -34,7 +34,7 @@ We uncover a python file titled: ‘Sorted-Algorithm.py’
 
 > Remeber that this script is designed to attack a host at IP — 92.27.116.104 and create a scheduled task named x86\_x64\_setup.exe,under the C:/Windows/Temp/ path
 
-\=====================================================================
+\====================================================================
 
 **Answering the Playbook’s Questions**
 
@@ -72,7 +72,7 @@ The same was the case with VirusTotal
 
 We answer that the malware is cleaned
 
-\=====================================================================
+\====================================================================
 
 > Analyze Malware&#x20;
 >
@@ -80,7 +80,7 @@ We answer that the malware is cleaned
 
 In this previous section, we had analyzed the artifact and deduced that the file was indeed not malicious
 
-\=====================================================================
+\====================================================================
 
 ### **Adding artifacts to the casefile**
 
@@ -108,13 +108,13 @@ Close Alert — with notes, describing the alert as a True Positive
 
 ​Points Acquired — 10/15.Not bad,not bad at all!
 
-\=====================================================================
+\====================================================================
 
 ### **Summary of Case**
 
 An incoming SOC Alert was briefed to us, about an RCE, that caused a process to be scheduled and executed. Upon analysis, the file in question did not throw up any malicious traces of activity, being described as danger-free by VirusTotal and Hybrid-Analysis tool.
 
-\=====================================================================
+\====================================================================
 
 ### Conclusion
 
