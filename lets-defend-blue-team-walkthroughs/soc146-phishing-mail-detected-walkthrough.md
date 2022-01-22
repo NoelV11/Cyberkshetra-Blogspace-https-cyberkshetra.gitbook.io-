@@ -48,7 +48,7 @@ research-1646684671.xls — 30/59 security vendors flag it as malicious
 
 (Hash -1df68d55968bb9d2db4d0d18155188a03a442850ff543c8595166ac6987df820)  
 
-\=====================================================================
+\====================================================================
 
 Lets Defend Questions:-
 
@@ -58,7 +58,7 @@ Step 2 - Are the files malicious? — Yes
 
 (Answers gained from initial enumeration)
 
-\=====================================================================
+\====================================================================
 
 Step 3 - Check if mail is delivered to the user? (Hint: look at the “device action” part of the alert details)
 
