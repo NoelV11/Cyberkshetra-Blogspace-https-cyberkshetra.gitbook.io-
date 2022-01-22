@@ -18,7 +18,7 @@ We download the file onto the machine and unzip it, using the keyphrase: infecte
 
 Now,we have a directory titled — 11f44531fb088d31307d87b01e8eabff
 
-\=====================================================================
+\====================================================================
 
 ### Viewing File Contents
 
