@@ -2,8 +2,6 @@
 
 Welcome to the world of Blue Teaming, as I explore it on the Let's Defend Platform, a renowned site for Blue Team practice
 
-
-
 Today, we are going to get our hands dirty, with the Easy SOC Analyst Alert - SOC147 - SSH Scan Activity.This case is of Low difficulty
 
 ### Introduction to the Case
@@ -17,8 +15,6 @@ We download the given .zip file onto a VM and unzip its contents,using the passp
 \====================================================================
 
 ### Enumeration
-
-***
 
 We get a file named 'nmap'. When running file command against it, we get information that it is a binary file
 
