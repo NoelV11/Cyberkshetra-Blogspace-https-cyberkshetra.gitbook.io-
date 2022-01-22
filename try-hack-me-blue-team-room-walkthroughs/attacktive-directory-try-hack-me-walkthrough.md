@@ -8,7 +8,7 @@ Join me in this blog entry, as I guide you to solve Try to Hack Me’s: Attactiv
 
 Room credits go to [Sq00ky](https://tryhackme.com/p/Sq00ky).Great stuff!
 
-\====================================================================
+\===================================================================
 
 ### Task 1 - Deploy the VM
 
