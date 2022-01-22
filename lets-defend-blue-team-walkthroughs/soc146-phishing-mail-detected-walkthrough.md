@@ -64,7 +64,7 @@ Step 3 - Check if mail is delivered to the user? (Hint: look at the “device ac
 
 Here, the receiver is \[email protected] Checking the Device Action, it says “Allowed” — probably means that the mail was in fact delivered to the intended user ••
 
-\=====================================================================
+\====================================================================
 
 Step 4&#x20;
 
@@ -126,7 +126,7 @@ Are there attachments or URLs in the email? (+5 Points)
 
 This case was fascinating and I was double happy with the fact that I got all answers right!
 
-\=====================================================================
+\====================================================================
 
 ### Summary of Case
 
@@ -134,7 +134,7 @@ A phishing mail was sent from source 172.16.17.57, disguised as a harmless docum
 
 The case was a true positive for a phishing attack and the analyst responsibly provided artifacts and notes, discussing the case characteristics and results
 
-\=====================================================================
+\====================================================================
 
 ### Conclusion
 
