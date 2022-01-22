@@ -18,7 +18,7 @@ This case will be extra sweet to solve, as we get to analyze a phishing password
 
 > Start Playbook — a special component of investigation.Gives us a blueprint of steps to follow in a case,in an automated manner
 
-\=====================================================================
+\====================================================================
 
 ### List of questions for us to answer
 
@@ -30,7 +30,7 @@ Let’s have a look at our mailbox-for any information about the same. We were a
 
 Now, let’s download the attached file and unzip it, using ‘unzip’ command and using the passphrase:infected
 
-\=====================================================================
+\====================================================================
 
 ### E**numeration**
 
@@ -44,7 +44,7 @@ We recover a file titled \[email protected]\_63963964Application.HTML, which is 
 
 Digging through the page source did not give us any red lights
 
-Let’s go through the playbook's questions:- =====================================================================
+Let’s go through the playbook's questions:- ====================================================================
 
 > Are there attachments or URLs in the email? Please click “Yes” if there are an attachments or URLs in the email, if there are no attachments or URLs in the email please click “No”.
 
@@ -52,11 +52,11 @@ Let’s go through the playbook's questions:- ==================================
 
 Answer — Yes
 
-\=====================================================================
+\====================================================================
 
 > Analyze Url/Attachment in 3rd party sandboxes. Please click “Malicious” if it is malicious and click “Non-malicious” if it isn’t.
 
-\=====================================================================
+\====================================================================
 
 ### **Analysis of infected file**
 
@@ -74,7 +74,7 @@ We find that the file has been run on two OS’ — Windows 7 (32 and 64 bit
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*WiqTpy5CtfYPm8rK93en7A.png)
 
-​So the file is indeed malicious =====================================================================
+​So the file is indeed malicious ====================================================================
 
 > Check If Mail Delivered to User? Answer the following question by determining whether the e-mail is delivered by looking at the “device action” part of the alert details.
 
@@ -82,13 +82,13 @@ Yes, we can find from the case particulars that device action has been set to al
 
 So we click — Delivered
 
-\=====================================================================
+\====================================================================
 
 > Check If Someone Opened the Malicious File/URL? Please go to the “Log Management” page and check if the c2 address accessed. You can check if the malicious file is run by searching the c2 addresses of the malicious file.
 
 > Please click “Yes” if someone has accessed the malicious address. Otherwise please click “No” button.
 
-We click yes =======================================================================
+We click yes ====================================================================
 
 ### **Adding artifacts to the casefile**
 
@@ -130,13 +130,13 @@ Close Alert — by providing notes and classifying the alert as either true 
 
 20/25 points acquired. We got it wrong in one question. Further enumeration would have prevented us from committing that error
 
-\=====================================================================
+\====================================================================
 
 ### **Summary of Case**
 
 A SOC Alert came in, asking us if a suspected phishing mail and its attachment was indeed malicious. Upon closer inspection, we found that it was designed to capture a user’s password, mimicking Microsoft’s Outlook login page, which is a classic example of a Phishing attack
 
-\=====================================================================
+\====================================================================
 
 ### Conclusion
 
