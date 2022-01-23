@@ -295,5 +295,7 @@ Questions:-
 
 I do hope that you enjoyed this writeup as much as I did while solving this room!
 
+Thank you for reading this blog and stay tuned as I try to close down more SOC alerts……
+
 
 
