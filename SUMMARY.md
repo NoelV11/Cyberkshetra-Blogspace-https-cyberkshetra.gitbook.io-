@@ -16,3 +16,4 @@
 * [😀 General Cyber Security Topics                 Try Hack Me Room                       Walkthroughs](general-cyber-security-topics-try-hack-me-room-walkthroughs.md)
   * [OhSint:A Walkthrough](general-cyber-security-topics-try-hack-me-room-walkthroughs/ohsint-a-walkthrough.md)
   * [Google Dorking: A Walkthrough](general-cyber-security-topics-try-hack-me-room-walkthroughs/google-dorking-a-walkthrough.md)
+  * [Crack The Hash:A Walkthrough](general-cyber-security-topics-try-hack-me-room-walkthroughs/crack-the-hash-a-walkthrough.md)
