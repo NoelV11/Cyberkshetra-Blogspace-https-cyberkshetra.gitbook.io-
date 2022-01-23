@@ -4,7 +4,7 @@
 
 ​Hello readers,welcome to this segment of my blog,as I guide you to solve the 'OhSint' Room,hosted on TryHackMe.This room is a lot of fun!
 
-### Task 1 - OhSint <a href="#task-1-ohsint" id="task-1-ohsint"></a>
+## Task 1 - OhSint
 
 What information can you possible get with just one photo?​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fq8Yzn5Spn9wAtMsEuJ0B%2Fuploads%2FiR4O0rSfGdhTQL6kT7fB%2F1.png?alt=media\&token=10d4b42e-4566-4b6a-97bc-bcdf9ae12a84)
 
@@ -90,9 +90,9 @@ Well, the source page of WordPress has been guilty of holding passwords in the p
 
 > A)pennYDr0pper.!
 
-**NOTE**:Never insert your password/password files as cleartext comments in the source code of a website.Use a password manager instead!
+**NOTE**:Never insert your password/password files as cleartext comments in the source code of a website.Use a password manager instead
 
-### Conclusion
+## Conclusion
 
 Ever since I took part in CSAM Investigation rings to find criminals on the Dark Web,I have never understated the importance of OSINT in everyday life,to solve simple problems.A person's pghone or email address is now a query away from being found
 
