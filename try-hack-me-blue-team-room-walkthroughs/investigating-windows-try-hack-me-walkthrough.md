@@ -3,7 +3,7 @@
 \
 ​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fq8Yzn5Spn9wAtMsEuJ0B%2Fuploads%2FTMTz8Qn6wNvx1BLT6izp%2FTHM1.png?alt=media\&token=bf2f6837-0199-4c1b-a755-4af5d3e2a7ed)
 
-Hello fellow blue teamers! Join me in this blog entry,as I attempt to solve the 'Investigating Windows' room,on Try Hack Me.This room is of Medium Difficulty
+Hello fellow blue teamers! Join me in this blog entry,as I attempt to solve the [Investigating Windows](https://tryhackme.com/room/investigatingwindows) room,on Try Hack Me.This room is of Medium Difficulty
 
 Room creation credits go to[ tryhackme](https://tryhackme.com/p/tryhackme).Thank you!
 
