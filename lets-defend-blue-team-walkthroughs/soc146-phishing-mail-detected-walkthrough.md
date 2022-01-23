@@ -2,13 +2,13 @@
 
 Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform, which is of Medium difficulty
 
-### Introduction to the Case
+## Introduction to the Case
 
 Let’s have a look at the case details:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*rf5NUnFR6Ji0-mhMhvSKrQ.png)
 
-### Enumeration
+## Enumeration
 
 Next, we have a look through our Letsdefend Mailbox, to find any information. Searching with the keyword ‘Trenton’ gives us:-​
 
@@ -18,15 +18,13 @@ We download the file onto the machine and unzip it, using the keyphrase: infecte
 
 Now,we have a directory titled — 11f44531fb088d31307d87b01e8eabff
 
-\====================================================================
-
-### Viewing File Contents
+## Viewing File Contents
 
 Opening the directory gives us 3 files (2 .dll and a .xls file).We analyze the .xls file, which we open online.Its contents are:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*VPeDJ-4OqpaFOEH42psOvg.png)
 
-### Analysis on VirusTotal and Hybrid-Analysis
+## Analysis on VirusTotal and Hybrid-Analysis platforms
 
 Next, we run the 3 files on Hybrid Analysis and VirusTotal tools
 
@@ -48,9 +46,7 @@ research-1646684671.xls — 30/59 security vendors flag it as malicious
 
 (Hash -1df68d55968bb9d2db4d0d18155188a03a442850ff543c8595166ac6987df820)  
 
-\====================================================================
-
-Lets Defend Questions:-
+## Case Questions
 
 Step 1  - Are there any attachments or URL’s within the email — Yes
 
@@ -90,7 +86,7 @@ Now running the acquired IP Addresses on Letsdefend’s log management section, 
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*eHO1bYgNNUBrXC66N7mpEg.png)
 
-### Detailed Overview of the Log Management entry
+## Detailed Overview of the Log Management entry
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*nj56s\_dGLj\_bYcfgxfqgTA.png)
 
@@ -100,7 +96,7 @@ Now we add a few artifacts that were collected during the investigation (IP Addr
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*EXb5NRGLwPInC7lk9ve6NQ.png)
 
-### Adding Analyst's notes
+## Adding Analyst's notes
 
 ![](https://cdn-images-1.medium.com/max/500/1\*h9l9\_l\_nHkHaRpmWJh2qpg.png)
 
@@ -118,24 +114,18 @@ Analyze Url/Attachment (+5 Points)
 
 Are there attachments or URLs in the email? (+5 Points)
 
-**==================================================================**
-
-### Alert Score Card
+## Alert Scorecard
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*LRG0wt1N5Upg7Na55J8uyg.png)
 
 This case was fascinating and I was double happy with the fact that I got all answers right!
 
-\====================================================================
-
-### Summary of Case
+## Summary of Case
 
 A phishing mail was sent from source 172.16.17.57, disguised as a harmless document, which led to two users falling for the attack, downloading the mail’s malicious content. A total of 3 files were recovered and analyzed, having malicious characteristics.
 
 The case was a true positive for a phishing attack and the analyst responsibly provided artifacts and notes, discussing the case characteristics and results
 
-\====================================================================
-
-### Conclusion
+## Conclusion
 
 Thank you for reading this blog entry. Stay tuned, as I go hunting some pcap files out there….
