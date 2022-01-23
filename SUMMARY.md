@@ -15,4 +15,4 @@
   * [Try Hack Me's Splunk:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/try-hack-mes-splunk-a-walkthrough.md)
 * [General Cyber Security Topics - Try Hack Me Room Walkthroughs](general-cyber-security-topics-try-hack-me-room-walkthroughs.md)
   * [OhSint:A Walkthrough](general-cyber-security-topics-try-hack-me-room-walkthroughs/ohsint-a-walkthrough.md)
-  * [Google Dorking:A Walkthrough](general-cyber-security-topics-try-hack-me-room-walkthroughs/google-dorking-a-walkthrough.md)
+  * [Google Dorking: A Walkthrough](general-cyber-security-topics-try-hack-me-room-walkthroughs/google-dorking-a-walkthrough.md)
