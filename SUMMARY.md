@@ -14,4 +14,4 @@
   * [History of Malware:Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/history-of-malware-try-hack-me-walkthrough.md)
   * [Try Hack Me's Splunk:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/try-hack-mes-splunk-a-walkthrough.md)
 * [General Cyber Security Topics - Try Hack Me Room Walkthroughs](general-cyber-security-topics-try-hack-me-room-walkthroughs.md)
-  * [Page 1](general-cyber-security-topics-try-hack-me-room-walkthroughs/page-1.md)
+  * [OhSint:A Walkthrough](general-cyber-security-topics-try-hack-me-room-walkthroughs/ohsint-a-walkthrough.md)
