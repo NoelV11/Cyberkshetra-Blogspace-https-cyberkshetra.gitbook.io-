@@ -4,7 +4,7 @@ Welcome to this blog entry,as I document my journey,into the world of blue teami
 
 Let’s jump head first into it.
 
-## Introduction to Case
+### Introduction to Case
 
 Case Particulars provided to the analyst:-
 
@@ -12,7 +12,7 @@ Case Particulars provided to the analyst:-
 
 We first take a look at the mailbox,to find any pointers about the case —which we couldnt find
 
-## Enumeration
+### Enumeration
 
 Now take the IP Address — 172.16.17.88 and perform a check on the endpoint and log sections
 
@@ -36,7 +36,7 @@ We get a corresponding match for someone named Mark,recieving a mail on Aug 29,w
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*ZCWvvFp27Hi8RuAr)
 
-## Analysis of Evidence
+### Analysis of Evidence
 
 Having performed initial enumeration,lets download the file and unzip it,using the passphrase:infected
 
@@ -46,7 +46,9 @@ We uncover a file named ab.bin.Running file command against it tells us that it 
 
 Next,we take the file for analysis on VirusTotal and Hybrid-Analysis tools
 
-## R**econnaisance using Hybrid-Analysis**
+\====================================================================
+
+### **Reconnaisance using Hybrid-Analysis**
 
 Hybrid Analysis — (File is classified as Ransomware)
 
@@ -58,7 +60,7 @@ File Analysis of the file on Hybrid-Analysis brings us:-
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*Q2GkYsmfdTePd9hu)
 
-## R**econnaisance using VirusTotal**
+### **Reconnaisance on Virus Total**
 
 VirusTotal — 60/68 vendors find the file suspicious
 
@@ -82,9 +84,7 @@ IOC’s of infected file —Suspicious and Malicious
 
 ​![](https://cdn-images-1.medium.com/max/1000/1\*xtgfPJJFoFG9DWXF5yUf8A.png)![](https://cdn-images-1.medium.com/max/750/1\*QJ7V5yM\_gK\_r0IqhkQu1Qg.png)
 
-## **Steps to solve and close this Ransomware alert**
-
-****
+### **Steps to solve and close this Ransomware alert**
 
 > Create a case
 
@@ -104,16 +104,20 @@ IOC’s of infected file —Suspicious and Malicious
 
 > Close the alert and state that it is a true positive
 
-## A**lert Scorecard**
+### **Alert Scorecard**
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*5nmj43q3OAIiJnxqj28qAQ.png)
 
 15/20 points acquired! That’s not bad in my book!
 
-## Summary of Case
+\====================================================================
+
+### **Summary of Case**
 
 A SOC alert came in,detailing the case as Ransomware.Analysing the file brought us to the conclusion that it was a binary file.Further enumeration found that the file was flagged previously on security and sandbox platforms,where we were able to gather more intelligence about the suspected file,concluding the alert to be a true positive
 
-## Conclusion
+\====================================================================
+
+### Conclusion
 
 Thank you for devouring this blog entry and stay tuned as I try to close down more SOC alerts……
