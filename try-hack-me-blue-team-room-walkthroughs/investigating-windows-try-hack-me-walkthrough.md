@@ -1,6 +1,6 @@
 # Investigating Windows:Try Hack Me Walkthrough
 
-![](../.gitbook/assets/IW.png)
+![](<../.gitbook/assets/IW (1).png>)
 
 Hello fellow blue teamers! Join me in this blog entry,as I attempt to solve the [Investigating Windows](https://tryhackme.com/room/investigatingwindows) room,on Try Hack Me.This room is of Medium Difficulty
 
