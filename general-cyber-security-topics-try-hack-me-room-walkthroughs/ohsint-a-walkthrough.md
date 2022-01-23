@@ -2,7 +2,7 @@
 
 ​![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2Fq8Yzn5Spn9wAtMsEuJ0B%2Fuploads%2FcUaQINX6T0bgaIYQPNz2%2F7.png?alt=media\&token=473b6fb3-3746-4b99-80db-c66087d975cc)
 
-​Hello readers,welcome to this segment of my blog,as I guide you to solve the 'OhSint' Room,hosted on TryHackMe.This room is a lot of fun!
+​Hello readers,welcome to this segment of my blog,as I guide you to solve the [OhSint](https://tryhackme.com/room/ohsint) Room,hosted on TryHackMe.This room is a lot of fun!
 
 ## Task 1 - OhSint
 
