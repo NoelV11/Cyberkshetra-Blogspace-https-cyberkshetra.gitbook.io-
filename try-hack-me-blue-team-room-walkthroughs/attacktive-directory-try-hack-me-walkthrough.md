@@ -4,13 +4,11 @@
 
 Hello, fellow blue teamers,
 
-Join me in this blog entry, as I guide you to solve Try to Hack Me’s: Attactive Directory” room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
+Join me in this blog entry, as I guide you to solve Try to Hack Me’s: "[Attactive Directory](https://tryhackme.com/room/attacktivedirectory)” room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
 
 Room credits go to [Sq00ky](https://tryhackme.com/p/Sq00ky).Great stuff!
 
-\===================================================================
-
-### Task 1 - Deploy the VM
+## Task 1 - Deploy the VM
 
 Start the room’s VM and proceed with your Kali Machine or the Attack box
 
@@ -20,11 +18,9 @@ IP Address — 10.9.1.196&#x20;
 
 Machine IP — 10.10.45.156&#x20;
 
-\====================================================================
+## Task 2 - Pre-requisites
 
-### Task 2 - Pre-requisites
-
-**Installing Impacket on VM** 
+### I**nstalling Impacket on VM** 
 
 **Command -** git clone [https://github.com/SecureAuthCorp/impacket.git](https://github.com/SecureAuthCorp/impacket.git) (this tool is pretty important to know and perform attacks with it in this room)
 
@@ -42,9 +38,7 @@ After that, Impacket should be correctly installed now and it should be ready to
 
 > `Command — apt install bloodhound neo4j`
 
-\====================================================================
-
-### **Task 3 - Enumeration**
+## T**ask 3 - Enumeration**
 
 > Basic enumeration starts out with an nmap scan. Nmap is a relatively complex utility that has been refined over the years to detect what ports are open on a device, what services are running, and even detect what operating system is running. It’s important to note that not all services may be deteted correctly and not enumerated to it’s fullest potential. Therefore after an initial nmap scan we’ll be using other utilities to help us enumerate the services running on the device.
 
@@ -58,9 +52,11 @@ We get the following information from the scan report:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*Ia5RM3P4pNzp8Il9MJh57Q.png)
 
-Questions**:-**
+### Questions
 
-> Q)What tool will allow us to enumerate port 139/445? A)enum4linux
+> Q)What tool will allow us to enumerate port 139/445?&#x20;
+
+> A)enum4linux
 
 Keep in mind that enum4linux is not OS-specific. You can use it to enumerate SMB and RDP ports on both Linux and Windows
 
@@ -75,7 +71,7 @@ This is the information that we get:-
 
 We didn't get anything useful from this enumeration, for now
 
-Questions:-
+### Questions
 
 > Q)What is the NetBIOS-Domain Name of the machine?
 
@@ -87,15 +83,15 @@ Questions:-
 >
 > A).local
 
-\====================================================================
+## **Task 4 - Enumerating users via Kerberos**
 
-### **Task 4 - Enumerating users via Kerberos**
+### Introduction to Kerberos
 
 > A whole host of other services are running, including Kerberos. Kerberos is a key authentication service within Active Directory. With this port open, we can use a tool called Kerbrute (by Ronnie Flathers [@ropnop](http://twitter.com/ropnop)) to brute force discovery of users, passwords and even password spray!
 
 > We get a modified user and password list to spray and perform attacks on.I copy-pasted them to a seperate file named ‘Username’ and ‘Password’
 
-Questions:-
+### Questions
 
 > Q)What command within Kerbrute will allow us to enumerate valid usernames?
 
@@ -119,7 +115,7 @@ We get the following accounts:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*pdDnM5JOq6OKax2oqEPRgA.png)
 
-Questions:-​
+### Questions
 
 > Q)What notable account is discovered? (These should jump out at you)
 
@@ -129,15 +125,13 @@ Questions:-​
 
 > A)backup
 
-\====================================================================
+## **Task 5 - Abusing Kerberos**
 
-### **Task 5 - Abusing Kerberos**
-
-**Introduction**
+### Introduction
 
 > After the enumeration of user accounts is finished, we can attempt to abuse a feature within Kerberos with an attack method called ASREPRoasting. ASReproasting occurs when a user account has the privilege “Does not require Pre-Authentication” set. This means that the account does not need to provide valid identification before requesting a Kerberos Ticket on the specified user account.
 
-> **Retrieving Kerberos Tickets**
+### **Retrieving Kerberos Tickets**
 
 > Impacket has a tool called “GetNPUsers.py” (located in impacket/examples/GetNPUsers.py) that will allow us to query ASReproastable accounts from the Key Distribution Center. The only thing that’s necessary to query accounts is a valid set of usernames which we enumerated previously via Kerbrute.
 
@@ -159,9 +153,7 @@ Cracked Password — management2005
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*0t0A-98QO7xRkhJMiIyhMw.png)
 
-\======================================================================
-
-Questions:-
+### Questions
 
 > Q)We have two user accounts that we could potentially query a ticket from. Which user account can you query a ticket from with no password?
 
@@ -181,9 +173,7 @@ Questions:-
 
 > A)management2005
 
-\==================================================================
-
-### **Task 6 - Back to the Basics**
+## **Task 6 - Back to the Basics**
 
 Now, we try to see what shares are present on SMB, with svc-admin’s credentials, where we find:-
 
@@ -209,7 +199,7 @@ Now to download them onto the system, use the following commands:-
 
 ![Questions:-](https://cdn-images-1.medium.com/max/1000/1\*JvgPTY4rwCYV6UNctUVzJQ.png)
 
-​**Questions:-**
+### **Questions**
 
 > Q)What utility can we use to map remote SMB shares?
 
@@ -243,9 +233,7 @@ Catting out the contents of SMB2, we find:-
 >
 > A) backup@spookysec.local:backup2517860
 
-\====================================================================
-
-### Task 7 - Elevating Privileges within the Domain
+## Task 7 - Elevating Privileges within the Domain
 
 > Now that we have new user account credentials, we may have more privileges on the system than before. The username of the account “backup” gets us thinking. What is this the backup account to?
 
@@ -259,7 +247,7 @@ Now, let’s recover the NTLM hashes of accounts on the Domain Controller, using
 
 ​​![](https://cdn-images-1.medium.com/max/1000/1\*w75hGQS12klo0brSr1hThg.png)
 
-Questions:-
+### Questions
 
 > Q)What method allowed us to dump NTDS.DIT?
 
@@ -277,15 +265,11 @@ Questions:-
 
 > A)-H
 
-\====================================================================
-
-### Task 8 - F**lag Submission Panel**
+## Task 8 - F**lag Submission Panel**
 
 Submit the flags for each user account. They can be located on each user’s desktop.
 
-For this cause, we need to download the Evil-winrm tool, that will allow us to remotely log in to another Windows machine. We supplement this tool, with the help of the pass-the-hash attack, with the help of the administrator’s NTLM hash
-
-​
+For this cause, we need to download the Evil-winrm tool, that will allow us to remotely log in to another Windows machine. We supplement this tool, with the help of the pass-the-hash attack, with the help of the administrator’s NTLM hash​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*DhjDpV9J8urUoXaa-ZMykQ.png)
 
@@ -301,9 +285,7 @@ Similarly for svc-admin and backup account users:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*VMjcex8e16mgvqPRu7VjkA.png)
 
-\====================================================================
-
-### Conclusion
+## Conclusion
 
 This is a great room to practice Windows Active Directory on, especially when you are a budding Security Analyst, wanting to understand Windows infrastructure
 
