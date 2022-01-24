@@ -1,3 +1,7 @@
+---
+coverY: 0
+---
+
 # Attacktive Directory - Try Hack Me Walkthrough
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*qX1t1LN5mzSIE3GWnkmkPA.png)
@@ -295,6 +299,6 @@ Thank you for reading this blog and stay tuned as I try to close down more SOC a
 
 ## Your opinion matters
 
-My audience has a voice. Feel free to reach me out on my socials, in case of any queries to be addressed.&#x20;
+My audience has a voice. Feel free to reach out to me on my socials (links are on top of this page), for any queries to be addressed.Dropping a sweet message would make my day
 
-Let your opinion about this write-up be known by selecting any one of the emojis below!
+Let your opinion about this write-up be known, by selecting any one of the emojis below!
