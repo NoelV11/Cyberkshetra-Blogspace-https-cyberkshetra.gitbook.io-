@@ -232,3 +232,6 @@ Here is where I learnt to insert both hash:salt in a single file to crack it.Giv
 
 As usual a fun room from.Cracking hashes is a good skill and thing to know,especially when working a red team environment,to compromise an account's credentials.
 
+## Your Opinion Matters
+
+My audience has a voice. Feel free to reach out to me on my socials, in case of any queries to be addressed. Let your opinion about this write-up be known by selecting any one of the emojis below!
