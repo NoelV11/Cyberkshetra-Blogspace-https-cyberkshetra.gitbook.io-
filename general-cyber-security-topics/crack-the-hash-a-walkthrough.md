@@ -234,7 +234,7 @@ As usual a fun room from.Cracking hashes is a good skill and thing to know,espec
 
 Thank you for reading this entry.Stay tuned,as I go to hunt some pcap files out there....
 
-## Your Opinion Matters
+## Your opinion matters
 
 My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed.Dropping a sweet message would make my day
 
