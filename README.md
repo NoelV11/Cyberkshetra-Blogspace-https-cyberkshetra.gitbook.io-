@@ -2,11 +2,11 @@
 
 A word from the author:-&#x20;
 
-👋Thank you for visiting my Gitbooks page, where I host my personalized walkthroughs of SOC Investigations and rooms that I solve on the Let's Defend and Try Hack Me platforms
+👋Thank you for visiting my Gitbooks page, where I host personalized walkthroughs of SOC Investigations and rooms that I solve on the Let's Defend and Try Hack Me platforms
 
-😃 I am Noel Varghese, a Cybersecurity enthusiast - having experience in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these. I am an undergraduate student pursuing BTech in Computer Science Engineering,with specialization in Cyber Security, at Vellore Institute of Technology, Bhopal.&#x20;
+😃 I am Noel Varghese, a Cybersecurity enthusiast - experienced in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these. I am an undergraduate student pursuing BTech in Computer Science Engineering,with specialization in Cyber Security, at Vellore Institute of Technology, Bhopal.&#x20;
 
-💡Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend,Try Hack Me & Rangeforce platforms,on this blog space
+💡Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend,Try Hack Me & Rangeforce platforms,in this blog space
 
 🔆 Having previous experience in pentesting will prove beneficial as I seek to identify suspicious activity and understand the methodologies exhibited by the malicious actor, to wreak havoc on computer systems, during my blue teaming journey.
 
