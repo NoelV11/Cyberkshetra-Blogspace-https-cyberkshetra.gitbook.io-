@@ -129,5 +129,3 @@ The case was a true positive for a phishing attack and the analyst responsibly p
 ## Conclusion
 
 Thank you for reading this blog entry. Stay tuned, as I go hunting some pcap files out there….
-
-My audience has a voice. Feel free to reach me out on my socials (links are on top of this page), in case of any queries to be addressed. Let your opinion about this write-up be known by selecting any one of the emojis below!
