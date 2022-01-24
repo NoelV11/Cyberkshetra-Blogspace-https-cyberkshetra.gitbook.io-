@@ -297,5 +297,6 @@ I do hope that you enjoyed this writeup as much as I did while solving this room
 
 Thank you for reading this blog and stay tuned as I try to close down more SOC alerts……
 
+## Your opinion matters
 
-
+My audience has a voice. Feel free to reach me out on my socials (links are on top of this page), in case of any queries to be addressed. Let your opinion about this write-up be known by selecting any one of the emojis below!

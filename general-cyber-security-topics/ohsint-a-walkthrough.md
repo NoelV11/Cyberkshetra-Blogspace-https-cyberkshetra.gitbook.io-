@@ -96,6 +96,8 @@ Well, the source page of WordPress has been guilty of holding passwords in the p
 
 Ever since I took part in CSAM Investigation rings to find criminals on the Dark Web,I have never understated the importance of OSINT in everyday life,to solve simple problems.A person's pghone or email address is now a query away from being found
 
+## Your opinion matters
+
 Thank you for reading this blog entry and stay tuned as I try to close down more SOC alerts……
 
 My audience has a voice. Feel free to reach me out on my socials, in case of any queries to be addressed. Let your opinion about this write-up be known by selecting any one of the emojis below!
