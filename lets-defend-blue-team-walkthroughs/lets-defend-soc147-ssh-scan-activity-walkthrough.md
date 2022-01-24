@@ -102,4 +102,4 @@ A malware file was analyzed,with threw a false positive to the SOC Team.The file
 
 Thank you for reading this entry.Stay tuned,as I go to hunt some pcap files out there....
 
-My audience has a voice. Feel free to reach me out on my socials, in case of any queries to be addressed. Let your opinion about this write-up be known by selecting any one of the emojis below!
+My audience has a voice. Feel free to reach me out on my socials (links are on top of this page), in case of any queries to be addressed. Let your opinion about this write-up be known by selecting any one of the emojis below!
