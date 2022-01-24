@@ -293,4 +293,8 @@ Although the concept of cracking and capturing hashes fall under the cycle of re
 
 Thank you for reading this blog and stay tuned as I try to close down more SOC alerts……
 
-My audience has a voice. Feel free to reach me out on my socials (links are on top of this page), in case of any queries to be addressed. Let your opinion about this write-up be known by selecting any one of the emojis below!
+## Your opinion matters
+
+My audience has a voice. Feel free to reach me out on my socials, in case of any queries to be addressed.&#x20;
+
+Let your opinion about this write-up be known by selecting any one of the emojis below!
