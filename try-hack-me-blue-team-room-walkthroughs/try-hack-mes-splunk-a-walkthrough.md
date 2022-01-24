@@ -700,7 +700,7 @@ This room was pretty exhaustive, with a steep learning curve. I am glad that I t
 
 Thank you for reading this blog entry and stay tuned as I try to close down more SOC alerts……
 
-## Your opinion mattters
+## Your opinion matters
 
 My audience has a voice. Feel free to reach out to me on my socials (links are on top of this page), for any queries to be addressed.Dropping a sweet message would make my day
 
