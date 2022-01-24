@@ -699,3 +699,5 @@ This room was pretty exhaustive, with a steep learning curve. I am glad that I t
 
 
 Thank you for reading this blog entry and stay tuned as I try to close down more SOC alerts……
+
+My audience has a voice. Feel free to reach me out on my socials (links are on top of this page), in case of any queries to be addressed. Let your opinion about this write-up be known by selecting any one of the emojis below!

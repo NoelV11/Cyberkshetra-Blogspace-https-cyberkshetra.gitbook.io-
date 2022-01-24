@@ -175,3 +175,5 @@ A)We observed in the above picture that Google had it’s default IP )8.8.8.8.)c
 This room allowed me to be a bit more comfortable with Active Directory,which is a good skill to have,while following the SOC Analyst learning pathway.
 
 I am much more confident about my skills and look forward to learning more on Try Hack Me.Thank you for reading this blog and stay tuned as I try to close down more SOC alerts……
+
+My audience has a voice. Feel free to reach me out on my socials (links are on top of this page), in case of any queries to be addressed. Let your opinion about this write-up be known by selecting any one of the emojis below!
