@@ -80,7 +80,7 @@ Questions:-
 
 > A)Keywords
 
-### Task 3 — Enter Search Engine Optimization
+### Task 3  -  Enter Search Engine Optimization
 
 ### S**earch Engine Optimisation**
 
@@ -110,7 +110,7 @@ Questions:-
 
 > A)Mark as Completed
 
-## Task  4 — Beepboop — Robots.txt
+## Task  4 —  Beepboop — Robots.txt
 
 ### **Robots.txt**
 
@@ -198,7 +198,7 @@ Questions:-
 
 > A).conf
 
-## Task  5 — Sitemaps
+## Task  5 —  Sitemaps
 
 Comparable to geographical maps in real life, “Sitemaps” are just that — but for websites!
 
@@ -230,7 +230,7 @@ Questions:-
 
 Task — What is Google Dorking?
 
-## Task 6   — What is Google Dorking?
+## Task 6  —  What is Google Dorking?
 
 ### **Using Google for Advanced Searching**
 
@@ -291,7 +291,7 @@ Questions:-
 
 > A)intitle: login
 
-### Conclusion
+## Conclusion
 
 I do hope that you enjoyed this writeup as much as I did while solving this room!
 

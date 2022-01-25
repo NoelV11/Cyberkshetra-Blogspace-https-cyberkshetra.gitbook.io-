@@ -8,7 +8,7 @@ Join me in this blog entry, as I guide you to solve Try to Hack Me’s [Splunk ]
 
 Room creation credits go to [Darkstar7471](https://twitter.com/darkstar7471).Find him on Discord! - **Bloke#2439**!
 
-## Task 1 — Deploy
+## Task 1  —  Deploy
 
 Deploy the Splunk virtual machine. This can take up to five to ten minutes to launch. If the webpage does not load for you after ten minutes, terminate and relaunch the machine.
 
@@ -16,7 +16,7 @@ Username: splunkadmin
 
 Password: AdminAdmin01
 
-## Task 2 — Can you dig it?
+## Task 2 —  Can you dig it?
 
 A short quiz over the base search commands that are useful for Splunk. All you’ll need for this is the attached quick reference guide and possibly the magic of Google. Include all parts of the search query unless otherwise instructed.
 
@@ -140,11 +140,11 @@ Knowledge Nugget: All data in Splunk is stored in an index and hot, warm, and co
 
 > A)community.splunk.com
 
-## Task 3 — BOTS!
+## Task 3  —  BOTS!
 
 Check out BOTS! — [https://cyberdefenders.org/search/labs/?q=Boss](https://cyberdefenders.org/search/labs/?q=Boss)
 
-## Task 4 — Halp, I’m drowning in logs!
+## Task 4  —  Halp, I’m drowning in logs!
 
 Navigate to the webpage found at 10.10.61.42:8000 on the machine you’ve deployed for this room. The credentials for logging into Splunk are as follows:
 
@@ -165,7 +165,7 @@ These two images are the two scenarios we will be working through throughout thi
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*vUvlT90xeufwIG\_I)
 
-## Task 5 — Advanced Persistent Threat
+## Task 5  —  Advanced Persistent Threat
 
 Work your way through the first scenario to track down P01s0n1vy! Don’t hesitate to use the material provided to give you a nudge!
 
@@ -501,7 +501,7 @@ Running the hex code on an online converter gives us the following answer:-
 
 > A)Steve Brant’s Beard is a powerful thing. Find this message and ask him to buy you a beer!!!
 
-## Task 6 — Ransomware
+## Task 6  —  Ransomware
 
 In this scenario, one of your users is greeted by this image on a Windows desktop that is claiming that files on the system have been encrypted and payment must be made to get the files back. It appears that a machine has been infected with Cerber ransomware at Wayne Enterprises and your goal is to investigate the ransomware to reconstruct the attack.&#x20;
 
