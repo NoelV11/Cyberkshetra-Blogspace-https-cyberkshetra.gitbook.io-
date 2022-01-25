@@ -1,12 +1,20 @@
 # Disk Analysis & Autopsy:A Walkthrough
 
-Task 1 -  Windows 10 Disk Image
+![](../.gitbook/assets/DQ.png)
+
+Hello readers,welcome to this segment of Noel's blogs.
+
+Join me in this blog entry,as I get my hands dirty with some Digital Forensic Invesigation practice,in the [Disk Analysis & Autopsy](https://tryhackme.com/room/autopsy2ze0) room,hosted on Try Hack Me
+
+Room creation credits go to [heavenraiza](https://twitter.com/heavenraiza) and [kalighost404](https://www.instagram.com/\_yoo\_yoo.\_/).Massive respect!
+
+## Task 1 -  Windows 10 Disk Image
 
 In the attached VM, there is an Autopsy case file and its corresponding disk image. You need to re-point Autopsy to the disk image file
 
 Your task is to perform a manual analysis of the artifacts discovered by Autopsy to answer the questions below.
 
-let’s start Autopsy from the Desktop
+Let’s start Autopsy from the Desktop
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*qVSOO4IPLILePa2OKPKylA.png)
 
