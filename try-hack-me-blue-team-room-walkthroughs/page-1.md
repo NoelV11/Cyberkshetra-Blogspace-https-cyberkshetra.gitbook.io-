@@ -42,7 +42,7 @@ Kaspersky [report on the “Crouching Yeti (Energetic Bear)” campaign](https:/
 
 Whilst it this variant is _technically_ _targeted_, there is a rather large scope of this variant of malware, and as such, can be considered as a “Mass Campaign” attack.
 
-#### Questions
+### Questions
 
 > Q)What is the famous example of a targeted attack-esque Malware that targeted Iran?
 
@@ -107,7 +107,7 @@ At an overview, this classification of signatures are the observation of any net
 
 Such as in the case of Wannacry, looking for a large amount of “Samba” Protocol communication attempts is a great indication of infection due to its use of [“Eternalblue”](https://research.checkpoint.com/2017/eternalblue-everything-know/).
 
-#### Question
+### Questions
 
 > Q)Name the first essential step of a Malware Attack?
 
@@ -194,7 +194,9 @@ Your Task:
 
 Identify the MD5 Checksums of the three files provided in **Task 7**
 
-#### Questions
+###
+
+####
 
 > Q)The MD5 Checksum of aws.exe
 
