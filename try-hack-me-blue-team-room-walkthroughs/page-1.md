@@ -1,6 +1,6 @@
 # Page 1
 
-## What is the purpose of Malware Analysis?
+## Task 1 - What is the purpose of Malware Analysis?
 
 Malware is such a prevalent topic within Cybersecurity, and often an unfortunately recurring theme among global news today.
 
@@ -19,7 +19,7 @@ When analysing malware, it is important to consider the following:
 
 > A)Mark as completed
 
-## Task 2 — Understanding Malware Campaigns
+## Task 2  —  Understanding Malware Campaigns
 
 Despite the many variants of malware, attacks can generally be classified into two types: **Targeted** and **Mass Campaign**.
 
@@ -52,7 +52,7 @@ Whilst it this variant is _technically_ _targeted_, there is a rather large scop
 
 > A)Wannacry
 
-### Identifying if a Malware Attack has Happened
+## Task 3 - Identifying if a Malware Attack has Happened
 
 Much like any interaction with an Operating System, there is always remnants of such activity even if there is little trace…
 
@@ -125,7 +125,7 @@ Such as in the case of Wannacry, looking for a large amount of “Samba” Proto
 
 > A)Network-Based Signatures
 
-## Static Vs. Dynamic Analysis
+## Task 4 - Static Vs. Dynamic Analysis
 
 There are two categories used when analysing malware, these are:
 
@@ -153,7 +153,7 @@ This step is a lot more involved, and is where the abstraction of the sample is 
 
 > A)Mark as completed
 
-## Discussion of Provided Tools & Their Uses
+## Task 5 - Discussion of Provided Tools & Their Uses
 
 You will see that some tools will overlap between Static and Dynamic analysis:
 
@@ -170,7 +170,7 @@ C:\Users\Analysis\Desktop\\**Tools\Static\Disassembly**
 
 The tools listed here will be used for future tasks in this room
 
-## Obtaining MD5 Checksums of Provided Files
+## Task 6 - Obtaining MD5 Checksums of Provided Files
 
 MD5 “Checksums” are a prominent attribute in the malware Community. Because there can be many variants of a family of Ransomware, these MD5 “Checksums” are cryptographic “fingerprints” of the files. This allows a uniformed identification throughout the community — especially with automated Sandboxes.
 
@@ -220,7 +220,7 @@ As folllowed in the previous question,we find:-
 
 > A)5416BE1B8B04B1681CB39CF0E2CAAD9F
 
-Now lets see if the MD5 Checksums have been analysed before
+## Task 7 - Previous analysis of MD5 hashes
 
 Look up those MD5 “Checksums” on [Virustotal](https://www.virustotal.com/gui/home/search) to solve this task:
 
@@ -256,7 +256,7 @@ The file hash is not malicious
 
 > A)Nay
 
-## Identifying if the Executables are obfuscated / packed
+## Task  8 - Identifying if the Executables are obfuscated / packed
 
 There are a few provided tools on this Windows instance that are capable of identifying the compiler / packer of a file. However, PeID has a huge database and is a great tool for this.
 
@@ -336,6 +336,8 @@ After confirming that this file is indeed packed, let’s open it up with a tool
 
 When opening the file, a few dialogue boxes may appear — its just IDA Freeware processing the file, it’ll take a couple of seconds.
 
+### Question
+
 > Q)Cursed obfuscation!
 
 > A)Mark as completed
@@ -372,7 +374,7 @@ You will receive a whole load of text, most of it looks like nonsense…But ther
 
 > A)practicalmalwareanalysis.com
 
-### Sub Task 2&#x20;
+### Sub Task:2&#x20;
 
 You’ll find that programs often contain large amount of strings and using the “strings” tool from sysinternals may only display 10% of these…
 
@@ -396,6 +398,8 @@ We get the number of imports below
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*l02Y8rh2\_T0Uv3sNHid5iA.png)
 
+### Question
+
 > Q)How many unique “Imports” are there?
 
 > A)5
@@ -416,8 +420,6 @@ Whilst Debuggers deploy the same techniques used by “Disassemblers”, “Debu
 With enough understanding, an analyser can introduce “breakpoints” (or pauses) at various stages of a program, where the program will execute up until a breakpoint. For example, sticking with the idea of Ransomware, an analyser can create a “breakpoint” within the application prior to the actual stage of encryption of files. This facilitates an analyser to view the various changes of a program during execution (such as unpacking or connecting to a remote server such as that in a botnet) up until the point of malicious infection.
 
 ### Task
-
-
 
 > Navigate to the directory “**Tasks/Task 13**” and open “**install.exe**” with IDA Freeware, just like we did in the example above. Again, this may take a few seconds to a couple of minutes to compute dependant upon the size of the application.&#x20;
 
