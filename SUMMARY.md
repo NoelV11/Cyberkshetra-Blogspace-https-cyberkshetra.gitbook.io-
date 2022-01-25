@@ -13,6 +13,7 @@
   * [Investigating Windows:Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/investigating-windows-try-hack-me-walkthrough.md)
   * [History of Malware:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/history-of-malware-try-hack-me-walkthrough.md)
   * [Try Hack Me's Splunk:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/try-hack-mes-splunk-a-walkthrough.md)
+  * [Page 1](try-hack-me-blue-team-room-walkthroughs/page-1.md)
 * [😀 Try Hack Me - General Cyber S](try-hack-me-general-cyber-s/README.md)
   * [OhSint:A Walkthrough](try-hack-me-general-cyber-s/ohsint-a-walkthrough.md)
   * [Google Dorking: A Walkthrough](try-hack-me-general-cyber-s/google-dorking-a-walkthrough.md)
