@@ -44,7 +44,7 @@ Scrolling up, we can see the connection traffic from this IP
 
 Since this is the only IP extracted from the malware file,coupled with it's suspicious traffic traces,we can confirm this as the answer
 
-> A){175.24.190.249}
+> A)175.24.190.249
 
 > Q)Examing the Employee\_W2\_Form.docx file, what is the malicious domain in the docx file?
 
@@ -60,7 +60,7 @@ Now observing extracted strings from this file 
 
 A domain by the name arsenal.30cm.tw is found and fits the answer format
 
-> A){arsenal.30cm.tw}
+> A)arsenal.30cm.tw
 
 > Q)Examing the Work\_From\_Home\_Survey.doc file, what is the malicious domain in the doc file?
 
