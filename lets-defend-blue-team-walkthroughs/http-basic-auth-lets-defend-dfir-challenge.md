@@ -2,7 +2,7 @@
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*H1rhWTgN9396jHzWCFn0qA.png)
 
-Hello, blue teamers! Welcome to this latest blog post, as I document my methodology of solving the HTTP Basic Auth challenge on Let’s Defend. Let’s go hunting after this .pcap file
+Hello, blue teamers! Welcome to this latest blog post, as I document my methodology of solving the [HTTP Basic Auth](https://app.letsdefend.io/dfir/dfir/http-basic-auth/) challenge on Let’s Defend. Let’s go hunting after this .pcap file
 
 ## Gist of Challenge
 
