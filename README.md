@@ -20,9 +20,9 @@ Connect with me on LinkedIn - [https://www.linkedin.com/in/noel--varghese](https
 
 👱 Cyber Security interests me as an individual, being the subject I am majoring in. Finding new techniques to enforce security in everyday life, and resisting attack attempts is thrilling and requires a whole lot of collective efforts from security professionals and general citizens, to make the world a much secure place. I would very much want to be a part of it
 
-🎇 I am an advocate for incorporating women into the field of Cyber Security, owing to remove the gate barriers that they face. This led me to be a member of my University's Women in Cyber Security (WiCYS) Chapter. I try to contribute, to the best of my ability, for the good of this organization
+🎇 Being an advocate for incorporating women into the field of Cyber Security, I persevere to remove the gate barriers that they face. This led me to be a member of my University's Women in Cyber Security (WiCYS) Chapter. I try to contribute, to the best of my ability, for this organization
 
-💭 Empowering them, by sharing nuggets of knowledge and providing them opportunities to foster their growth ,gives me immense joy
+💭 Empowering them, by sharing nuggets of knowledge and providing opportunities to foster their learning and growth, gives me immense joy
 
 🌱 Experience
 

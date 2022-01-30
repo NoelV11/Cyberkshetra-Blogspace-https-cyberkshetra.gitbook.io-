@@ -123,7 +123,7 @@ We get the following accounts:-
 
 > Q)What notable account is discovered? (These should jump out at you)
 
-> A)When consulting the image,we find A)svc-admin
+> A)svc-admin
 
 > Q)What is the other notable account is discovered? (These should jump out at you)
 
