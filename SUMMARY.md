@@ -10,6 +10,7 @@
   * [CVE - 2020–1472 (Zerologon Vulnerability)-Exploitation & Remediation](lets-defend-blue-team-walkthroughs/cve-2020-1472-zerologon-vulnerability-exploitation-and-remediation.md)
   * [2021’s 0-Day MSHTML - Let's Defend:A Walkthrough](lets-defend-blue-team-walkthroughs/2021s-0-day-mshtml-lets-defend-a-walkthrough.md)
   * [HTTP Basic Auth:Let's Defend DFIR Challenge](lets-defend-blue-team-walkthroughs/http-basic-auth-lets-defend-dfir-challenge.md)
+  * [ShellShock Attack: Let’s Defend Walkthrough](lets-defend-blue-team-walkthroughs/shellshock-attack-lets-defend-walkthrough.md)
 * [🥇 Try Hack Me - Blue Team Room Walkthroughs](try-hack-me-blue-team-room-walkthroughs/README.md)
   * [Attacktive Directory - Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough.md)
   * [Investigating Windows:Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/investigating-windows-try-hack-me-walkthrough.md)
