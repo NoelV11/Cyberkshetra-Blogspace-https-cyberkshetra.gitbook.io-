@@ -2,7 +2,7 @@
 
 * [Welcome to my Gitbooks Page](README.md)
 * [💽 Let's Defend Blue Team Walkthroughs](lets-defend-blue-team-walkthroughs/README.md)
-  * [Let's Defend:  SOC147 - SSH Scan Activity Walkthrough](lets-defend-blue-team-walkthroughs/lets-defend-soc147-ssh-scan-activity-walkthrough.md)
+  * [Let's Defend: SOC147 - SSH Scan Activity Walkthrough](lets-defend-blue-team-walkthroughs/lets-defend-soc147-ssh-scan-activity-walkthrough.md)
   * [SOC146 - Phishing Mail Detected  Walkthrough](lets-defend-blue-team-walkthroughs/soc146-phishing-mail-detected-walkthrough.md)
   * [SOC145 - Ransomware Detected Walkthrough](lets-defend-blue-team-walkthroughs/soc145-ransomware-detected-walkthrough.md)
   * [SOC143 - Password Stealer Detected Walkthrough](lets-defend-blue-team-walkthroughs/soc143-password-stealer-detected-walkthrough.md)
@@ -11,6 +11,7 @@
   * [2021’s 0-Day MSHTML - Let's Defend:A Walkthrough](lets-defend-blue-team-walkthroughs/2021s-0-day-mshtml-lets-defend-a-walkthrough.md)
   * [HTTP Basic Auth:Let's Defend DFIR Challenge](lets-defend-blue-team-walkthroughs/http-basic-auth-lets-defend-dfir-challenge.md)
   * [ShellShock Attack: Let’s Defend Walkthrough](lets-defend-blue-team-walkthroughs/shellshock-attack-lets-defend-walkthrough.md)
+  * [Untitled](lets-defend-blue-team-walkthroughs/untitled.md)
 * [🥇 Try Hack Me - Blue Team Room Walkthroughs](try-hack-me-blue-team-room-walkthroughs/README.md)
   * [Attacktive Directory - Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough.md)
   * [Investigating Windows:Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/investigating-windows-try-hack-me-walkthrough.md)
