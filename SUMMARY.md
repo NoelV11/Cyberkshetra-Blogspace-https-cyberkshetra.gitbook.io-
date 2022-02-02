@@ -11,7 +11,7 @@
   * [2021’s 0-Day MSHTML - Let's Defend:A Walkthrough](lets-defend-blue-team-walkthroughs/2021s-0-day-mshtml-lets-defend-a-walkthrough.md)
   * [HTTP Basic Auth:Let's Defend DFIR Challenge](lets-defend-blue-team-walkthroughs/http-basic-auth-lets-defend-dfir-challenge.md)
   * [ShellShock Attack: Let’s Defend Walkthrough](lets-defend-blue-team-walkthroughs/shellshock-attack-lets-defend-walkthrough.md)
-  * [Untitled](lets-defend-blue-team-walkthroughs/untitled.md)
+  * [Let’s Defend: SOC 142 — Multiple HTTP 500 Response alert Walkthrough](lets-defend-blue-team-walkthroughs/lets-defend-soc-142-multiple-http-500-response-alert-walkthrough.md)
 * [🥇 Try Hack Me - Blue Team Room Walkthroughs](try-hack-me-blue-team-room-walkthroughs/README.md)
   * [Attacktive Directory - Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough.md)
   * [Investigating Windows:Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/investigating-windows-try-hack-me-walkthrough.md)
