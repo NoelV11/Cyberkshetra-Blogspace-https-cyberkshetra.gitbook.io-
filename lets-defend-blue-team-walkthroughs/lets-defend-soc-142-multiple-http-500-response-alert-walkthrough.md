@@ -62,7 +62,7 @@ Expanding the second log, we get,\
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*vKuqfmtebfK6U\_gizatlEA.png)
 
-Expanding the second log, we get,
+Expanding the third log, we get,
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*0JUbsyPNdbqHJsNp0kiM8A.png)
 
