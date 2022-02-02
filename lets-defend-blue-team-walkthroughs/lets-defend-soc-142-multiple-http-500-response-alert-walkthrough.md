@@ -1,4 +1,4 @@
-# Untitled
+# Let’s Defend: SOC 142 — Multiple HTTP 500 Response alert Walkthrough
 
 It’s the first week of February and that just means one thing. Let’s Defend has released a new set of SOC Alerts for us blue teamers to investigate and solve and here, we will be solving the SOC 142 — Multiple HTTP 500 Response alert.
 
@@ -25,7 +25,7 @@ Start Playbook
 
 ## Collection of Data
 
-> Q)Please check alert details fot belows.
+> Q)Please check alert details for the following below:-
 
 > Source Address\
 > &#x20;Destination Address\
