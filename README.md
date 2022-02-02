@@ -34,10 +34,4 @@ Core Team Member, R\&D (Research and Development) at VITB Cyber Warriors Club of
 
 I am always open to meeting new people and opportunities
 
-💬 Email- noelatvitb@gmail.com
-
-😄 Connect with me on Linkedin-https://www.linkedin.com/in/noel--varghese/
-
-🌱 Github Profile - [https://github.com/NoelV11](https://github.com/NoelV11)​
-
-![Yu Shi | Instagram](https://camo.githubusercontent.com/08d563b15afbf0eebb596ec615a154d64317ea32f453fecd36218f1321c41121/68747470733a2f2f692e696d6775722e636f6d2f33486e435a6a762e706e67)
+💬 Email- noelatvitb@gmail.com​
