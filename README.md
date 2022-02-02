@@ -1,16 +1,14 @@
 # Welcome to my Gitbooks Page
 
-A word from the author:-&#x20;
+A word from the author:-
 
 👋Thank you for visiting my Gitbooks page, where I host personalized walkthroughs of SOC Investigations and rooms that I solve on the Let's Defend and Try Hack Me platforms
 
-😃 I am Noel Varghese, a Cybersecurity enthusiast - experienced in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these. I am an undergraduate student pursuing BTech in Computer Science Engineering,with specialization in Cyber Security, at Vellore Institute of Technology, Bhopal.&#x20;
+😃 I am Noel Varghese, a Cybersecurity enthusiast - experienced in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these. I am an undergraduate student pursuing BTech in Computer Science Engineering,with specialization in Cyber Security, at Vellore Institute of Technology, Bhopal.
 
 💡Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend,Try Hack Me & Rangeforce platforms,in this blog space
 
 🔆 Having previous experience in pentesting will prove beneficial as I seek to identify suspicious activity and understand the methodologies exhibited by the malicious actor, to wreak havoc on computer systems, during my blue teaming journey.
-
-Connect with me on LinkedIn - [https://www.linkedin.com/in/noel--varghese](https://www.linkedin.com/in/noel-varghese-395146197/)
 
 ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FvYunovVVTtLdlfrviyWf%2F1.PNG?alt=media\&token=78175fb5-61e5-4d62-b881-43763c1767c1)
 
@@ -42,4 +40,4 @@ I am always open to meeting new people and opportunities
 
 🌱 Github Profile - [https://github.com/NoelV11](https://github.com/NoelV11)​
 
-<img align="left" src="https://camo.githubusercontent.com/08d563b15afbf0eebb596ec615a154d64317ea32f453fecd36218f1321c41121/68747470733a2f2f692e696d6775722e636f6d2f33486e435a6a762e706e67" alt="Yu Shi | Instagram" width="21px"/></a>
+![Yu Shi | Instagram](https://camo.githubusercontent.com/08d563b15afbf0eebb596ec615a154d64317ea32f453fecd36218f1321c41121/68747470733a2f2f692e696d6775722e636f6d2f33486e435a6a762e706e67)
