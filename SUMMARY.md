@@ -19,7 +19,6 @@
   * [Try Hack Me's Splunk:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/try-hack-mes-splunk-a-walkthrough.md)
   * [MAL: Malware Introductory:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/mal-malware-introductory-a-walkthrough.md)
   * [Disk Analysis & Autopsy:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/disk-analysis-and-autopsy-a-walkthrough.md)
-  * [Page 1](try-hack-me-blue-team-room-walkthroughs/page-1.md)
 * [😀 Try Hack Me - General Security Topics & Room Walkthroughs](try-hack-me-general-security-topics-and-room-walkthroughs/README.md)
   * [OhSint:A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/ohsint-a-walkthrough.md)
   * [Google Dorking: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/google-dorking-a-walkthrough.md)
