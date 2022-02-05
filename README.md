@@ -35,7 +35,3 @@ Core Team Member, R\&D (Research and Development) at VITB Cyber Warriors Club of
 I am always open to meeting new people and opportunities
 
 💬 Email- noelatvitb@gmail.com​
-
-window.dataLayer = window.dataLayer || \[]; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-KHFSF2GEZJ');
-
-{% file src=".gitbook/assets/googleb322b7254a5ba1b5.html" %}
