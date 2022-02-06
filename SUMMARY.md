@@ -12,6 +12,7 @@
   * [HTTP Basic Auth:Let's Defend DFIR Challenge](lets-defend-blue-team-walkthroughs/http-basic-auth-lets-defend-dfir-challenge.md)
   * [ShellShock Attack: Let’s Defend Walkthrough](lets-defend-blue-team-walkthroughs/shellshock-attack-lets-defend-walkthrough.md)
   * [Let's Defend: SOC 141 - Phishing URL Detected alert Walkthrough](lets-defend-blue-team-walkthroughs/lets-defend-soc-141-phishing-url-detected-alert-walkthrough.md)
+  * [SOC109 - Emotet Malware Detected alert Walkthrough](lets-defend-blue-team-walkthroughs/soc109-emotet-malware-detected-alert-walkthrough.md)
 * [🥇 Try Hack Me - Blue Team Room Walkthroughs](try-hack-me-blue-team-room-walkthroughs/README.md)
   * [Attacktive Directory - Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough.md)
   * [Investigating Windows:Try Hack Me Walkthrough](try-hack-me-blue-team-room-walkthroughs/investigating-windows-try-hack-me-walkthrough.md)
