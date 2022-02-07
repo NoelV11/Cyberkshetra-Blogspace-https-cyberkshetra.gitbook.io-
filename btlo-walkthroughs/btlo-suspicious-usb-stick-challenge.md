@@ -102,11 +102,9 @@ Luckily for us, PDFs can identify suspicious elements, which we can identify by 
 Syntax — python3 pdf-parser.py <file.pdf>
 ```
 
-Running the script against the PDF file and skimming along with the results, we find that 27 suspicious actions were found
+Running the script against the PDF file and skimming along with the results, we find that 1 suspicious action were found
 
-![](https://cdn-images-1.medium.com/max/1000/1\*Z1srChBSb\_aolh\_v3FgGWQ.png)
-
-> A)27
+> A)1
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*7wigTigZwWkDbMXjb6z6pA.png)
 
