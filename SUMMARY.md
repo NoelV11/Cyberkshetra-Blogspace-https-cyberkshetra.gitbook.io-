@@ -24,3 +24,5 @@
   * [OhSint:A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/ohsint-a-walkthrough.md)
   * [Google Dorking: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/google-dorking-a-walkthrough.md)
   * [Crack The Hash:A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/crack-the-hash-a-walkthrough.md)
+* [BTLO Walkthroughs](btlo-walkthroughs/README.md)
+  * [BTLO: Suspicious USB Stick Challenge](btlo-walkthroughs/btlo-suspicious-usb-stick-challenge.md)
