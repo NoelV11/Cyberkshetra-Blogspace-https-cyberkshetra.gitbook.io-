@@ -10,9 +10,7 @@ Hello, blue teamers. In this blog entry, join me as I attempt to conquer the [Su
 
 Let’s start
 
-Download the USB Image attached with this task
-
-In my opinion, it is better to unzip and extract the files, using GUI mode
+Download the USB Image attached with this task.In my opinion, it is better to unzip and extract the files, using GUI mode
 
 Opening the attachment, we get these files:-
 
@@ -26,7 +24,7 @@ Extract it in your Downloads file. Inside this directory, we get:-
 
 ## Enumeration of evidence
 
-Opening the README.pdf file to view its contents
+Opening the README.pdf file to view its contents,we see the following text:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*RK57x1e3CnxXX7u-hdo5Vg.png)
 
@@ -34,7 +32,7 @@ Opening up the autorun.inf file, we can see the following instructions:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*yqu5yguwbU3CuAxAkturyw.png)
 
-Let’s answer the questions
+Let’s answer the challenge questions:-
 
 > Q)What file is the autorun.inf running?
 
@@ -106,11 +104,13 @@ Running the script against the PDF file and skimming along with the results, we 
 
 > A)1
 
+Challenge conquered!
+
 ![](https://cdn-images-1.medium.com/max/1000/1\*7wigTigZwWkDbMXjb6z6pA.png)
 
 ## Conclusion
 
-It is good to experiment and practice analysis with malware, especially when you finally get exposed to one at SOC work. These small tasks are sure to help me in the future
+It is good to experiment and practice analysis with malware, especially when you finally get exposed to one at a SOC environment. These small tasks are sure to help me in the future
 
 Thank you for reading this blog entry. Stay tuned, as I go hunting some pcap files out there….
 
