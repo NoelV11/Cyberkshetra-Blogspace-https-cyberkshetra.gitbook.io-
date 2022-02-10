@@ -2,8 +2,6 @@
 
 Hello, blue teamers. In this blog entry, join me as I attempt to conquer the SOC 101 — Phishing Mail Detected alert, hosted on[ Let’s Defend](https://letsdefend.io).
 
-There's a [Medium version](https://noelatvitb.medium.com/lets-defend-soc101-phishing-mail-detected-alert-walkthrough-8b6ada30ccbc) of the same alert  as well 
-
 ## Alert details
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*KqlRkaOm5oVsrkOPFNE2Pw.png)
