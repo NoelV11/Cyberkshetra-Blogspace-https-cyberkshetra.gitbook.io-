@@ -1,4 +1,4 @@
-# BTLO:Network Analysis-Web Shell challenge Walkthrough
+# BTLO : Network Analysis-Web Shell challenge Walkthrough
 
 Hello, blue teamers. In this blog entry, let’s take a crack at solving the [Network Analysis — Web shell](https://blueteamlabs.online/home/challenge/12), a retired challenge hosted on[ Blue Team Labs Online](https://blueteamlabs.online/home)
 
@@ -10,7 +10,7 @@ There’s also a [Gitbooks version](https://noelatvitb.gitbook.io/blue-team-inve
 
 > The SOC received an alert in their SIEM for ‘Local to Local Port Scanning’ where an internal private IP began scanning another internal system. Can you investigate and determine if this activity is malicious or not? You have been provided a PCAP, investigate using any tools you wish.
 
-Let’s proceed to open the .pcap file on Wireshark and answer the following questions
+Let’s proceed to open the .pcap file on Wireshark and answer the following questions:-
 
 > Q)What is the IP responsible for conducting the port scan activity?
 
@@ -112,11 +112,11 @@ It is given in the reverse shell command&#x20;
 
 > A)4422
 
-#### Conclusion
+## Conclusion
 
 Thank you for reading this blog entry. Stay tuned, as I go hunting some pcap files out there….
 
-#### Your opinion matters
+## Your opinion matters
 
 My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
