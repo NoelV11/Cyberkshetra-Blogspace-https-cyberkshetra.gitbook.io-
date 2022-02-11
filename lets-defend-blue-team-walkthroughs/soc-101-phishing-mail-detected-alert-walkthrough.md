@@ -1,4 +1,4 @@
-# SOC 101 - Phishing Mail Detected alert Walkthrough
+# SOC 101 - Phishing Mail Detected Alert
 
 Hello, blue teamers. In this blog entry, join me as I attempt to conquer the SOC 101 — Phishing Mail Detected alert, hosted on[ Let’s Defend](https://letsdefend.io).
 
