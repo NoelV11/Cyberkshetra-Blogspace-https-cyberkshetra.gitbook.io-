@@ -28,5 +28,4 @@
 * [🤺 BTLO Walkthroughs](btlo-walkthroughs/README.md)
   * [BTLO:Suspicious USB Stick Challenge](btlo-walkthroughs/btlo-suspicious-usb-stick-challenge.md)
   * [BTLO : Network Analysis-Web Shell challenge Walkthrough](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge-walkthrough.md)
-* [Page 1](page-1/README.md)
-  * [Hack your own system-Linux Edition](page-1/hack-your-own-system-linux-edition.md)
+* [Hack your system-Linux Edition](hack-your-system-linux-edition.md)
