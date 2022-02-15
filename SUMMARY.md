@@ -30,4 +30,4 @@
   * [BTLO : Network Analysis-Web Shell challenge Walkthrough](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge-walkthrough.md)
 * [📕 Cyber](cyber/README.md)
   * [Hack your System - Linux Edition](cyber/hack-your-system-linux-edition.md)
-* [Page 2](page-2.md)
+* [An in-depth analysis of an Intrusion Prevention System](an-in-depth-analysis-of-an-intrusion-prevention-system.md)

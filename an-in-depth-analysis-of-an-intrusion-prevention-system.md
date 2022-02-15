@@ -1,4 +1,4 @@
-# Page 2
+# An in-depth analysis of an Intrusion Prevention System
 
 Hello readers!
 
