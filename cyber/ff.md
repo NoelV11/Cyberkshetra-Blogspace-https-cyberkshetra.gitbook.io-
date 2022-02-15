@@ -1,0 +1,56 @@
+# ff
+
+&#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*Lx0\_m9W6FPxHlbeNOllEuA.png)
+
+## **Introduction**
+
+In the real world, there are many scams and too-good-to-be-true schemes that people fall for every other day. Citing examples such as unofficial Covid-19 donation collections and financial thefts. The occurrence of these has greatly grown, since the dawn of the pandemic, aided by social media platforms.&#x20;
+
+Gradually we can understand that the same applies to a network. Whether being asked to protect a network or configure the same, there may be some loose ends that are not taken into much consideration, which are then utilized by an attacker to target a network.&#x20;
+
+In this article, we will be discussing how attackers social-engineer their way through a network, using common threats as examples.
+
+## Common Threats
+
+**NOTE**: These threats apply to both computer systems and a computer network.
+
+* **Phishing Emails**-The next time you receive a mail, make sure to go through the sender’s email address thoroughly. A simple spelling mistake or irregularity in the sender’s organization or personal name can allow you to differentiate between a ham and a spammy-phishing mail. The contents of these emails usually state something grand and compel the recipient to click on the links/buttons that redirect to a website. Further instructions will ask the user to enter their identification details, onto a spoofed-up version of a legitimate organization’s website, or to download files that are possibly infected with malware. These activities are done to the attacker(s) advantage, in ravaging the system and to get the bank balance.
+
+**Red Flags**-They are raised, merely by observation. Irregular seeming domain names, along with pop-ups are hallmarks.
+
+* **Spear Phishing**-This attack, involves sending the victim an email, stating some distressing news \<insert “Bank Account has been compromised and is currently locked” or “Secure your Bank Account through a few steps”> events.
+
+A sense of urgency is created, which leads to the inevitable clicks of links given in the email. As usual, a spoofed-up version of an institution’s website loads up and the user enters their credentials. These credentials, once submitted are used to perform unauthorized transactions from the bank account. What’s remarkable, is that these attackers toy with their victim’s emotions.
+
+**Red Flags**-Do not trust bank emails, that are not officially sent from your bank. In case to be sure, contact your bank through the helpline, for official support.\
+
+
+* **Whaling**-While this attack is targeted upon an institution’s higher powers or personnel, it is carried out with the intention that these targets may have critical information to lose and hence submit to the attack. Hence the targets are carefully selected, for maximum extortion of cash.
+
+**Precaution**-Resist extortion efforts. Law Enforcement can always be depended on for cases relating to threats and money extortion. Remember, you are being depended on for keeping certain information confidential.
+
+* **Vishing**-Being a combination of ‘voice’ and ‘phishing’, this attack is made in the form of telephone calls, to targets citing compromised access of computer system or bank account. Information is extracted from the target, in the guise of resolving the issue. A way in which these attackers gain an advantage is by spoofing their caller ID, into masquerading as that of a bank’s helpline. Using VoIP technology, several 100 calls can be made in an instant.
+
+**Precaution**-Take support and clarify with the official institutions and remember, you can always check your transaction history for sketchy transactions. Notice anything strange, you can ask your bank to block the account and cards. Verify thoroughly with the caller, for the source of the call.
+
+&#x20;                                                       ![](https://cdn-images-1.medium.com/max/1000/1\*vwuzSWiMTr558JqJTNsFaw.jpeg)
+
+* **Smishing** -This attack is carried, out through SMS, with malicious links as content. Clicking on the link redirects the target to a malicious website, or may secretly download files to the mobile phone. It may expose your device to malware.
+* **Pharming**-Here, the web traffic of the victim redirects to the URL of that of the attacker. This URL modification is done using code, installed on the target system. Unlike phishing or smishing attacks, the user does not necessarily have to click on a link, but directs to the bogus URL, by default. Sensitive information should be submitted by the victim, to surrender.
+* **Dumpster Diving**-While this may necessarily not pose a threat to a network, it is advisable to leave personal identification information or details, out in the open. These may include your PIN or compromising information that is written down somewhere. It takes a minuscule amount of information and carelessness to bring ruin upon yourself. By the term ‘dumpster’, it refers to information that is left around for others to take advantage of.
+
+## Conclusion
+
+it is always good to be in the loop, for emerging threats that we can take caution from. By reading this article, you have exactly done that. Thinking on a different plane, it is scary to think how innovative attackers can be, with the scams they execute.&#x20;
+
+Threats, in the current scenario, may present themselves in simple and far-fetched methods and it is wise to not fall for them, however flattering it may be. Thus, being cyber-smart in the process.
+
+Thank you, for spending your precious time, digesting this article and I mean it.
+
+Stay tuned and I will be back with an exciting piece on Zero Trust Network Access, a growing cyber security trend.
+
+## Your opinion matters
+
+My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
+
+Let your opinion about this write-up be known, by selecting any one of the emojis below!
