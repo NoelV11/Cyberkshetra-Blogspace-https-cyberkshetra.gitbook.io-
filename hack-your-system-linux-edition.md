@@ -2,14 +2,17 @@
 
 Hello there,
 
+​Welcome to the first installment of my cyber security article documentation, far away from the world of RangeForce or Try Hack Me,but still close to me.Let's discuss about PAM (Privileged Access Management) and grub.
+
 Linux OS is the go-to target for any aspiring hacker. Whether it be configuring the pam.d file or cracking the root password, the possibilities are endless. Ask any hacker and they would reply saying Linux is their favorite OS to intrude to.
 
 Let’s discuss why and what makes Linux so revered.
 
 * Root Authentication-Before a normal user downloads a file from the internet or plays around with the system configuration, care is taken to get the root user’s authentication to carry out the task. The only snag is that the normal user or intruder gets ’n’ chances to brute-force the password before the account gets locked.
 * Centralized Package Management-Unlike Windows, where drivers and software can be downloaded from shoddy, third-party websites, Linux distributions download required software packages from dedicated package managers, such as RPM, yum, etc.
-* Less Audience-With the dwindling amount of users, by the year, the chances of being hit by a virus are remote.\
+* Less Audience-With the dwindling amount of users, by the year, the chances of being hit by a virus are remote.
 
+## Hacking into your system
 
 Coming to the point, we will see how the root user’s password can be cracked, to gain access to the system. Note that the demonstration is done on CentOS distribution, installed on VMware.
 
@@ -18,9 +21,7 @@ Coming to the point, we will see how the root user’s password can be cracked, 
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*sqsPsCLYjDmzoC1z4PYitw.png)
 
-`The grub menu`
-
-
+&#x20;                          `The grub menu`                 &#x20;
 
 3\. The screen depicting the grub parameters will now load up. The user should edit the line starting with the character ‘f45’.
 
