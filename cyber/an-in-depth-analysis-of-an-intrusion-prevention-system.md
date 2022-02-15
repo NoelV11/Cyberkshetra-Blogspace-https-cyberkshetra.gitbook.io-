@@ -34,7 +34,7 @@ In case a packet gets flagged, the following actions are enforced:-\
 
 The flagged source IP can be prevented from accessing the network ever again, or barred from using shared network peripherals and resources.
 
-**What are the detection methods employed by an IPS?**
+### **What are the detection methods employed by an IPS?**
 
 Detection methods may or can include:-&#x20;
 
