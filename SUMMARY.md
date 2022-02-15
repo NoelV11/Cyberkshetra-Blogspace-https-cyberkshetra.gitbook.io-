@@ -31,4 +31,5 @@
 * [📕 Cyber](cyber/README.md)
   * [Hack your System - Linux Edition](cyber/hack-your-system-linux-edition.md)
   * [An in-depth analysis of an Intrusion Prevention System](cyber/an-in-depth-analysis-of-an-intrusion-prevention-system.md)
-  * [ff](cyber/ff.md)
+  * [Social Engineering -A leading cause for vulnerability occurrence](cyber/social-engineering-a-leading-cause-for-vulnerability-occurrence.md)
+  * [Zero Trust Network Access-A solution to Network Security](cyber/zero-trust-network-access-a-solution-to-network-security.md)
