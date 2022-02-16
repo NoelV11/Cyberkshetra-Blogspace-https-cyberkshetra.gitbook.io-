@@ -27,7 +27,7 @@ In fact, Vulnhub has a boot2root VM called Troll2, which is based upon the same 
 
 Analyzing HTTP Packets give this answer (remember to expand them)
 
-![](https://cdn-images-1.medium.com/max/1000/1\*FnoGURi1wWS3YzlvbGG4ZQ.png)
+&#x20;                                     ![](https://cdn-images-1.medium.com/max/1000/1\*FnoGURi1wWS3YzlvbGG4ZQ.png)
 
 > A) Ubuntu
 
@@ -35,13 +35,13 @@ Analyzing HTTP Packets give this answer (remember to expand them)
 
 Analyzing the HTTP packet with the Internal Server error gives us our answer
 
-![](https://cdn-images-1.medium.com/max/1000/1\*9J1k1I2qP2U7T-rIKf101Q.png)
+&#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*9J1k1I2qP2U7T-rIKf101Q.png)
 
 > A) Apache/2.2.22
 
 > Q) What is the exact command that the attacker wants to run on the target server?
 
-![](https://cdn-images-1.medium.com/max/1000/1\*X01cBGnswe\_VJd742jPeNw.png)
+&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*X01cBGnswe\_VJd742jPeNw.png)
 
 > A) /bin/ping -c1 10.246.50.2
 
@@ -56,9 +56,3 @@ Thank you for reading this entry. Stay tuned, as I try to close down some more S
 My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
 Let your opinion about this write-up be known, by selecting any one of the emojis below!.
-
-## Your opinion matters
-
-My audience has a voice. Feel free to reach out to me, on my socials (links are on the side of this page) for any queries to be addressed. Dropping a sweet message would make my day
-
-Let your opinion about this write-up be known, by selecting any one of the emojis below!
