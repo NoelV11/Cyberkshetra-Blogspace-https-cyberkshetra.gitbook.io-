@@ -36,3 +36,4 @@
   * [Untitled](technical-cyber-articles/page-1.md)
   * [Untitled](technical-cyber-articles/untitled-1.md)
   * [SIEM-Incorporating Incident Response into Network Security](technical-cyber-articles/ff.md)
+  * [Markovian Parallax Denigrate-Breaking the cipher](technical-cyber-articles/markovian-parallax-denigrate-breaking-the-cipher.md)
