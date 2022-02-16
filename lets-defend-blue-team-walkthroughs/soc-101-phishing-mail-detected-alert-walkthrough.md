@@ -25,13 +25,15 @@ Seems like an email was sent to Mark’s Phone. It’s not a desktop endpoint th
 
 Checking the ‘Endpoint Security’ section, we come across Mark’s phone, titled ‘MarksPhone’&#x20;
 
-&#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*mEKTfcSzI6vXh1RjJzrucQ.png)
+&#x20;                                               ![](https://cdn-images-1.medium.com/max/1000/1\*mEKTfcSzI6vXh1RjJzrucQ.png)
 
 ## Incident details&#x20;
 
 &#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*thV-8FOIpMRccpX7s6W8Ew.png)
 
 Let’s proceed to start the playbook
+
+## Playbook Questions
 
 ### Parsing the email
 
@@ -77,7 +79,7 @@ From JoeSandbox we understand that the domain was earlier used to spread trojan,
 
 Analysis of the domain, from VirusTotal and Hybrid-Analysis, is testament to that
 
-![](https://cdn-images-1.medium.com/max/1500/1\*HfOuqTAagMuyaPsDcjDtmg.png)![](https://cdn-images-1.medium.com/max/250/1\*yM0kuoGA7vwaXBTf9yPUEA.png)
+&#x20;         ![](https://cdn-images-1.medium.com/max/1500/1\*HfOuqTAagMuyaPsDcjDtmg.png)![](https://cdn-images-1.medium.com/max/250/1\*yM0kuoGA7vwaXBTf9yPUEA.png)
 
 Hence, the domain is non-malicious
 
@@ -95,7 +97,7 @@ From VirusTotal, we can get information about the serving IP Address and final d
 
 Click next, to submit them
 
-## Analyst's Note
+## Analyst's Notes
 
 This is the analyst’s opinion on the alert
 
@@ -116,6 +118,10 @@ Close the alert
 &#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*zaOyL6cM6BRJ8p6MB-tvCQ.png)
 
 We were not able to achieve the objectives required to completely solve this alert. Let’s take it as a learning opportunity, to go ahead and crush other incoming SOC alerts!
+
+## Summary of case
+
+A phishing mail has come in, to one of Let's Defend's endpoints. Upon investigation, it was found that the link attached was malicious in nature.It had been used to peddle malware in the past and it is understood that the endpoint user did in fact click on the link. All relevant evidence and information has been collected and submitted,confirming the alert as a true positive&#x20;
 
 ## Conclusion
 
