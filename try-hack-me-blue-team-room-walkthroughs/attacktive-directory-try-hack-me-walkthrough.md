@@ -253,17 +253,17 @@ Now, let’s recover the NTLM hashes of accounts on the Domain Controller, using
 
 > A) DRSUAPI
 
-> Q) What is the Administrators NTLM hash?
+> Q)What is the Administrators NTLM hash?
 
-> A) 0e0363213e37b94221497260b0bcb4fc
+> A)0e0363213e37b94221497260b0bcb4fc
 
-> Q) What method of attack could allow us to authenticate as the user without the password?
+> Q)What method of attack could allow us to authenticate as the user without the password?
 
-> A) pass the hash
+> A)pass the hash
 
-> Q) Using a tool called Evil-WinRM what option will allow us to use a hash?
+> Q)Using a tool called Evil-WinRM what option will allow us to use a hash?
 
-> A) -H
+> A)-H
 
 ## Task 8 - F**lag Submission Panel**
 
@@ -295,6 +295,6 @@ Thank you for reading this blog and stay tuned as I try to close down more SOC a
 
 ## Your opinion matters
 
-My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
+My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed.Dropping a sweet message would make my day
 
 Let your opinion about this write-up be known, by selecting any one of the emojis below!
