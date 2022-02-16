@@ -83,7 +83,7 @@ Opening [AlienVault](https://otx.alienvault.com)’s assessment on this domain g
 
 &#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*MoM33HV7ggOtZOufybcWmQ.png)
 
-This means that this domain is malicious
+This means that the domain is malicious
 
 > A) trendparlye.com
 
