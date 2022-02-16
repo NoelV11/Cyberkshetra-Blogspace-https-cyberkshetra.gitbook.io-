@@ -30,7 +30,7 @@ We run the hash on VirusTotal first, but it came with 0 flagged reports - no sec
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FMuMgE0bWaMOWGhrXdbPS%2F2.png?alt=media\&token=340b3d25-635e-4767-b861-6873b3649260)
 
-Next,we run the file's hash on hybrid-analysis.com Under 'Report Search' - enter the hash
+Next, we run the file's hash on hybrid-analysis.com Under 'Report Search' - enter the hash
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2Fm3sUvsGRtytEZ5Z5GiGf%2F3.png?alt=media\&token=758fe954-f15d-43a9-bcec-230b2f975cbe)
 
@@ -104,6 +104,6 @@ Thank you for reading this entry. Stay tuned, as I go hunting behind some pcap f
 
 ## Your opinion matters
 
-My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed.Dropping a sweet message would make my day
+My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
 Let your opinion about this write-up be known, by selecting any one of the emojis below!

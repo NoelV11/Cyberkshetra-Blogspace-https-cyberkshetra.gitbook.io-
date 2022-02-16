@@ -18,7 +18,7 @@ Now take the IP Address — 172.16.17.88 and perform a check on the endpoint
 
 We get this from the Endpoint section, giving a description about the source IP Address’ host machine​
 
-![​](https://cdn-images-1.medium.com/max/1000/0\*VqWijjynjbcW2TSS)
+![](https://cdn-images-1.medium.com/max/1000/0\*VqWijjynjbcW2TSS)
 
 > Endpoint Machine Name — MarkPRD
 
@@ -74,15 +74,13 @@ More notes about the ransomware file​
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*39xHpcgKpPT3GpjV)
 
-No relevant HTTP Traffic or DNS Requests for this file(checked on Hybrid Analysis).This is a big blow,as we don't know the origin (country) of the ransomware
+No relevant HTTP Traffic or DNS Requests for this file(checked on Hybrid Analysis).This is a big blow, as we don't know the origin (country) of the ransomware
 
 IOC’s of infected file—Suspicious and Malicious
 
-​![](https://cdn-images-1.medium.com/max/1000/1\*xtgfPJJFoFG9DWXF5yUf8A.png)![](https://cdn-images-1.medium.com/max/750/1\*QJ7V5yM\_gK\_r0IqhkQu1Qg.png)
+&#x20;           ​![](https://cdn-images-1.medium.com/max/1000/1\*xtgfPJJFoFG9DWXF5yUf8A.png)![](https://cdn-images-1.medium.com/max/750/1\*QJ7V5yM\_gK\_r0IqhkQu1Qg.png)
 
 ## **Steps to solve and close this Ransomware alert**
-
-****
 
 > Create a case
 

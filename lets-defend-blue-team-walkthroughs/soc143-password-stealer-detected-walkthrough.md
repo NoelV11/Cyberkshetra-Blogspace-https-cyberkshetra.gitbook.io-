@@ -110,15 +110,11 @@ As an analyst, we conclude the case, by jotting some notes about the same
 
 Close Alert — by providing notes and classifying the alert as either true or false positive
 
-​
-
 ![](https://cdn-images-1.medium.com/max/1000/1\*0uNcxWEjae2NVJ-rXiX7Yg.png)
 
 ## Alert Scorecard
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*f8ALacksYVE641bmdxYmSQ.png)
-
-​
 
 20/25 points acquired. We got it wrong in one question. Further enumeration would have prevented us from committing that error
 
