@@ -35,4 +35,4 @@
   * [Zero Trust Network Access-A solution to Network Security](technical-cyber-articles/zero-trust-network-access-a-solution-to-network-security.md)
   * [Untitled](technical-cyber-articles/page-1.md)
   * [Untitled](technical-cyber-articles/untitled-1.md)
-  * [SIEM-Incorporating Incident Response into Network Security](technical-cyber-articles/siem-incorporating-incident-response-into-network-security.md)
+  * [SIEM-Incorporating Incident Response into Network Security](technical-cyber-articles/ff.md)
