@@ -1,6 +1,6 @@
-# ShellShock Attack: Let’s Defend Walkthrough
+# ShellShock Attack: Let’s Defend Challenge
 
-![](https://cdn-images-1.medium.com/max/1000/1\*bbSSbnPCASB799173M8OSw.png)
+&#x20;                                        ![](https://cdn-images-1.medium.com/max/1000/1\*bbSSbnPCASB799173M8OSw.png)
 
 Hello, blue teamers. Today I am going to try my hand on another short and easy blue team exercise from Let’s Defend, titled [Shellshock Attack](https://app.letsdefend.io/dfir/dfir/shellshock-attack/)
 
@@ -23,33 +23,39 @@ In fact, Vulnhub has a boot2root VM called Troll2, which is based upon the same 
 
 ## Questions
 
-> Q)What is the server operating system?
+> Q) What is the server operating system?
 
 Analyzing HTTP Packets give this answer (remember to expand them)
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*FnoGURi1wWS3YzlvbGG4ZQ.png)
 
-> A)Ubuntu
+> A) Ubuntu
 
-> Q)What is the application server and version running on the target system?
+> Q) What is the application server and version running on the target system?
 
 Analyzing the HTTP packet with the Internal Server error gives us our answer
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*9J1k1I2qP2U7T-rIKf101Q.png)
 
-> A)Apache/2.2.22
+> A) Apache/2.2.22
 
-> Q)What is the exact command that the attacker wants to run on the target server?
+> Q) What is the exact command that the attacker wants to run on the target server?
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*X01cBGnswe\_VJd742jPeNw.png)
 
-> A)/bin/ping -c1 10.246.50.2
+> A) /bin/ping -c1 10.246.50.2
 
 ## Conclusion
 
 This challenge was a breeze!
 
-Thank you for reading this entry. Stay tuned, as I go hunting some pcap files out there….
+Thank you for reading this entry. Stay tuned, as I try to close down some more SOC alerts....
+
+## Your opinion matters
+
+My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
+
+Let your opinion about this write-up be known, by selecting any one of the emojis below!.
 
 ## Your opinion matters
 

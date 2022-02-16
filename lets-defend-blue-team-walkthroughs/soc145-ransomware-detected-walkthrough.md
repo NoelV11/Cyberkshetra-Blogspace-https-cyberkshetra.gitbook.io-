@@ -38,11 +38,11 @@ We get a corresponding match for someone named Mark, receiving a mail on Aug 29,
 
 ## Analysis of Evidence
 
-Having performed initial enumeration, let's download the file and unzip it, using the passphrase:infected
+Having performed initial enumeration, let's download the file and unzip it, using the passphrase: infected
 
 We uncover a file named ab.bin.Running file command against it tells us that it is an executable file, with GUI Interface
 
-​![](https://cdn-images-1.medium.com/max/1000/0\*78m7i2fZ3Jr2vkHs)
+​                                              ![](https://cdn-images-1.medium.com/max/1000/0\*78m7i2fZ3Jr2vkHs)
 
 Next, we take the file for analysis on VirusTotal and Hybrid-Analysis tools
 

@@ -34,15 +34,19 @@ We uncover a python file titled: ‘Sorted-Algorithm.py’
 
 > Remeber that this script is designed to attack a host at IP — 92.27.116.104 and create a scheduled task named x86\_x64\_setup.exe,under the C:/Windows/Temp/ path
 
-## **Questions**
+## **Playbook Questions**
 
 Now, let's open the alert’s playbook
 
 Let’s start filling up details:-​
 
-![File Analysis](https://cdn-images-1.medium.com/max/1000/1\*N5B1Jp9O6k34p\_-2td8A-A.png)
+### Define Threat Indicator
 
-## Fi**le Analysis**
+Since the alert is raised for the occurrence of a scheduled process (unknown), it falls under the third category
+
+![](../.gitbook/assets/l1.png)
+
+### Fi**le Analysis**
 
 > Check if the malware is quarantined/cleaned
 
@@ -62,7 +66,7 @@ The same was the case with VirusTotal
 
 We answer that the malware is cleaned
 
-\====================================================================
+### Analyzing the malware sample
 
 > Analyze Malware&#x20;
 >
