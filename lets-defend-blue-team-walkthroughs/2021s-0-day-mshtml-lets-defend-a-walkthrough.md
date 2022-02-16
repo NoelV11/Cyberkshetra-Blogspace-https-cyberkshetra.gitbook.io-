@@ -18,7 +18,7 @@ Upon unzipping, we get a directory called ‘Challenge\_FIles’, with 4 files
 
 &#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*tUSRyN1oH25P0-Ali9WHJw.png)
 
-## Questions
+## Challenge Questions
 
 > Q) Examining the Employees\_Contact\_Audit\_Oct\_2021.docx file, what is the malicious IP in the docx file?
 
