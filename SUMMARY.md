@@ -33,4 +33,4 @@
   * [An in-depth analysis of an Intrusion Prevention System](technical-cyber-articles/an-in-depth-analysis-of-an-intrusion-prevention-system.md)
   * [Social Engineering -A leading cause for vulnerability occurrence](technical-cyber-articles/social-engineering-a-leading-cause-for-vulnerability-occurrence.md)
   * [Zero Trust Network Access-A solution to Network Security](technical-cyber-articles/zero-trust-network-access-a-solution-to-network-security.md)
-  * [Untitled](technical-cyber-articles/untitled.md)
+  * [Untitled](technical-cyber-articles/page-1.md)
