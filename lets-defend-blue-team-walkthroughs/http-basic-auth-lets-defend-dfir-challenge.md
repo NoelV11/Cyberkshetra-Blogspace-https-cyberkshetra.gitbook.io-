@@ -11,7 +11,7 @@ Hello, blue teamers! Welcome to this latest blog post, as I document my methodol
 > Log file: [https://app.letsdefend.io/download/downloadfile/webserver.em0.zip](https://app.letsdefend.io/download/downloadfile/webserver.em0.zip)\
 > Pass: 321
 
-## **Questions**
+## **Challenge Questions**
 
 > Q) How many HTTP GET requests are in pcap?
 
@@ -19,7 +19,7 @@ You can solve this question in two ways
 
 Navigate to Statistics ->HTTP ->Requests,where we can find:-
 
-![](https://cdn-images-1.medium.com/max/1000/1\*F38xpfe43Voabjajk5t4yg.png)
+&#x20;                                     ![](https://cdn-images-1.medium.com/max/1000/1\*F38xpfe43Voabjajk5t4yg.png)
 
 or
 
@@ -27,7 +27,7 @@ Enter the following query on the search tab — http.request.method==”GET�
 
 Where we find the following GET request packets
 
-![](https://cdn-images-1.medium.com/max/1000/1\*Uv-5PTGOvbZmX9TQdRp2tw.png)
+&#x20;                                        ![](https://cdn-images-1.medium.com/max/1000/1\*Uv-5PTGOvbZmX9TQdRp2tw.png)
 
 > A) 5
 
@@ -39,7 +39,7 @@ Web Server version\
 OpenSSL Version\
 Server Distro Name
 
-![](https://cdn-images-1.medium.com/max/1000/1\*JZ2o-e3otR8kTyRV0QSqvw.png)
+&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*JZ2o-e3otR8kTyRV0QSqvw.png)
 
 > A) FreeBSD
 
