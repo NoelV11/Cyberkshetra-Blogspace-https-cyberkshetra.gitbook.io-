@@ -6,7 +6,7 @@ Let’s jump right into it!
 
 ## Alert Details
 
-&#x20;                                             ![](https://cdn-images-1.medium.com/max/1000/1\*I3hagubgFizm9KduW\_rNIw.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*I3hagubgFizm9KduW\_rNIw.png)
 
 Let’s take ownership of the case
 
@@ -14,35 +14,35 @@ Reading the alert’s summary, it’s plain to see that a phishing URL was sent 
 
 Create a case book for the same
 
-&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*IhrNdByQYnJR4nNXo3bggQ.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*IhrNdByQYnJR4nNXo3bggQ.png)
 
 ## Collection of Data
 
-&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*IsHsvQjZA8GXI2h7Uy0i4g.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*IsHsvQjZA8GXI2h7Uy0i4g.png)
 
-> Q) Please check alert details for the following below:-
+> Q)Please check alert details for the following below:-
 
 > Source Address\
-> Destination Address\
-> User-Agent
+> &#x20;Destination Address\
+> &#x20;User-Agent
 
 From the alert summary, we can determine
 
-> A) Source Address — 172.16.17.88\
+> A)Source Address — 172.16.17.88\
 > Destination Address — 192.64.119.190\
 > User Agent — Mozilla — Windows
 
 ## Search Log
 
-&#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*HGoc3dU1RV1gyO96yxm2uA.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*HGoc3dU1RV1gyO96yxm2uA.png)
 
-> Q) Please search in Log Management for details.
+> Q)Please search in Log Management for details.
 
 Let’s search the Source IP address, on the Log Management screen
 
 We can see two corresponding entries for the address
 
-&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*1XIgTGtl9Z4B7lzCqjF0dw.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*1XIgTGtl9Z4B7lzCqjF0dw.png)
 
 Upon expanding the logs, we find the following information:-
 
@@ -64,27 +64,27 @@ Let’s analyze using our go-to go tools VirusTotal and Hybrid-Analysis
 
 Taking the URL —  [http://nuangaybantiep.xyz](http://nuangaybantiep.xyz), and searching it up on [VirusTotal](https://www.virustotal.com/gui/home/upload) brought the following results:-
 
-&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*D3wxzA9VSzbU5W6yIUTCDQ.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*D3wxzA9VSzbU5W6yIUTCDQ.png)
 
 It says that the domain is not malicious at all\
 Reading the comment under the ‘Community’ section gives us the following note:-
 
-&#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*L2-yxFa8VtZvpFz9K5Z1kw.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*L2-yxFa8VtZvpFz9K5Z1kw.png)
 
 That’s why I stick by the rule of verifying with multiple platforms \
 Reading Joe Sandbox’s [HTML report of the malicious domain](https://www.joesandbox.com/analysis/785029), we come across the following analysis of the domain:-
 
-&#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*94DRA5w\_3DKkkuvfKIUe1A.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*94DRA5w\_3DKkkuvfKIUe1A.png)
 
 Seems like a malicious domain and is capable of spreading Trojan(take a look at the pie chart)
 
 Let’s analyze it on the [Hybrid-Analysis](https://www.hybrid-analysis.com) platform as well, where 2 search results pop up for the domain
 
-&#x20;                                      ![](https://cdn-images-1.medium.com/max/1000/1\*u79cNM368Enx94Q0etOkrQ.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*u79cNM368Enx94Q0etOkrQ.png)
 
 Both incidents determine that the file is not malicious through
 
-&#x20;                                   ![](https://cdn-images-1.medium.com/max/1000/1\*7HvuCLfgg9fzzzSrGmhYoQ.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*7HvuCLfgg9fzzzSrGmhYoQ.png)
 
 Though the domain may be distributing malware, it’s not classified as a malicious domain by these threat intel platforms.
 
@@ -94,27 +94,27 @@ Let’s click on “Malicious” and proceed forward
 
 In the very next screen, we are asked to provide answers to the following questions:-
 
-&#x20;                                        ![](https://cdn-images-1.medium.com/max/1000/1\*uziesTQ07YN7r96NKZoKsA.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*uziesTQ07YN7r96NKZoKsA.png)
 
 From the log expansion evidence provided above, we can answer these:-
 
-> A) Apr, 04, 2021, 11:10 PM
+> A)Apr, 04, 2021, 11:10 PM
 
-> A) 172.16.17.88
+> A)172.16.17.88
 
-> A) 192.64.119.190
+> A)192.64.119.190
 
-> A) Mark
+> A)Mark
 
-> A) Mozilla — Windows
+> A)Mozilla — Windows
 
-> A) No
+> A)No
 
-> A) Yes
+> A)Yes
 
 ### Containment
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*HuvlujUgS7l6-zeRt\_C5CA.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*HuvlujUgS7l6-zeRt\_C5CA.png)
 
 Proceed to contain the victim host
 
@@ -124,41 +124,41 @@ In the very next screen, we are asked to submit artifacts derived from the case
 
 From the ‘Links’ tab of the domain’s analysis on VirusTotal, we can see some outgoing links from it
 
-&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*ItuiouEHmNqculVc56aqxw.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*ItuiouEHmNqculVc56aqxw.png)
 
 Unable to graph any mail addresses from this suspicious domain, we can very well state that the origin of the attack is from Reykjavik, the capital of Iceland
 
 &#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*MherfU5aBFUIHfXLsIMUww.png)
 
-&#x20;                         `Mapped using Maltego`                                         &#x20;
+&#x20;                          `Mapped using Maltego`                                         &#x20;
 
-&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*xZIv5OG0mX3l9asIgRo5Sg.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*xZIv5OG0mX3l9asIgRo5Sg.png)
 
 This is what the malicious domain looks like
 
 ## Case Artifacts
 
-&#x20;                                               ![](https://cdn-images-1.medium.com/max/1000/1\*fQ\_K5wZ9w5IoLJr7n6urBw.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*fQ\_K5wZ9w5IoLJr7n6urBw.png)
 
 ## Analyst’s Note
 
-&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*lXaKfnPcEQJtGsX-cpQMpw.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*lXaKfnPcEQJtGsX-cpQMpw.png)
 
 Finish the playbook!
 
-&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*OXqkm5CCe7T\_02IPpRVEog.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*OXqkm5CCe7T\_02IPpRVEog.png)
 
 ### Close Alert
 
 Proceed to close the alert and provide parting remarks about the case
 
-&#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*UrXY4s9b0PgIBD0VW2HYDQ.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*UrXY4s9b0PgIBD0VW2HYDQ.png)
 
 ## Alert Scorecard
 
 This is awesome!
 
-&#x20;                                       ![](https://cdn-images-1.medium.com/max/1000/1\*UwZqN6T6f9jdrq\_FCU\_XEQ.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*UwZqN6T6f9jdrq\_FCU\_XEQ.png)
 
 ## Conclusion
 

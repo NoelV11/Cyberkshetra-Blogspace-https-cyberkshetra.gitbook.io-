@@ -70,7 +70,7 @@ We answer that the malware is cleaned
 
 In this previous section, we had analyzed the artifact and deduced that the file was indeed not malicious
 
-\====================================================================
+> A) Non-malicious
 
 ## A**dding artifacts to the casefile**
 

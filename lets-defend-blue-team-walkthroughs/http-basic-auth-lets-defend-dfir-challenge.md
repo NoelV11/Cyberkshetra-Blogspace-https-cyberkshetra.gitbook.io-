@@ -1,6 +1,6 @@
 # HTTP Basic Auth:Let's Defend DFIR Challenge
 
-&#x20;                                             ![](https://cdn-images-1.medium.com/max/1000/1\*H1rhWTgN9396jHzWCFn0qA.png)
+&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*H1rhWTgN9396jHzWCFn0qA.png)
 
 Hello, blue teamers! Welcome to this latest blog post, as I document my methodology of solving the [HTTP Basic Auth](https://app.letsdefend.io/dfir/dfir/http-basic-auth/) challenge on Let’s Defend. Let’s go hunting after this .pcap file
 
@@ -13,7 +13,7 @@ Hello, blue teamers! Welcome to this latest blog post, as I document my methodol
 
 ## **Questions**
 
-> Q) How many HTTP GET requests are in pcap?
+> Q)How many HTTP GET requests are in pcap?
 
 You can solve this question in two ways
 
@@ -29,9 +29,9 @@ Where we find the following GET request packets
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*Uv-5PTGOvbZmX9TQdRp2tw.png)
 
-> A) 5
+> A)5
 
-> Q) What is the server operating system?
+> Q)What is the server operating system?
 
 When analyzing one of the HTTP GET request packets, from the .pcap file, we can find the following information:-
 
@@ -41,35 +41,35 @@ Server Distro Name
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*JZ2o-e3otR8kTyRV0QSqvw.png)
 
-> A) FreeBSD
+> A)FreeBSD
 
-> Q) What is the name and version of the web server software?
+> Q)What is the name and version of the web server software?
 
 It is visible from the User-Agent section of the packet&#x20;
 
-> A) Apache/2.2.15
+> A)Apache/2.2.15
 
-> Q) What is the version of OpenSSL running on the server?
+> Q)What is the version of OpenSSL running on the server?
 
-> A) OpenSSL/0.9.8n
+> A)OpenSSL/0.9.8n
 
-> Q) What is the client’s user-agent information?
+> Q)What is the client’s user-agent information?
 
-&#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*FmA14pDg4z1mXHCn7fzt8g.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*FmA14pDg4z1mXHCn7fzt8g.png)
 
-> A) Lynx/2.8.7rel.1 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.8n
+> A){Lynx/2.8.7rel.1 libwww-FM/2.14 SSL-MM/1.4.1 OpenSSL/0.9.8n}
 
-> Q) What is the username used for Basic Authentication?
+> Q)What is the username used for Basic Authentication?
 
 Hunting through the GET requests, we find this username and password entered for authentication purposes
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*ejDaFd\_ZxhxpugG597odYA.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*ejDaFd\_ZxhxpugG597odYA.png)
 
-> A) webadmin
+> A)webadmin
 
-> Q) What is the user password used for Basic Authentication?
+> Q)What is the user password used for Basic Authentication?
 
-> A) W3b4Dm1n
+> A)W3b4Dm1n
 
 ## Conclusion
 
