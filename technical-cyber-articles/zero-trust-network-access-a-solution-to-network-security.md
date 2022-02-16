@@ -1,12 +1,12 @@
 # Zero Trust Network Access-A solution to Network Security
 
-## Introduction
-
 Ever imagined being free from the constant fear of threats or malware, that could harm your device? Up to now, we never could have imagined being connected to a network, where everything relating to security, from top to bottom is decided by the authenticity of users. This idea introduces us to Zero Trust Network Access (ZTNA), one of the leading trends for Cyber Security, in 2021.
 
 **NOTE:** Due to its sheer amount of occurrence, we will be depicting Zero Trust Network Access, by its acronym ZTNA from now on.
 
-## What do you mean by ZTNA?
+## Introduction
+
+### What do you mean by ZTNA?
 
 It refers to a network framework, of an organization, where users will have to provide proper identification for authentication, before being granted access to the network. This network contains access to in-house services and applications, that can be accessed only by authenticated users. Moreover, this network is private, without ever being connected to the Internet.\
 In other words, it is a private network, that is hard to detect. It is compared to a castle-moat scenario, where residents of the castle are virtually protected by the moat and the castle is inaccessible to unauthorized laymen.
