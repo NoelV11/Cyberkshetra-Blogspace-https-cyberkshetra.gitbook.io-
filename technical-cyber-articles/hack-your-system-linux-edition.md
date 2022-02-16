@@ -2,7 +2,7 @@
 
 Hello there,
 
-​Welcome to the first installment of my cyber security article documentation, far away from the world of RangeForce or Try Hack Me,but still close to me.Let's discuss about PAM (Privileged Access Management) and grub.
+​Welcome to the first installment of my cyber security article documentation, far away from the world of RangeForce or Try Hack Me, but still close to me.Let's discuss PAM (Privileged Access Management) and grub.
 
 ## Introduction
 
