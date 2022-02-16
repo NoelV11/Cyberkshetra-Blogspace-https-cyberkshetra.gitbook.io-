@@ -112,7 +112,7 @@ A SOC alert came in, detailing the case as Ransomware. Analyzing the file brough
 
 ## Conclusion
 
-Thank you for devouring this blog entry and stay tuned as I try to close down more SOC alerts……
+Thank you for reading this blog entry, and stay tuned as I try to close down more SOC alerts……
 
 ## Your opinion matters
 

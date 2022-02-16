@@ -1,4 +1,4 @@
-# SOC147-SSH Scan Activity Alert
+# SOC147 - SSH Scan Activity Alert
 
 Welcome to the world of Blue Teaming, as I explore it on the Let's Defend Platform, a renowned site for Blue Team practice
 
@@ -100,7 +100,7 @@ A malware file was analyzed, which threw a false positive to the SOC Team. The f
 
 ## Conclusion
 
-Thank you for reading this entry. Stay tuned, as I go hunting behind some pcap files out there....
+Thank you for reading this blog entry, and stay tuned as I try to close down more SOC alerts……
 
 ## Your opinion matters
 

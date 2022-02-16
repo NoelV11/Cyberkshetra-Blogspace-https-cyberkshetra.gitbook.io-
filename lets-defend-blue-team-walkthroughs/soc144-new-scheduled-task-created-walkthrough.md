@@ -1,4 +1,4 @@
-# SOC144 - New scheduled task created Alert
+# SOC144  -  New scheduled task created Alert
 
 Hello readers, welcome to this blog entry. Today, we will be trying to solve the SOC144 - New scheduled task created alert, on the Let’s Defend platform.
 
@@ -104,7 +104,7 @@ An incoming SOC Alert was briefed to us, about an RCE, that caused a process to 
 
 ## Conclusion
 
-Thank you for devouring this blog entry and stay tuned as I try to close down more SOC alerts……
+Thank you for reading this blog entry, and stay tuned as I try to close down more SOC alerts……
 
 ## Your opinion matters
 

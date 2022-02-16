@@ -1,4 +1,4 @@
-# SOC141 - Phishing URL Detected Alert
+# SOC141  -  Phishing URL Detected Alert
 
 It’s the first week of February and that just means one thing. Let’s Defend has released a new set of SOC Alerts for us blue teamers to investigate and solve and here, we will be solving the SOC 141— Phishing URL alert.
 
@@ -172,7 +172,7 @@ The case was a true positive for a phishing attack and the analyst responsibly p
 
 This SOC alert exercise was a breath of fresh air, as I performed threat hunting after repeated blue team activities on Try Hack Me.
 
-Thank you for reading this blog entry. Stay tuned, as I go hunting some pcap files out there….
+Thank you for reading this blog entry. Stay tuned, as I go hunting behind some pcap files out there....
 
 ## Your opinion matters
 

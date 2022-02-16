@@ -126,7 +126,7 @@ A SOC Alert came in, asking us if a suspected phishing mail and its attachment w
 
 ## Conclusion
 
-Thank you for devouring this blog entry and stay tuned as I try to close down more SOC alerts……
+Thank you for reading this blog entry. Stay tuned, as I go hunting behind some pcap files out there....
 
 ## Your opinion matters
 

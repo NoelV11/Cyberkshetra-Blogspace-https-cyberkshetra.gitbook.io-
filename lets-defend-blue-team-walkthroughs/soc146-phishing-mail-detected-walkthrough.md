@@ -1,4 +1,4 @@
-# SOC146 - Phishing Mail Detected Alert
+# SOC146  -  Phishing Mail Detected Alert
 
 Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform, which is of Medium difficulty
 
@@ -120,7 +120,7 @@ The case was a true positive for a phishing attack and the analyst responsibly p
 
 ## Conclusion
 
-Thank you for reading this blog entry. Stay tuned, as I go hunting behind some pcap files out there....
+Thank you for reading this entry. Stay tuned, as I go hunting behind some pcap files out there....
 
 ## Your opinion matters
 
