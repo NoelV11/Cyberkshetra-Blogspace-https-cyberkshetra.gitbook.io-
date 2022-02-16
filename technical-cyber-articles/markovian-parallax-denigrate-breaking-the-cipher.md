@@ -20,7 +20,7 @@ What is Usenet, you may ask?
 
 Simply put, Usenet is like your retro type Discord, where users can be added to a ‘server’ known as a newsgroup. Members of newsgroups can send and receive messages while sending them to other newsgroups too. It was based on UNIX dial-up network Architecture and functions as a message board. It is close to what we have now as 4Chan.
 
-## The Crux of the mystery
+## Crux of the mystery
 
 The blocks had a common heading, titled “Markovian Parallax Denigrate”, with unmeaningful words, used out of context. The messages were sent from a single entity, Miss Susan Lindauer. Being a network of newsgroups, speculation began to grow the reason behind it. Who was Susan Lindauer? and why spam everyone?
 
@@ -52,7 +52,7 @@ It is because, she is the only link, that we have towards this mystery and the f
 
 &#x20;                                                    ![](https://cdn-images-1.medium.com/max/1000/1\*HdBjufCu184\_xJNhcRKQPg.jpeg)
 
-&#x20;                                      `Miss Lindauer,the person that holds secrets?`
+&#x20;                          `Miss Lindauer in question`                                  &#x20;
 
 As with fame, innocent people also get caught up in the act. They may not be remotely involved in the mystery. Several women, named Susan Lindauer were spammed, with questions relating to the mystery and whether they were the ones behind the prank, but as with everyone, we are waiting for the light, at the end of the tunnel.
 
