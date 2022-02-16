@@ -1,6 +1,6 @@
 # Page 1
 
-Hello cyber peeps.Do you want to explore a cyber mystery hole? If yes,keep reading on.
+Hello cyber peeps. Do you want to explore a cyber mystery hole? If yes, keep reading on.
 
 Make of this, what you will
 
