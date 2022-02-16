@@ -1,4 +1,4 @@
-# SOC 141 - Phishing URL Detected Alert
+# SOC141 - Phishing URL Detected Alert
 
 It’s the first week of February and that just means one thing. Let’s Defend has released a new set of SOC Alerts for us blue teamers to investigate and solve and here, we will be solving the SOC 141— Phishing URL alert.
 
@@ -46,11 +46,11 @@ We can see two corresponding entries for the address
 
 Upon expanding the logs, we find the following information:-
 
-![](https://cdn-images-1.medium.com/max/750/1\*4QHSAEiZaJKDKvWraa2JqA.png)![](https://cdn-images-1.medium.com/max/1000/1\*HxPRdZs3VX7lOxpHRA27xg.png)
+&#x20;            ![](https://cdn-images-1.medium.com/max/750/1\*4QHSAEiZaJKDKvWraa2JqA.png)![](https://cdn-images-1.medium.com/max/1000/1\*HxPRdZs3VX7lOxpHRA27xg.png)
 
 ## Analyze URL Address
 
-> Analyze URL in 3rd party tools. Please click “Malicious” if it is malicious and click “Non-malicious” if it isn’t.
+> Q) Analyze URL in 3rd party tools. Please click “Malicious” if it is malicious and click “Non-malicious” if it isn’t.
 
 > You can use the free products/services below.
 
@@ -90,11 +90,13 @@ Though the domain may be distributing malware, it’s not classified as a malici
 
 Let’s click on “Malicious” and proceed forward
 
+> A) Maliciious
+
 ## Has anyone accessed IP /URL Domain?
 
 In the very next screen, we are asked to provide answers to the following questions:-
 
-&#x20;                                        ![](https://cdn-images-1.medium.com/max/1000/1\*uziesTQ07YN7r96NKZoKsA.png)
+&#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*uziesTQ07YN7r96NKZoKsA.png)
 
 From the log expansion evidence provided above, we can answer these:-
 
@@ -114,7 +116,7 @@ From the log expansion evidence provided above, we can answer these:-
 
 ### Containment
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*HuvlujUgS7l6-zeRt\_C5CA.png)
+&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*HuvlujUgS7l6-zeRt\_C5CA.png)
 
 Proceed to contain the victim host
 
@@ -128,11 +130,13 @@ From the ‘Links’ tab of the domain’s analysis on VirusTotal, we can see so
 
 Unable to graph any mail addresses from this suspicious domain, we can very well state that the origin of the attack is from Reykjavik, the capital of Iceland
 
-&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*MherfU5aBFUIHfXLsIMUww.png)
+&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*MherfU5aBFUIHfXLsIMUww.png)
 
-&#x20;                         `Mapped using Maltego`                                         &#x20;
+&#x20;                                                     `Mapped using Maltego`                                    &#x20;
 
-&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*xZIv5OG0mX3l9asIgRo5Sg.png)
+&#x20;                                          &#x20;
+
+&#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*xZIv5OG0mX3l9asIgRo5Sg.png)
 
 This is what the malicious domain looks like
 
@@ -146,8 +150,6 @@ This is what the malicious domain looks like
 
 Finish the playbook!
 
-&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*OXqkm5CCe7T\_02IPpRVEog.png)
-
 ### Close Alert
 
 Proceed to close the alert and provide parting remarks about the case
@@ -158,7 +160,7 @@ Proceed to close the alert and provide parting remarks about the case
 
 This is awesome!
 
-&#x20;                                       ![](https://cdn-images-1.medium.com/max/1000/1\*UwZqN6T6f9jdrq\_FCU\_XEQ.png)
+&#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*UwZqN6T6f9jdrq\_FCU\_XEQ.png)
 
 ## Conclusion
 

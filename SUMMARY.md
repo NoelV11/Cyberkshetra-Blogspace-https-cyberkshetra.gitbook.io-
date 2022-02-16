@@ -11,7 +11,7 @@
   * [2021’s 0-Day MSHTML - Let's Defend Lab](lets-defend-blue-team-walkthroughs/2021s-0-day-mshtml-lets-defend-a-walkthrough.md)
   * [HTTP Basic Auth:Let's Defend DFIR Challenge](lets-defend-blue-team-walkthroughs/http-basic-auth-lets-defend-dfir-challenge.md)
   * [ShellShock Attack: Let’s Defend Challenge](lets-defend-blue-team-walkthroughs/shellshock-attack-lets-defend-walkthrough.md)
-  * [SOC 141 - Phishing URL Detected Alert](lets-defend-blue-team-walkthroughs/lets-defend-soc-141-phishing-url-detected-alert-walkthrough.md)
+  * [SOC141 - Phishing URL Detected Alert](lets-defend-blue-team-walkthroughs/soc141-phishing-url-detected-alert.md)
   * [SOC109 - Emotet Malware Detected Alert](lets-defend-blue-team-walkthroughs/soc109-emotet-malware-detected-alert-walkthrough.md)
   * [SOC 101 - Phishing Mail Detected Alert](lets-defend-blue-team-walkthroughs/soc-101-phishing-mail-detected-alert-walkthrough.md)
 * [🥇 Try Hack Me - Blue Team Room Walkthroughs](try-hack-me-blue-team-room-walkthroughs/README.md)
