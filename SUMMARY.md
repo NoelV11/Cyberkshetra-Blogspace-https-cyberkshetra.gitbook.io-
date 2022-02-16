@@ -36,4 +36,3 @@
   * [SIEM-Incorporating Incident Response into Network Security](technical-cyber-articles/ff.md)
   * [Markovian Parallax Denigrate-Breaking the cipher](technical-cyber-articles/markovian-parallax-denigrate-breaking-the-cipher.md)
   * [DevSecOps-Making a difference from traditional DevOps](technical-cyber-articles/devsecops-making-a-difference-from-traditional-devops.md)
-* [DevSecOps-Making a difference from traditional DevOps](devsecops-making-a-difference-from-traditional-devops.md)

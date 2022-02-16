@@ -1,6 +1,6 @@
 # DevSecOps-Making a difference from traditional DevOps
 
-&#x20;                         ![](https://cdn-images-1.medium.com/max/1000/1\*lNpNo9WDV-j9QPWy42gOBA.jpeg)``
+&#x20;                                 ![](https://cdn-images-1.medium.com/max/1000/1\*lNpNo9WDV-j9QPWy42gOBA.jpeg)``
 
 `Security is needed at each step, whether at the Development or Operations stage`
 
