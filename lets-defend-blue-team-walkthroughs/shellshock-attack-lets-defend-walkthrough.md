@@ -21,7 +21,7 @@ Quoting Wikipedia, **Shellshock**, also known as **Bashdoor**, is a family of [s
 
 In fact, Vulnhub has a boot2root VM called Troll2, which is based upon the same vulnerability
 
-## Questions
+## Challenge Questions
 
 > Q) What is the server operating system?
 
