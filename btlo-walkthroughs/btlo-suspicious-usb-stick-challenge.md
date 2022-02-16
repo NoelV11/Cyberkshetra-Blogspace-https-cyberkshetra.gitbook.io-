@@ -1,6 +1,6 @@
-# BTLO: Suspicious USB Stick Challenge
+# BTLO:Suspicious USB Stick Challenge
 
-![](https://cdn-images-1.medium.com/max/1000/1\*Cb6k216iRs34XnDD504KNg.png)
+&#x20;                                     ![](https://cdn-images-1.medium.com/max/1000/1\*Cb6k216iRs34XnDD504KNg.png)
 
 Hello, blue teamers. In this blog entry, join me as I attempt to conquer the [Suspicious USB Stick challenge](https://blueteamlabs.online/home/challenge/5), hosted on [Security Blue Team Labs Online](https://blueteamlabs.online/home). This is a retired challenge and falls under the Digital Forensics domain. It was pretty fun to investigate!
 
@@ -10,27 +10,27 @@ Hello, blue teamers. In this blog entry, join me as I attempt to conquer the [Su
 
 Let’s start
 
-Download the USB Image attached with this task.In my opinion, it is better to unzip and extract the files, using GUI mode
+Download the USB Image attached with this task. In my opinion, it is better to unzip and extract the files, using GUI mode
 
 Opening the attachment, we get these files:-
 
-![](https://cdn-images-1.medium.com/max/1000/1\*cHp54X2QybuAdYZoj2\_nxQ.png)
+&#x20;                                        ![](https://cdn-images-1.medium.com/max/1000/1\*cHp54X2QybuAdYZoj2\_nxQ.png)
 
 Proceed to unzip the USB.zip file using the passphrase ‘btlo’ and get the USB directory.
 
 Extract it in your Downloads file. Inside this directory, we get:-
 
-![](https://cdn-images-1.medium.com/max/1000/1\*o2EezUCsLkEq5\_VqSnBQsg.png)
+&#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*o2EezUCsLkEq5\_VqSnBQsg.png)
 
 ## Enumeration of evidence
 
-Opening the README.pdf file to view its contents,we see the following text:-
+Opening the README.pdf file to view its contents, we see the following text:-
 
-![](https://cdn-images-1.medium.com/max/1000/1\*RK57x1e3CnxXX7u-hdo5Vg.png)
+&#x20;                            ![](https://cdn-images-1.medium.com/max/1000/1\*RK57x1e3CnxXX7u-hdo5Vg.png)
 
 Opening up the autorun.inf file, we can see the following instructions:-
 
-![](https://cdn-images-1.medium.com/max/1000/1\*yqu5yguwbU3CuAxAkturyw.png)
+&#x20;                              ![](https://cdn-images-1.medium.com/max/1000/1\*yqu5yguwbU3CuAxAkturyw.png)
 
 Let’s answer the challenge questions:-
 
@@ -44,7 +44,7 @@ Let’s answer the challenge questions:-
 
 Let’s submit this file for analysis on [VirusTotal](https://www.virustotal.com/gui/home/upload).The following report is received, indicating that the file is indeed malicious
 
-![](https://cdn-images-1.medium.com/max/1000/1\*wSpAEc4f-ORqUT21Kwj9cA.png)
+&#x20;                                     ![](https://cdn-images-1.medium.com/max/1000/1\*wSpAEc4f-ORqUT21Kwj9cA.png)
 
 > A)False
 
@@ -62,7 +62,7 @@ Going to our CLI and testing out the following command
 Command — xxd README.pdf | head
 ```
 
-![](https://cdn-images-1.medium.com/max/1000/1\*UR2ScJrWvMb55uKm0veIMg.png)
+&#x20;                                        ![](https://cdn-images-1.medium.com/max/1000/1\*UR2ScJrWvMb55uKm0veIMg.png)
 
 From the first line of the output, it is evident that the PDF file is not disguised in any way
 
@@ -72,7 +72,7 @@ From the first line of the output, it is evident that the PDF file is not disgui
 
 To understand the payload executed by any malicious file, it’s wise to see the actions taken by it. It is viewable from the ‘Behaviour’ section for this file, on VirusTotal
 
-![](https://cdn-images-1.medium.com/max/1000/1\*Hyw7eexHew3OQPh6\_lr4kA.png)
+&#x20;                                    ![](https://cdn-images-1.medium.com/max/1000/1\*Hyw7eexHew3OQPh6\_lr4kA.png)
 
 It is evident that the payload targets Windows systems and spawns Windows processes
 
@@ -82,11 +82,11 @@ It is evident that the payload targets Windows systems and spawns Windows proces
 
 To extract strings from this malicious PDF, I prefer uploading it to [Hybrid-Analysis](https://www.hybrid-analysis.com) and then filtering it out by .exe.Two hits are received
 
-![](https://cdn-images-1.medium.com/max/1000/1\*IsOSt\_cvL51LvptI69txUQ.png)
+&#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*IsOSt\_cvL51LvptI69txUQ.png)
 
 > A)cmd.exe
 
-## Hunting down Suspicious elements
+## Hunting down suspicious elements
 
 > Q)How many suspicious /OpenAction elements does the file have?
 
@@ -100,19 +100,19 @@ Luckily for us, PDFs can identify suspicious elements, which we can identify by 
 Syntax — python3 pdf-parser.py <file.pdf>
 ```
 
-Running the script against the PDF file and skimming along with the results, we find that 1 suspicious action were found
+Running the script against the PDF file and skimming along with the results, we find that 1 suspicious action was found
 
 > A)1
 
 Challenge conquered!
 
-![](https://cdn-images-1.medium.com/max/1000/1\*7wigTigZwWkDbMXjb6z6pA.png)
+&#x20;                                       ![](https://cdn-images-1.medium.com/max/1000/1\*7wigTigZwWkDbMXjb6z6pA.png)
 
 ## Conclusion
 
-It is good to experiment and practice analysis with malware, especially when you finally get exposed to one at a SOC environment. These small tasks are sure to help me in the future
+It is good to experiment and practice analysis with malware, especially when you finally get exposed to one in a SOC environment. These small tasks are sure to help me in the future
 
-Thank you for reading this blog entry. Stay tuned, as I go hunting some pcap files out there….
+Thank you for reading this blog entry. Stay tuned, as I go hunting behind some pcap files out there.....
 
 ## Your opinion matters
 
