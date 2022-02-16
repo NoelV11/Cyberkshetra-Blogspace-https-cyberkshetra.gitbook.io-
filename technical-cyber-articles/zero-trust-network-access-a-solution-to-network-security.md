@@ -13,9 +13,9 @@ In other words, it is a private network, that is hard to detect. It is compared 
 
 The concept was put forward, by John Kindervaag, a principal analyst, at Forrester Research Organization. This was built upon, by the occurrence of Operation Aurora, a cyber-attack, whose victim organization was Google, with Gmail accounts of Chinese dissidents being targeted. Moreover, it took a decade to implement.
 
-&#x20;                                               ![](https://cdn-images-1.medium.com/max/1000/1\*d-xDhPGI9v5ZICZUTTIgyQ.png)
+&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*d-xDhPGI9v5ZICZUTTIgyQ.png)
 
-&#x20;                                                    Pictorial representation of ZTNA
+&#x20;                                                      `Pictorial representation of ZTNA`
 
 ### **ZTNA-The need of the hour**
 
@@ -37,7 +37,7 @@ They include, but are not limited to:-
 
 &#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*uqIIj2rRjkAjK-uF0tTlqA.png)
 
-&#x20;                                            ZTNA follows the Castle-moat security model
+&#x20;                                            `ZTNA follows the Castle-moat security model`
 
 ## **Types of Zero Trust Network Architecture**
 

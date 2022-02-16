@@ -2,7 +2,7 @@
 
 Hello there,
 
-​Welcome to the first installment of my cyber security article documentation, far away from the world of RangeForce or Try Hack Me, but still close to me. Let's discuss PAM (Privileged Access Management) and grub.
+​Welcome to the first installment of my cyber security article documentation, far away from the world of RangeForce or Try Hack Me, but still close to me.Let's discuss PAM (Privileged Access Management) and grub.
 
 ## Introduction
 
@@ -21,23 +21,23 @@ Coming to the point, we will see how the root user’s password can be cracked, 
 1. Boot up the Linux OS, by starting the machine, on the VM
 2. After loading the screen, the user is presented with two options to use the installed Linux distribution. Press ‘e’ on the first option.
 
-&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*sqsPsCLYjDmzoC1z4PYitw.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*sqsPsCLYjDmzoC1z4PYitw.png)
 
 &#x20;                             `The grub menu`                                        &#x20;
 
 3\. The screen depicting the grub parameters will now load up. The user should edit the line starting with the character ‘f45’.
 
-&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*tStgAplg7r\_zpc5fGidnjQ.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*tStgAplg7r\_zpc5fGidnjQ.png)
 
 The rd. break command is used to interrupt the boot process, while the control is given to the kernel.
 
 4\. The required editing of parameters, is shown below. The combination of Ctrl+X must be performed, to enforce single-user mode.
 
-&#x20;                                             ![](https://cdn-images-1.medium.com/max/1000/1\*NOgfPqn-0IzzmH8ZvvFWJg.jpeg)
+![](https://cdn-images-1.medium.com/max/1000/1\*NOgfPqn-0IzzmH8ZvvFWJg.jpeg)
 
 5\. In emergency mode (without graphical support), the user will need to have the read-write permissions to edit the root password, on the file system. Further, the user needs to specify the name of the user, whose password needs to be reset.
 
-&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*kto4Ql\_3H0PSgCHv6a-tJA.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*kto4Ql\_3H0PSgCHv6a-tJA.png)
 
 `Each command is completed by pressing ‘Enter’`
 
