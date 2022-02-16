@@ -38,7 +38,7 @@ Implementing SIEM, could ensure the secure management of databases, containing i
 
 &#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*xFc9EdpMiOjesiR\_NI-bzA.png)
 
-&#x20;                                                                `SIEM Framework`&#x20;
+&#x20;                               `SIEM Framework`                                        &#x20;
 
 Initially, Organizations do not side with regulatory compliance. Such ignorance was constantly targeted with cyber attacks, along with data breaches. On top of the pile, they had to pay up fines for not following compliance rules.
 
@@ -46,14 +46,14 @@ Imagine valuable data of individuals being stolen, which contains identifiable i
 
 Eventually, entities started realizing its need, for the current scenario and though it has not led to decreased rates of leaking information, it has put a structured security framework in its place, with policies and standards to be adhered to. Security reports are generated for the organization, helping to meet compliance and keeping track of logged security events.
 
-### **Advantages of SIEM**
+### **Advantages of SIEM:-**
 
 * Automated Threat Detection and timely alerts
 * Increased Efficiency
 * Cost-effective
 * Intelligent, in terms of classification of threats.
 
-### **Disadvantages of SIEM**
+### **Disadvantages of SIEM:-**
 
 * Initially, configuring and setting up SIEM, on each endpoint of the network, was a tedious task. Simply put, a skilled workforce needs to be available, to do the work.
 * Manually sifting through each device’s log records. Pretty time-consuming.
