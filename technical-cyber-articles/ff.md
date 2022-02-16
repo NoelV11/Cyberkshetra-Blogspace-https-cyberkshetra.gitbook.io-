@@ -1,4 +1,4 @@
-# ff
+# SIEM-Incorporating Incident Response into Network Security
 
 Hey There,
 
@@ -73,3 +73,9 @@ In conclusion, the emergence of next-generation SIEM software, such as FireEye a
 For those who missed my previous piece on the unraveling of the Markovian Parallax Denigrate mystery, you can view it[ here](https://noelatvitb.medium.com/markovian-parallax-denigrate-breaking-the-cipher-8b7513dba086)
 
 Thank you, for spending your precious time, digesting this article and I mean it
+
+## Your opinion matters
+
+My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
+
+Let your opinion about this write-up be known, by selecting any one of the emojis below!
