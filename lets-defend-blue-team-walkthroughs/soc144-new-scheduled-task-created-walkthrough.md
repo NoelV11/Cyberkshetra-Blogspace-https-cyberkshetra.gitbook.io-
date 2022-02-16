@@ -1,4 +1,4 @@
-# SOC144 - New scheduled task created Walkthrough
+# SOC144 - New scheduled task created Alert
 
 Hello readers, welcome to this blog entry. Today, we will be trying to solve the SOC144 - New scheduled task created alert, on the Let’s Defend platform.
 
@@ -38,9 +38,7 @@ We uncover a python file titled: ‘Sorted-Algorithm.py’
 
 Now, let's open the alert’s playbook
 
-Let’s start filling up details:-
-
-​
+Let’s start filling up details:-​
 
 ![File Analysis](https://cdn-images-1.medium.com/max/1000/1\*N5B1Jp9O6k34p\_-2td8A-A.png)
 
@@ -58,15 +56,9 @@ When tested on Falcon Sandbox, it found that the file was not malicious
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*mFfnIpdrdi\_R-L3jGKt52A.png)
 
-​
-
 The same was the case with VirusTotal
 
-​
-
 ![](https://cdn-images-1.medium.com/max/1000/1\*du\_27ttvBMT8yY4EdPP6ww.png)
-
-​
 
 We answer that the malware is cleaned
 
@@ -86,9 +78,7 @@ Let’s compile the information that we have collected:-
 
 ​![](https://cdn-images-1.medium.com/max/1000/1\*Ri-lHe9vyEDoSPPXpEkXqA.png)![](https://cdn-images-1.medium.com/max/1000/1\*VPOskGSP2kuLA8Djf15zIg.png)
 
-## Analyst's Notes,about the alert
-
-​
+## Analyst's Notes
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*7IhV\_1RgZSy9EKEwI0sm1g.png)
 
@@ -96,15 +86,13 @@ Let’s compile the information that we have collected:-
 
 Close Alert — with notes, describing the alert as a True Positive
 
-​
-
 ![](https://cdn-images-1.medium.com/max/1000/1\*ERfdQ19vwBWstSRcFUzzsA.png)
 
 ## **Alert Scorecard**
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*DM0H8NdcsYhbje3qImlHjA.png)
 
-​Points Acquired — 10/15.Not bad,not bad at all!
+​Points Acquired — 10/15. Not bad, not bad at all!
 
 ## S**ummary of Case**
 

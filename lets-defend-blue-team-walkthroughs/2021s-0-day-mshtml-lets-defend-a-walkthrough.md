@@ -1,4 +1,4 @@
-# 2021’s 0-Day MSHTML - Let's Defend:A Walkthrough
+# 2021’s 0-Day MSHTML - Let's Defend Lab
 
 ![](<../.gitbook/assets/1 (2).png>)
 
@@ -42,7 +42,7 @@ Scrolling up, we can see the connection traffic from this IP
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*qyLNNKOmohyzd\_x0a78F7g.png)
 
-Since this is the only IP extracted from the malware file,coupled with it's suspicious traffic traces,we can confirm this as the answer
+Since this is the only IP extracted from the malware file, coupled with its suspicious traffic traces, we can confirm this as the answer
 
 > A)175.24.190.249
 
@@ -50,7 +50,7 @@ Since this is the only IP extracted from the malware file,coupled with it's susp
 
 Running a strings analysis over this file did not reveal the malicious domain that we needed
 
-Uploading this file onto Hybrid-Analysis,we get to see it's malicious level
+Uploading this file onto Hybrid-Analysis, we get to see its malicious level
 
 &#x20;![](https://cdn-images-1.medium.com/max/1000/1\*\_ua-FRuDZw3ycPaGacg9Tw.png)
 
@@ -89,13 +89,13 @@ This means that this domain is malicious
 
 > Q)Examing the income\_tax\_and\_benefit\_return\_2021.docx, what is the malicious domain in the docx file?
 
-We proceed to run the income\_tax\_and\_benefit\_return\_2021.docx file on Hybrid-Analysis tool
+We proceed to run the income\_tax\_and\_benefit\_return\_2021.docx file on the Hybrid-Analysis tool
 
 Malicious severity of file can be observed below:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*EPmZ5J8sAjz0nrZvCB8WzA.png)
 
-Having a look at the extracted strings section, this file too has contacted an external domain
+Having a look at the extracted strings section, this file has contacted an external domain too.
 
 Let’s check the domain out - 'hidusi.com'
 
@@ -109,7 +109,7 @@ Looking up the domain on AlienVault 
 
 > Q)What is the vulnerability the above files exploited?
 
-Throughout the analysis of each suspicious file,I had been collecting their SHA-256 hashes, which are listed below:-
+Throughout the analysis of each suspicious file, I had been collecting their SHA-256 hashes, which are listed below:-
 
 > (Employees\_Contact\_Audit\_Oct\_2021.docx)
 >
@@ -135,12 +135,12 @@ Let’s take the help of the hint, to find the answer format
 
 ## Conclusion
 
-Lookups of real-world malware samples made me enjoy the time spent practicing this room.This will be an almost daily occurence when eventually stepping into the shoes of a SOC Analyst,which I aspire to be
+Lookups of real-world malware samples made me enjoy the time spent practicing this room. This will be an almost daily occurrence when eventually stepping into the shoes of a SOC Analyst, which I aspire to be
 
 Thank you for devouring this blog entry and stay tuned as I try to close down more SOC alerts……
 
 ## Your opinion matters
 
-My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed.Dropping a sweet message would make my day
+My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
 Let your opinion about this write-up be known, by selecting any one of the emojis below!

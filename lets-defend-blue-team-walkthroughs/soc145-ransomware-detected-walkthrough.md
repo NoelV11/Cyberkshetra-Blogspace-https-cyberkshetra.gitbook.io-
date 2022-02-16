@@ -1,4 +1,4 @@
-# SOC145 - Ransomware Detected Walkthrough
+# SOC145 - Ransomware Detected Alert
 
 Welcome to this blog entry,as I document my journey,into the world of blue teaming.We will be tackling the “SOC145 — Ransomware Detected” case on the Let’s Defend platform,which is of hard difficulty
 
@@ -10,13 +10,13 @@ Case Particulars provided to the analyst:-
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*pFsfqeuj6ztYVXG1)
 
-We first take a look at the mailbox,to find any pointers about the case —which we couldnt find
+We first take a look at the mailbox, to find any pointers about the case —which we couldn't find
 
 ## Enumeration
 
 Now take the IP Address — 172.16.17.88 and perform a check on the endpoint and log sections
 
-We get this from the Endpoint section,giving a description about the source IP Address’ host machine​
+We get this from the Endpoint section, giving a description about the source IP Address’ host machine​
 
 ![​](https://cdn-images-1.medium.com/max/1000/0\*VqWijjynjbcW2TSS)
 
@@ -28,25 +28,25 @@ We get this from the Endpoint section,giving a description about the source IP A
 
 > Last Login — Aug 29 2020 08:12 PM
 
-No entries were found for Browser,Network or Command History.We get these entries for Process List however:-
+No entries were found for Browser, Network, or Command History. We get these entries for Process List, however:-
 
 ​![](https://cdn-images-1.medium.com/max/1000/0\*myZhuPhg5evsUWM4)![](https://cdn-images-1.medium.com/max/1000/0\*43o1hhwj1bOnjity)
 
-We get a corresponding match for someone named Mark,recieving a mail on Aug 29,when conducting a more through search in the LetsDefend mailbox​
+We get a corresponding match for someone named Mark, receiving a mail on Aug 29, when conducting a more thorough search in the LetsDefend mailbox​
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*ZCWvvFp27Hi8RuAr)
 
 ## Analysis of Evidence
 
-Having performed initial enumeration,lets download the file and unzip it,using the passphrase:infected
+Having performed initial enumeration, let's download the file and unzip it, using the passphrase:infected
 
-We uncover a file named ab.bin.Running file command against it tells us that it is an executable file,with GUI Interface
+We uncover a file named ab.bin.Running file command against it tells us that it is an executable file, with GUI Interface
 
 ​![](https://cdn-images-1.medium.com/max/1000/0\*78m7i2fZ3Jr2vkHs)
 
-Next,we take the file for analysis on VirusTotal and Hybrid-Analysis tools
+Next, we take the file for analysis on VirusTotal and Hybrid-Analysis tools
 
-## R**econnaisance using Hybrid-Analysis**
+## **R**econnaissance **using Hybrid-Analysis**
 
 Hybrid Analysis — (File is classified as Ransomware)
 
@@ -70,15 +70,13 @@ Executed Shell commands and process tree of the suspected file
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*iSUI62NQ3Lwh\_hkn)
 
-More notes about the ransomware file
-
-​
+More notes about the ransomware file​
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*39xHpcgKpPT3GpjV)
 
 No relevant HTTP Traffic or DNS Requests for this file(checked on Hybrid Analysis).This is a big blow,as we don't know the origin (country) of the ransomware
 
-IOC’s of infected file —Suspicious and Malicious
+IOC’s of infected file—Suspicious and Malicious
 
 ​![](https://cdn-images-1.medium.com/max/1000/1\*xtgfPJJFoFG9DWXF5yUf8A.png)![](https://cdn-images-1.medium.com/max/750/1\*QJ7V5yM\_gK\_r0IqhkQu1Qg.png)
 
@@ -112,7 +110,7 @@ IOC’s of infected file —Suspicious and Malicious
 
 ## Summary of Case
 
-A SOC alert came in,detailing the case as Ransomware.Analysing the file brought us to the conclusion that it was a binary file.Further enumeration found that the file was flagged previously on security and sandbox platforms,where we were able to gather more intelligence about the suspected file,concluding the alert to be a true positive
+A SOC alert came in, detailing the case as Ransomware. Analyzing the file brought us to the conclusion that it was a binary file. Further enumeration found that the file was flagged previously on security and sandbox platforms, where we were able to gather more intelligence about the suspected file, concluding the alert to be a true positive
 
 ## Conclusion
 
@@ -120,6 +118,6 @@ Thank you for devouring this blog entry and stay tuned as I try to close down mo
 
 ## Your opinion matters
 
-My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed.Dropping a sweet message would make my day
+My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
 Let your opinion about this write-up be known, by selecting any one of the emojis below!

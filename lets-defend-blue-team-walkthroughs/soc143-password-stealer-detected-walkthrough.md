@@ -1,4 +1,4 @@
-# SOC143 - Password Stealer Detected Walkthrough
+# SOC143 - Password Stealer Detected Alert
 
 Hello readers, welcome to this blog entry as I document my journey through the world of Blue Teaming. Today, we will be trying our hand at the SOC143 — Password Stealer Detected alert, on the Let’s Defend platform.
 
@@ -26,7 +26,7 @@ Let’s have a look at our mailbox-for any information about the same. We were a
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*BSGsYLxWXydLsGHqoUrsog.png)
 
-Now, let’s download the attached file and unzip it, using ‘unzip’ command and using the passphrase:infected
+Now, let’s download the attached file and unzip it, using the ‘unzip’ command and using the passphrase: infected
 
 ## Enumeration
 
@@ -40,19 +40,15 @@ We recover a file titled \[email protected]\_63963964Application.HTML, which is 
 
 Digging through the page source did not give us any red lights
 
-Let’s go through the playbook's questions:- ====================================================================
+## Playbook Questions
 
-> Are there attachments or URLs in the email? Please click “Yes” if there are an attachments or URLs in the email, if there are no attachments or URLs in the email please click “No”.
+> Q) Are there attachments or URLs in the email? Please click “Yes” if there are an attachments or URLs in the email, if there are no attachments or URLs in the email please click “No”.
 
 > Contains Attachment or Url?
 
-Answer — Yes
+> A) Yes
 
-\====================================================================
-
-> Analyze Url/Attachment in 3rd party sandboxes. Please click “Malicious” if it is malicious and click “Non-malicious” if it isn’t.
-
-\====================================================================
+> Q) Analyze Url/Attachment in 3rd party sandboxes. Please click “Malicious” if it is malicious and click “Non-malicious” if it isn’t.
 
 ## A**nalysis of infected file**
 
@@ -70,21 +66,23 @@ We find that the file has been run on two OS’ — Windows 7 (32 and 64 bit
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*WiqTpy5CtfYPm8rK93en7A.png)
 
-​So the file is indeed malicious ====================================================================
+​So the file is indeed malicious&#x20;
 
-> Check If Mail Delivered to User? Answer the following question by determining whether the e-mail is delivered by looking at the “device action” part of the alert details.
+> A) Malicious
+
+> Q) Check If Mail Delivered to User? Answer the following question by determining whether the e-mail is delivered by looking at the “device action” part of the alert details.
 
 Yes, we can find from the case particulars that device action has been set to allow
 
-So we click — Delivered
+> A) Delivered
 
-\====================================================================
-
-> Check If Someone Opened the Malicious File/URL? Please go to the “Log Management” page and check if the c2 address accessed. You can check if the malicious file is run by searching the c2 addresses of the malicious file.
+> Q) Check If Someone Opened the Malicious File/URL? Please go to the “Log Management” page and check if the c2 address accessed. You can check if the malicious file is run by searching the c2 addresses of the malicious file.
 
 > Please click “Yes” if someone has accessed the malicious address. Otherwise please click “No” button.
 
-We click yes ====================================================================
+We click yes&#x20;
+
+> A) Yes
 
 ## Ad**ding artifacts to the casefile**
 
@@ -92,17 +90,15 @@ Now, it’s time to add a few artifacts to the case
 
 Digging through more details, we find:- MD5 Hash of file — bd05664f01205fa90774f42468a8743a SHA — 1 Hash of file — f3df825ef2e3c70a5bc70f4a7c935be10a65bf57
 
-These information were sourced from VirusTotal,under the ‘Details’ tab.
+This information was sourced from VirusTotal, under the ‘Details’ tab.
 
-We add artifacts,that were collected during the enumeration process:-
-
-​
+We add artifacts, that were collected during the enumeration process:-​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*dHCuTZdYZ6ZMdevUwcLRHQ.png)
 
 ## F**urther Analysis of HTML File**
 
-From the community section of VirusTotal,we findthe Joe sandbox analysis of the same file​
+From the community section of VirusTotal, we find the Joe sandbox analysis of the same file​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*Sh-7zbLIJfV\_IMAAmQAOeA.png)
 

@@ -1,4 +1,4 @@
-# Let's Defend:  SOC147 - SSH Scan Activity Walkthrough
+# Let's Defend: SOC147 - SSH Scan Activity Alert
 
 Welcome to the world of Blue Teaming, as I explore it on the Let's Defend Platform, a renowned site for Blue Team practice
 
@@ -10,7 +10,7 @@ Today, we are going to get our hands dirty, with the Easy SOC Analyst Alert - SO
 
 To start the SOC Investigation, we need to "undertake" the case. Woohoo! it is labeled as Malware!
 
-We download the given .zip file onto a VM and unzip its contents,using the passphrase "infected"
+We download the given .zip file onto a VM and unzip its contents, using the passphrase "infected"
 
 ## Enumeration
 
@@ -42,7 +42,7 @@ We get some indicators as well:-
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2F4LLZMttAvIlS7hxSunuA%2F5.png?alt=media\&token=5364f6d4-d8aa-4a69-826a-4bc1cffc2b12)
 
-Scrolling down,we get to visualize what the file looks like
+Scrolling down, we get to visualize what the file looks like
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FNFHI1AdZxGz9Ihv31JrW%2F6.png?alt=media\&token=c7ce71cf-59be-4aea-afd8-5e25cb3e5afe)
 
@@ -60,21 +60,21 @@ Next, we move to Endpoint, where we paste the address and find a few particulars
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2F14l8ZoNYwSIvjJ4izWL4%2F8.png?alt=media\&token=3b5bcdde-d3ab-4cd9-bc8b-560f5c9c11d2)
 
-Clicking on Command History,we get :-
+Clicking on Command History, we get:-
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FyEqxmEUN8InrDHt1gVtC%2F9.png?alt=media\&token=2ea31857-9b7a-4306-9445-fda7e1e912ae)
 
 Meaning - SSH Scan from 172.16.20.5 to targets in subnet 172.16.20.0/24
 
-From Network Connections,we get:-
+From Network Connections, we get:-
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FrEOLdPaczsr5yGdpzexV%2F9\(1\).png?alt=media\&token=af43f58b-69ad-4f9f-8c27-b19a31dc8667)
 
-From Process List,we get:
+From Process List, we get:
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FSWVJ2Dtbui7fLY4S6zzr%2F10.png?alt=media\&token=2409ea8a-6bc7-4737-b591-e6c39ff1c49c)
 
-There is nothing much to investigate further,so let's open the playbook and enter the data we have acquired till now
+There is nothing much to investigate further, so let's open the playbook and enter the data we have acquired till now
 
 We enter our data and findings
 
@@ -90,17 +90,17 @@ _Malware or not? - No (-5 points) . The file was indeed malware._
 
 _Check if malware is quarrantined or not - No (+5 points)_
 
-Bonus - Just checked the 'Mailbox' feature in Let's Defend and searched the IP Address on the search bar,which threw up this email
+Bonus - Just checked the 'Mailbox' feature in Let's Defend and searched the IP Address on the search bar, which threw up this email
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FNiVKXWBY5TOtDDyaQAyg%2F12.png?alt=media\&token=c4d10c60-a416-4dbc-b0be-a30db69cbebe)
 
 ## Summary of Case
 
-A malware file was analyzed,with threw a false positive to the SOC Team.The file infact contained the nmap scan report on hosts,within the 172.16.20.5/24 subnet.The malware file was'nt quarantined as well
+A malware file was analyzed, which threw a false positive to the SOC Team. The file in fact contained the nmap scan report on hosts, within the 172.16.20.5/24 subnet. The malware file wasn't quarantined as well
 
 ## Conclusion
 
-Thank you for reading this entry.Stay tuned,as I go to hunt some pcap files out there....
+Thank you for reading this entry. Stay tuned, as I go hunting behind some pcap files out there....
 
 ## Your opinion matters
 

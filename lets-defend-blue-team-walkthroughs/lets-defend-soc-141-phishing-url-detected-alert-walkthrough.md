@@ -1,4 +1,4 @@
-# Let's Defend: SOC 141 - Phishing URL Detected alert Walkthrough
+# SOC 141 - Phishing URL Detected Alert
 
 It’s the first week of February and that just means one thing. Let’s Defend has released a new set of SOC Alerts for us blue teamers to investigate and solve and here, we will be solving the SOC 141— Phishing URL alert.
 
@@ -128,11 +128,15 @@ From the ‘Links’ tab of the domain’s analysis on VirusTotal, we can see so
 
 Unable to graph any mail addresses from this suspicious domain, we can very well state that the origin of the attack is from Reykjavik, the capital of Iceland
 
-![](https://cdn-images-1.medium.com/max/1000/1\*MherfU5aBFUIHfXLsIMUww.png)Mapped using Maltego![](https://cdn-images-1.medium.com/max/1000/1\*xZIv5OG0mX3l9asIgRo5Sg.png)
+&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*MherfU5aBFUIHfXLsIMUww.png)
+
+&#x20;                          `Mapped using Maltego`                                         &#x20;
+
+![](https://cdn-images-1.medium.com/max/1000/1\*xZIv5OG0mX3l9asIgRo5Sg.png)
 
 This is what the malicious domain looks like
 
-## Our Artifacts
+## Case Artifacts
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*fQ\_K5wZ9w5IoLJr7n6urBw.png)
 

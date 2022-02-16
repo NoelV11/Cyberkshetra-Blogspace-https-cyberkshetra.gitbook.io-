@@ -1,4 +1,4 @@
-# SOC146 - Phishing Mail Detected  Walkthrough
+# SOC146 - Phishing Mail Detected Alert
 
 Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform, which is of Medium difficulty
 
@@ -46,25 +46,25 @@ research-1646684671.xls — 30/59 security vendors flag it as malicious
 
 (Hash -1df68d55968bb9d2db4d0d18155188a03a442850ff543c8595166ac6987df820)  
 
-## Case Questions
+## Playbook Questions
 
-Step 1  - Are there any attachments or URL’s within the email — Yes
+> Q) Are there any attachments or URL’s within the email 
 
-Step 2 - Are the files malicious? — Yes
+> A)Yes
+
+> Q) Are the files malicious? 
+
+> A) Yes
 
 (Answers gained from initial enumeration)
 
-\====================================================================
+> Q) Check if mail is delivered to the user? (Hint: look at the “device action” part of the alert details)
 
-Step 3 - Check if mail is delivered to the user? (Hint: look at the “device action” part of the alert details)
+Here, the receiver is \[email protected]. Checking the Device Action, it says “Allowed” — probably means that the mail was in fact delivered to the intended user&#x20;
 
-Here, the receiver is \[email protected] Checking the Device Action, it says “Allowed” — probably means that the mail was in fact delivered to the intended user ••
+> A) Allowed
 
-\====================================================================
-
-Step 4&#x20;
-
-Q)Check If Someone Opened the Malicious File/URL? (Hint: Please go to the “Log Management” page and check if the c2 address was accessed. You can check if the malicious file is run by searching the c2 addresses of the malicious file.)
+> Q) Check If Someone Opened the Malicious File/URL? (Hint: Please go to the “Log Management” page and check if the c2 address was accessed. You can check if the malicious file is run by searching the c2 addresses of the malicious file.)
 
 We scroll down to extracted strings and other information, from the .xls file on the Hybrid-analysis tool
 
@@ -128,10 +128,10 @@ The case was a true positive for a phishing attack and the analyst responsibly p
 
 ## Conclusion
 
-Thank you for reading this blog entry. Stay tuned, as I go hunting some pcap files out there….
+Thank you for reading this blog entry. Stay tuned, as I go hunting behind some pcap files out there....
 
 ## Your opinion matters
 
-My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed.Dropping a sweet message would make my day
+My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
 Let your opinion about this write-up be known, by selecting any one of the emojis below!

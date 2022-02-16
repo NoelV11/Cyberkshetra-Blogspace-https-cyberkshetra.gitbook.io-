@@ -1,6 +1,6 @@
 # HTTP Basic Auth:Let's Defend DFIR Challenge
 
-![](https://cdn-images-1.medium.com/max/1000/1\*H1rhWTgN9396jHzWCFn0qA.png)
+&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*H1rhWTgN9396jHzWCFn0qA.png)
 
 Hello, blue teamers! Welcome to this latest blog post, as I document my methodology of solving the [HTTP Basic Auth](https://app.letsdefend.io/dfir/dfir/http-basic-auth/) challenge on Let’s Defend. Let’s go hunting after this .pcap file
 
@@ -75,13 +75,10 @@ Hunting through the GET requests, we find this username and password entered for
 
 This challenge was a breeze!
 
-Thank you for reading this entry. Stay tuned, as I go hunting some pcap files out there….
-
-#### Your opinion matters
+Thank you for reading this entry. Stay tuned, as I go hunting behind some pcap files out there....
 
 ## Your opinion matters
 
 My audience has a voice. Feel free to reach out to me, on my socials (links are on the side of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
 Let your opinion about this write-up be known, selecting any one of the emojis below!
-
