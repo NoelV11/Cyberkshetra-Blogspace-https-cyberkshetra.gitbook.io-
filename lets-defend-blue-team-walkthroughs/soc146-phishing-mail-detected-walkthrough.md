@@ -10,7 +10,7 @@ Let’s have a look at the case details:-
 
 ## Enumeration
 
-Next, we have a look through our Letsdefend Mailbox, to find any information. Searching with the keyword ‘Trenton’ gives us:-​
+Next, we have a look through our Letsdefend Mailbox, to find any information. Searching with the keyword ‘Trenton’ gives us the following email:-​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*B3cRVYSUY-fA1aw-fRPGCA.png)
 
@@ -96,23 +96,15 @@ Now we add a few artifacts that were collected during the investigation (IP Addr
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*EXb5NRGLwPInC7lk9ve6NQ.png)
 
-## Adding Analyst's notes
+## Analyst's notes
+
+To conclude the alert report, let's add the information and anomalies observed by use, so far.
 
 ![](https://cdn-images-1.medium.com/max/500/1\*h9l9\_l\_nHkHaRpmWJh2qpg.png)
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*K6yBwYqCl3R2HiRpge-hhQ.png)
 
 Now, we close the alert — classifying the event as a true positive
-
-True Positive (+5 Points)
-
-Check If Someone Opened the Malicious File/URL? (+5 Points)
-
-Check If Mail Delivered to User? (+5 Points)
-
-Analyze Url/Attachment (+5 Points)
-
-Are there attachments or URLs in the email? (+5 Points)
 
 ## Alert Scorecard
 
