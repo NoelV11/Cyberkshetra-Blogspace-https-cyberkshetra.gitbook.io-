@@ -162,7 +162,7 @@ This is awesome!
 
 &#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*UwZqN6T6f9jdrq\_FCU\_XEQ.png)
 
-## Summary of Alert
+## S**ummary of the alert**
 
 A phishing mail was sent from source 172.16.17.88, with a suspicious link embedded within it. Unfortunately, the victim ended up falling for it. Relevant network logs provide evidence of this.The suspicious domain was analyzed and showed evidence of peddling malware in the past
 

@@ -13,7 +13,7 @@
   * [ShellShock Attack: Let’s Defend Challenge](lets-defend-blue-team-walkthroughs/shellshock-attack-lets-defend-walkthrough.md)
   * [SOC141 - Phishing URL Detected Alert](lets-defend-blue-team-walkthroughs/soc141-phishing-url-detected-alert.md)
   * [SOC109 - Emotet Malware Detected Alert](lets-defend-blue-team-walkthroughs/soc109-emotet-malware-detected-alert-walkthrough.md)
-  * [SOC 101 - Phishing Mail Detected Alert](lets-defend-blue-team-walkthroughs/soc-101-phishing-mail-detected-alert-walkthrough.md)
+  * [SOC101 - Phishing Mail Detected Alert](lets-defend-blue-team-walkthroughs/soc101-phishing-mail-detected-alert.md)
 * [🥇 Try Hack Me - Blue Team Room Walkthroughs](try-hack-me-blue-team-room-walkthroughs/README.md)
   * [Try Hack Me's Attacktive Directory - A Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough.md)
   * [Try Hack Me's Investigating Windows:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/investigating-windows-try-hack-me-walkthrough.md)

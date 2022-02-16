@@ -1,4 +1,4 @@
-# SOC 101 - Phishing Mail Detected Alert
+# SOC101 - Phishing Mail Detected Alert
 
 Hello, blue teamers. In this blog entry, join me as I attempt to conquer the SOC 101 — Phishing Mail Detected alert, hosted on[ Let’s Defend](https://letsdefend.io).
 
@@ -119,7 +119,7 @@ Close the alert
 
 We were not able to achieve the objectives required to completely solve this alert. Let’s take it as a learning opportunity, to go ahead and crush other incoming SOC alerts!
 
-## Summary of Alert
+## S**ummary of the alert**
 
 A phishing mail has come in, to one of Let's Defend's endpoints. Upon investigation, it was found that the link attached was malicious in nature. It had been used to peddle malware in the past and it is understood that the endpoint user did in fact click on the link.&#x20;
 
