@@ -14,11 +14,11 @@ Next steps:-
 
 > Create Case
 
-This case will be extra sweet to solve, as we get to analyze a phishing password stealer, that was used in a real-world Cyberattack
+This case will be extra sweet to solve, as we get to analyze a phishing password stealer, that was used in a real-world cyberattack
 
 > Start Playbook — a special component of investigation.Gives us a blueprint of steps to follow in a case,in an automated manner
 
-## Questions
+## Playbook Questions
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*J-nZRo10XtKD4FgGxtuBcQ.png)
 
@@ -30,9 +30,7 @@ Now, let’s download the attached file and unzip it, using the ‘unzip’ comm
 
 ## Enumeration
 
-We recover a file titled \[email protected]\_63963964Application.HTML, which is an HTML file. Now, let’s view it on the browser, which gives us:-
-
-​
+We recover a file titled \[email protected]\_63963964Application.HTML, which is an HTML file. Now, viewing it on the browser, gives us the following webpage:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*VWD7cwxxTG-Ibz-FYwNzJQ.png)
 
@@ -88,11 +86,15 @@ We click yes&#x20;
 
 Now, it’s time to add a few artifacts to the case
 
-Digging through more details, we find:- MD5 Hash of file — bd05664f01205fa90774f42468a8743a SHA — 1 Hash of file — f3df825ef2e3c70a5bc70f4a7c935be10a65bf57
+Digging through more details, we find:-&#x20;
+
+MD5 Hash of file — bd05664f01205fa90774f42468a8743a&#x20;
+
+SHA — 1 Hash of file — f3df825ef2e3c70a5bc70f4a7c935be10a65bf57
 
 This information was sourced from VirusTotal, under the ‘Details’ tab.
 
-We add artifacts, that were collected during the enumeration process:-​
+We add artifacts, that were collected during the enumeration process
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*dHCuTZdYZ6ZMdevUwcLRHQ.png)
 
@@ -108,7 +110,7 @@ As an analyst, we conclude the case, by jotting some notes about the same
 
 ​Finish Playbook
 
-Close Alert — by providing notes and classifying the alert as either true or false positive
+Close Alert — by providing notes and classifying the alert, either as a true or false positive
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*0uNcxWEjae2NVJ-rXiX7Yg.png)
 
