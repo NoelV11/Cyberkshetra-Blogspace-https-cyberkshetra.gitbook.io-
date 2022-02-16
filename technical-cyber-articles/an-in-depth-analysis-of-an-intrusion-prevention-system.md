@@ -2,7 +2,7 @@
 
 Hello readers!
 
-Who is in the mood to discuss some blue team and IPS today? Look what I've got for you,an article discussing about how an IPS works,threat detection methodology and it's implementation in an organization's network security architecture.
+Who is in the mood to discuss some blue team and IPS today? Look what I've got for you, an article discussing how an IPS works, threat detection methodology and implementation in an organization's network security architecture.
 
 Grab some popcorn and read on!
 
@@ -25,8 +25,7 @@ Attackers are constantly on the lookout for vulnerabilities, present on a networ
 \
 The device is constantly on the lookout for malicious activities or attempts to use network peripherals, without permission. Since this system is located behind a firewall, it can be applied as a filter, to provide an extra layer of security. By being on the lookout, the device thoroughly inspects each packet being transmitted through the network. A cross-check is done with the contents of the packet, with a database of known threats. Note that legitimate transmissions between nodes on the network are allowed to be carried out.
 
-In case a packet gets flagged, the following actions are enforced:-\
-
+In case a packet gets flagged, the following actions are enforced:-
 
 * Stop transmission from the source IP immediately.
 * Dropping the packets being transmitted     and&#x20;
@@ -42,7 +41,7 @@ Detection methods may or can include:-&#x20;
 * TCP connection analysis  and&#x20;
 * TCP Port matching
 
-![](https://cdn-images-1.medium.com/max/1000/1\*eECJy0lxCq-SE5NHp4tIpg.jpeg)
+&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*eECJy0lxCq-SE5NHp4tIpg.jpeg)
 
 &#x20;                      `A pictorial representation of an IPS`                           &#x20;
 
@@ -55,11 +54,11 @@ Detection methods may or can include:-&#x20;
 
 With the methods specified above, there are 3 Intrusion Prevention Systems that can be chosen, to meet requirements. They are:-
 
-* Network behavior Analysis IPS (NIDS)-It’s primary function is to analyze the network for abnormal traffic flow, which is caused by threats. It is useful in preventing DDOS attacks and malware spread.
+* Network behavior Analysis IPS (NIDS)-Its primary function is to analyze the network for abnormal traffic flow, which is caused by threats. It is useful in preventing DDOS attacks and malware spread.
 * Network-based Intrusion Prevention System (NIPS)-This system is instrumental in monitoring the network, for suspicious protocol activity.
 * Host-based IPS (HIPS)-This architecture enables organizations, to monitor processes and user activity, over computer systems. It tracks changes that are made to system configuration and log files, ultimately alerting the personnel, about the suspicious activities
 
-![](https://cdn-images-1.medium.com/max/1000/1\*pICSx4PqbFR4Nq2nHODSeA.jpeg)
+&#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*pICSx4PqbFR4Nq2nHODSeA.jpeg)
 
 &#x20;       `The importance of network security in today’s world is paramount`                &#x20;
 
