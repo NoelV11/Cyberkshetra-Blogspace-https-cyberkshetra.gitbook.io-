@@ -2,7 +2,7 @@
 coverY: 0
 ---
 
-# Attacktive Directory - Try Hack Me Walkthrough
+# Try Hack Me's Attacktive Directory - A Walkthrough
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*qX1t1LN5mzSIE3GWnkmkPA.png)
 
@@ -58,9 +58,9 @@ We get the following information from the scan report:-
 
 ### Questions
 
-> Q)What tool will allow us to enumerate port 139/445?&#x20;
+> Q) What tool will allow us to enumerate port 139/445?&#x20;
 
-> A)enum4linux
+> A) enum4linux
 
 Keep in mind that enum4linux is not OS-specific. You can use it to enumerate SMB and RDP ports on both Linux and Windows
 
@@ -75,17 +75,15 @@ This is the information that we get:-
 
 We didn't get anything useful from this enumeration, for now
 
-### Questions
+> Q) What is the NetBIOS-Domain Name of the machine?
 
-> Q)What is the NetBIOS-Domain Name of the machine?
+> A) THM-AD
 
-> A)THM-AD
-
-> Q)What invalid TLD do people commonly use for their Active Directory Domain?
+> Q) What invalid TLD do people commonly use for their Active Directory Domain?
 >
 >
 >
-> A).local
+> A) .local
 
 ## **Task 4 - Enumerating users via Kerberos**
 
@@ -97,9 +95,9 @@ We didn't get anything useful from this enumeration, for now
 
 ### Questions
 
-> Q)What command within Kerbrute will allow us to enumerate valid usernames?
+> Q) What command within Kerbrute will allow us to enumerate valid usernames?
 
-> A)userenum
+> A) userenum
 
 Now, we proceed to install Kerbrute, to see what valid usernames are present in the Domain Controller
 
@@ -113,21 +111,19 @@ Now to make use of the tool
 
 > `Command — ./kerbrute userenum — dc 10.10.132.240 -d spookysec.local /home/kali/Downloads/Passwords`
 
-We get the following accounts:-
-
-​
+We get the following accounts:-​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*pdDnM5JOq6OKax2oqEPRgA.png)
 
 ### Questions
 
-> Q)What notable account is discovered? (These should jump out at you)
+> Q) What notable account is discovered? (These should jump out at you)
 
-> A)svc-admin
+> A) svc-admin
 
-> Q)What is the other notable account is discovered? (These should jump out at you)
+> Q) What is the other notable account is discovered? (These should jump out at you)
 
-> A)backup
+> A) backup
 
 ## **Task 5 - Abusing Kerberos**
 
@@ -159,23 +155,23 @@ Cracked Password — management2005
 
 ### Questions
 
-> Q)We have two user accounts that we could potentially query a ticket from. Which user account can you query a ticket from with no password?
+> Q) We have two user accounts that we could potentially query a ticket from. Which user account can you query a ticket from with no password?
 
-> A)svc-admin
+> A) svc-admin
 
 > Q)Looking at the Hashcat Examples Wiki page, what type of Kerberos hash did we retrieve from the KDC? (Specify the full name)
 
-> A)Kerberos 5 etype 23 AS-REP
+> A) Kerberos 5 etype 23 AS-REP
 
-> Q)What mode is the hash?
+> Q) What mode is the hash?
 
-> A)18200
+> A) 18200
 >
 >
 >
-> Q)Now crack the hash with the modified password list provided, what is the user accounts password?
+> Q) Now crack the hash with the modified password list provided, what is the user accounts password?
 
-> A)management2005
+> A) management2005
 
 ## **Task 6 - Back to the Basics**
 
@@ -205,17 +201,17 @@ Now to download them onto the system, use the following commands:-
 
 ### **Questions**
 
-> Q)What utility can we use to map remote SMB shares?
+> Q) What utility can we use to map remote SMB shares?
 
-> A)smbclient
+> A) smbclient
 
-> Q)Which option will list shares?
+> Q) Which option will list shares?
 
-> A)-L
+> A) -L
 
-> Q)How many remote shares is the server listing?
+> Q) How many remote shares is the server listing?
 
-> A)6
+> A) 6
 
 Now, we cat out the contents of backup\_credentials.txt, where we find:-
 
@@ -233,7 +229,7 @@ Catting out the contents of SMB2, we find:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*xOHJihwnAsJDAhVoZQG-FQ.png)
 
-> Q)Decoding the contents of the file, what is the full contents?
+> Q) Decoding the contents of the file, what is the full contents?
 >
 > A) backup@spookysec.local:backup2517860
 
@@ -253,9 +249,9 @@ Now, let’s recover the NTLM hashes of accounts on the Domain Controller, using
 
 ### Questions
 
-> Q)What method allowed us to dump NTDS.DIT?
+> Q) What method allowed us to dump NTDS.DIT?
 
-> A)DRSUAPI
+> A) DRSUAPI
 
 > Q)What is the Administrators NTLM hash?
 
