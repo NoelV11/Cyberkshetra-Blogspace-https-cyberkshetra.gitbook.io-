@@ -112,7 +112,7 @@ Now, we close the alert — classifying the event as a true positive
 
 This case was fascinating and I was double happy with the fact that I got all answers right!
 
-## Summary of Case
+## Summary of Alert
 
 A phishing mail was sent from source 172.16.17.57, disguised as a harmless document, which led to two users falling for the attack, downloading the mail’s malicious content. A total of 3 files were recovered and analyzed, having malicious characteristics.
 

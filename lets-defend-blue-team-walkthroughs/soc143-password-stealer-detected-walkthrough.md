@@ -120,7 +120,7 @@ Close Alert — by providing notes and classifying the alert, either as a tr
 
 20/25 points acquired. We got it wrong in one question. Further enumeration would have prevented us from committing that error
 
-## **Summary of Case**
+## **Summary of Alert**
 
 A SOC Alert came in, asking us if a suspected phishing mail and its attachment was indeed malicious. Upon closer inspection, we found that it was designed to capture a user’s password, mimicking Microsoft’s Outlook login page, which is a classic example of a Phishing attack
 

@@ -1,4 +1,4 @@
-# Let's Defend: SOC147 - SSH Scan Activity Alert
+# SOC147-SSH Scan Activity Alert
 
 Welcome to the world of Blue Teaming, as I explore it on the Let's Defend Platform, a renowned site for Blue Team practice
 
@@ -94,7 +94,7 @@ Bonus - Just checked the 'Mailbox' feature in Let's Defend and searched the IP A
 
 ![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FNiVKXWBY5TOtDDyaQAyg%2F12.png?alt=media\&token=c4d10c60-a416-4dbc-b0be-a30db69cbebe)
 
-## Summary of Case
+## Summary of Alert
 
 A malware file was analyzed, which threw a false positive to the SOC Team. The file in fact contained the nmap scan report on hosts, within the 172.16.20.5/24 subnet. The malware file wasn't quarantined as well
 
