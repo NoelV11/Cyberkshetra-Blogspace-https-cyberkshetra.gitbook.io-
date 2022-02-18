@@ -6,7 +6,7 @@ Hello, blue teamers. In this blog entry, join me as I attempt to conquer the SOC
 
 ## Introduction to the Alert
 
-Let’s have a good look at it, to familiarize ourselves with the details
+Let’s have a good look at the alert, to familiarize ourselves with the details
 
 &#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*KqlRkaOm5oVsrkOPFNE2Pw.png)
 

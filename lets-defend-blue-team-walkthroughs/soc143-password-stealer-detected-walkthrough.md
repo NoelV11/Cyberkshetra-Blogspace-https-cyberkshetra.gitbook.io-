@@ -6,7 +6,7 @@ Hello readers, welcome to this blog entry as I document my journey through the w
 
 ## Introduction to the Alert
 
-The case particulars are given to analyze and understand:-
+The alert particulars are given to analyze and understand:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*0wZPA1nJXMuq1Txm30QHQw.png)
 

@@ -1,10 +1,8 @@
-# OhSint: A Walkthrough
+# Try Hack Me's OhSint:A Walkthrough
 
 ![](../.gitbook/assets/IW.png)
 
 ​Hello readers, welcome to this segment of my blog, as I guide you to solve the [OhSint](https://tryhackme.com/room/ohsint) Room, hosted on TryHackMe.Doing this room was a lot of fun!
-
-**NOTE: Always remember to investigate rooms from Try Hack Me, on a VM.**
 
 ## Task 1 - OhSint
 

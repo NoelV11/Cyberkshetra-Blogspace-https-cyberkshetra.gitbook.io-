@@ -4,9 +4,9 @@ Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phis
 
 **NOTE: Always remember to investigate alerts from Let's Defend, on a VM.**
 
-## Introduction to the Case
+## Introduction to the Alert
 
-Let’s have a look at the case details:-
+Let’s have a look at the alert details:-
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*rf5NUnFR6Ji0-mhMhvSKrQ.png)
 

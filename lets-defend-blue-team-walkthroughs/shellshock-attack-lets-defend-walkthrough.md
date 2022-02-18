@@ -6,8 +6,6 @@ Hello, blue teamers. Today I am going to try my hand on another short and easy b
 
 Let's go for it!
 
-**NOTE: Always remember to investigate challenges from Let's Defend, on a VM.**
-
 ## Gist of the challenge
 
 > You must to find details of shellshock attacks

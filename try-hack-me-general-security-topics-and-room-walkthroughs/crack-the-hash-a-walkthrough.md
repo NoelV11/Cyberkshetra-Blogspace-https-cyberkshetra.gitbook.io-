@@ -1,12 +1,10 @@
-# Crack The Hash: A Walkthrough
+# Try Hack Me's Crack The Hash:A Walkthrough
 
 ![](../.gitbook/assets/LI.png)
 
 We've got some hashes to crack, are you down with me to crack them? Join me as I attempt to solve the [Crack the Hash](https://tryhackme.com/room/crackthehash) room on Try Hack Me
 
 Room credits go to [Ben](https://twitter.com/0x8445). Awesome stuff!
-
-**NOTE: Always remember to investigate rooms from Try Hack Me, on a VM.**
 
 ## Task 1 - Level 1
 

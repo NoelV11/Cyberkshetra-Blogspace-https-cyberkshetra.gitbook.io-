@@ -8,7 +8,7 @@ Let’s jump head first into it.
 
 ## Introduction to the Alert
 
-Case Particulars provided to the analyst:-
+Alert particulars provided to the analyst:-
 
 ![](https://cdn-images-1.medium.com/max/1000/0\*pFsfqeuj6ztYVXG1)
 

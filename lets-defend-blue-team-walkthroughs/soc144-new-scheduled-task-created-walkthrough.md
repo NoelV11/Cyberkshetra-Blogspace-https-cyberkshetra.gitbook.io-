@@ -6,7 +6,7 @@ Hello readers, welcome to this blog entry. Today, we will be trying to solve the
 
 ## Introduction to the Alert
 
-The case particulars are given to analyze and understand:-​
+The alert particulars are given to analyze and understand:-​
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*4-20uejooB2bNvYwp0k6Fg.png)
 
