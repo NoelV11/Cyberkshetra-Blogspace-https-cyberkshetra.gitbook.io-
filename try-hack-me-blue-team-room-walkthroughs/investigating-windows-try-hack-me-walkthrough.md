@@ -120,7 +120,7 @@ From the scheduled task’s description, we find:-​
 
 > Q) At what date did the compromise take place?
 
-Answer format: MM/DD/YYYYWhen moving to Scheduled Event ->Triggers,we find the start date of this process
+Answer format: MM/DD/YYYYWhen moving to Scheduled Event ->Triggers, we find the start date of this process
 
 > A) 03/02/2019
 
@@ -132,7 +132,7 @@ Explains why Mimikatz opens up once in a while​
 
 ​                                          ![](https://cdn-images-1.medium.com/max/1000/1\*h95mehKJAi5C\_fv8UGp5vw.png)​
 
-Upon inspecting it, we find (under ‘Actions’ tab)
+Upon inspecting it, we find (under ‘the Actions’ tab)
 
 ​​                                         ![](https://cdn-images-1.medium.com/max/1000/1\*9Y--YcMmR6Y7PoQkGHGFRw.png)​
 
@@ -156,7 +156,7 @@ From here, we can see that Google’s IP Address/DNS Address is given as 76.32.9
 
 A)We can browse C:\inetpub\wwwroot .to find any files uploaded in the web browser
 
-Where, we find:-
+Where we find:-
 
 ​​                                          ![](https://cdn-images-1.medium.com/max/1000/1\*UI5woFTKEFhlJxJqhtC0xg.png)​
 
@@ -174,7 +174,7 @@ We find port 1337 as the last port to be opened, by the attacker, for inbound tr
 
 > Q) Check for DNS poisoning, what site was targeted?
 
-A)We observed in the above picture that Google had its default IP (8.8.8.8) changed to some other IP, in a manner this mimics the “DNS Poisoning Attack”
+A)We observed in the above picture that Google had its default IP (8.8.8.8) changed to some other IP, in a manner, this mimics the “DNS Poisoning Attack”
 
 > A) google.com
 
