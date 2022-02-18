@@ -4,7 +4,7 @@
 
 Hello, blue teamers. In this blog entry, join me as I attempt to conquer the [Suspicious USB Stick challenge](https://blueteamlabs.online/home/challenge/5), hosted on [Security Blue Team Labs Online](https://blueteamlabs.online/home). This is a retired challenge and falls under the Digital Forensics domain. It was pretty fun to investigate!
 
-**NOTE: Always remember to investigate challenges from BTLO, on a VM.**
+
 
 ## Premise of Alert
 
@@ -113,6 +113,8 @@ Challenge conquered!
 ## Conclusion
 
 It is good to experiment and practice analysis with malware, especially when you finally get exposed to one in a SOC environment. These small tasks are sure to help me in the future
+
+Every challenge solved is a step towards perfection and I am always looking for ways to improve
 
 Thank you for reading this blog entry. Stay tuned, as I go hunting behind some pcap files out there.....
 

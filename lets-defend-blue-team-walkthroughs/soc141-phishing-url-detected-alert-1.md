@@ -149,7 +149,7 @@ This is not a bad score at all, but I wish I had been a bit more careful, in get
 
 ## A perfect ending
 
-Upon submitting my answers, I was met with this beauty of a badge.It looks pretty awesome and I am proud of myself, for having achieved it!
+Upon submitting my answers, I was met with this beauty of a badge. It looks pretty awesome and I am proud of myself, for having achieved it!
 
 I would encourage you to give Let’s Defend a try and see how you enjoy and learn from it!
 

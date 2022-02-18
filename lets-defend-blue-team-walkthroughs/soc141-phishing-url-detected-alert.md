@@ -158,15 +158,15 @@ Finish the playbook!
 
 Proceed to close the alert and provide parting remarks about the case
 
-&#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*UrXY4s9b0PgIBD0VW2HYDQ.png)
-
-Every alert solved is a step towards perfection and I am pretty happy with the score I received.
+&#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*UrXY4s9b0PgIBD0VW2HYDQ.png)&#x20;
 
 ## Alert Scorecard
 
 This is awesome!
 
 &#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*UwZqN6T6f9jdrq\_FCU\_XEQ.png)
+
+Every alert solved is a step towards perfection and I am pretty happy with the score I recieved.
 
 ## S**ummary of the alert**
 

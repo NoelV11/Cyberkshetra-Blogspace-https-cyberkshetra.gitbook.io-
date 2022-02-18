@@ -114,6 +114,8 @@ It is given in the reverse shell command&#x20;
 
 ## Conclusion
 
+Every challenge solved is a step towards perfection and I am always looking for ways to improve
+
 Thank you for reading this blog entry. Stay tuned, as I go hunting behind some pcap files out there....
 
 ## Your opinion matters

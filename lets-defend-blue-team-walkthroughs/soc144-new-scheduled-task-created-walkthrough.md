@@ -16,7 +16,7 @@ Next steps:-
 
 > _Create Case_
 
-Download the file to be analyzed, onto the Virtual Machine (recommended) and unzip it
+Download the file to be analyzed and unzip it
 
 ## Enumeration
 
