@@ -125,7 +125,7 @@ Every alert solved is a step towards perfection and I am pretty happy with the s
 
 ## S**ummary of the alert**
 
-A phishing mail has come in, to one of Let's Defend's endpoints. Upon investigation, it was found that the link attached was malicious in nature. It had been used to peddle malware in the past and it is understood that the endpoint user did click on the link.&#x20;
+A phishing mail has come in, to one of Let's Defend's endpoints. Upon investigation, it was found that the link attached was malicious in nature. It had been used to peddle malware in the past and it is understood that the endpoint user did in fact click on the link.&#x20;
 
 All relevant evidence and information has been collected and submitted, confirming the alert as a true positive&#x20;
 
@@ -137,4 +137,4 @@ Thank you for reading this blog entry. Stay tuned, as I go hunting behind some p
 
 My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
-Let your opinion about this write-up be known, by selecting any one of the emojis below!
+Let your opinion about this write-up be known, by giving it a clap!
