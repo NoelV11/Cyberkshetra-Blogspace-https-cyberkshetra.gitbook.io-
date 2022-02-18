@@ -4,6 +4,8 @@ Hello, blue teamers. In this blog entry, let’s take a crack at solving the [Ne
 
 Let’s get our hands dirty with some .pcap files!
 
+**NOTE: Always remember to investigate challenges from BTLO, on a VM.**
+
 ## The premise of the challenge
 
 > The SOC received an alert in their SIEM for ‘Local to Local Port Scanning’ where an internal private IP began scanning another internal system. Can you investigate and determine if this activity is malicious or not? You have been provided a PCAP, investigate using any tools you wish.

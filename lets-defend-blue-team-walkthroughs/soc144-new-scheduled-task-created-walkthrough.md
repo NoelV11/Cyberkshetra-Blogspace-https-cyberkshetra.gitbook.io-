@@ -2,7 +2,9 @@
 
 Hello readers, welcome to this blog entry. Today, we will be trying to solve the SOC144 - New scheduled task created alert, on the Let’s Defend platform.
 
-## Introduction to the Case
+**NOTE: Always remember to investigate alerts from Let's Defend, on a VM.**
+
+## Introduction to the Alert
 
 The case particulars are given to analyze and understand:-​
 

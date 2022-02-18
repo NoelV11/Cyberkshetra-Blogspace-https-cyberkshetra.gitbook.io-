@@ -1,8 +1,10 @@
-# BTLO:Suspicious USB Stick Challenge
+# BTLO: Suspicious USB Stick Challenge
 
 &#x20;                                     ![](https://cdn-images-1.medium.com/max/1000/1\*Cb6k216iRs34XnDD504KNg.png)
 
 Hello, blue teamers. In this blog entry, join me as I attempt to conquer the [Suspicious USB Stick challenge](https://blueteamlabs.online/home/challenge/5), hosted on [Security Blue Team Labs Online](https://blueteamlabs.online/home). This is a retired challenge and falls under the Digital Forensics domain. It was pretty fun to investigate!
+
+**NOTE: Always remember to investigate challenges from BTLO, on a VM.**
 
 ## Premise of Alert
 

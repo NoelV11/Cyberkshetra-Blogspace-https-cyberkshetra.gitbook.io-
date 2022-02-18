@@ -1,4 +1,4 @@
-# 2021’s 0-Day MSHTML - Let's Defend Lab
+# 2021’s 0-Day MSHTML: Let's Defend Lab
 
 ![](<../.gitbook/assets/1 (2).png>)
 
@@ -7,6 +7,8 @@ Hello, budding blue teamers.Welcome to this latest blog entry, where I will be w
 Challenge credits go to [Bohan Zhang](https://www.linkedin.com/in/bohan-zhang-078751137/) and malware sample provision by [MalwareBazaar](https://bazaar.abuse.ch)
 
 Let's analyze some malware!
+
+**NOTE: Always remember to investigate challenges from Let's Defend, on a VM.**
 
 ## Introduction
 

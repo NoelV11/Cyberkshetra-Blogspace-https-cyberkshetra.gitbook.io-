@@ -1,12 +1,14 @@
-# SOC101 - Phishing Mail Detected Alert
+# SOC101  -  Phishing Mail Detected Alert
 
 Hello, blue teamers. In this blog entry, join me as I attempt to conquer the SOC 101 — Phishing Mail Detected alert, hosted on[ Let’s Defend](https://letsdefend.io).
 
-## Alert details
+**NOTE: Always remember to investigate alerts from Let's Defend, on a VM.**
 
-&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*KqlRkaOm5oVsrkOPFNE2Pw.png)
+## Introduction to the Alert
 
 Let’s have a good look at it, to familiarize ourselves with the details
+
+&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*KqlRkaOm5oVsrkOPFNE2Pw.png)
 
 > Proceed to take ownership of the case\
 > Create case

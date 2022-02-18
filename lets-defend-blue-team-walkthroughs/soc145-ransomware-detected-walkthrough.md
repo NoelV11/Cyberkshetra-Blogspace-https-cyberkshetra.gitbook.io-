@@ -4,7 +4,9 @@ Welcome to this blog entry,as I document my journey,into the world of blue teami
 
 Let’s jump head first into it.
 
-## Introduction to Case
+**NOTE: Always remember to investigate alerts from Let's Defend, on a VM.**
+
+## Introduction to the Alert
 
 Case Particulars provided to the analyst:-
 
