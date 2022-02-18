@@ -234,7 +234,7 @@ Here is where I learned to insert both hash:salt in a single file to crack it. G
 
 As usual a fun room. Cracking hashes is a good skill and thing to know, especially when working in a red team environment, to compromise an account's credentials.
 
-Thank you for reading this entry. Stay tuned, as I go to hunt some pcap files out there....
+Thank you for reading this entry. Stay tuned, as I go hunting behind some pcap files out there….
 
 ## Your opinion matters
 

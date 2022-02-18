@@ -295,12 +295,12 @@ Questions:-
 
 ## Conclusion
 
-I do hope that you enjoyed this writeup as much as I did while solving this room!
+I do hope that you enjoyed this write-up as much as I did while solving this room!
 
 Thank you for reading this blog and stay tuned as I try to close down more SOC alerts……
 
 ## Your opinion matters
 
-My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed.Dropping a sweet message would make my day
+My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
 Let your opinion about this write-up be known, by selecting any one of the emojis below!
