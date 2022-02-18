@@ -1,4 +1,4 @@
-# Try Hack Me's Splunk:A Walkthrough
+# Splunk: A Walkthrough
 
 
 
@@ -9,6 +9,8 @@ Hello, fellow blue teamers,
 Join me in this blog entry, as I guide you to solve Try to Hack Me’s [Splunk ](https://tryhackme.com/room/bpsplunk)room.
 
 Room creation credits go to [Darkstar7471](https://twitter.com/darkstar7471).Find him on Discord! - **Bloke#2439**!
+
+**NOTE: Always remember to investigate rooms from Try Hack Me, on a VM.**
 
 ## Task 1  —  Deploy
 
@@ -318,9 +320,9 @@ Next, we calculate the lengths of the extracted passwords
 > \| rex field=form\_data “passwd=(?\<userpassword>\w+)” \
 > \| eval lenpword=len(userpassword) \
 > \| head 10 \
-> \| table userpassword lenpword
+> \| table userpassword lenpword&#x20;
 
-![](https://cdn-images-1.medium.com/max/1000/1\*Fh63SEtIWLfJiXjwLOja8Q.png)
+&#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*Fh63SEtIWLfJiXjwLOja8Q.png)
 
 Now, let’s refine our results
 

@@ -108,6 +108,8 @@ IOC’s of infected file—Suspicious and Malicious
 
 15/20 points acquired! That’s not bad in my book!
 
+Every alert solved is a step towards perfection and I am pretty happy with the score I received.
+
 ## Summary of the alert
 
 A SOC alert came in, detailing the case as Ransomware. Analyzing the file brought us to the conclusion that it was a binary file. Further enumeration found that the file was flagged previously on security and sandbox platforms, where we were able to gather more intelligence about the suspected file, concluding the alert to be a true positive

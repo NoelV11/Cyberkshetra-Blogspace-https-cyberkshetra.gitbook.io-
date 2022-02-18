@@ -6,6 +6,8 @@ Hello readers.Welcome to this segment of Noel's blog entries,as I learn and solv
 
 Room credits go to [CMNatic](https://twitter.com/CMNatic).Cheerio!
 
+**NOTE: Always remember to investigate rooms from Try Hack Me, on a VM.**
+
 ## Task 1 - Ye Ol' Search Engine
 
 Google is arguably the most famous example of “Search Engines”, I mean who remembers Ask Jeeves? ~~_shudders_~~

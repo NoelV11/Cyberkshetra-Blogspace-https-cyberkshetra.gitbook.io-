@@ -1,10 +1,12 @@
-# Try Hack Me's Investigating Windows:A Walkthrough
+# Investigating Windows: A Walkthrough
 
 ![](<../.gitbook/assets/IW (1).png>)
 
 Hello, fellow blue teamers! Join me in this blog entry, as I attempt to solve the [Investigating Windows](https://tryhackme.com/room/investigatingwindows) room, on Try Hack Me. This room is of Medium Difficulty
 
 Room creation credits go to[ tryhackme](https://tryhackme.com/p/tryhackme). Thank you!
+
+**NOTE: Always remember to investigate rooms from Try Hack Me, on a VM.**
 
 ## Investigating Windows
 

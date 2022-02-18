@@ -120,7 +120,9 @@ Close Alert — by providing notes and classifying the alert, either as a tr
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*f8ALacksYVE641bmdxYmSQ.png)
 
-20/25 points acquired. We got it wrong in one question. Further enumeration would have prevented us from committing that error
+20/25 points acquired. We got it wrong in one question. Further enumeration would have prevented us from committing that error.
+
+Every alert solved is a step towards perfection and I am pretty happy with the score I received.
 
 ## Summary of the alert
 

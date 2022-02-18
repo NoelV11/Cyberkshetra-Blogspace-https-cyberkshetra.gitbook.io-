@@ -100,6 +100,8 @@ Close Alert — with notes, describing the alert as a True Positive
 
 ​Points Acquired — 10/15. Not bad, not bad at all!
 
+Every alert solved is a step towards perfection and I am pretty happy with the score I received.
+
 ## S**ummary of the alert**
 
 An incoming SOC Alert was briefed to us, about an RCE, that caused a process to be scheduled and executed. Upon analysis, the file in question did not throw up any malicious traces of activity, being described as danger-free by VirusTotal and Hybrid-Analysis tool.

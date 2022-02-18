@@ -4,7 +4,11 @@ It’s the first week of February and that just means one thing. Let’s Defend 
 
 Let’s jump right into it!
 
-## Alert Details
+**NOTE: Always remember to investigate alerts from Let's Defend, on a VM.**
+
+## Introduction to the Alert
+
+These are the alert details being given to us:-
 
 &#x20;                                             ![](https://cdn-images-1.medium.com/max/1000/1\*I3hagubgFizm9KduW\_rNIw.png)
 
@@ -155,6 +159,8 @@ Finish the playbook!
 Proceed to close the alert and provide parting remarks about the case
 
 &#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*UrXY4s9b0PgIBD0VW2HYDQ.png)
+
+Every alert solved is a step towards perfection and I am pretty happy with the score I received.
 
 ## Alert Scorecard
 
