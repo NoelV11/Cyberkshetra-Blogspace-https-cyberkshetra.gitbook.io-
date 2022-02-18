@@ -1,10 +1,8 @@
-# BTLO : Network Analysis-Web Shell challenge Walkthrough
+# BTLO: Network Analysis-Web Shell challenge Walkthrough
 
 Hello, blue teamers. In this blog entry, let’s take a crack at solving the [Network Analysis — Web shell](https://blueteamlabs.online/home/challenge/12), a retired challenge hosted on[ Blue Team Labs Online](https://blueteamlabs.online/home)
 
 Let’s get our hands dirty with some .pcap files!
-
-There’s also a [Gitbooks version](https://noelatvitb.gitbook.io/blue-team-investigations/lets-defend-blue-team-walkthroughs/soc-101-phishing-mail-detected-alert-walkthrough) of the same alert, written by me. You can go ahead and check it out
 
 ## The premise of the challenge
 
@@ -100,7 +98,7 @@ This is evident from the above image
 
 This is the payload provided in the uploaded web shell&#x20;
 
-&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*UJ2b0p-aMoFd6YCXM7GKBg.png)
+&#x20;                                       ![](https://cdn-images-1.medium.com/max/1000/1\*UJ2b0p-aMoFd6YCXM7GKBg.png)
 
 From my previous pentesting gig, it was evident to me that this was an attempt to gain a reverse shell. Reverse shells are usually sent with the help of uploaded attachments and use attackers use netcat to receive the shell back
 
