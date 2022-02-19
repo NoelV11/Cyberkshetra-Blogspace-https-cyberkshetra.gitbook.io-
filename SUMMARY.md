@@ -31,7 +31,7 @@
   * [BTLO: Network Analysis-Web Shell challenge Walkthrough](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge-walkthrough.md)
 * [WiCYS CyberStart](wicys-cyberstart/README.md)
   * [Chapter 1 - Amsterdam, a running start](wicys-cyberstart/chapter-1-amsterdam-a-running-start.md)
-    * [Page 1](wicys-cyberstart/chapter-1-amsterdam-a-running-start/page-1.md)
+    * [Challenge 2](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-2.md)
     * [Page 2](wicys-cyberstart/chapter-1-amsterdam-a-running-start/page-2.md)
 * [📕 Technical Cyber articles](technical-cyber-articles/README.md)
   * [Hack your System - Linux Edition](technical-cyber-articles/hack-your-system-linux-edition.md)
