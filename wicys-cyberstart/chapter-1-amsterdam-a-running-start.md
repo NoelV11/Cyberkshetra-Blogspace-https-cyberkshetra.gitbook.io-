@@ -16,11 +16,11 @@ As part of our onboarding, we are provided an Internship letter, that tells us w
 
 Let's proceed to select challenge 1, from the first quadrant
 
-![](../.gitbook/assets/2.png)
+![](<../.gitbook/assets/2 (1).png>)
 
 ## Challenge details
 
-![](../.gitbook/assets/4.png)
+![](<../.gitbook/assets/4 (1).png>)
 
 ### Briefing L01 C01
 
@@ -30,7 +30,7 @@ Let's proceed to select challenge 1, from the first quadrant
 
 Having understood what is to be done, procced to the challenge.
 
-The hacker's page is given to us,for viewing.
+The hacker's page is given to us, for viewing.
 
 ![Hacker's page](../.gitbook/assets/5.png)
 
@@ -45,4 +45,3 @@ Let's enter the flag and continue to the next challenge!
 Currently, we have 100 points on the scoreboard!
 
 ![](../.gitbook/assets/7.png)
-

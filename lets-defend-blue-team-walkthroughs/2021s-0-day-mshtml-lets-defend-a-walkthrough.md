@@ -1,6 +1,6 @@
 # 2021’s 0-Day MSHTML: Let's Defend Lab
 
-![](<../.gitbook/assets/1 (2).png>)
+![](<../.gitbook/assets/1 (2) (1).png>)
 
 Hello, budding blue teamers.Welcome to this latest blog entry, where I will be wading deep into the 'Malware Analysis' path on Let's Defend and attempting to solve the [2021’s 0-Day MSHTML](https://app.letsdefend.io/malwareanalysis/analysis/mshtml/) lab.
 
