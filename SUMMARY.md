@@ -31,6 +31,7 @@
   * [BTLO: Network Analysis-Web Shell challenge Walkthrough](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge-walkthrough.md)
 * [WiCYS CyberStart](wicys-cyberstart/README.md)
   * [Chapter 1 - Amsterdam, a running start](wicys-cyberstart/chapter-1-amsterdam-a-running-start.md)
+    * [Challenge 1](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-1.md)
     * [Challenge 2](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-2.md)
     * [Page 2](wicys-cyberstart/chapter-1-amsterdam-a-running-start/page-2.md)
     * [Challenge 4](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-4.md)
