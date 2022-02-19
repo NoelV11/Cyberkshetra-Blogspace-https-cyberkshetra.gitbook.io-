@@ -1,7 +1,5 @@
 # Challenge 1
 
-​
-
 ![](../../.gitbook/assets/CS.png)
 
 Write a caption​It's my first time signing up for CyberStart since being a WiCYS student member, and I am already very pumped to level up my cyber security skills

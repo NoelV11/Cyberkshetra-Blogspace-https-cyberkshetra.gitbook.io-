@@ -38,7 +38,9 @@ There a door closes
 
 
 
-We need some other method to edit the webpage. This can be acheived by Console Debugger Right click ->Inspect element&#x20;
+We need some other method to edit the webpage. This can be achieved by Console Debugger&#x20;
+
+Right-click -> Inspect element&#x20;
 
 Keep expanding Highlight the keyword 'disabled' and delete it from the javascript
 
@@ -46,9 +48,9 @@ Keep expanding Highlight the keyword 'disabled' and delete it from the javascrip
 
 ![After tampering](../../.gitbook/assets/4\(1\).png)
 
-The submit button gets highlighted,indicating to submit the credentials.
+The submit button gets highlighted, indicating to submit the credentials.
 
-We login succesfully and capture the flag!
+We log in successfully and capture the flag!
 
 ![](../../.gitbook/assets/5.png)
 
