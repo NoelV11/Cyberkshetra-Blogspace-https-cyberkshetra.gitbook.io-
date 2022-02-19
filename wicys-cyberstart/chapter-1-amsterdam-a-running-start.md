@@ -32,7 +32,7 @@ Having understood what is to be done, procced to the challenge.
 
 The hacker's page is given to us, for viewing.
 
-![Hacker's page](../.gitbook/assets/5.png)
+![Hacker's page](<../.gitbook/assets/5 (1).png>)
 
 Not having to dig through the front page, let's have a look through the page source. Scrolling a bit, we can find the email address of the hacker, as expected.
 
@@ -44,4 +44,4 @@ Let's enter the flag and continue to the next challenge!
 
 Currently, we have 100 points on the scoreboard!
 
-![](../.gitbook/assets/7.png)
+![](<../.gitbook/assets/7 (1).png>)

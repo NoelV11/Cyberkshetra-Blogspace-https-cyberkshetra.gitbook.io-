@@ -28,7 +28,7 @@ Well, let's copy-paste the contents of the chirp and use on an [online utility](
 
 Upon reversing the text, we find human-readable text,indicating the motive of the hackers
 
-![So we have apparently got our flag - time4hackattack](../../.gitbook/assets/3.png)
+![So we have apparently got our flag - time4hackattack](<../../.gitbook/assets/3 (1).png>)
 
 So we have apparently got our flag - time4hackattack
 

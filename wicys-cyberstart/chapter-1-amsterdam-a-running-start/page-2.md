@@ -34,7 +34,7 @@ The first password worked in this case and we have logged in.
 
 First time lucky eh?
 
-![](<../../.gitbook/assets/3 (2).png>)
+![](<../../.gitbook/assets/3 (3).png>)
 
 We get the flag and submit it
 
