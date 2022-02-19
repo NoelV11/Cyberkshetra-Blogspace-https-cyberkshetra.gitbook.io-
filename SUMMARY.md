@@ -33,7 +33,7 @@
   * [Chapter 1 - Amsterdam, a running start](wicys-cyberstart/chapter-1-amsterdam-a-running-start.md)
     * [Challenge 1](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-1.md)
     * [Challenge 2](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-2.md)
-    * [Page 2](wicys-cyberstart/chapter-1-amsterdam-a-running-start/page-2.md)
+    * [Challenge 3](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-3.md)
     * [Challenge 4](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-4.md)
 * [📕 Technical Cyber articles](technical-cyber-articles/README.md)
   * [Hack your System - Linux Edition](technical-cyber-articles/hack-your-system-linux-edition.md)
