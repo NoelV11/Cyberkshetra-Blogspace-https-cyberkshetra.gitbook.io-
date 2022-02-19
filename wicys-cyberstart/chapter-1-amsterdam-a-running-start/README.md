@@ -4,7 +4,7 @@ description: Challenge 1
 
 # Chapter 1 - Amsterdam, a running start
 
-![](../.gitbook/assets/CS.png)
+![](../../.gitbook/assets/CS.png)
 
 It's my first time signing up for CyberStart since being a WiCYS student member, and I am already very pumped to level up my cyber security skills
 
@@ -12,15 +12,15 @@ Let's make our way to [CyberStart](https://play.cyberstart.com/dashboard).After 
 
 As part of our onboarding, we are provided an Internship letter, that tells us what we need to know. Pretty cool!
 
-![](<../.gitbook/assets/1 (3).png>)
+![](<../../.gitbook/assets/1 (3).png>)
 
 Let's proceed to select challenge 1, from the first quadrant
 
-![](../.gitbook/assets/2.png)
+![](../../.gitbook/assets/2.png)
 
 ## Challenge details
 
-![](../.gitbook/assets/4.png)
+![](../../.gitbook/assets/4.png)
 
 ### Briefing L01 C01
 
@@ -32,11 +32,11 @@ Having understood what is to be done, procced to the challenge.
 
 The hacker's page is given to us,for viewing.
 
-![Hacker's page](../.gitbook/assets/5.png)
+![Hacker's page](../../.gitbook/assets/5.png)
 
 Not having to dig through the front page, let's have a look through the page source. Scrolling a bit, we can find the email address of the hacker, as expected.
 
-![](../.gitbook/assets/6.png)
+![](../../.gitbook/assets/6.png)
 
 > Email — 1337hax@myaboutpage.com
 
@@ -44,5 +44,5 @@ Let's enter the flag and continue to the next challenge!
 
 Currently, we have 100 points on the scoreboard!
 
-![](../.gitbook/assets/7.png)
+![](../../.gitbook/assets/7.png)
 
