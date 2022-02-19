@@ -32,6 +32,10 @@ Upon reversing the text, we find human-readable text, indicating the motive of t
 
 So we have apparently got our flag - time4hackattack
 
-Let's submit it and proceed. Onward Ahoy!
+Let's submit it and proceed
+
+Currently, we have 200 points on the scoreboard!
+
+&#x20;Onward Ahoy!
 
 ![](../../.gitbook/assets/4.png)

@@ -1,4 +1,4 @@
-# Page 2
+# Challenge 3
 
 ![](../../.gitbook/assets/CS.png)
 
@@ -41,5 +41,7 @@ We get the flag and submit it
 > Flag — F3Fhrc07TPmJ2HZAY9cd
 
 ![](<../../.gitbook/assets/4 (2).png>)
+
+Currently, we have 300 points on the scoreboard!
 
 There's no looking back. Onward ahoy!

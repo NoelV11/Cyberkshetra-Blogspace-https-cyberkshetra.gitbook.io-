@@ -2,7 +2,7 @@
 
 ![](../../.gitbook/assets/CS.png)
 
-Write a caption​It's my first time signing up for CyberStart since being a WiCYS student member, and I am already very pumped to level up my cyber security skills
+It's my first time signing up for CyberStart since being a WiCYS student member, and I am already very pumped to level up my cyber security skills
 
 Let's make our way to [CyberStart](https://play.cyberstart.com/dashboard).After logging in, we find our base on the dashboard - titled 'Intern Base'
 
@@ -36,8 +36,6 @@ Not having to dig through the front page, let's have a look through the page sou
 
 > Email — 1337hax@myaboutpage.com
 
-Let's enter the flag and continue to the next challenge!
-
-Currently, we have 100 points on the scoreboard!
+Let's enter the flag and continue to the next challenge. Currently, we have 100 points on the scoreboard!
 
 ![](<../../.gitbook/assets/7 (1).png>)

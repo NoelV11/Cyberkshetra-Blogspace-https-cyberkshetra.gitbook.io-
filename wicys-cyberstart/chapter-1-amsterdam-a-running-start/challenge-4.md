@@ -56,4 +56,6 @@ We log in successfully and capture the flag!
 
 > Flag — 6jdhphYBuCXs24YhoLkR
 
+Currently, we have 400 points on the scoreboard!
+
 Onward ahoy to the next challenge!
