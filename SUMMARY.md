@@ -29,7 +29,7 @@
 * [🤺 BTLO Walkthroughs](btlo-walkthroughs/README.md)
   * [BTLO: Suspicious USB Stick Challenge](btlo-walkthroughs/btlo-suspicious-usb-stick-challenge.md)
   * [BTLO: Network Analysis-Web Shell challenge Walkthrough](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge-walkthrough.md)
-* [Page 1](page-1.md)
+* [WiCYS CyberStart](wicys-cyberstart.md)
 * [📕 Technical Cyber articles](technical-cyber-articles/README.md)
   * [Hack your System - Linux Edition](technical-cyber-articles/hack-your-system-linux-edition.md)
   * [An in-depth analysis of an Intrusion Prevention System](technical-cyber-articles/an-in-depth-analysis-of-an-intrusion-prevention-system.md)
