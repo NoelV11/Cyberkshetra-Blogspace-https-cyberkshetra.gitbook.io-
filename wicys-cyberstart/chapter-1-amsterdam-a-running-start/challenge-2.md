@@ -4,9 +4,11 @@
 
 ## Briefing L01 C02
 
+### Mixed-up Messages
+
 ![](<../../.gitbook/assets/1 (2).png>)
 
-> Mixed Up Messages We’ve been informed that a group of hackers are communicating cryptically on a social media site.
+> We’ve been informed that a group of hackers are communicating cryptically on a social media site.
 
 > Their messages have been getting increasingly cryptic; so much so that all of the posts now look jumbled up and don’t seem to make any sense!
 
@@ -18,7 +20,7 @@ Let's go to the challenge
 
 ![](../../.gitbook/assets/2.png)
 
-We are met with a social media page (mimicking Twitter!) with HACKERBOT'S chirp (tweet)
+We are met with a social media page named Chirp (mimicking Twitter!) with HACKERBOT'S chirp (tweet)
 
 At first glance, it looks like the text is written backward
 

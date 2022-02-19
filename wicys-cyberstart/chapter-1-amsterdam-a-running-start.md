@@ -12,19 +12,19 @@ Let's make our way to [CyberStart](https://play.cyberstart.com/dashboard).After 
 
 As part of our onboarding, we are provided an Internship letter, that tells us what we need to know. Pretty cool!
 
-![](<../.gitbook/assets/1 (3).png>)
+![](<../.gitbook/assets/1 (3) (1).png>)
 
 Let's proceed to select challenge 1, from the first quadrant
 
 ![](<../.gitbook/assets/2 (1).png>)
 
-## Challenge details
+## Briefing L01 C01
+
+### Hello World
 
 ![](<../.gitbook/assets/4 (1).png>)
 
-### Briefing L01 C01
-
-> Hello, World We’ve found a profile page of a known hacker that we need to get in contact with but most of the information visible on the page is useless to us. However, there is one secret real way to contact him that he’s managed to inject on the page — a hidden email address. Intern, we need you to find his email address!
+> We’ve found a profile page of a known hacker that we need to get in contact with but most of the information visible on the page is useless to us. However, there is one secret real way to contact him that he’s managed to inject on the page — a hidden email address. Intern, we need you to find his email address!
 
 > **Tip**: The email address is the flag.
 
