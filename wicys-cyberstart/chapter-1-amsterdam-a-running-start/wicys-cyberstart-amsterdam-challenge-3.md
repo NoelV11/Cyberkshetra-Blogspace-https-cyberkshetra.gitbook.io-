@@ -1,4 +1,4 @@
-# Challenge 3
+# WiCYS CyberStart (Amsterdam) Challenge 3
 
 ![](../../.gitbook/assets/CS.png)
 
@@ -27,6 +27,8 @@ I had these three combinations in mind:-&#x20;
 > Barkley93 and
 
 > 1993Barkley
+
+## Flag Capture
 
 Let's go ahead and bruteforce em'
 

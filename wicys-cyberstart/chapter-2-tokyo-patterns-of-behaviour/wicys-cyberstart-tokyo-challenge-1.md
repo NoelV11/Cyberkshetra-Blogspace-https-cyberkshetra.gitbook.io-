@@ -1,4 +1,4 @@
-# Challenge 1
+# WiCYS CyberStart (Tokyo) Challenge 1
 
 ![](../../.gitbook/assets/CS.png)
 
@@ -22,7 +22,9 @@ Proceeding to the challenge, we are met with this terminal screen
 
 &#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*MzoSoJq4yfokBYQ-SjZBxg.jpeg)
 
-At first glance, this text looks like it has been encoded in hex form. Our job is to now decode it, to gain access to Yakoottees’ server
+At first glance, this text looks like it has been encoded in hex form. Our job is to now decode it, to gain access to Yakoottees’ server.
+
+## Flag Capture
 
 For that, I would suggest you use this [resource](https://string-functions.com/hex-string.aspx). Others were not able to decode the hex-encoded text and you will see why. Copy-paste the hex code and decode it
 

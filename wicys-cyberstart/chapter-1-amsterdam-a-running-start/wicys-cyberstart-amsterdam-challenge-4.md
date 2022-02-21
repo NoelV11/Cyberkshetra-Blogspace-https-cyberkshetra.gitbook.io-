@@ -1,4 +1,4 @@
-# Challenge 4
+# WiCYS CyberStart (Amsterdam) Challenge 4
 
 ![](../../.gitbook/assets/CS.png)
 
@@ -36,11 +36,11 @@ Alas, there are no parameters or fields for us to tamper. None of the available 
 
 There a door closes
 
-
-
 We need some other method to edit the webpage. This can be achieved by Console Debugger&#x20;
 
 Right-click -> Inspect element&#x20;
+
+## Flag Capture
 
 Keep expanding Highlight the keyword 'disabled' and delete it from the javascript
 

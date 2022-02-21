@@ -1,4 +1,4 @@
-# Challenge 2
+# WiCYS CyberStart (Amsterdam) Challenge 2
 
 ![](../../.gitbook/assets/CS.png)
 
@@ -23,6 +23,8 @@ Let's go to the challenge
 We are met with a social media page named Chirp (mimicking Twitter!) with HACKERBOT'S chirp (tweet)
 
 At first glance, it looks like the text is written backward
+
+## Flag Capture
 
 Well, let's copy-paste the contents of the chirp and use on an [online utility](https://www.textreverse.com) to reverse the text&#x20;
 

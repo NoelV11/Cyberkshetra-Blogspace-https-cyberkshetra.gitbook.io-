@@ -1,4 +1,4 @@
-# Challenge 1
+# WiCYS CyberStart (Amsterdam) Challenge 1
 
 ![](../../.gitbook/assets/CS.png)
 
@@ -29,6 +29,8 @@ Having understood what is to be done, procced to the challenge.
 The hacker's page is given to us, for viewing.
 
 ![Hacker's page](<../../.gitbook/assets/5 (1).png>)
+
+## Flag Capture
 
 Not having to dig through the front page, let's have a look through the page source. Scrolling a bit, we can find the email address of the hacker, as expected.
 
