@@ -24,11 +24,9 @@ A word from the author:-
 
 🌱 Experience
 
-Interned at NTRDC, Crime Free Bharat, under the Threat Intelligence domain
-
-Interned at Haryana Police Crime Cell, under the Cyber Security domain
-
-Core Team Member, R\&D (Research and Development) at VITB Cyber Warriors Club of VIT Bhopal
+* Interned at NTRDC, Crime Free Bharat, under the Threat Intelligence domain
+* Interned at Haryana Police Crime Cell, under the Cyber Security domain
+* Core Team Member, R\&D (Research and Development) at VITB Cyber Warriors Club of VIT Bhopal
 
 #### 🤔 Get in touch <a href="#get-in-touch" id="get-in-touch"></a>
 
