@@ -35,7 +35,7 @@
     * [Challenge 2](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-2.md)
     * [Challenge 3](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-3.md)
     * [Challenge 4](wicys-cyberstart/chapter-1-amsterdam-a-running-start/challenge-4.md)
-  * [Chapter 2 -](wicys-cyberstart/chapter-2.md)
+  * [Chapter 2 - Tokyo, Patterns of Behaviour](wicys-cyberstart/chapter-2-tokyo-patterns-of-behaviour.md)
 * [📕 Technical Cyber articles](technical-cyber-articles/README.md)
   * [Hack your System - Linux Edition](technical-cyber-articles/hack-your-system-linux-edition.md)
   * [An in-depth analysis of an Intrusion Prevention System](technical-cyber-articles/an-in-depth-analysis-of-an-intrusion-prevention-system.md)
