@@ -1,3 +1,3 @@
-# WiCYS CyberStart
+# 💒 WiCYS CyberStart
 
 ![](../.gitbook/assets/Wi.jpg)
