@@ -36,7 +36,7 @@ From our research, it is found that ‘?’ is represented as \x63 in hex code
 
 &#x20;                                                      ![](https://cdn-images-1.medium.com/max/1000/1\*\_cQvy5c1w6D8\_BaHlj7CiQ.jpeg)
 
-I was able to find just 2 instances of \x63 but did not make the output any cleaner
+I was able to find just 2 instances of \x63, but it did not make the output any cleaner
 
 From the jumbled decoded text, we can decipher the password (by removing question marks)
 
