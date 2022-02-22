@@ -7,7 +7,6 @@
   * [SOC145 - Ransomware Detected Alert](lets-defend-blue-team-walkthroughs/soc145-ransomware-detected-walkthrough.md)
   * [SOC143 - Password Stealer Detected Alert](lets-defend-blue-team-walkthroughs/soc143-password-stealer-detected-walkthrough.md)
   * [SOC144  -  New scheduled task created Alert](lets-defend-blue-team-walkthroughs/soc144-new-scheduled-task-created-walkthrough.md)
-  * [CVE - 2020–1472 (Zerologon Vulnerability)-Exploitation & Remediation](lets-defend-blue-team-walkthroughs/cve-2020-1472-zerologon-vulnerability-exploitation-and-remediation.md)
   * [2021’s 0-Day MSHTML: Let's Defend Lab](lets-defend-blue-team-walkthroughs/2021s-0-day-mshtml-lets-defend-a-walkthrough.md)
   * [HTTP Basic Auth: Let's Defend DFIR Challenge](lets-defend-blue-team-walkthroughs/http-basic-auth-lets-defend-dfir-challenge.md)
   * [ShellShock Attack: Let’s Defend Challenge](lets-defend-blue-team-walkthroughs/shellshock-attack-lets-defend-walkthrough.md)
@@ -45,3 +44,4 @@
   * [SIEM-Incorporating Incident Response into Network Security](technical-cyber-articles/ff.md)
   * [Markovian Parallax Denigrate-Breaking the cipher](technical-cyber-articles/markovian-parallax-denigrate-breaking-the-cipher.md)
   * [DevSecOps-Making a difference from traditional DevOps](technical-cyber-articles/devsecops-making-a-difference-from-traditional-devops.md)
+  * [CVE - 2020–1472 (Zerologon Vulnerability)-Exploitation & Remediation](technical-cyber-articles/cve-2020-1472-zerologon-vulnerability-exploitation-and-remediation.md)
