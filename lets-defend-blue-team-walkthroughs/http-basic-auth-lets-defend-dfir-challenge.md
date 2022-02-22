@@ -4,9 +4,7 @@
 
 Hello, blue teamers! Welcome to this latest blog post, as I document my methodology of solving the [HTTP Basic Auth](https://app.letsdefend.io/dfir/dfir/http-basic-auth/) challenge on Let’s Defend. Let’s go hunting after this .pcap file
 
-**NOTE: Always remember to investigate challenges from Let's Defend, on a VM.**
-
-
+**NOTE: Always remember to investigate challenges from Let's Defend, on a VM**
 
 ## Gist of Challenge
 
