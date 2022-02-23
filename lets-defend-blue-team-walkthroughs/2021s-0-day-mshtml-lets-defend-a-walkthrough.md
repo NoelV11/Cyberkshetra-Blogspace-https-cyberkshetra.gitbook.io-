@@ -1,3 +1,7 @@
+---
+description: CVE-2021–40444 Lab
+---
+
 # 2021’s 0-Day MSHTML: Let's Defend Lab
 
 ![](<../.gitbook/assets/1 (2) (1).png>)

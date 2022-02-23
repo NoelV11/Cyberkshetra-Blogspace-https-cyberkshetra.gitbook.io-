@@ -1,3 +1,7 @@
+---
+description: Packet Sniffing
+---
+
 # BTLO: Network Analysis-Web Shell challenge Walkthrough
 
 Hello, blue teamers. In this blog entry, let’s take a crack at solving the [Network Analysis — Web shell](https://blueteamlabs.online/home/challenge/12), a retired challenge hosted on[ Blue Team Labs Online](https://blueteamlabs.online/home)

@@ -1,5 +1,5 @@
 ---
-description: Challenge 1
+description: Amsterdam
 ---
 
 # Chapter 1 - Amsterdam, a running start

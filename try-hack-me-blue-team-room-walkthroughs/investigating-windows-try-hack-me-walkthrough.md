@@ -1,3 +1,7 @@
+---
+description: Windows Internals
+---
+
 # Investigating Windows: A Walkthrough
 
 ![](<../.gitbook/assets/IW (1).png>)

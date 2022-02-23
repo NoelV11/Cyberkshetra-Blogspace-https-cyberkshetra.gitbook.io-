@@ -1,3 +1,7 @@
+---
+description: Let's analyze a phishing mail, with a suspicious URL ...
+---
+
 # SOC146  -  Phishing Mail Detected Alert
 
 Welcome to my blue teaming journey, as I tackle my second case: (SOC146 — Phishing Mail Detected — Excel 4.0 Macros) on the LetsDefend platform, which is of Medium difficulty

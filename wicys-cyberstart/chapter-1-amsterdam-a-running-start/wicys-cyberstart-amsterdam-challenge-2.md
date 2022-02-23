@@ -1,3 +1,7 @@
+---
+description: Reversing of text
+---
+
 # WiCYS CyberStart (Amsterdam) Challenge 2
 
 ![](../../.gitbook/assets/CS.png)

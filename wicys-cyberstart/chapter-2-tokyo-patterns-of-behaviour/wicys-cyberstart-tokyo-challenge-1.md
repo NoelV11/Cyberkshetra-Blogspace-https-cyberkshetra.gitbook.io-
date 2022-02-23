@@ -1,3 +1,7 @@
+---
+description: Hex text
+---
+
 # WiCYS CyberStart (Tokyo) Challenge 1
 
 ![](../../.gitbook/assets/CS.png)

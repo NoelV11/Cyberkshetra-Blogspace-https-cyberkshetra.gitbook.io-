@@ -1,3 +1,7 @@
+---
+description: Let's explore the working of a password stealer in action...
+---
+
 # SOC143 - Password Stealer Detected Alert
 
 Hello readers, welcome to this blog entry as I document my journey through the world of Blue Teaming. Today, we will be trying our hand at the SOC143 — Password Stealer Detected alert, on the Let’s Defend platform.

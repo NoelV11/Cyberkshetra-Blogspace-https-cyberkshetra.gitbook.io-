@@ -1,3 +1,7 @@
+---
+description: Ransomware, you say? Let's have a look at it
+---
+
 # SOC145 - Ransomware Detected Alert
 
 Welcome to this blog entry,as I document my journey,into the world of blue teaming.We will be tackling the “SOC145 — Ransomware Detected” case on the Let’s Defend platform,which is of hard difficulty

@@ -1,6 +1,8 @@
-# Welcome to my Gitbooks Page
+---
+description: Here is everything you need to know, about me!
+---
 
-A word from the author:-
+# Welcome to my Gitbooks Page
 
 👋Thank you for visiting my Gitbooks page, where I host personalized walkthroughs of SOC Investigations and rooms that I solve on the Let's Defend and Try Hack Me platforms
 

@@ -1,3 +1,7 @@
+---
+description: Zero Trust Network Access (ZTNA) - Network Security
+---
+
 # Zero Trust Network Access-A solution to Network Security
 
 Ever imagined being free from the constant fear of threats or malware, that could harm your device? Up to now, we never could have imagined being connected to a network, where everything relating to security, from top to bottom is decided by the authenticity of users. This idea introduces us to Zero Trust Network Access (ZTNA), one of the leading trends for Cyber Security, in 2021.

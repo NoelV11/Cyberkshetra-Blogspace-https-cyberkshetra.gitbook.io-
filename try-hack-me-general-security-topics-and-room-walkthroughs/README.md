@@ -1,7 +1,8 @@
 ---
 coverY: 0
+description: Try Hack Me challenge catalogue
 ---
 
-# 😀 General Cyber Security Topics
+# 😀 Try Hack Me - General Security Topics & Room Walkthroughs
 
 ![](../.gitbook/assets/WI.jpg)

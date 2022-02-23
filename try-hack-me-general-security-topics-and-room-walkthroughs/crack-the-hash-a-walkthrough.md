@@ -1,3 +1,7 @@
+---
+description: Hash cracking
+---
+
 # Crack The Hash: A Walkthrough
 
 ![](../.gitbook/assets/LI.png)

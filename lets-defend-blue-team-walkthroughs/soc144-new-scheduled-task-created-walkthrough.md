@@ -1,3 +1,7 @@
+---
+description: Let's explore a suspicious event activity...
+---
+
 # SOC144  -  New scheduled task created Alert
 
 Hello readers, welcome to this blog entry. Today, we will be trying to solve the SOC144 - New scheduled task created alert, on the Let’s Defend platform.

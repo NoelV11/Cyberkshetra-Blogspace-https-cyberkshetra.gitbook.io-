@@ -1,3 +1,7 @@
+---
+description: Let's explore a suspicious SSH Activity...
+---
+
 # SOC147 - SSH Scan Activity Alert
 
 Welcome to the world of Blue Teaming, as I explore it on the Let's Defend Platform, a renowned site for Blue Team practice

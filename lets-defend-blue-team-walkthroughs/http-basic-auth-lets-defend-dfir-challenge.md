@@ -1,3 +1,7 @@
+---
+description: Some HTTP packet sniffing.....
+---
+
 # HTTP Basic Auth: Let's Defend DFIR Challenge
 
 &#x20;                                             ![](https://cdn-images-1.medium.com/max/1000/1\*H1rhWTgN9396jHzWCFn0qA.png)

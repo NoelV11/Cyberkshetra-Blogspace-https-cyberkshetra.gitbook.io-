@@ -1,3 +1,7 @@
+---
+description: OSINT
+---
+
 # OhSint: A Walkthrough
 
 ![](../.gitbook/assets/IW.png)

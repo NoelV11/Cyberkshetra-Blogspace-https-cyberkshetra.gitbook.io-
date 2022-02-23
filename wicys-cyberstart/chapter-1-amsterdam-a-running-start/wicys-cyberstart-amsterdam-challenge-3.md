@@ -1,3 +1,7 @@
+---
+description: Web-login bruteforce
+---
+
 # WiCYS CyberStart (Amsterdam) Challenge 3
 
 ![](../../.gitbook/assets/CS.png)

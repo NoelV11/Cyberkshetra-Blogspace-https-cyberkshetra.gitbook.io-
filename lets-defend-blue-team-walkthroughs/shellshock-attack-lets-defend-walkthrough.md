@@ -1,3 +1,7 @@
+---
+description: Shellshock attack evidence analysis
+---
+
 # ShellShock Attack: Let’s Defend Challenge
 
 &#x20;                                        ![](https://cdn-images-1.medium.com/max/1000/1\*bbSSbnPCASB799173M8OSw.png)

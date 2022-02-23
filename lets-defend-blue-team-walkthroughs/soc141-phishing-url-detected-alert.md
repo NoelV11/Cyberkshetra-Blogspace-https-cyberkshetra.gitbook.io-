@@ -1,3 +1,7 @@
+---
+description: Let's analyze a phishing mail, with a suspicious URL ...
+---
+
 # SOC141  -  Phishing URL Detected Alert
 
 It’s the first week of February and that just means one thing. Let’s Defend has released a new set of SOC Alerts for us blue teamers to investigate and solve and here, we will be solving the SOC 141— Phishing URL alert.

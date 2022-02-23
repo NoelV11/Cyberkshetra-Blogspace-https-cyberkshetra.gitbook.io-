@@ -1,4 +1,10 @@
+---
+description: Google Dorking
+---
+
 # Google Dorking: A Walkthrough
+
+
 
 ![](../.gitbook/assets/70.png)
 

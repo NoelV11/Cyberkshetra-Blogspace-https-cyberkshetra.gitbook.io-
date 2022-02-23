@@ -1,5 +1,6 @@
 ---
 coverY: 0
+description: Blue Team Security Labs Online
 ---
 
 # 🤺 BTLO Walkthroughs

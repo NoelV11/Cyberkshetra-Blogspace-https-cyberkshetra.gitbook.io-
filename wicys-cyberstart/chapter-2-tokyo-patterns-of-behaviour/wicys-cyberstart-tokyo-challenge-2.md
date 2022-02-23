@@ -1,4 +1,8 @@
-# Untitled
+---
+description: Javascript Vulnerability
+---
+
+# WiCYS CyberStart (Tokyo) Challenge 2
 
 ![](../../.gitbook/assets/CS.png)
 

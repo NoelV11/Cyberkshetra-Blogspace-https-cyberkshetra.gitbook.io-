@@ -1,3 +1,7 @@
+---
+description: Markovian Parallax Denigrate - Cryptography
+---
+
 # Markovian Parallax Denigrate-Breaking the cipher
 
 Hello cyber peeps. Do you want to explore a cyber mystery hole? If yes, keep reading on.
