@@ -92,9 +92,9 @@ _Let's Defend Questions:-_
 
 _False Positive or not? - We clicked Yes (+5 points)_
 
-_Malware or not? - No (-5 points) . The file was indeed malware._
+_Malware or not? - No (-5 points). The file was indeed malware._
 
-_Check if malware is quarrantined or not - No (+5 points)_
+_Check if malware is quarantined or not - No (+5 points)_
 
 Bonus - Just checked the 'Mailbox' feature in Let's Defend and searched the IP Address on the search bar, which threw up this email
 

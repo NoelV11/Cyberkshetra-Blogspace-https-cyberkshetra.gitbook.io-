@@ -46,6 +46,12 @@ turnCircle(“three”, -4)
 
 ### What are we doing here?
 
+> This challenge contains a few bad practices which make the “Spinlock Extreme” bank vault not a secure solution and so vulnerable.
+
+> It contains unobfuscated and even well commented JavaScript, easily found in the source of the webpage. A hacker can easily find, read and use this function, which is likely what the Yakoottees found and so made use of. Even worse, being a client side only security solution for authorisation tends to be a bad practice, as code can be tampered with (as is happening here), to bypass security logic; server side authotisation should be made of and it isn’t here.
+
+> So to sum up the vulnerabilites — unobfuscated, easily found and understandable JavaScript, used for security logic with no server side component.
+
 Trying to invoke the turnCircle function, we are trying to unlock the spinlock, aided with the degree measurement
 
 &#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*xoTvnw27wPPLj\_nBJ8PjnQ.jpeg)
