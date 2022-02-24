@@ -1,8 +1,14 @@
+---
+description: >-
+  A simple challenge, involving changing of a URL destination, to find a hidden
+  webpage.
+---
+
 # WiCYS CyberStart (Tokyo) Challenge 3
 
 ![](../../.gitbook/assets/CS.png)
 
-## Briefing L02 C03
+Briefing L02 C03
 
 ### **Traffic Jam**
 
