@@ -102,7 +102,7 @@ Are you ready to immerse yourself into the role of a Junior Security Analyst for
 
 We come across this web-based SIEM tool, having detected an unauthorized SSH Login threat, from a remote host. It has been flagged and is waiting for us to take action.
 
-&#x20;                                             ![](https://cdn-images-1.medium.com/max/1000/1\*hIqN0IlnW82\_xRVjpkEY5A.jpeg)
+&#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*hIqN0IlnW82\_xRVjpkEY5A.jpeg)
 
 > A)Mark as completed
 
@@ -118,11 +118,11 @@ Proceed by clicking on the tab highlighted in red
 
 We are brought to an inbuilt IP Scanner. Insert the malicious IP Address to scan and continue
 
-&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*2D8ioLeYjZwisO10fhy0YA.jpeg)&#x20;
+&#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*2D8ioLeYjZwisO10fhy0YA.jpeg)&#x20;
 
 Our suspicions are proved right since the IP Address is found in the threat database
 
-&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*O4yaHggHooWgcrPuCeY7Kw.jpeg)
+&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*O4yaHggHooWgcrPuCeY7Kw.jpeg)
 
 Click on next.
 
@@ -130,17 +130,17 @@ We are now asked to escalate the malicious event to a responsible authority. Wha
 
 > Q)To whom did you escalate the event associated with the malicious IP address?
 
-&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*wFDo\_lndO71hzWnBKFVaKw.jpeg)
+&#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*wFDo\_lndO71hzWnBKFVaKw.jpeg)
 
-Will Griffin seems to be the perfect fit here
+Will Griffin seems to be the perfect fit here. As the team lead, he is well equipped to handle the malicious event and collected artifacts. This will, in turn, be used to mitigate the threat
 
 > A)Will Griffin
 
 > Q)After blocking the malicious IP address on the firewall, what message did the malicious actor leave for you?
 
-Now we are presented with a firewall list, asking us to deny the malicious IP
+Now we are presented with a firewall block list, asking us to deny the malicious IP from contacting/sending packets to this network. Once we deny it, the IP will be appended to this block list.
 
-&#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*LHDTiqpQbG72Kf4FzcgUPg.jpeg)
+&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*LHDTiqpQbG72Kf4FzcgUPg.jpeg)
 
 Proceed to block it. You will find the final flag to complete the challenge
 
