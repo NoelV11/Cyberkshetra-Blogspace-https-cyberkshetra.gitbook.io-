@@ -1,3 +1,7 @@
+---
+description: Blue team themed room for aspiring Security Analysts
+---
+
 # Jr Security Analyst: A Walkthrough
 
 ![](../.gitbook/assets/12.jpg)
