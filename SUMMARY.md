@@ -37,6 +37,7 @@
   * [Chapter 2 - Tokyo, Patterns of Behaviour](wicys-cyberstart/chapter-2-tokyo-patterns-of-behaviour.md)
     * [WiCYS CyberStart (Tokyo) Challenge 1](wicys-cyberstart/chapter-2-tokyo-patterns-of-behaviour/wicys-cyberstart-tokyo-challenge-1.md)
     * [WiCYS CyberStart (Tokyo) Challenge 2](wicys-cyberstart/chapter-2-tokyo-patterns-of-behaviour/wicys-cyberstart-tokyo-challenge-2.md)
+    * [WiCYS CyberStart (Tokyo) Challenge 3](wicys-cyberstart/chapter-2-tokyo-patterns-of-behaviour/wicys-cyberstart-tokyo-challenge-3.md)
 * [📕 Technical Cyber articles](technical-cyber-articles/README.md)
   * [An in-depth analysis of an Intrusion Prevention System](technical-cyber-articles/an-in-depth-analysis-of-an-intrusion-prevention-system.md)
   * [DevSecOps-Making a difference from traditional DevOps](technical-cyber-articles/devsecops-making-a-difference-from-traditional-devops.md)
