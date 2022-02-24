@@ -22,7 +22,15 @@ While visiting each page, it has different URLs, which is evident in the images 
 
 &#x20;                                     ![](https://cdn-images-1.medium.com/max/750/1\*Br-G2IAFOb65PX9NjGnYQg.jpeg)
 
-In each case, a prefix (for example — my-routes or contact) is attached to the main URL (trafficdisruptors.com)
+Putting this into a tabular form, we have:-
+
+| Prefix    | Section of the Website |
+| --------- | ---------------------- |
+| company   | About                  |
+| my-routes | Cycling Maps           |
+| contact   | Contact Us             |
+
+In each case, a prefix is attached to the main URL (trafficdisruptors.com)
 
 ## Flag Capture
 
