@@ -21,6 +21,7 @@
   * [History of Malware: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/history-of-malware-try-hack-me-walkthrough.md)
   * [MAL: Malware Introductory:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/mal-malware-introductory-a-walkthrough.md)
   * [Splunk: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/try-hack-mes-splunk-a-walkthrough.md)
+  * [Jr Security Analyst: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/jr-security-analyst-a-walkthrough.md)
 * [😀 Try Hack Me - General Security Topics & Room Walkthroughs](try-hack-me-general-security-topics-and-room-walkthroughs/README.md)
   * [Crack The Hash: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/crack-the-hash-a-walkthrough.md)
   * [Google Dorking: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/google-dorking-a-walkthrough.md)
