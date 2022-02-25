@@ -8,17 +8,21 @@ description: Here is everything you need to know, about me!
 
 😃 I am Noel Varghese, a Cybersecurity enthusiast - experienced in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these. I am an undergraduate student pursuing B.Tech in Computer Science Engineering, with specialization in Cyber Security, at Vellore Institute of Technology, Bhopal.
 
-💡Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend, Try Hack Me & Rangeforce platforms, in this blog space
+💡Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend, Try Hack Me & Rangeforce platforms, in this blog space.
+
+:pencil: Certification held:-
+
+* CompTIA Security+
 
 🔆 Having previous experience in pentesting will prove beneficial as I seek to identify suspicious activity and understand the methodologies exhibited by the malicious actor, to wreak havoc on computer systems, during my blue teaming journey.
 
 ![](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FvYunovVVTtLdlfrviyWf%2F1.PNG?alt=media\&token=78175fb5-61e5-4d62-b881-43763c1767c1)
 
-​👨‍💻️ Retaining an interest in Secure Coding, I have participated in University level Secure Coding Tournaments, achieving 3'rd rank in OWASP Bangalore Chapter and 38'th rank in Devlymics Champions Tournament, conducted by Secure Code Warriors, Australia
+👨‍💻️ Retaining an interest in Secure Coding, I have participated in University level Secure Coding Tournaments, achieving 3'rd rank in OWASP Bangalore Chapter and 38'th rank in Devlymics Champions Tournament, conducted by Secure Code Warriors, Australia
 
-🕵 Contributed to Darkwebathon, hosted by the Anti-Human Trafficking Intelligence Initiative (@TeamATII). During this event, we the help of a 200+ search party scoured the Dark Web,pulled information from tools like Project Hades and Maltego, to identify individuals who operate in gambling, child porn, and CSAM rings
+🕵 Contributed to Darkwebathon, hosted by the Anti-Human Trafficking Intelligence Initiative (@TeamATII). During this event, we the help of a 200+ search party scoured the Dark Web, pulled information from tools like Project Hades and Maltego, to identify individuals who operate in gambling, child porn, and CSAM rings
 
-👱 Cyber Security interests me as an individual, being the subject I am majoring in. Finding new techniques to enforce security in everyday life, and resisting attack attempts is thrilling and requires a whole lot of collective efforts from security professionals and general citizens, to make the world a much secure place. I would very much want to be a part of it
+👱 Cyber Security interests me as an individual, being the subject I am majoring in. Finding new techniques to enforce security in everyday life, and resisting attack attempts is thrilling and requires a whole lot of collective efforts from security professionals and general citizens, to make the world a much more secure place. I would very much want to be a part of it
 
 🎇 Being an advocate for incorporating women into the field of Cyber Security, I persevere to remove the gate barriers that they face. This led me to be a member of my University's Women in Cyber Security (WiCYS) Chapter. I try to contribute, to the best of my ability, to this organization
 
