@@ -64,6 +64,8 @@ We get what we have been looking for!
 
 > Password — letmein
 
+## Flag Capture
+
 Use it to log in and we get the flag
 
 > Flag — pgHGwHToGfFE2MC4BF1A
