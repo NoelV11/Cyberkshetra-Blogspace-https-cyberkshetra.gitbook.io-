@@ -8,7 +8,7 @@ description: Hex text
 
 Hello fellow Cyberstart gamers!
 
-Having touched base 2 on our CyberStart journey, in Tokyo, it's again time to solve some security challenges. We are handed an appreciation letter and an overview of the challenges on the horizon
+Having touched base 2 on our CyberStart journey, in Tokyo, it's time again to solve some security challenges. We are handed an appreciation letter and an overview of the challenges on the horizon
 
 &#x20;                                                      ![](https://cdn-images-1.medium.com/max/1000/1\*3mPeR74izswagoOtEnfvwQ.jpeg)
 
