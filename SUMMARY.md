@@ -27,7 +27,7 @@
   * [Google Dorking: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/google-dorking-a-walkthrough.md)
   * [OhSint: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/ohsint-a-walkthrough.md)
 * [🤺 BTLO Walkthroughs](btlo-walkthroughs/README.md)
-  * [BTLO: Network Analysis-Web Shell challenge Walkthrough](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge-walkthrough.md)
+  * [BTLO: Network Analysis-Web Shell Challenge](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge.md)
   * [BTLO: Suspicious USB Stick Challenge](btlo-walkthroughs/btlo-suspicious-usb-stick-challenge.md)
 * [💒 WiCYS CyberStart](wicys-cyberstart/README.md)
   * [Chapter 1 - Amsterdam, a running start](wicys-cyberstart/chapter-1-amsterdam-a-running-start.md)
