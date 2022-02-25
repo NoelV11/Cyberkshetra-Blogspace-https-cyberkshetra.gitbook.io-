@@ -4,6 +4,8 @@ description: Disabled web-login
 
 # WiCYS CyberStart (Amsterdam) Challenge 4
 
+
+
 ![](../../.gitbook/assets/CS.png)
 
 ## Briefing L01 C04
@@ -60,6 +62,6 @@ We log in successfully and capture the flag!
 
 > Flag — 6jdhphYBuCXs24YhoLkR
 
-Currently, we have 400 points on the scoreboard!
+Currently, we have 400 points on the scoreboard. It's time to close down shop in the Amsterdam base and set it up somewhere else. Let's see where our CyberStart journey takes us.
 
 Onward ahoy to the next challenge!
