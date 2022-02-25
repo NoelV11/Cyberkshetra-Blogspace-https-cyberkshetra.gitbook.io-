@@ -18,7 +18,7 @@ description: Web Login vulnerability
 
 We come across this login page, belonging to the Zip Zap Rides startup
 
-&#x20;                                        ![](https://cdn-images-1.medium.com/max/1000/1\*xtyDN3V9\_owgZEngN\_NZ\_g.jpeg)
+&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*xtyDN3V9\_owgZEngN\_NZ\_g.jpeg)
 
 The manual says that there is a vulnerability on this website. Let’s hunt that down!
 
@@ -28,7 +28,7 @@ I took three approaches to solve this, each more complex than the next one.
 
 If you look closely, there are 4 parameters whose values we need to know. These are email, password, submittedEmail, and SubmittedPassword
 
-&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*gq9ikzURWBFKOI\_2Qp1ljg.jpeg)
+&#x20;                                               ![](https://cdn-images-1.medium.com/max/1000/1\*gq9ikzURWBFKOI\_2Qp1ljg.jpeg)
 
 Since the values were not present, I tried to manipulate the source code, inserting custom values
 
