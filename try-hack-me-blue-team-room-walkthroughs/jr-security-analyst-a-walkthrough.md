@@ -36,7 +36,7 @@ Required qualifications (most common):
 
 Desired certification:
 
-CompTIA Security+
+* CompTIA Security+
 
 As you progress and advance your skills as a Junior Security Analyst, you will eventually move up to Tier 2 and Tier 3.
 
