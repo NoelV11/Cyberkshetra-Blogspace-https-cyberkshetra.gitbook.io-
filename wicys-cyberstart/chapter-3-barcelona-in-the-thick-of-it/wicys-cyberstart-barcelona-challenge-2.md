@@ -1,3 +1,7 @@
+---
+description: Tinkering with some HTML..
+---
+
 # WiCYS CyberStart (Barcelona) Challenge 2
 
 ![](../../.gitbook/assets/CS.png)

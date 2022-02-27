@@ -1,4 +1,10 @@
+---
+description: Curling your way to find some hidden content...
+---
+
 # WiCYS Cyberstart (Barcelona) Challenge 3
+
+
 
 ![](../../.gitbook/assets/CS.png)
 

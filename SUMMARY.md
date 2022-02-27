@@ -44,6 +44,7 @@
     * [WiCYS CyberStart (Barcelona) Challenge 1](wicys-cyberstart/chapter-3-barcelona-in-the-thick-of-it/wicys-cyberstart-barcelona-challenge-1.md)
     * [WiCYS CyberStart (Barcelona) Challenge 2](wicys-cyberstart/chapter-3-barcelona-in-the-thick-of-it/wicys-cyberstart-barcelona-challenge-2.md)
     * [WiCYS Cyberstart (Barcelona) Challenge 3](wicys-cyberstart/chapter-3-barcelona-in-the-thick-of-it/wicys-cyberstart-barcelona-challenge-3.md)
+    * [WiCYS CyberStart (Barcelona) Challenge 4](wicys-cyberstart/chapter-3-barcelona-in-the-thick-of-it/wicys-cyberstart-barcelona-challenge-4.md)
 * [📕 Technical Cyber articles](technical-cyber-articles/README.md)
   * [An in-depth analysis of an Intrusion Prevention System](technical-cyber-articles/an-in-depth-analysis-of-an-intrusion-prevention-system.md)
   * [DevSecOps-Making a difference from traditional DevOps](technical-cyber-articles/devsecops-making-a-difference-from-traditional-devops.md)
