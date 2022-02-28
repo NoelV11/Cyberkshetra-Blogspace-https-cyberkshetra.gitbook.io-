@@ -14,7 +14,7 @@
 
 Proceeding to the challenge, we are given a set of links
 
-&#x20;                                                           ![](https://cdn-images-1.medium.com/max/1000/1\*UVEmYL2DsCQrJnyOpyHRgg.jpeg)
+&#x20;                                                       ![](https://cdn-images-1.medium.com/max/1000/1\*UVEmYL2DsCQrJnyOpyHRgg.jpeg)
 
 **So what's the objective?**
 
@@ -25,8 +25,6 @@ The challenge here is that the strings need to be collected in under 10 seconds 
 **How do we collect the strings effectively?**
 
 cURL to the rescue again!
-
-Steps:-
 
 Step 1 - curl all the links to get the strings we want (do not list each of them in separate lines!)
 
