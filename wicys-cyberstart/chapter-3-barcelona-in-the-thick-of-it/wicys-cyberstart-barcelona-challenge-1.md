@@ -46,8 +46,8 @@ The resultant value is = 1badb007
 
 Since it was asked to get the code in 0x form, let’s append it to the start of the code and submit it
 
-Turns out it was the correct answer. We have 1500 points racked up on the board!
-
-&#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*w8-6TI22-E-onxe7psNE\_w.jpeg)
+Turns out it was the correct answer. We have 1500 points racked up on the board.
 
 Onward ahoy to the next challenge!
+
+&#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*w8-6TI22-E-onxe7psNE\_w.jpeg)

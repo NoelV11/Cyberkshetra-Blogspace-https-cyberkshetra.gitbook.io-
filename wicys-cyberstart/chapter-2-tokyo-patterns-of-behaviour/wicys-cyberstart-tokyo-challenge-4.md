@@ -72,6 +72,8 @@ Use it to log in and we get the flag
 
 &#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*8qNXK4RAZPPzBqIFKgRLNA.jpeg)
 
-We have racked up 1200 points on the leaderboard. It’s time to bid farewell to the Tokyo base (especially when it gave us our hardest challenge yet) and set base somewhere else. Let’s see where our CyberStart journey takes us.
+We have racked up 1200 points on the leaderboard!&#x20;
+
+It’s time to bid farewell to the Tokyo base (especially when it gave us our hardest challenge yet) and set base somewhere else. Let’s see where our CyberStart journey takes us.
 
 Onward to the next challenge!

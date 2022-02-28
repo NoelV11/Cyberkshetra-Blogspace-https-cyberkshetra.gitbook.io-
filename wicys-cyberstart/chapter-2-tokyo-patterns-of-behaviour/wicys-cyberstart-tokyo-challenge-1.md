@@ -54,9 +54,8 @@ Using it to login onto the server
 
 > Flag — cA3drVNxuDvgmcN5gs5i
 
-We are in and the challenge is conquered!
+We are in, and the challenge is conquered!
 
 Coupled with that, we have 500 points on the scoreboard. Onward Ahoy!
 
 &#x20;                                                           ![](https://cdn-images-1.medium.com/max/1000/1\*rzV4898WyqgWaS26N2iPZQ.jpeg)
-
