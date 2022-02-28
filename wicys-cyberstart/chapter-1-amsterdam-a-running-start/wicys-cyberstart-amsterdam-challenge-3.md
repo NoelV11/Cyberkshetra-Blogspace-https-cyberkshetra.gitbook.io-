@@ -44,10 +44,10 @@ First time lucky eh?
 
 We get the flag and submit it
 
-> Flag — F3Fhrc07TPmJ2HZAY9cd
-
-![](<../../.gitbook/assets/4 (2).png>)
+> _Flag — F3Fhrc07TPmJ2HZAY9cd_
 
 Currently, we have 300 points on the scoreboard!
 
-There's no looking back. Onward ahoy!
+There’s no looking back. Onward ahoy!
+
+![](<../../.gitbook/assets/4 (2).png>)
