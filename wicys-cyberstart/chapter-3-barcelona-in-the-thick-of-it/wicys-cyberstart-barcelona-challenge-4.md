@@ -58,6 +58,6 @@ Final point count - 2400                     &#x20;
 
 &#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*ybCqWyAdZdsehSS1o80IKA.png)
 
-Well fellow gamers, my internship time is up, as I am on a free CyberStart license (up to 3 levels only). It was a great time to complete challenges (both easy and challenging) and draft writeups for the same. Hope you enjoyed the time spent on CyberStart.
+Well fellow gamers, my internship time is up, as I am on a free CyberStart license (up to 3 levels only). I had a great time completing challenges (both easy and challenging) and drafting writeups for the same. Hope you enjoyed the time spent on CyberStart.
 
-Until then, goodbye. Stay connected on my socials (given at the top of this page). Dropping a sweet message would make my day
+Until then, farewell. Stay connected on my socials (given at the top of this page). Dropping a sweet message would make my day
