@@ -1,5 +1,5 @@
 ---
-description: Let's analyze a phishing mail, with a suspicious URL ...
+description: Let's analyze a phishing mail, with a suspicious URL ...   (Event ID - 88)
 ---
 
 # SOC141  -  Phishing URL Detected Alert
