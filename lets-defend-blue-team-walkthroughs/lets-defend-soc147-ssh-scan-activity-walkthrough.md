@@ -24,8 +24,6 @@ We get a file named 'nmap'. When running file command against it, we get informa
 
 Under the description, we find the hash for the file (3361bf0051cc657ba90b46be53fe5b36)
 
-
-
 ## Analysis
 
 We run the hash on VirusTotal first, but it came with 0 flagged reports - no security vendors flagged the file as malicious.
@@ -40,19 +38,15 @@ There are many OS' acting like a sandbox- we get a hit for Linux 64bit. These ar
 
 We get some indicators as well:-
 
-![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2F4LLZMttAvIlS7hxSunuA%2F5.png?alt=media\&token=5364f6d4-d8aa-4a69-826a-4bc1cffc2b12)
+![](<../.gitbook/assets/5 (2).png>)
 
 Scrolling down, we get to visualize what the file looks like
 
-![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FNFHI1AdZxGz9Ihv31JrW%2F6.png?alt=media\&token=c7ce71cf-59be-4aea-afd8-5e25cb3e5afe)
+![](<../.gitbook/assets/6 (1).png>)
 
 We also get some extracted strings at the bottom (Important)
 
-From the particulars given in the letsdefend.io site, about the .zip file, we find:-
-
-![](https://noelatvitb.gitbook.io/\~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FjXrTe5fpSNlEk4rpmYxs%2Fuploads%2FghMpmgpWji1XagM0zaSG%2F7.png?alt=media\&token=65ce5ff7-9de0-4a7b-9a57-c30e95ca4213)
-
-Now, let's take the IP Address - 172.16.20.5**.** We run it on the Endpoint Security and Log Management sections of LetsDefend
+Let's take the IP Address - 172.16.20.5**.** We run it on the Endpoint Security and Log Management sections of LetsDefend
 
 From the Log Management section, we get a lot of hits for the IP Address, but we try to narrow it down by the time, but don't get any matches for Jun 13,2021 - 04:23 PM (date and time stamp of SOC event occurrence)
 
