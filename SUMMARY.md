@@ -14,6 +14,7 @@
   * [HTTP Basic Auth: Let's Defend DFIR Challenge](lets-defend-blue-team-walkthroughs/http-basic-auth-lets-defend-dfir-challenge.md)
   * [ShellShock Attack: Let’s Defend Challenge](lets-defend-blue-team-walkthroughs/shellshock-attack-lets-defend-walkthrough.md)
   * [2021’s 0-Day MSHTML: Let's Defend Lab](lets-defend-blue-team-walkthroughs/2021s-0-day-mshtml-lets-defend-a-walkthrough.md)
+  * [SOC104 - Malware Detected Alert](lets-defend-blue-team-walkthroughs/soc104-malware-detected-alert.md)
 * [🥇 Try Hack Me - Blue Team Room Walkthroughs](try-hack-me-blue-team-room-walkthroughs/README.md)
   * [Attacktive Directory: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough.md)
   * [Disk Analysis & Autopsy: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/disk-analysis-and-autopsy-a-walkthrough.md)
