@@ -22,7 +22,7 @@ description: Reversing of text
 
 Let's go to the challenge
 
-![](../../.gitbook/assets/2.png)
+![](<../../.gitbook/assets/2 (1).png>)
 
 We are met with a social media page named Chirp (mimicking Twitter!) with HACKERBOT'S chirp (tweet)
 
@@ -42,4 +42,4 @@ Let's submit it and proceed to the next challenge. Currently, we have 200 points
 
 &#x20;Onward Ahoy!
 
-![](../../.gitbook/assets/4.png)
+![](<../../.gitbook/assets/4 (1).png>)

@@ -36,7 +36,7 @@ Any hint for Burpsuite use here? Even if this attempt fails, we can still find a
 
 Turning on Intercept and loading the page, we are met with this intercepted packet&#x20;
 
-![](../../.gitbook/assets/7.png)
+![](<../../.gitbook/assets/7 (1).png>)
 
 Alas, there are no parameters or fields for us to tamper. None of the available parameters can help us solve this quest!
 
