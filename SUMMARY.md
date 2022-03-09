@@ -28,6 +28,7 @@
   * [Crack The Hash: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/crack-the-hash-a-walkthrough.md)
   * [Google Dorking: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/google-dorking-a-walkthrough.md)
   * [OhSint: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/ohsint-a-walkthrough.md)
+  * [Page 1](try-hack-me-general-security-topics-and-room-walkthroughs/page-1.md)
 * [🤺 BTLO Walkthroughs](btlo-walkthroughs/README.md)
   * [BTLO: Network Analysis-Web Shell Challenge](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge.md)
   * [BTLO: Suspicious USB Stick Challenge](btlo-walkthroughs/btlo-suspicious-usb-stick-challenge.md)
