@@ -226,7 +226,7 @@ Find command has managed to _find_:
 
 That wasn’t so tough huh!
 
-## Using Grep
+### Using Grep
 
 Another great utility that is a great one to learn about is the use of `grep`. The `grep` command allows us to search the contents of files for specific values that we are looking for.
 
