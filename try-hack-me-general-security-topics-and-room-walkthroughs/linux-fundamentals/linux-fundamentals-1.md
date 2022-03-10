@@ -8,6 +8,8 @@ This article walks you through working on Linux and basic commands that can help
 
 For all those who want to get a hang of how Linux works, open the Virtual Machine provided by Try Hack Me and follow along
 
+Room credits go to TryHackMe and [CMNatic](https://twitter.com/CMNatic)
+
 **NOTE**: To demonstrate this room, I have used Debian, a flavor of Linux
 
 ## Task 1 — Introduction
