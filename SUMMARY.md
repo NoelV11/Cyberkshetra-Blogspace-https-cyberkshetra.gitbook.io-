@@ -30,6 +30,7 @@
   * [OhSint: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/ohsint-a-walkthrough.md)
   * [🐧 Linux Fundamentals](try-hack-me-general-security-topics-and-room-walkthroughs/linux-fundamentals-1.md)
     * [Linux Fundamentals - 1](try-hack-me-general-security-topics-and-room-walkthroughs/linux-fundamentals/linux-fundamentals-1.md)
+    * [Linux Fundamentals - 2](try-hack-me-general-security-topics-and-room-walkthroughs/linux-fundamentals/linux-fundamentals-2.md)
 * [🤺 BTLO Walkthroughs](btlo-walkthroughs/README.md)
   * [BTLO: Network Analysis-Web Shell Challenge](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge.md)
   * [BTLO: Suspicious USB Stick Challenge](btlo-walkthroughs/btlo-suspicious-usb-stick-challenge.md)
