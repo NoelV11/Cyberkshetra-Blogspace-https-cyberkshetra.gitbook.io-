@@ -89,7 +89,7 @@ We got 2 hits, but only 1 fit the bill. Seems like the binary was accessed from 
 
 When expanding the Process list, we can find an instance of Powershell being executed.
 
-We read earlier that one of the ways in which mshta.exe operates is by executing in an HTA file. So, this means that mshta.exe is indeed being executed for malicious purposes
+We read earlier that one of the methods in which mshta.exe operates is by executing in an HTA file. So, this means that mshta.exe is indeed being executed for malicious purposes
 
 ![](../.gitbook/assets/8.jpg)
 
