@@ -1,6 +1,6 @@
-# Linux Fundamentals - 3
+# Linux Fundamentals - Part 3
 
-![](../../.gitbook/assets/22.jpg)
+![](../../.gitbook/assets/24.jpg)
 
 ## Task 1 — Introduction
 

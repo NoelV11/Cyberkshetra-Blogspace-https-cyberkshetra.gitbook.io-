@@ -1,6 +1,6 @@
 # Linux Fundamentals - Part 2
 
-![](../../.gitbook/assets/7.jpg)
+![](../../.gitbook/assets/23.jpg)
 
 Hello blue teamers,
 
