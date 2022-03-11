@@ -1,4 +1,4 @@
-# Linux Fundamentals - 2
+# Linux Fundamentals - Part 2
 
 ![](../../.gitbook/assets/7.jpg)
 
@@ -55,7 +55,7 @@ To access this documentation, we can use the `man`command and then provide the c
 
 &#x20;                                                       ![](https://cdn-images-1.medium.com/max/1000/1\*pBRGYNdOsLyiCodcmu\_LYQ.jpeg)
 
-_**Answer the questions below**_
+**Answer the questions below**
 
 > Q)Explore the manual page of the ls command
 
@@ -150,7 +150,7 @@ So far, the files we have used in our examples haven’t had an extension. Witho
 
 &#x20;                                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*xMZZY5p\_z0qoiYP--cgLGA.jpeg)
 
-_**Answer the questions below**_
+**Answer the questions below**
 
 > Q)How would you create the file named “newnote”?
 
@@ -193,7 +193,7 @@ Although intimidating, these three columns are very important in determining cer
 * Write (permission score = 2)
 * Execute (permission score = 1)
 
-**Changing permissions on Linux (user-level)**
+### **Changing permissions on Linux (user-level)**
 
 This is done by the `chmod`command
 
@@ -248,13 +248,13 @@ You can apply a full set of user-level permissions by providing 700 (read+write+
 
 &#x20;                                    Switching between the ‘kali’ and ‘root’ user accounts
 
-**The differences Between Users & Groups**
+### **The differences Between Users & Groups**
 
 We briefly explored this in Linux fundamentals part 1 (namely, the differences between a regular user and a system user). The great thing about Linux is that permissions can be so granular, that whilst a user technically owns a file, if the permissions have been set, then a group of users can also have either the same or a different set of permissions to the same file without affecting the file owner itself.
 
 Let’s put this into a real-world context; the system user that runs a web server must have permission to read and write files for an effective web application. However, companies such as web hosting companies will have to want to allow their customers to upload their files for their website without being the webserver system user — compromising the security of every other customer.
 
-_**Answer the questions below**_
+**Answer the questions below**
 
 > Q)On the deployable machine, who is the owner of “important”?
 
@@ -302,7 +302,7 @@ This is a unique root directory found on a Linux install. Short for “**tempora
 
 &#x20;                                                            ![](https://cdn-images-1.medium.com/max/1000/1\*HqAdwszrFuxpaX\_nXwrVXw.jpeg)
 
-_**Answer the questions below**_
+**Answer the questions below**
 
 > Q)Read me!
 
