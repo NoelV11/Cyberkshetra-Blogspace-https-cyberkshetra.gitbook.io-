@@ -1,6 +1,6 @@
-# Linux Fundamentals - 1
+# Linux Fundamentals - Part 1
 
-![](../../.gitbook/assets/4.jpg)
+![](<../../.gitbook/assets/4 (1).jpg>)
 
 Hello, aspiring blue teamers,
 
@@ -74,7 +74,7 @@ Let’s get started with two of the first commands which I have broken down in t
 
 Demonstration of each command:
 
-&#x20;                                                          ![](https://cdn-images-1.medium.com/max/1000/1\*grv\_SrM5zD8Aj2c-FmHSyw.jpeg)
+&#x20;                                                      ![](https://cdn-images-1.medium.com/max/1000/1\*grv\_SrM5zD8Aj2c-FmHSyw.jpeg)
 
 **Answer the questions below**
 
@@ -129,7 +129,7 @@ Now that we know what folders exist, we need to use the “**cd**” command (sh
 
 I have broken this down into 6 segments (traversing back and forth to /home/kali/Downloads), from the main directory (/)
 
-&#x20;                                                               ![](https://cdn-images-1.medium.com/max/1000/1\*L8Vw1pJbBXEOfk9fuqtrlg.jpeg)
+&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*L8Vw1pJbBXEOfk9fuqtrlg.jpeg)
 
 ### Outputting the Contents of a File (cat)
 
@@ -248,7 +248,7 @@ Let’s take the example of “rockyou.txt” (the largest dataset of breached p
 
 > Grep symbol used — ^
 
-&#x20;                                                        ![](https://cdn-images-1.medium.com/max/1000/1\*v-rLz\_LNyYde4zYUzTFGUg.jpeg)
+&#x20;                                                          ![](https://cdn-images-1.medium.com/max/1000/1\*v-rLz\_LNyYde4zYUzTFGUg.jpeg)
 
 > Command — grep “noel$” rockyou.txt
 
@@ -256,7 +256,7 @@ Let’s take the example of “rockyou.txt” (the largest dataset of breached p
 
 > Grep symbol used — $
 
-&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*n0gb5QEB\_uLrX3G7RFgEgg.jpeg)
+&#x20;                                                        ![](https://cdn-images-1.medium.com/max/1000/1\*n0gb5QEB\_uLrX3G7RFgEgg.jpeg)
 
 > Command — grep “^noel$” rockyou.txt
 
@@ -264,7 +264,7 @@ Let’s take the example of “rockyou.txt” (the largest dataset of breached p
 
 > Grep symbol used — ^ and $
 
-&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*4a\_5gkYhcAgwkPCptlQ8Xg.jpeg)
+&#x20;                                                       ![](https://cdn-images-1.medium.com/max/1000/1\*4a\_5gkYhcAgwkPCptlQ8Xg.jpeg)
 
 **Answer the questions below**
 
@@ -302,7 +302,7 @@ The “&” shell operator allows us to execute a command and have it run in the
 
 This shell operator is a bit misleading in the sense of how familiar is to its partner “&”. Unlike the “&” operator, we can use “&&” to make a list of commands to run for example `command1 && command2`. However, it's worth noting that `command2` will only run if `command1` was successful. This applies to the other chained commands&#x20;
 
-![](https://cdn-images-1.medium.com/max/1000/1\*j7cllotd4KAx1YH5SauDXA.jpeg)
+&#x20;                                                             ![](https://cdn-images-1.medium.com/max/1000/1\*j7cllotd4KAx1YH5SauDXA.jpeg)
 
 > Command — touch Password && echo “TryHackMe%” >> Password && ls && cat Password && reboot
 
@@ -336,7 +336,7 @@ Following on with our previous example where we have the file “Text.txt” tha
 
 The `>>` operator allows to append the output to the bottom of the file — rather than replacing the contents like so:
 
-&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*21lVCMoA39hOHBzO9vHSNQ.jpeg)
+&#x20;                                                         ![](https://cdn-images-1.medium.com/max/1000/1\*21lVCMoA39hOHBzO9vHSNQ.jpeg)
 
 > Command — echo “Dummy” >> Text.txt
 

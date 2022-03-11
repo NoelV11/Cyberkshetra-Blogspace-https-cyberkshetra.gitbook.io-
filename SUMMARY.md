@@ -2,6 +2,7 @@
 
 * [Welcome to my Gitbooks Page](README.md)
 * [💽 Let's Defend Blue Team Walkthroughs](lets-defend-blue-team-walkthroughs/README.md)
+  * [SOC164 - Suspicious Mshta Behavior](lets-defend-blue-team-walkthroughs/soc164-suspicious-mshta-behavior.md)
   * [SOC147 - SSH Scan Activity Alert](lets-defend-blue-team-walkthroughs/lets-defend-soc147-ssh-scan-activity-walkthrough.md)
   * [SOC146  -  Phishing Mail Detected Alert](lets-defend-blue-team-walkthroughs/soc146-phishing-mail-detected-walkthrough.md)
   * [SOC145 - Ransomware Detected Alert](lets-defend-blue-team-walkthroughs/soc145-ransomware-detected-walkthrough.md)
