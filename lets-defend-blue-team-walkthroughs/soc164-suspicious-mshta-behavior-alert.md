@@ -22,7 +22,9 @@ Alert particulars provided to the analyst:-
 
 ### What are Living-off-the-land binaries (LOLBins)?&#x20;
 
-A LoLBin is any binary supplied by the operating system that is normally used for legitimate purposes but can also be abused by malicious actors. Several default system binaries have unexpected side effects, which may allow attackers to hide their activities post-exploitation. (definition: talosintelligence.com)
+A LoLBin is any binary supplied by the operating system that is normally used for legitimate purposes but can also be abused by malicious actors. Default system binaries have unexpected side effects, which may allow attackers to hide their activities post-exploitation.&#x20;
+
+(Definition: [talosintelligence.com](https://talosintelligence.com))
 
 ## Identify the Binary&#x20;
 
@@ -54,7 +56,7 @@ According to [Mcafee](https://www.mcafee.com/blogs/other-blogs/mcafee-labs/what-
 
 ### How does the binary operate?
 
-According to [Red Canary](https://redcanary.com/threat-detection-report/techniques/mshta/)
+According to [Red Canary](https://redcanary.com/threat-detection-report/techniques/mshta/),
 
 > There are four primary methods by which adversaries leverage Mshta to execute arbitrary VBScript and JScript:
 
@@ -113,7 +115,7 @@ Let's select 'Execute' from the options above
 
 > Who performed the suspicious/malicious activity using a binary? It would be helpful to control the binary’s parent process.
 
-By analyzing the MD5 hash of the binary on VirusTotal, we can conclude that it is not associated with any malware strain. Joe Sandbox can attest to that claim.
+By analyzing the MD5 hash of the binary on [VirusTotal](https://www.virustotal.com/gui/home/upload), we can conclude that it is not associated with any malware strain. Joe Sandbox can attest to that claim.
 
 ![](../.gitbook/assets/20.jpg)
 
