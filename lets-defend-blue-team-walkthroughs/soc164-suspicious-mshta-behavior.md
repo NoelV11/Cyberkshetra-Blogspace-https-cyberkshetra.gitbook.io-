@@ -1,12 +1,12 @@
 # SOC164 - Suspicious Mshta Behavior
 
-Hello aspiring blue teamers.Hope you are keeping yurslef hale and hearty
+Hello, aspiring blue teamers.Hope you are keeping yourself hale and hearty
 
-Welcome to this blog entry,as we will be tackling the “SOC164 — Suspicious Mshta Behaviour” alert on the Let’s Defend platform.It was vastly different from the other alerts that I have previously solved on this platform
+Welcome to this blog entry, as we will be tackling the “SOC164 — Suspicious Mshta Behaviour” alert on the Let’s Defend platform. It was vastly different from the other alerts that I have previously solved on this platform
 
-Let’s jump head first into it.
+Let’s jump headfirst into it.
 
-**NOTE: Always remember to investigate alerts from Let's Defend, on a VM.**
+**NOTE: Always remember to investigate alerts from Let’s Defend, on a VM.**
 
 ## Introduction to the Alert
 
@@ -14,23 +14,21 @@ Alert particulars provided to the analyst:-
 
 ![](../.gitbook/assets/3.jpg)
 
-Create the case
+> Create the case
 
-Start the playbook
+> Start the playbook
 
 ![](../.gitbook/assets/4.jpg)
 
-What are Living-off-the-land binaries (LOLBins)?&#x20;
+### What are Living-off-the-land binaries (LOLBins)?&#x20;
 
 A LoLBin is any binary supplied by the operating system that is normally used for legitimate purposes but can also be abused by malicious actors. Several default system binaries have unexpected side effects, which may allow attackers to hide their activities post-exploitation. (definition: talosintelligence.com)
 
-Identify the Binary&#x20;
+### Identify the Binary&#x20;
 
 ![](../.gitbook/assets/5.jpg)
 
-
-
-Determine which binary is supplied by the operating system but is also home to suspicious activities. To do this, you can resort to the alert details on the Monitoring page or Endpoint Security.
+> Determine which binary is supplied by the operating system but is also home to suspicious activities. To do this, you can resort to the alert details on the Monitoring page or Endpoint Security.
 
 Determine Suspicious Activity&#x20;
 
@@ -129,6 +127,10 @@ Let's proceed to contain the victim host
 
 ![](../.gitbook/assets/14.jpg)
 
+Please go to the "EDR" page and contain the user machine!
+
+Let's proceed to contain the victim host
+
 ![](../.gitbook/assets/15.jpg)
 
 We have sucesfully contained the host to prevent spread of threats on the Let's Defend network
@@ -153,7 +155,9 @@ Alert Scorecard
 
 ## Summary of the alert
 
-A malware file was analyzed, which threw a false positive to the SOC Team. The file in fact contained the nmap scan report on hosts, within the 172.16.20.5/24 subnet. The malware file wasn't quarantined as well
+The SOC Analyst was presented with a suspected binary file that was being used by threat actors to perform remote code execution.With the availability of networking logs and command history,from the victim host,we were able to find the attack vector (Powershell CLI exection), used to conduct the remote attack.
+
+Further analysis was performed on the binary file to find if it had any links to existing malware.It was found that no such association existed.The vulnerability presented in this case was the usage of binaries being signed by trusted entities(in this case Micrisidt) being used to conduct attacks
 
 ## Conclusion
 
