@@ -8,6 +8,8 @@ Welcome to part three (and the finale) of the Linux Fundamentals module. So far,
 
 This room is going to showcase some useful utilities and applications that you are likely to use day-to-day.&#x20;
 
+Room credits go to TryHackMe and [CMNatic](https://twitter.com/CMNatic)
+
 ## Task 2 — Deploy Your Linux Machine
 
 ## Task 3 — Terminal Text Editors

@@ -6,6 +6,8 @@ Hello blue teamers,
 
 I hope that you have done and dusted the first room,taking down notes and performing the hands-on labs. Here we are, with the [second installation](https://tryhackme.com/room/linuxfundamentalspart2) of the Linux Fundamentals series.
 
+Room credits go to TryHackMe and [CMNatic](https://twitter.com/CMNatic)
+
 Let’s hop right in!
 
 ## Task 1 — Introduction
