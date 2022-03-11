@@ -1,3 +1,7 @@
+---
+description: Analysis of the malicious nature of mshta.exe, a binary signed by Microsoft
+---
+
 # SOC164 - Suspicious Mshta Behavior Alert
 
 Hello, aspiring blue teamers.Hope you are keeping yourselves hale and hearty
