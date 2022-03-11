@@ -4,7 +4,7 @@
 
 Hello blue teamers,
 
-I hope that you have done and dusted the first room,taking down notes and performing the labs hands-on. Here we are, with the [second installation](https://tryhackme.com/room/linuxfundamentalspart2) of the Linux Fundamentals series.
+I hope that you have done and dusted the first room,taking down notes and performing the hands-on labs. Here we are, with the [second installation](https://tryhackme.com/room/linuxfundamentalspart2) of the Linux Fundamentals series.
 
 Let’s hop right in!
 
