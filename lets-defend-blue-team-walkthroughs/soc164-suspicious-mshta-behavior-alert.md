@@ -1,6 +1,6 @@
 # SOC164 - Suspicious Mshta Behavior Alert
 
-Hello, aspiring blue teamers.Hope you are keeping yourself hale and hearty
+Hello, aspiring blue teamers.Hope you are keeping yourselves hale and hearty
 
 Welcome to this blog entry, as we will be tackling the “SOC164 — Suspicious Mshta Behaviour” alert on the Let’s Defend platform. It was vastly different from the other alerts that I have previously solved on this platform
 
