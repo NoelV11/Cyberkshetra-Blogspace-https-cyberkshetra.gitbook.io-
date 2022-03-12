@@ -51,12 +51,6 @@ Research: What year was the first release of a Linux operating system?
 
 ## Task 3 — Interacting With Your First Linux Machine (In-Browser)
 
-**Answer the questions below**
-
-> Q)I’ve deployed my first Linux machine!
-
-> A)No answer needed
-
 ## Task 4 — Running Your First few Commands
 
 As we previously discussed, a large selling point of using OS’ such as Ubuntu is how lightweight they can be. This, of course, doesn’t come without its disadvantages, where for example, often there is no GUI (Graphical User Interface) or what is also known as a desktop environment that we can use to interact with the machine (unless it has been installed). A large part of interacting with these systems is using the “Terminal”.
