@@ -64,5 +64,5 @@
   * [SIEM-Incorporating Incident Response into Network Security](technical-cyber-articles/ff.md)
   * [Social Engineering-A leading cause for vulnerability occurrence](technical-cyber-articles/social-engineering-a-leading-cause-for-vulnerability-occurrence.md)
   * [Report Writing in Digital & Multimedia Forensics](technical-cyber-articles/report-writing-in-digital-and-multimedia-forensics.md)
-  * [Zero Trust Network Access-A solution to Network Security](technical-cyber-articles/zero-trust-network-access-a-solution-to-network-security.md)
   * [Zero-Day Vulnerabilities: A short overview](technical-cyber-articles/zero-day-vulnerabilities-a-short-overview.md)
+  * [Zero Trust Network Access-A solution to Network Security](technical-cyber-articles/zero-trust-network-access-a-solution-to-network-security.md)
