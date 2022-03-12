@@ -58,6 +58,7 @@
   * [An in-depth analysis of an Intrusion Prevention System](technical-cyber-articles/an-in-depth-analysis-of-an-intrusion-prevention-system.md)
   * [DevSecOps-Making a difference from traditional DevOps](technical-cyber-articles/devsecops-making-a-difference-from-traditional-devops.md)
   * [CVE - 2020–1472 (Zerologon Vulnerability)-Exploitation & Remediation](technical-cyber-articles/cve-2020-1472-zerologon-vulnerability-exploitation-and-remediation.md)
+  * [Computer Forensics Acquisition](technical-cyber-articles/computer-forensics-acquisition.md)
   * [Hack your System - Linux Edition](technical-cyber-articles/hack-your-system-linux-edition.md)
   * [Markovian Parallax Denigrate-Breaking the cipher](technical-cyber-articles/markovian-parallax-denigrate-breaking-the-cipher.md)
   * [SIEM-Incorporating Incident Response into Network Security](technical-cyber-articles/ff.md)
@@ -65,4 +66,3 @@
   * [Report Writing in Digital & Multimedia Forensics](technical-cyber-articles/report-writing-in-digital-and-multimedia-forensics.md)
   * [Zero Trust Network Access-A solution to Network Security](technical-cyber-articles/zero-trust-network-access-a-solution-to-network-security.md)
   * [Zero-Day Vulnerabilities: A short overview](technical-cyber-articles/zero-day-vulnerabilities-a-short-overview.md)
-  * [Computer Forensics Acquisition](technical-cyber-articles/computer-forensics-acquisition.md)
