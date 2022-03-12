@@ -1,7 +1,7 @@
 ---
 description: >-
-  What is Computer Forensics Acquisition and guidelines to be followed, while
-  performing one
+  What is Computer Forensics Acquisition and the guidelines to be followed,
+  while performing one
 ---
 
 # Computer Forensics Acquisition
