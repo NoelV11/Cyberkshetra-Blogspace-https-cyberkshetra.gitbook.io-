@@ -1,4 +1,10 @@
+---
+description: Power up your Linux skills!
+---
+
 # Linux Fundamentals - Part 3
+
+
 
 ![](../../.gitbook/assets/24.jpg)
 
