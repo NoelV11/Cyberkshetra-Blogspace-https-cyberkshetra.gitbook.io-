@@ -39,11 +39,11 @@ Distribution-It can be of four categories:-
 3. Employee Relations
 4. Others-Analysis of electronic devices come under this category
 
-## **I**I)Body of the Report
+## **I**I) Body of the Report
 
 Details of the individual from whom the device was seized, along with the title (Mr., Dr., Miss., etc.), residence address, as well as address of workplace.
 
-### a)Summary of Devices seized/evidence submitted
+### a) Summary of Devices seized/evidence submitted
 
 &#x20;                                                  ![](https://miro.medium.com/max/1400/0\*o6Kdv7eBKv5fiNYQ.jpg)
 
@@ -51,11 +51,11 @@ It is represented by a tabular column, with the serial number and name of digita
 
 An example-’The software used in this examination has been registered and licensed to Company or its agents. All software and forensic hardware have been validated.’
 
-### b)Evidence Report
+### b) Evidence Report
 
 In this section of the report, the evidence is referenced, by its serial number, along with all data that is associated with it. A photo for the same should also be submitted.
 
-&#x20;                                                      ![](https://miro.medium.com/max/1400/0\*HqntaBlc\_I5o0T9F.png)
+&#x20;                                                    ![](https://miro.medium.com/max/1400/0\*HqntaBlc\_I5o0T9F.png)
 
 For example:
 
@@ -67,11 +67,15 @@ Item #1 — Browsing History
 
 The above information should be concise and to the point. As we all would like to know the name of the sites that the culprit visited, it is not included, as it makes the report wordier.
 
-c)Specify Hash Generation Method-Each device that is seized is hashed, with an unique ID. The hashing algorithm used can be MD5, SHA1, and others. In an investigation, digital evidence is identified by its hash id.
+### c) Specify Hash Generation Method
+
+Each device that is seized is hashed, with an unique ID. The hashing algorithm used can be MD5, SHA1, and others. In an investigation, digital evidence is identified by its hash id.
 
 &#x20;                                                    ![](https://miro.medium.com/max/1400/0\*ovjOyk3091-LR3Is.png)
 
-d)Specify Forensic Imaging Method-It is key that the original digital evidence should be cloned, so that the tests can be run on the copy version.
+### d) Specify Forensic Imaging Method
+
+It is key that the original digital evidence should be cloned, so that the tests can be run on the copy version.
 
 &#x20;                                                       ![](https://miro.medium.com/max/524/0\*q3d3ncVnrM4FGoRx)
 
@@ -89,7 +93,7 @@ To verify the authenticity of the forensic image and the original media, their h
 1. Matching
 2. Not matching. Provide a possible explanation for the same.
 
-### e)Virus & Malware
+### e) Virus & Malware
 
 The original media is subject to a malware scan. It should be made sure, that the antivirus is updated with the latest definitions for malware and viruses.
 
@@ -100,7 +104,7 @@ Upon testing, we can infer that:-
 1. Media was free from malware
 2. If not, state a report on the same, below.
 
-## III**)Conclusion of the Report**
+## III**) Conclusion of the Report**
 
 This section of the report contains:-
 

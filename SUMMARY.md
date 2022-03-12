@@ -33,7 +33,7 @@
     * [Linux Fundamentals - Part 2](try-hack-me-general-security-topics-and-room-walkthroughs/linux-fundamentals/linux-fundamentals-part-2.md)
     * [Linux Fundamentals - Part 3](try-hack-me-general-security-topics-and-room-walkthroughs/linux-fundamentals/linux-fundamentals-part-3.md)
   * [OhSint: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/ohsint-a-walkthrough.md)
-  * [📩 Phishing Series](try-hack-me-general-security-topics-and-room-walkthroughs/phishing-series/README.md)
+  * [📩 Phishing Series](try-hack-me-general-security-topics-and-room-walkthroughs/phishing-series.md)
     * [Phishing - 1](try-hack-me-general-security-topics-and-room-walkthroughs/phishing-series/phishing-1.md)
 * [🤺 BTLO Walkthroughs](btlo-walkthroughs/README.md)
   * [BTLO: Network Analysis-Web Shell Challenge](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge.md)
