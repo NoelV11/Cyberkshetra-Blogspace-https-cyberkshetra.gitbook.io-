@@ -1,3 +1,7 @@
+---
+description: Power up your Linux skills!
+---
+
 # Linux Fundamentals - Part 2
 
 ![](../../.gitbook/assets/23.jpg)
@@ -21,11 +25,7 @@ In part 2, we’ll be helping you get started in what is a fundamental skill in 
 * Introducing you to the access mechanisms in place to keep files and folders secure and how to identify the things that our current user has access too
 * Running your first few scripts and executables!
 
-#### Answer the questions below
-
 Let’s proceed!
-
-> A)No answer needed
 
 ## Task 2 — Accessing Your Linux Machine Using SSH (Deploy)
 
