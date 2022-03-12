@@ -23,7 +23,7 @@ To make it simple, we define it as buffer overflow and stack overflow attacks. I
 
 There is a rare chance of detecting the exploit. That’s what makes it a severe threat, in the first place. However, a few steps can be taken to identify it. They are: -&#x20;
 
-a) Monitoring Techniques-The activity timeline of the software is constantly on watch and detects unusual traces of activities, which raises flags of possible vulnerabilities being taken advantage of. b) Honeypot Technique-Honeypots can be implemented, catch the hacker in the act, by analyzing attack and brute force attempts.&#x20;
+a)Monitoring Techniques-The activity timeline of the software is constantly on watch and detects unusual traces of activities, which raises flags of possible vulnerabilities being taken advantage of. b) Honeypot Technique-Honeypots can be implemented, catch the hacker in the act, by analyzing attack and brute force attempts.&#x20;
 
 c)Heuristic Approach-To eliminate the vulnerability, using a quick and efficient solution&#x20;
 

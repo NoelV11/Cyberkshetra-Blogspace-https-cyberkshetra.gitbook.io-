@@ -64,3 +64,5 @@
   * [CVE - 2020–1472 (Zerologon Vulnerability)-Exploitation & Remediation](technical-cyber-articles/cve-2020-1472-zerologon-vulnerability-exploitation-and-remediation.md)
   * [Zero Trust Network Access-A solution to Network Security](technical-cyber-articles/zero-trust-network-access-a-solution-to-network-security.md)
   * [Zero-Day Vulnerabilities: A short overview](technical-cyber-articles/zero-day-vulnerabilities-a-short-overview.md)
+  * [Report Writing in Digital & Multimedia Forensics](technical-cyber-articles/report-writing-in-digital-and-multimedia-forensics.md)
+  * [Computer Forensics Acquisition](technical-cyber-articles/computer-forensics-acquisition.md)
