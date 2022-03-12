@@ -1,5 +1,5 @@
 ---
-description: Report writing, while working with multimedia evidence
+description: Tips for report writing, while working with multimedia evidence
 ---
 
 # Report Writing in Digital & Multimedia Forensics
