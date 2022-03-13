@@ -4,7 +4,7 @@ description: Learn all the components that make up an email.
 
 # Phishing Emails - 1: A  Walkthrough
 
-![](<../../.gitbook/assets/1 (1).jpg>)
+![](<../../.gitbook/assets/1 (1) (1).jpg>)
 
 It was a pretty nice surprise to see that Try Hack Me had dedicated a 5 room series to teach A-Z of everything you need to know about Phishing. Some of these concepts are important and can appear as interview questions. This room is the first one in the series.
 
