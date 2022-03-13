@@ -368,4 +368,4 @@ Thank you for reading this blog and stay tuned as I try to close down more SOC a
 
 My audience has a voice. Feel free to reach out to me, on my socials (links are on top of this page) for any queries to be addressed. Dropping a sweet message would make my day
 
-Let your opinion about this write-up be known, by giving it a clap!
+Let your opinion about this write-up be known, by selecting any one of the emojis below!

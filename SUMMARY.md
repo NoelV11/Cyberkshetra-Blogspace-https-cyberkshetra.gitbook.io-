@@ -35,7 +35,7 @@
   * [OhSint: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/ohsint-a-walkthrough.md)
   * [📩 Phishing Series](try-hack-me-general-security-topics-and-room-walkthroughs/phishing-series.md)
     * [Phishing Emails - 1: A  Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/phishing-series/phishing-emails-1-a-walkthrough.md)
-    * [Phishing Emails - 1: A  Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/phishing-series/phishing-emails-1-a-walkthrough-1.md)
+    * [Phishing Emails - 2: A  Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/phishing-series/phishing-emails-2-a-walkthrough.md)
 * [🤺 BTLO Walkthroughs](btlo-walkthroughs/README.md)
   * [BTLO: Network Analysis-Web Shell Challenge](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge.md)
   * [BTLO: Suspicious USB Stick Challenge](btlo-walkthroughs/btlo-suspicious-usb-stick-challenge.md)
