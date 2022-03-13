@@ -4,7 +4,9 @@ description: >-
   systems from abuse
 ---
 
-# Priniciples of Security:A Walkthrough
+# Principles of Security: A Walkthrough
+
+![](<../.gitbook/assets/1 (1).jpg>)
 
 Hello aspiring blue teamers,
 
