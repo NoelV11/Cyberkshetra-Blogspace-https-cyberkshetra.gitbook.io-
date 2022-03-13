@@ -10,9 +10,9 @@ description: >-
 
 Hey blue teamers,
 
-Hope you have combed through the content given in the first Phishing room. Here we are, with the second installment in the series. There is so much to learn!
+Hope you have combed through the content given in the [first](https://tryhackme.com/room/phishingemails1tryoe) Phishing room. Here we are, with the [second installment](https://tryhackme.com/room/phishingemails2rytmuv) in the series. There is so much to learn!
 
-Room credits go to tryhackme and [heavenraiza](https://twitter.com/heavenraiza)
+Room credits go to [tryhackme](https://tryhackme.com/p/tryhackme) and [heavenraiza](https://twitter.com/heavenraiza)
 
 ## Task 1 — Introduction
 

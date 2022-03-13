@@ -1,16 +1,16 @@
 ---
-description: Let's learn about Splunk, a security SIEM
+description: >-
+  Part of the Blue Primer series, learn how to use Splunk to search through
+  massive amounts of information
 ---
 
 # Splunk: A Walkthrough
-
-
 
 ![](../.gitbook/assets/1.png)
 
 Hello, fellow blue teamers,
 
-Join me in this blog entry, as I guide you to solve Try to Hack Me’s [Splunk ](https://tryhackme.com/room/bpsplunk)room.
+Join me in this blog entry, as I guide you to solve [Try Hack Me](https://tryhackme.com)’s [Splunk ](https://tryhackme.com/room/bpsplunk)room.
 
 Room creation credits go to [Darkstar7471](https://twitter.com/darkstar7471).Find him on Discord! - **Bloke#2439**!
 

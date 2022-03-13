@@ -1,16 +1,16 @@
 ---
-description: Google Dorking
+description: >-
+  Explaining how Search Engines work and leveraging them into finding hidden
+  content!
 ---
 
 # Google Dorking: A Walkthrough
 
-
-
 ![](../.gitbook/assets/70.png)
 
-Hello readers.Welcome to this segment of Noel's blog entries,as I learn and solve Try Hack Me's 'Google Dorking' Room.It's a pretty fun concept to learn and implement in real life,as you hunt down for research papers and so on.
+Hello readers. Welcome to this segment of Noel's blog entries, as I learn and solve [Try Hack Me](https://tryhackme.com)'s [Google Dorking](https://tryhackme.com/room/googledorking) room. It's a pretty fun concept to learn and implement in real life, as you hunt down for research papers and so on.
 
-Room credits go to [CMNatic](https://twitter.com/CMNatic).Cheerio!
+Room credits go to [CMNatic](https://twitter.com/CMNatic). Cheerio!
 
 **NOTE: Always remember to investigate rooms from Try Hack Me, on a VM.**
 

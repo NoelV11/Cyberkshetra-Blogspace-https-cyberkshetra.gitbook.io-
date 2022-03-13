@@ -1,5 +1,7 @@
 ---
-description: Power up your Linux skills!
+description: >-
+  Embark on the journey of learning the fundamentals of Linux. Learn to run some
+  of the first essential commands on an interactive terminal.
 ---
 
 # Linux Fundamentals - Part 1
@@ -8,11 +10,11 @@ description: Power up your Linux skills!
 
 Hello, aspiring blue teamers,
 
-This article walks you through working on Linux and basic commands that can help get your work done. Try Hack Me has released a 3 part series on Linux Fundamentals and [this room](https://tryhackme.com/room/linuxfundamentalspart1) is the first one in the collection.
+This article walks you through working on Linux and basic commands that can help get your work done. [Try Hack Me](https://tryhackme.com) has released a 3 part series on Linux Fundamentals and [this room](https://tryhackme.com/room/linuxfundamentalspart1) is the first one in the collection.
 
-For all those who want to get a hang of how Linux works, open the Virtual Machine provided by Try Hack Me and follow along
+For all those who want to get a hang of how Linux works, open the Virtual Machine provided in the room and follow along
 
-Room credits go to TryHackMe and [CMNatic](https://twitter.com/CMNatic)
+Room credits go to [tryhackme](https://tryhackme.com/p/tryhackme) and [CMNatic](https://twitter.com/CMNatic)
 
 **NOTE**: To demonstrate this room, I have used Debian, a flavor of Linux
 

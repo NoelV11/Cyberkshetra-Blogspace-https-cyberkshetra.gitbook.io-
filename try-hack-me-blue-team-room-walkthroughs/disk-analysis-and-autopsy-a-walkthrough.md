@@ -1,14 +1,14 @@
 ---
-description: Digital Forensics
+description: Ready for a challenge? Use Autopsy to investigate artifacts from a disk image.
 ---
 
-# Disk Analysis & Autopsy:A Walkthrough
+# Disk Analysis & Autopsy: A Walkthrough
 
 ![](../.gitbook/assets/DQ.png)
 
 Hello readers, welcome to this segment of Noel's Cyberkshetra blogs.
 
-Join me in this blog entry, as I get my hands dirty with some Digital Forensic Investigation practice, in the [Disk Analysis & Autopsy](https://tryhackme.com/room/autopsy2ze0) room, hosted on Try Hack Me
+Join me in this blog entry, as I get my hands dirty with some Digital Forensic Investigation practice, in the [Disk Analysis & Autopsy](https://tryhackme.com/room/autopsy2ze0) room, hosted on [Try Hack Me](https://tryhackme.com)
 
 Room creation credits go to [heavenraiza](https://twitter.com/heavenraiza) and [kalighost404](https://www.instagram.com/\_yoo\_yoo.\_/).Massive respect!
 

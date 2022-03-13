@@ -1,15 +1,17 @@
 ---
 coverY: 0
-description: Active Directory
+description: >-
+  99% of Corporate networks run off of AD. But can you exploit a vulnerable
+  Domain Controller?
 ---
 
-# Attacktive Directory :  A Walkthrough
+# Attacktive Directory: A Walkthrough
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*qX1t1LN5mzSIE3GWnkmkPA.png)
 
 Hello, fellow blue teamers,
 
-Join me in this blog entry, as I guide you to solve Try to Hack Me’s [Attactive Directory](https://tryhackme.com/room/attacktivedirectory) room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
+Join me in this blog entry, as I guide you to solve [Try Hack Me’](https://tryhackme.com)s [Attactive Directory](https://tryhackme.com/room/attacktivedirectory) room, without the help of Metasploit— a step in the right direction for those wanting to learn Windows and Active Directory
 
 Room credits go to [Sq00ky](https://tryhackme.com/p/Sq00ky).Great stuff!
 

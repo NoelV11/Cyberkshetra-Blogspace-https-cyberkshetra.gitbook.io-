@@ -1,12 +1,14 @@
 ---
-description: OSINT
+description: Are you able to use open source intelligence to solve this challenge?
 ---
 
 # OhSint: A Walkthrough
 
 ![](../.gitbook/assets/IW.png)
 
-​Hello readers, welcome to this segment of my blog, as I guide you to solve the [OhSint](https://tryhackme.com/room/ohsint) Room, hosted on TryHackMe.Doing this room was a lot of fun!
+​Hello readers, welcome to this segment of my blog, as I guide you to solve the [OhSint](https://tryhackme.com/room/ohsint) Room, hosted on [Try Hack Me](https://tryhackme.com). Doing this room was a lot of fun!
+
+Room credits go to [tryhackme](https://tryhackme.com/p/tryhackme)
 
 **NOTE: Always remember to investigate rooms from Try Hack Me, on a VM.**
 

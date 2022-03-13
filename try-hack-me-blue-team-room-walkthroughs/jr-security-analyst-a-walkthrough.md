@@ -1,5 +1,7 @@
 ---
-description: Blue team themed room for aspiring Security Analysts
+description: >-
+  Play through a day in the life of a Junior Security Analyst, their
+  responsibilities and qualifications needed to land a role as an analyst.
 ---
 
 # Jr Security Analyst: A Walkthrough
@@ -8,7 +10,7 @@ description: Blue team themed room for aspiring Security Analysts
 
 Hello, aspiring blue teamers!
 
-It was Sunday evening. I was casually browsing through LinkedIn and came across [David Meece’s](https://www.linkedin.com/in/david-meece-cybertech-dave?miniProfileUrn=urn%3Ali%3Afs\_miniProfile%3AACoAABw7e\_gB56XDXOxN6Ja4OwAsZFANsXGHk5o\&lipi=urn%3Ali%3Apage%3Ad\_flagship3\_search\_srp\_people%3Bk98%2FqVsnQFiCYsbXnIbImA%3D%3D) post, with him documenting his learning experience with Try Hack Me’s newly released Jr Security Analyst room. This got me pretty excited!
+It was Sunday evening. I was casually browsing through LinkedIn and came across [David Meece’s](https://www.linkedin.com/in/david-meece-cybertech-dave?miniProfileUrn=urn%3Ali%3Afs\_miniProfile%3AACoAABw7e\_gB56XDXOxN6Ja4OwAsZFANsXGHk5o\&lipi=urn%3Ali%3Apage%3Ad\_flagship3\_search\_srp\_people%3Bk98%2FqVsnQFiCYsbXnIbImA%3D%3D) post, with him documenting his learning experience with [Try Hack Me’](https://tryhackme.com)s newly released[ Jr Security Analyst](https://tryhackme.com/room/jrsecanalystintrouxo) room. This got me pretty excited!
 
 It caused me to get off my rump and do the room, which I found to be pretty informative, with hands-on learning. Here you are, with the latest segment of this blog space, documenting the walkthrough of this room.
 

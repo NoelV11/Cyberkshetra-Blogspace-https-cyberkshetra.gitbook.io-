@@ -1,20 +1,20 @@
 ---
-description: Power up your Linux skills!
+description: >-
+  Power-up your Linux skills and get hands-on with some common utilities that
+  you are likely to use day-to-day!
 ---
 
 # Linux Fundamentals - Part 3
-
-
 
 ![](../../.gitbook/assets/24.jpg)
 
 ## Task 1 — Introduction
 
-Welcome to part three (and the finale) of the Linux Fundamentals module. So far, throughout the series, you have got hands-on with some fundamental concepts and used some important commands.&#x20;
+Welcome to [part three](https://tryhackme.com/room/linuxfundamentalspart3) (and the finale) of the Linux Fundamentals module. So far, throughout the series, you have got hands-on with some fundamental concepts and used some important commands.&#x20;
 
 This room is going to showcase some useful utilities and applications that you are likely to use day-to-day.&#x20;
 
-Room credits go to TryHackMe and [CMNatic](https://twitter.com/CMNatic)
+Room credits go to [tryhackme](https://tryhackme.com/p/tryhackme) and [CMNatic](https://twitter.com/CMNatic)
 
 ## Task 2 — Deploy Your Linux Machine
 

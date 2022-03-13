@@ -6,11 +6,11 @@ description: Learn all the components that make up an email.
 
 ![](<../../.gitbook/assets/1 (1) (1).jpg>)
 
-It was a pretty nice surprise to see that Try Hack Me had dedicated a 5 room series to teach A-Z of everything you need to know about Phishing. Some of these concepts are important and can appear as interview questions. This room is the first one in the series.
+It was a pretty nice surprise to see [Try Hack Me](https://tryhackme.com) dedicating a 5 room series to teach A-Z of everything you need to know about Phishing. Some of these concepts are important and can appear as interview questions. This [room](https://tryhackme.com/room/phishingemails1tryoe) is the first one in the series.
 
 So buckle up and start the attached VM!
 
-Room credits go to Try Hack Me and [heavenraiza](https://twitter.com/heavenraiza). Awesome stuff!
+Room credits go to [tryhackme](https://tryhackme.com/p/tryhackme) and [heavenraiza](https://twitter.com/heavenraiza). Awesome stuff!
 
 ## Task 1 — Introduction
 

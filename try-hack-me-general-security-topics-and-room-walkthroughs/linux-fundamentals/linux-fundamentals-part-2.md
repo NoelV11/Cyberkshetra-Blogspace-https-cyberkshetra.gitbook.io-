@@ -1,5 +1,7 @@
 ---
-description: Power up your Linux skills!
+description: >-
+  You will be learning how to log in to a Linux machine using SSH, how to
+  advance your commands, file system interaction.
 ---
 
 # Linux Fundamentals - Part 2
@@ -8,9 +10,9 @@ description: Power up your Linux skills!
 
 Hello blue teamers,
 
-I hope that you have done and dusted the first room,taking down notes and performing the hands-on labs. Here we are, with the [second installation](https://tryhackme.com/room/linuxfundamentalspart2) of the Linux Fundamentals series.
+I hope that you have done and dusted the [first room](https://tryhackme.com/room/linuxfundamentalspart1),taking down notes and performing the hands-on labs. Here we are, with the [second installation](https://tryhackme.com/room/linuxfundamentalspart2) of the Linux Fundamentals series.
 
-Room credits go to TryHackMe and [CMNatic](https://twitter.com/CMNatic)
+Room credits go to [tryhackme](https://tryhackme.com/p/tryhackme) and [CMNatic](https://twitter.com/CMNatic)
 
 Let’s hop right in!
 

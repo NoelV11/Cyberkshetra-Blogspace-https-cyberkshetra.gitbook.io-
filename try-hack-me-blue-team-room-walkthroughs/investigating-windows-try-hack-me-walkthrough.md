@@ -1,12 +1,14 @@
 ---
-description: Windows Internals
+description: >-
+  A windows machine has been hacked, its your job to go investigate this windows
+  machine and find clues to what the hacker might have done.
 ---
 
 # Investigating Windows: A Walkthrough
 
 ![](<../.gitbook/assets/IW (1).png>)
 
-Hello, fellow blue teamers! Join me in this blog entry, as I attempt to solve the [Investigating Windows](https://tryhackme.com/room/investigatingwindows) room, on Try Hack Me. This room is of Medium Difficulty
+Hello, fellow blue teamers! Join me in this blog entry, as I attempt to solve the [Investigating Windows](https://tryhackme.com/room/investigatingwindows) room, on [Try Hack Me](https://tryhackme.com). This room is of Medium Difficulty
 
 Room creation credits go to[ tryhackme](https://tryhackme.com/p/tryhackme). Thank you!
 
