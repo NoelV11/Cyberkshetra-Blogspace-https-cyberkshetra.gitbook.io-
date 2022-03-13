@@ -28,9 +28,7 @@ The email sample in this task will highlight the following techniques:
 
 * **Spoofed email address**
 * **URL shortening services**
-* **HTML to impersonate a legitimate brand**\
-  \
-
+* **HTML to impersonate a legitimate brand**
 
 &#x20;                                             ![](https://cdn-images-1.medium.com/max/1000/1\*vaYKoqf3PnqWsMfPmoYjFA.png)
 
@@ -143,7 +141,7 @@ The above image shows the victim is redirected to a page created to pass as OneD
 
 There are two more links for the victim to interact with. The victim has to click either button to obtain the fax document that is set to expire.
 
-&#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*4ofrzBhWP-Rnuph9FiluLA.png)
+&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*4ofrzBhWP-Rnuph9FiluLA.png)
 
 The victim is directed to yet another site. This one was crafted to resemble Adobe. Again, notice the URL. It doesn’t look like it’s related to Adobe.
 
@@ -151,11 +149,11 @@ Also, notice the page title in the tab. It’s called “Share Point Online”, 
 
 The victim has options to sign in with the email provider of their choice.
 
-&#x20;                                       ![](https://cdn-images-1.medium.com/max/1000/1\*0INrxVv3A\_ItBRjAj8Vksw.png)
+&#x20;                                            ![](https://cdn-images-1.medium.com/max/1000/1\*0INrxVv3A\_ItBRjAj8Vksw.png)
 
 Our victim chose to log in with Outlook because, per the instructions, “_**To read the document, please enter with the valid email credentials that this file was sent to**_.”; the email was viewed in Outlook.
 
-&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*RIeOsusKrza72MVw0gB5OQ.png)
+&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*RIeOsusKrza72MVw0gB5OQ.png)
 
 In this sample, we can tell that fake credentials were entered, but even if the victim would have entered valid credentials, the error message would be the same. This scenario happens because the victim is not authenticating to an email provider. Instead, the credentials that were entered now reside on the criminal’s server. The criminal’s objective to harvest credentials has been met.
 
