@@ -89,7 +89,7 @@ The impact of cyber threats increased significantly during the pandemic, primari
 
 Criminals can use the information found in data breaches of companies to perform targeted social engineer attacks or phishing campaigns (more on this in future security awareness rooms). [Have I Been Pwned](https://haveibeenpwned.com) is a service that keeps track of data breaches leaked information, giving you the ability to find out if you’ve been a victim of a previous data breach. Search your email or phone number, and it will reveal if your personal information has ever been leaked.
 
-&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*4lrKsH\_ArA-Z2zC07KJ23w.png)
+&#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*4lrKsH\_ArA-Z2zC07KJ23w.png)
 
 **Answer the question below**
 
