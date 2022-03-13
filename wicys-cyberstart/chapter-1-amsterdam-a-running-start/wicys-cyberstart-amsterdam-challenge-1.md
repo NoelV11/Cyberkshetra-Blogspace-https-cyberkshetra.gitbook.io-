@@ -16,7 +16,7 @@ As part of our onboarding, we are provided an Internship letter, that tells us w
 
 Let's proceed to select challenge 1, from the first quadrant
 
-![](<../../.gitbook/assets/2 (1) (1).png>)
+![](<../../.gitbook/assets/2 (1) (1) (1).png>)
 
 ## Briefing L01 C01
 

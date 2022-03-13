@@ -2,6 +2,6 @@
 description: Tokyo
 ---
 
-# Chapter 2 - Tokyo, Patterns of Behaviour
+# Chapter 2 - Tokyo           Patterns of Behaviour
 
-![](../.gitbook/assets/1.jpg)
+![](<../.gitbook/assets/1 (2).jpg>)
