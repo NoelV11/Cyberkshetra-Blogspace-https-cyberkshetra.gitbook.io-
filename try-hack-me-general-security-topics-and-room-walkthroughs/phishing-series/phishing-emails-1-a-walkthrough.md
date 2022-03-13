@@ -1,5 +1,5 @@
 ---
-description: Fundamentals of Phishing
+description: Learn all the components that make up an email.
 ---
 
 # Phishing Emails - 1: A  Walkthrough
@@ -146,7 +146,7 @@ Note: The numbers in the above image correspond to the email header fields bulle
 
 Another method to obtain the same email header information, and more, is by viewing the ‘raw’ email details.
 
-&#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*rmxXdQXm5mcPSmZl7\_fvSg.png)
+&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*rmxXdQXm5mcPSmZl7\_fvSg.png)
 
 **Note**: Depending on your email client, whether a web client or a desktop app, the steps to view these email header fields will vary, but the concept is the same.
 
@@ -184,7 +184,7 @@ The email body is the part of the email which contains the text (plain or HTML f
 
 Below is an example of a text-only email.
 
-![](https://cdn-images-1.medium.com/max/1000/1\*Fekw5K8drUx\_CXIVfsw5Bg.png)
+&#x20;                                                    ![](https://cdn-images-1.medium.com/max/1000/1\*Fekw5K8drUx\_CXIVfsw5Bg.png)
 
 Below is an example of the HTML formatted email.
 
@@ -205,11 +205,11 @@ The following example is an HTML formatted email from “Netflix” with an atta
 1. The email body has an image.
 2. The email attachment is a PDF document.
 
-&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*Wb9bb\_F3b9zf0IO1yPIT8g.png)
+&#x20;                                                       ![](https://cdn-images-1.medium.com/max/1000/1\*Wb9bb\_F3b9zf0IO1yPIT8g.png)
 
 Now let’s view this attachment within the source code.
 
-&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*VjiP9L\_kab-WrwsV\_vXlaw.png)
+&#x20;                                                       ![](https://cdn-images-1.medium.com/max/1000/1\*VjiP9L\_kab-WrwsV\_vXlaw.png)
 
 From the above example, we can see the headers associated with this attachment:
 
@@ -243,7 +243,7 @@ Open the download.pdf and read the flag.
 
 > A)\<Flag is undisclosed>
 
-&#x20;                                                       ![](https://cdn-images-1.medium.com/max/1000/1\*gGRzTeitxqcpzX0DKCTzww.jpeg)
+&#x20;                                                            ![](https://cdn-images-1.medium.com/max/1000/1\*gGRzTeitxqcpzX0DKCTzww.jpeg)
 
 ## Task 6 — Types of Phishing
 
@@ -292,7 +292,7 @@ Analyze the email titled email3.eml within the virtual machine and answer the qu
 
 Taking a look at the 'From' field, it looks as if it is encoded in UTF format. So our first approach was to decode it
 
-![](https://cdn-images-1.medium.com/max/1000/1\*V\_GwQWqfBQ4g7pKkYhUnfw.jpeg)
+&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*V\_GwQWqfBQ4g7pKkYhUnfw.jpeg)
 
 That approach did not suffice
 
@@ -325,7 +325,7 @@ So, let’s consult the help of Cyber Chef. Select (Find/Replace) and (Defang UR
 
 Enter =3D in the Find field and click on bake
 
-&#x20;                                                               ![](https://cdn-images-1.medium.com/max/1000/1\*OOZ8LDmqBIrrovjh\_B3SiA.jpeg)
+&#x20;                                                            ![](https://cdn-images-1.medium.com/max/1000/1\*OOZ8LDmqBIrrovjh\_B3SiA.jpeg)
 
 > A)hxxp\[://]t\[.]teckbe\[.]com/p/?j3EOo=wFcEwFHl6EOAyFcoUFVTVEchwFHlUFOo6lVTTDcATE7oUE7AUET
 
