@@ -62,6 +62,7 @@
   * [DevSecOps-Making a difference from traditional DevOps](technical-cyber-articles/devsecops-making-a-difference-from-traditional-devops.md)
   * [CVE - 2020–1472 (Zerologon Vulnerability)-Exploitation & Remediation](technical-cyber-articles/cve-2020-1472-zerologon-vulnerability-exploitation-and-remediation.md)
   * [Computer Forensics Acquisition](technical-cyber-articles/computer-forensics-acquisition.md)
+  * [Cyber Hygiene Tips](technical-cyber-articles/cyber-hygiene-tips.md)
   * [Hack your System - Linux Edition](technical-cyber-articles/hack-your-system-linux-edition.md)
   * [Markovian Parallax Denigrate-Breaking the cipher](technical-cyber-articles/markovian-parallax-denigrate-breaking-the-cipher.md)
   * [SIEM-Incorporating Incident Response into Network Security](technical-cyber-articles/ff.md)
