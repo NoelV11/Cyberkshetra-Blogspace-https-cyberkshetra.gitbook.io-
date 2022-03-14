@@ -1,7 +1,7 @@
 ---
 description: >-
-  An introduction to security awareness; why its important, the impact of being
-  attacked, different threat actors and basic account security.
+  An introduction to security awareness; why it is important, the impact of
+  being attacked, different threat actors and basic account security.
 ---
 
 # Security Awareness: A Walkthrough
@@ -12,7 +12,7 @@ Hello, blue teamers,
 
 Let’s keep the hard stuff away for today and revisit the fundamentals of cybersecurity — in this case, security awareness, that you and I need to follow diligently every day.
 
-Security Awareness is not something that can be learned,but instead is something that needs to come from within,
+Security Awareness is not something that can be learned,but instead is something that needs to come from within
 
 Room credits go to [tryhackme ](https://tryhackme.com/p/tryhackme)and [Yas3r](https://twitter.com/yaserfaraj)
 
