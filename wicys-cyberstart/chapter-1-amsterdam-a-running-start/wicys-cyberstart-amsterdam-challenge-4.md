@@ -12,7 +12,7 @@ description: Disabled web-login
 
 ### Lazy Locked Login
 
-![](<../../.gitbook/assets/1 (4).png>)
+![](<../../.gitbook/assets/1 (4) (1).png>)
 
 > Our Dutch office recently bought a new Internet of Things (IoT) connected fridge. However, the temperature settings have been widely fluctuating as of late. All agents are currently out in the field and too busy to fix the problem.
 
