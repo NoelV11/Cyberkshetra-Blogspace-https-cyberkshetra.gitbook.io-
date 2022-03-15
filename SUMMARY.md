@@ -21,7 +21,7 @@
   * [Attacktive Directory: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/attacktive-directory-try-hack-me-walkthrough.md)
   * [Disk Analysis & Autopsy: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/disk-analysis-and-autopsy-a-walkthrough.md)
   * [History of Malware: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/history-of-malware-try-hack-me-walkthrough.md)
-  * [Introduction to Honeypots](try-hack-me-blue-team-room-walkthroughs/introduction-to-honeypots.md)
+  * [Introduction to Honeypots: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/introduction-to-honeypots-a-walkthrough.md)
   * [Investigating Windows: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/investigating-windows-try-hack-me-walkthrough.md)
   * [Jr Security Analyst: A Walkthrough](try-hack-me-blue-team-room-walkthroughs/jr-security-analyst-a-walkthrough.md)
   * [MAL: Malware Introductory:A Walkthrough](try-hack-me-blue-team-room-walkthroughs/mal-malware-introductory-a-walkthrough.md)
