@@ -29,6 +29,7 @@
 * [😀 Try Hack Me - General Security Topics & Room Walkthroughs](try-hack-me-general-security-topics-and-room-walkthroughs/README.md)
   * [Crack The Hash: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/crack-the-hash-a-walkthrough.md)
   * [Google Dorking: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/google-dorking-a-walkthrough.md)
+  * [Cryptography for Dummies: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/cryptography-for-dummies-a-walkthrough.md)
   * [🐧 Linux Fundamentals](try-hack-me-general-security-topics-and-room-walkthroughs/linux-fundamentals-1.md)
     * [Linux Fundamentals - Part 1](try-hack-me-general-security-topics-and-room-walkthroughs/linux-fundamentals/linux-fundamentals-part-1.md)
     * [Linux Fundamentals - Part 2](try-hack-me-general-security-topics-and-room-walkthroughs/linux-fundamentals/linux-fundamentals-part-2.md)

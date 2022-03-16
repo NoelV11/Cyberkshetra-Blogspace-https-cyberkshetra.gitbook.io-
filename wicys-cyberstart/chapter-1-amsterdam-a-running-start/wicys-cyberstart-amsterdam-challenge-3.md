@@ -50,4 +50,4 @@ Currently, we have 300 points on the scoreboard!
 
 There’s no looking back. Onward ahoy!
 
-![](<../../.gitbook/assets/4 (2).png>)
+![](<../../.gitbook/assets/4 (2) (1).png>)
