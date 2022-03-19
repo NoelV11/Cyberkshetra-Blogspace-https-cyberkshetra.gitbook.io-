@@ -24,6 +24,8 @@ In this room, we will be exploring the discipline of IMINT/GEOINT, which is shor
 2. Visually extracting key data points from an image or video
 3. Applying different tools to assist you in geolocation and answering context questions
 
+### **Flag format**
+
 **The flag format is** sl{flag} — this means that every answer needs to be submitted within the brackets, sl{your answer}.&#x20;
 
 The answer to the question below is: ready
@@ -41,6 +43,8 @@ The answer to the question below is: ready
 ### **Let’s introduce you to your first tool — your eyes!**&#x20;
 
 Before we can apply a tool or a methodology for finding the location of an image, we should use our eyes to scan the image for important information. Extracting key data points from the image will allow you to apply the right tool, craft a good Google search or identify which part of the world the image might have been taken in.
+
+### 5 elements of IMINT
 
 There are 5 elements of IMINT that you should consider when looking at an image, according to Geoint expert [Benjamin Strick](https://twitter.com/BenDoBrown):
 
@@ -172,7 +176,7 @@ Now that you’ve started to learn some techniques I figured we could try and do
 
 Let’s download the task file, for this challenge
 
-&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*9yCXIVZ4lIZBitldUWzjOw.jpeg)
+&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*9yCXIVZ4lIZBitldUWzjOw.jpeg)
 
 **Answer the questions below**
 
@@ -266,13 +270,13 @@ This [article](https://www.bonappetit.com/story/katzs-deli-24-hours) is pretty h
 
 ## Task 7  —  Locate this sculpture
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*uDJAFk595JOB7PNm4x6IfQ.png)
+&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*uDJAFk595JOB7PNm4x6IfQ.png)
 
 This challenge will require you to apply some of the techniques I have touched on so far: Scanning the image for visual clues, reverse image searching, and Google dorking. Tools should not be your primary focus — don’t underestimate how far you can get with dorking and scrolling search results.
 
 Let’s proceed to download the task file, attached with this image
 
-&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*-J-juYpwRNsWrPcV2UpVLA.png)
+&#x20;                                                          ****                                                           ![](https://cdn-images-1.medium.com/max/1000/1\*-J-juYpwRNsWrPcV2UpVLA.png)
 
 **Answer the questions below**
 
@@ -362,7 +366,7 @@ Turning around, and moving a few steps forward, we are here!
 
 ## Task 9  —  The view from my hotel room
 
-&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*ckNDvk4Q-FLPYFtH6XHwCg.png)
+&#x20;                                                       ![](https://cdn-images-1.medium.com/max/1000/1\*ckNDvk4Q-FLPYFtH6XHwCg.png)
 
 Geolocating videos aren’t much different from geolocating images. A video is just a string of images, usually played at 24 frames(or images) per second. In other words, a video will hold a whole lot more images that can be analyzed, reversed, and scrutinized by you.
 
