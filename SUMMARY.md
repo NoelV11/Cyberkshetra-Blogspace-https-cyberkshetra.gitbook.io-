@@ -39,6 +39,7 @@
     * [Phishing Emails - 1: A  Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/phishing-series/phishing-emails-1-a-walkthrough.md)
     * [Phishing Emails - 2: A  Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/phishing-series/phishing-emails-1-a-walkthrough-1.md)
   * [Principles of Security: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/principles-of-security-a-walkthrough.md)
+  * [Searchlight: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/searchlight-a-walkthrough.md)
   * [Security Awareness: A Walkthrough](try-hack-me-general-security-topics-and-room-walkthroughs/security-awareness-a-walkthrough.md)
 * [🤺 BTLO Walkthroughs](btlo-walkthroughs/README.md)
   * [BTLO: Network Analysis-Web Shell Challenge](btlo-walkthroughs/btlo-network-analysis-web-shell-challenge.md)
