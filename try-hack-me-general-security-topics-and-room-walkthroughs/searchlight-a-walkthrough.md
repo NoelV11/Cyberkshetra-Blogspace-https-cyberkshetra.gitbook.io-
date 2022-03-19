@@ -14,8 +14,6 @@ Who is down to solve a few OSINT challenges?
 
 Room credits go to [zewen](https://twitter.com/Zewensec)
 
-#### Task —1 Welcome to the Searchlight IMINT room!
-
 ## Task  1 - Welcome to the Searchlight IMINT room!
 
 In this room, we will be exploring the discipline of IMINT/GEOINT, which is short for Image intelligence and geospatial intelligence. This room is suited for those of you who are just beginning your OSINT journey or those brand new to the field of IMINT/GEOINT.
@@ -96,7 +94,7 @@ When geolocating a picture finding the exact location is key, but we may need to
 
 Let’s proceed to download the task file.
 
-&#x20;                                                         ![](https://cdn-images-1.medium.com/max/1000/1\*4GlSXsMPsNIjzOfWQk9fRQ.jpeg)
+&#x20;                                                          ![](https://cdn-images-1.medium.com/max/1000/1\*4GlSXsMPsNIjzOfWQk9fRQ.jpeg)
 
 **Answer the questions below**
 
@@ -108,7 +106,7 @@ A few phrases that I can see around are “Public Subway” “Underground” an
 
 Googling “Circus Street” did not give us any meaningful results initially, but I decided to have a look at the Google Images section for this search query. Look what I obtained below
 
-&#x20;                 ![](https://cdn-images-1.medium.com/max/1000/1\*WIjvYcj8Gvo\_2jg6\_i2Ivw.png)![](https://cdn-images-1.medium.com/max/750/1\*4GlSXsMPsNIjzOfWQk9fRQ.jpeg)
+&#x20;                  ![](https://cdn-images-1.medium.com/max/1000/1\*WIjvYcj8Gvo\_2jg6\_i2Ivw.png)![](https://cdn-images-1.medium.com/max/750/1\*4GlSXsMPsNIjzOfWQk9fRQ.jpeg)
 
 &#x20;                                             Seems like we got both sides of the same picture
 
@@ -174,7 +172,7 @@ Now that you’ve started to learn some techniques I figured we could try and do
 
 Let’s download the task file, for this challenge
 
-&#x20;                                             ![](https://cdn-images-1.medium.com/max/1000/1\*9yCXIVZ4lIZBitldUWzjOw.jpeg)
+&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*9yCXIVZ4lIZBitldUWzjOw.jpeg)
 
 **Answer the questions below**
 
@@ -186,7 +184,7 @@ Giving it a cursory search on Google reveals that the original branch is in Edin
 
 Well, we are searching for something in Scotland and we find just that, located in Glasgow, Scotland
 
-&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*8veTNYzvlOixzOQrtR\_jVQ.jpeg)
+&#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*8veTNYzvlOixzOQrtR\_jVQ.jpeg)
 
 I had a tough time squaring the correct store down because there were 2 of them located in Scotland
 
@@ -256,7 +254,7 @@ So what I did first, was to upload the file to Yandex
 
 We’ve caught the bull by the horns here!
 
-![](https://cdn-images-1.medium.com/max/1000/1\*Qy35hOckHELwPD2UdVkVlA.png)
+&#x20;                                                      ![](https://cdn-images-1.medium.com/max/1000/1\*Qy35hOckHELwPD2UdVkVlA.png)
 
 > A)Katz’s deli
 
@@ -284,7 +282,7 @@ Hmm, this looks pretty distinctive. A bike surmounted on top of a deer?
 
 As usual, I took the help of TinEye this time, to get some sort of a clue
 
-&#x20;                                                    ![](https://cdn-images-1.medium.com/max/1000/1\*96cUZdv7wMiCB\_uB\_\_rbkg.png)
+&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*96cUZdv7wMiCB\_uB\_\_rbkg.png)
 
 Ok, so we have got an important pointer, that the sculpture is located in Oslo, Norway.
 
@@ -328,7 +326,7 @@ So, we have all seen the Lady Justice statue before, but how can we pinpoint its
 
 Yandex comes to the rescue again. Reverse searching the image brings the following results:
 
-&#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*wgHbPvDNiDwVEB90d805cg.png)
+&#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*wgHbPvDNiDwVEB90d805cg.png)
 
 I had a hunch. What if we could find the location of the image, by clicking the links?
 
@@ -340,7 +338,7 @@ Link 2 — Redirects to a Youtube video ([https://www.youtube.com/watch?app=
 
 Around the 0:22 mark, you can see the statue distinctly placed in front of a building. I took a screenshot of the image below
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*\_G-o7H8Yk8vIqzJ0UZFPSQ.png)
+&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*\_G-o7H8Yk8vIqzJ0UZFPSQ.png)
 
 Now, let’s reverse search this image. We get results that the building is named “Albert V Bryan United States Courthouse”, which is located in Alexandria, Virginia
 
@@ -364,7 +362,7 @@ Turning around, and moving a few steps forward, we are here!
 
 ## Task 9  —  The view from my hotel room
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*ckNDvk4Q-FLPYFtH6XHwCg.png)
+&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*ckNDvk4Q-FLPYFtH6XHwCg.png)
 
 Geolocating videos aren’t much different from geolocating images. A video is just a string of images, usually played at 24 frames(or images) per second. In other words, a video will hold a whole lot more images that can be analyzed, reversed, and scrutinized by you.
 
