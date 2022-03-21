@@ -46,7 +46,11 @@ The resultant value is = 1badb007
 
 Since it was asked to get the code in 0x form, let’s append it to the start of the code and submit it
 
-Turns out it was the correct answer. We have 1500 points racked up on the board.
+Turns out it was the correct answer.
+
+### Scoreboard
+
+![](<../../.gitbook/assets/screenshot (8).png>)
 
 Onward ahoy to the next challenge!
 

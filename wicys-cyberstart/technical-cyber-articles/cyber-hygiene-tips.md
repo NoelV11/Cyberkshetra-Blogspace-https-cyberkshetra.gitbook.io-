@@ -4,7 +4,7 @@ description: Best cyber practices to implement, in order to protect your digital
 
 # Cyber Hygiene Tips
 
-![](<../.gitbook/assets/10 (1).jfif>)
+![](<../../.gitbook/assets/10 (1).jfif>)
 
 ## Introduction
 
@@ -21,7 +21,7 @@ The industry has a common myth of being a cat and mouse game, between hackers an
 3. Never reuse passwords across different sites — use a password generator for the same&#x20;
 4. Backups should be maintained mandatorily — Have an on-site and off-site solution. Use a hard drive, USB to keep backups at hand, and cloud storage. The rule of thumb is to have 3 backups - 1 offsite and 2 copies&#x20;
 
-![](../.gitbook/assets/11.png)
+![](../../.gitbook/assets/11.png)
 
 5\. Update your devices — these include installing drivers and software updates to mitigate security threats and risks&#x20;
 
