@@ -64,10 +64,6 @@ Doing so will unlock the spinlock and we will get our flag
 
 > Flag — GQAfbpYwacpgqPrI9KXa
 
-### Scoreboard
-
-![](<../../.gitbook/assets/screenshot (5).png>)
-
-Onward ahoy to the next challenge!
+We have 800 points racked up on the leaderboard. Onward ahoy to the next challenge!
 
 &#x20;                                                    ![](https://cdn-images-1.medium.com/max/1000/1\*UqWXdHwzYqb5U9-C5BMrjA.jpeg)

@@ -50,10 +50,6 @@ Click to submit the answer and capture the flag!
 
 > Flag — b3NqEDBNz3MksjSMVsVe
 
-### Scoreboard
-
-![](<../../.gitbook/assets/screenshot (9).png>)
-
-Onward to the next challenge!                                                   &#x20;
+1800 points on the board.Onward to the next challenge!
 
 &#x20;                                                   ![](https://miro.medium.com/max/525/1\*Hnfjo\_ezFFVeShOLwEneDw.jpeg)

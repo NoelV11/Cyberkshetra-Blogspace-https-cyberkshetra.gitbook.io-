@@ -87,10 +87,6 @@ As you notice, the flag is present towards the bottom
 
 > Flag — postD4ta\_w1zard
 
-Submit it and onward ahoy to the next challenge.
+Submit it and onward ahoy to the next challenge.2100 points racked up on the scoreboard as well!
 
-### Scoreboard
-
-![](<../../.gitbook/assets/screenshot (10).png>)
-
-&#x20;                                                  ![](https://miro.medium.com/max/524/1\*3Cqq7IAVKSbFXN42E8cQqw.jpeg)
+&#x20;                                         ![](https://miro.medium.com/max/524/1\*3Cqq7IAVKSbFXN42E8cQqw.jpeg)

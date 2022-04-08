@@ -60,13 +60,7 @@ Contents of the forum page:-
 
 &#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*lcbNltfQ28IFdRu2HiICgA.jpeg)
 
-### Scoreboard
-
-![](<../../.gitbook/assets/screenshot (6).png>)
-
 The challenge is conquered and we have racked up 1000 points on the scoreboard. Way to go!
-
-
 
 &#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*gN2IWknJhcRD7Uv\_dZLHbQ.jpeg)
 

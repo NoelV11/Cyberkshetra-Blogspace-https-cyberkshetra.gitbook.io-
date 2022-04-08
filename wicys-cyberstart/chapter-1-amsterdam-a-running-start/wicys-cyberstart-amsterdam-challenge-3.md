@@ -46,9 +46,7 @@ We get the flag and submit it
 
 > _Flag — F3Fhrc07TPmJ2HZAY9cd_
 
-### Scoreboard
-
-![](<../../.gitbook/assets/screenshot (2).png>)
+Currently, we have 300 points on the scoreboard!
 
 There’s no looking back. Onward ahoy!
 

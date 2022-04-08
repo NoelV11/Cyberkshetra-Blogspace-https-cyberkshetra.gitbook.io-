@@ -52,11 +52,9 @@ Voila, you get your flag!
 
 &#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*5pzAWWqUhWnXIMhiD0EqlA.jpeg)
 
-> Flag — wh1te\_Ro$E                                                                &#x20;
+> Flag — wh1te\_Ro$E                                                &#x20;
 
-### Scoreboard
-
-![](<../../.gitbook/assets/screenshot (11).png>)
+Final point count - 2400                     &#x20;
 
 &#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*ybCqWyAdZdsehSS1o80IKA.png)
 
