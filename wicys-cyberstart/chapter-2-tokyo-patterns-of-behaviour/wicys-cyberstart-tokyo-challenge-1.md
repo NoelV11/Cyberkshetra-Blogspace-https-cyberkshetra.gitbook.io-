@@ -56,6 +56,10 @@ Using it to login onto the server
 
 We are in, and the challenge is conquered!
 
-Coupled with that, we have 500 points on the scoreboard. Onward Ahoy!
+### Scoreboard
+
+![](<../../.gitbook/assets/screenshot (4).png>)
+
+Onward Ahoy!
 
 &#x20;                                                           ![](https://cdn-images-1.medium.com/max/1000/1\*rzV4898WyqgWaS26N2iPZQ.jpeg)

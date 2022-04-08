@@ -42,6 +42,10 @@ Not having to dig through the front page, let's have a look through the page sou
 
 > Email — 1337hax@myaboutpage.com
 
-Let's enter the flag and continue to the next challenge. Currently, we have 100 points on the scoreboard!
+Let's enter the flag and continue to the next challenge.
+
+### Scoreboard
+
+![](../../.gitbook/assets/screenshot.png)
 
 ![](<../../.gitbook/assets/7 (1) (1).png>)

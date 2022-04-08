@@ -14,8 +14,6 @@ Who is down to solve a few OSINT challenges?
 
 Room credits go to [zewen](https://twitter.com/Zewensec)
 
-#### Task —1 Welcome to the Searchlight IMINT room!
-
 ## Task  1 - Welcome to the Searchlight IMINT room!
 
 In this room, we will be exploring the discipline of IMINT/GEOINT, which is short for Image intelligence and geospatial intelligence. This room is suited for those of you who are just beginning your OSINT journey or those brand new to the field of IMINT/GEOINT.
@@ -25,6 +23,8 @@ In this room, we will be exploring the discipline of IMINT/GEOINT, which is shor
 1. Getting into the right mindset and how to be analytical
 2. Visually extracting key data points from an image or video
 3. Applying different tools to assist you in geolocation and answering context questions
+
+### **Flag format**
 
 **The flag format is** sl{flag} — this means that every answer needs to be submitted within the brackets, sl{your answer}.&#x20;
 
@@ -43,6 +43,8 @@ The answer to the question below is: ready
 ### **Let’s introduce you to your first tool — your eyes!**&#x20;
 
 Before we can apply a tool or a methodology for finding the location of an image, we should use our eyes to scan the image for important information. Extracting key data points from the image will allow you to apply the right tool, craft a good Google search or identify which part of the world the image might have been taken in.
+
+### 5 elements of IMINT
 
 There are 5 elements of IMINT that you should consider when looking at an image, according to Geoint expert [Benjamin Strick](https://twitter.com/BenDoBrown):
 
@@ -90,13 +92,15 @@ The last challenge wasn’t a challenge, was it?
 
 Let me introduce you to your first tool, Google! If you see anything in the image that can be extracted into a keyword, phrase, company name, telephone number, or any other question you may have as a result of scanning the image up and down: GOOGLE IT!
 
+### Google Dorking
+
 [Here](https://osintcurio.us/2019/12/20/google-dorks/) is a short introduction to what we call ‘dorking’, the art of using Google search queries to have Google return specific types of data. The next challenges will require you to do some basic Googling to answer the questions. You can also practice dorking by joining the Google Dorking [room](https://tryhackme.com/room/googledorking).
 
 When geolocating a picture finding the exact location is key, but we may need to answer other questions about the location or the image as well, usually referred to as context questions.
 
 Let’s proceed to download the task file.
 
-&#x20;                                                         ![](https://cdn-images-1.medium.com/max/1000/1\*4GlSXsMPsNIjzOfWQk9fRQ.jpeg)
+&#x20;                                                          ![](https://cdn-images-1.medium.com/max/1000/1\*4GlSXsMPsNIjzOfWQk9fRQ.jpeg)
 
 **Answer the questions below**
 
@@ -108,7 +112,7 @@ A few phrases that I can see around are “Public Subway” “Underground” an
 
 Googling “Circus Street” did not give us any meaningful results initially, but I decided to have a look at the Google Images section for this search query. Look what I obtained below
 
-&#x20;                 ![](https://cdn-images-1.medium.com/max/1000/1\*WIjvYcj8Gvo\_2jg6\_i2Ivw.png)![](https://cdn-images-1.medium.com/max/750/1\*4GlSXsMPsNIjzOfWQk9fRQ.jpeg)
+&#x20;                  ![](https://cdn-images-1.medium.com/max/1000/1\*WIjvYcj8Gvo\_2jg6\_i2Ivw.png)![](https://cdn-images-1.medium.com/max/750/1\*4GlSXsMPsNIjzOfWQk9fRQ.jpeg)
 
 &#x20;                                             Seems like we got both sides of the same picture
 
@@ -137,6 +141,8 @@ This answer is just a Google search away!
 Good job solving the last challenge!&#x20;
 
 You were able to find the location of the image and by doing that, you could answer contextual questions about the location. This challenge will also require you to do some ‘Google dorking’ to answer the questions below.
+
+### Using Google Dorking as your aid
 
 Scan the image for data and remember the questions from the introduction — Do you see anything in the image that can be used in a search query or help you narrow down the potential location?
 
@@ -170,11 +176,13 @@ Moreover, the airport is located in Canada. Well, that explains the “CA” acr
 
 Now that you’ve started to learn some techniques I figured we could try and do some good while we hone our skills.
 
+### On the lookout for a coffeeshop in Scotland..anyone?
+
 > A friend of mine contacted me asking if I could help them locate a coffee shop that is supposed to serve the _best_ lunch there is. They told me the coffee shop is somewhere in Scotland, and he sent me these two pictures. Do you think you could locate it and answer the questions below for me?
 
 Let’s download the task file, for this challenge
 
-&#x20;                                             ![](https://cdn-images-1.medium.com/max/1000/1\*9yCXIVZ4lIZBitldUWzjOw.jpeg)
+&#x20;                                           ![](https://cdn-images-1.medium.com/max/1000/1\*9yCXIVZ4lIZBitldUWzjOw.jpeg)
 
 **Answer the questions below**
 
@@ -186,7 +194,7 @@ Giving it a cursory search on Google reveals that the original branch is in Edin
 
 Well, we are searching for something in Scotland and we find just that, located in Glasgow, Scotland
 
-&#x20;                                              ![](https://cdn-images-1.medium.com/max/1000/1\*8veTNYzvlOixzOQrtR\_jVQ.jpeg)
+&#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*8veTNYzvlOixzOQrtR\_jVQ.jpeg)
 
 I had a tough time squaring the correct store down because there were 2 of them located in Scotland
 
@@ -228,6 +236,8 @@ From a cursory Google search, we can find that the owners are Debbie and David C
 
 One of the methods for geolocating an image is to do an image reverse search. This means that we are searching for the image itself online, and if the image has been indexed by search engines we may find the exact image or we can do a visual search or crop search to help us find similar images.
 
+### Reverse Image Searching
+
 [Aric Toler](https://twitter.com/AricToler) from [Bellingcat](https://www.bellingcat.com) has written a fantastic guide on reversing images, please read it [here](https://www.bellingcat.com/resources/how-tos/2019/12/26/guide-to-using-reverse-image-search-for-investigations/). [OSINT Curious](https://osintcurio.us) also has a [write-up](https://osintcurio.us/2020/04/12/tips-and-tricks-on-reverse-image-searches/) on the topic that you should look through before attempting this challenge.
 
 I recommend adding this extension to ease the workflow for when you find images online that you want to do an image reverse on:
@@ -256,7 +266,7 @@ So what I did first, was to upload the file to Yandex
 
 We’ve caught the bull by the horns here!
 
-![](https://cdn-images-1.medium.com/max/1000/1\*Qy35hOckHELwPD2UdVkVlA.png)
+&#x20;                                                      ![](https://cdn-images-1.medium.com/max/1000/1\*Qy35hOckHELwPD2UdVkVlA.png)
 
 > A)Katz’s deli
 
@@ -268,13 +278,15 @@ This [article](https://www.bonappetit.com/story/katzs-deli-24-hours) is pretty h
 
 ## Task 7  —  Locate this sculpture
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*uDJAFk595JOB7PNm4x6IfQ.png)
+&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*uDJAFk595JOB7PNm4x6IfQ.png)
 
 This challenge will require you to apply some of the techniques I have touched on so far: Scanning the image for visual clues, reverse image searching, and Google dorking. Tools should not be your primary focus — don’t underestimate how far you can get with dorking and scrolling search results.
 
+### A distinctive looking sculpture
+
 Let’s proceed to download the task file, attached with this image
 
-&#x20;                                                     ![](https://cdn-images-1.medium.com/max/1000/1\*-J-juYpwRNsWrPcV2UpVLA.png)
+&#x20;                                                          ****                                                           ![](https://cdn-images-1.medium.com/max/1000/1\*-J-juYpwRNsWrPcV2UpVLA.png)
 
 **Answer the questions below**
 
@@ -284,7 +296,7 @@ Hmm, this looks pretty distinctive. A bike surmounted on top of a deer?
 
 As usual, I took the help of TinEye this time, to get some sort of a clue
 
-&#x20;                                                    ![](https://cdn-images-1.medium.com/max/1000/1\*96cUZdv7wMiCB\_uB\_\_rbkg.png)
+&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*96cUZdv7wMiCB\_uB\_\_rbkg.png)
 
 Ok, so we have got an important pointer, that the sculpture is located in Oslo, Norway.
 
@@ -312,7 +324,11 @@ Some more hard searching brings us to our answer
 
 This challenge is a step up in difficulty from the previous challenges and you shouldn’t expect to solve this quickly, especially if you are new to IMINT. While you can certainly apply the techniques and tools you’ve used to s far, this challenge may force you to revise your thinking and your approach while you’re working on solving this challenge.
 
+### Justice for all!
+
 Let’s proceed to download the task file, attached with this image
+
+![](../.gitbook/assets/task8.png)
 
 **Answer the questions below**
 
@@ -328,7 +344,7 @@ So, we have all seen the Lady Justice statue before, but how can we pinpoint its
 
 Yandex comes to the rescue again. Reverse searching the image brings the following results:
 
-&#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*wgHbPvDNiDwVEB90d805cg.png)
+&#x20;                                                 ![](https://cdn-images-1.medium.com/max/1000/1\*wgHbPvDNiDwVEB90d805cg.png)
 
 I had a hunch. What if we could find the location of the image, by clicking the links?
 
@@ -340,7 +356,7 @@ Link 2 — Redirects to a Youtube video ([https://www.youtube.com/watch?app=
 
 Around the 0:22 mark, you can see the statue distinctly placed in front of a building. I took a screenshot of the image below
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*\_G-o7H8Yk8vIqzJ0UZFPSQ.png)
+&#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*\_G-o7H8Yk8vIqzJ0UZFPSQ.png)
 
 Now, let’s reverse search this image. We get results that the building is named “Albert V Bryan United States Courthouse”, which is located in Alexandria, Virginia
 
@@ -364,9 +380,11 @@ Turning around, and moving a few steps forward, we are here!
 
 ## Task 9  —  The view from my hotel room
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*ckNDvk4Q-FLPYFtH6XHwCg.png)
+&#x20;                                                       ![](https://cdn-images-1.medium.com/max/1000/1\*ckNDvk4Q-FLPYFtH6XHwCg.png)
 
 Geolocating videos aren’t much different from geolocating images. A video is just a string of images, usually played at 24 frames(or images) per second. In other words, a video will hold a whole lot more images that can be analyzed, reversed, and scrutinized by you.
+
+### Geolocation OSINT
 
 Here’s a good [writeup](https://nixintel.info/osint-tools/using-ffmpeg-to-grab-stills-and-audio-for-osint/) by [Nixintel](https://twitter.com/nixintel) on a tool called [FFmpeg](https://ffmpeg.org), which will help you extract the key images from the video that you may need to solve this challenge. Download the attached video and follow Nixintel’s guide!
 
