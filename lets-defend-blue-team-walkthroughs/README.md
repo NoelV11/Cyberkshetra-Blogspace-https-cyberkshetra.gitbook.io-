@@ -1,6 +1,6 @@
 ---
-description: Let's Defend Blue Team Walkthroughs catalogue
 coverY: 0
+description: Let's Defend Blue Team Walkthroughs catalogue
 ---
 
 # 💽 Let's Defend Blue Team Walkthroughs

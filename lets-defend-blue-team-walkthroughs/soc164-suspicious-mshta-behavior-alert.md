@@ -151,6 +151,8 @@ Let’s proceed to submit evidence collected so far, that is relevant to the att
 
 ![](../.gitbook/assets/18.jpg)
 
+
+
 > Finish the playbook
 
 > Close the alert
