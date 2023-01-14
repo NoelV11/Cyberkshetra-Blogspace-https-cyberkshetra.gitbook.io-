@@ -38,4 +38,4 @@ description: Here is everything you need to know, about me!
 
 I am always open to meeting new people and opportunities
 
-💬 Email- noelatvitb@gmail.com​
+Let's connect on LinkedIn - https://www.linkedin.com/in/noel--varghese
