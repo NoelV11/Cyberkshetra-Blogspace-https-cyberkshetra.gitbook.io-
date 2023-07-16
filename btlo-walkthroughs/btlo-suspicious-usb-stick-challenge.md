@@ -58,7 +58,7 @@ Let’s submit this file for analysis on [VirusTotal](https://www.virustotal.com
 
 > Q) Does the file have the correct magic number?
 
-To test this, I suggest reading this [article](https://www.geeksforgeeks.org/working-with-magic-numbers-in-linux/#:\~:text=Some%20files%2C%20however%2C%20do%20not,the%20case%20of%20text%20files%29.\&text=Magic%20numbers%2FFile%20signatures%20are,xxd%27%20command%20as%20mentioned%20below.). Magic numbers are usually used to indicate and differentiate the formats of files. These numbers are visible on hex editors
+To test this, I suggest reading this [article](https://www.geeksforgeeks.org/working-with-magic-numbers-in-linux/). Magic numbers are usually used to indicate and differentiate the formats of files. These numbers are visible on hex editors
 
 From a quick google search, we find that the magic number of a PDF file is- (hex 25 50 44 46 )
 
@@ -86,7 +86,7 @@ It is evident that the payload targets Windows systems and spawns Windows proces
 
 > Q) A Windows executable is mentioned in the pdf file, what is it?
 
-To extract strings from this malicious PDF, I prefer uploading it to [Hybrid-Analysis](https://www.hybrid-analysis.com) and then filtering it out by .exe.Two hits are received
+To extract strings from this malicious PDF, I prefer uploading it to [Hybrid-Analysis](https://www.hybrid-analysis.com/) and then filtering it out by .exe.Two hits are received
 
 &#x20;                                          ![](https://cdn-images-1.medium.com/max/1000/1\*IsOSt\_cvL51LvptI69txUQ.png)
 

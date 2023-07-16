@@ -42,7 +42,7 @@ Applying Linux’s file command, we determine that the version of Microsoft Word
 
 &#x20;                                                    ![](https://cdn-images-1.medium.com/max/1000/1\*4dMsxQOoXy4Z7S9S3grrrA.jpeg)
 
-It would be wise to give the malicious file a run on [Anyrun](https://any.run). It is much safer that way.\
+It would be wise to give the malicious file a run on [Anyrun](https://any.run/). It is much safer that way.\
 Upon uploading, we find its contents below
 
 &#x20;                                                   ![](https://cdn-images-1.medium.com/max/1000/1\*oZCJwFpYXYDfhc0FsPowxA.jpeg)
@@ -61,7 +61,7 @@ This becomes evident especially when it has a 95% severity rate of being suspici
 
 ### Analysis using VirusTotal&#x20;
 
-Making use of [Hybrid-Analysis](https://www.hybrid-analysis.com), we have received conclusive evidence of the file being malicious. Malicious and Suspicious IOCs have been identified and displayed below&#x20;
+Making use of [Hybrid-Analysis](https://www.hybrid-analysis.com/), we have received conclusive evidence of the file being malicious. Malicious and Suspicious IOCs have been identified and displayed below&#x20;
 
 ![](https://cdn-images-1.medium.com/max/1000/1\*uIptW7rD\_wYKDMEm8BrsBg.jpeg)![](https://cdn-images-1.medium.com/max/750/1\*Rm9qwo5K5GcuWF43b7520g.jpeg)
 

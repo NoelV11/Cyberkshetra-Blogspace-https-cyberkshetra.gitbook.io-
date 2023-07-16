@@ -42,7 +42,7 @@ We get some indicators as well:-
 
 Scrolling down, we get to visualize what the file looks like
 
-![](<../.gitbook/assets/6 (1).png>)
+![](<../.gitbook/assets/6 (1) (1).png>)
 
 We also get some extracted strings at the bottom (Important)
 

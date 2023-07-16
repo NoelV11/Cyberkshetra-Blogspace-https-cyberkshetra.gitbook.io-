@@ -30,11 +30,11 @@ At first glance, it looks like the text is written backward
 
 ## Flag Capture
 
-Well, let's copy-paste the contents of the chirp and use on an [online utility](https://www.textreverse.com) to reverse the text&#x20;
+Well, let's copy-paste the contents of the chirp and use on an [online utility](https://www.textreverse.com/) to reverse the text&#x20;
 
 Upon reversing the text, we find human-readable text, indicating the motive of the hackers
 
-![So we have apparently got our flag - time4hackattack](<../../.gitbook/assets/3 (1).png>)
+![So we have apparently got our flag - time4hackattack](<../../.gitbook/assets/3 (2) (1).png>)
 
 So we have apparently got our flag - time4hackattack
 

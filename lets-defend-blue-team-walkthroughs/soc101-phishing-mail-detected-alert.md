@@ -4,7 +4,7 @@ description: Let's analyze a phishing mail, with a suspicious URL ...
 
 # SOC101  -  Phishing Mail Detected Alert
 
-Hello, blue teamers. In this blog entry, join me as I attempt to conquer the SOC 101 — Phishing Mail Detected alert, hosted on[ Let’s Defend](https://letsdefend.io).
+Hello, blue teamers. In this blog entry, join me as I attempt to conquer the SOC 101 — Phishing Mail Detected alert, hosted on[ Let’s Defend](https://letsdefend.io/).
 
 **NOTE: Always remember to investigate alerts from Let's Defend, on a VM.**
 

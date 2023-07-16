@@ -8,7 +8,7 @@ description: CVE-2021–40444 Lab
 
 Hello, budding blue teamers.Welcome to this latest blog entry, where I will be wading deep into the 'Malware Analysis' path on Let's Defend and attempting to solve the [2021’s 0-Day MSHTML](https://app.letsdefend.io/malwareanalysis/analysis/mshtml/) lab.
 
-Challenge credits go to [Bohan Zhang](https://www.linkedin.com/in/bohan-zhang-078751137/) and malware sample provision by [MalwareBazaar](https://bazaar.abuse.ch)
+Challenge credits go to [Bohan Zhang](https://www.linkedin.com/in/bohan-zhang-078751137/) and malware sample provision by [MalwareBazaar](https://bazaar.abuse.ch/)
 
 Let's analyze some malware!
 
@@ -32,7 +32,7 @@ Targetting the ‘Employees\_Contact\_Audit\_Oct\_2021.docx’ file, let's run a
 
 `Command — strings Employees_Contact_Audit_Oct_2021.docx`
 
-Unable to find any IP’s from the resulting output, the next resort would be to use the [Hybrid-Analysis ](https://www.hybrid-analysis.com)tool
+Unable to find any IP’s from the resulting output, the next resort would be to use the [Hybrid-Analysis ](https://www.hybrid-analysis.com/)tool
 
 After uploading the file to be analyzed, we can see its malicious level on test sandboxes
 
@@ -68,7 +68,7 @@ A domain by the name arsenal.30cm.tw is found and fits the answer format
 
 > A) arsenal.30cm.tw
 
-> Q) Examining __ the Work\_From\_Home\_Survey.doc file, what is the malicious domain in the doc file?
+> Q) Examining the Work\_From\_Home\_Survey.doc file, what is the malicious domain in the doc file?
 
 Running the Work\_From\_Home\_Survey.doc file on Hybrid-Analysis&#x20;
 
@@ -85,7 +85,7 @@ Clicking on ‘View all details’
 &#x20;                                      ![](https://cdn-images-1.medium.com/max/1000/1\*rI8YE5YnfLcCDl1Xla28VQ.png)
 
 A domain named ‘trendparlye.com’ pops up here\
-Opening [AlienVault](https://otx.alienvault.com)’s assessment on this domain gives us the following information
+Opening [AlienVault](https://otx.alienvault.com/)’s assessment on this domain gives us the following information
 
 &#x20;                                         ![](https://cdn-images-1.medium.com/max/1000/1\*MoM33HV7ggOtZOufybcWmQ.png)
 

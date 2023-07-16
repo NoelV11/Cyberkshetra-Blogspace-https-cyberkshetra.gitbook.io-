@@ -28,11 +28,11 @@ Alert particulars provided to the analyst:-
 
 A LoLBin is any binary supplied by the operating system that is normally used for legitimate purposes but can also be abused by malicious actors. Default system binaries have unexpected side effects, which may allow attackers to hide their activities post-exploitation.&#x20;
 
-(Definition: [talosintelligence.com](https://talosintelligence.com))
+(Definition: [talosintelligence.com](https://talosintelligence.com/))
 
 ## Identify the Binary&#x20;
 
-![](../.gitbook/assets/5.jpg)
+![](<../.gitbook/assets/5 (1).jpg>)
 
 > Determine which binary is supplied by the operating system but is also home to suspicious activities. To do this, you can resort to the alert details on the Monitoring page or Endpoint Security.
 
@@ -71,7 +71,7 @@ According to [Red Canary](https://redcanary.com/threat-detection-report/techniqu
 
 Let’s have a look at [LOLBAS](https://lolbas-project.github.io), to identify any characteristics of the binary.Looking it up, we can find the execution methods it employs.They cover languages like JavaScript and VBScript
 
-![](<../.gitbook/assets/3 (2).jpg>) ![](<../.gitbook/assets/10 (2).jpg>)
+![](<../.gitbook/assets/3 (1).jpg>) ![](<../.gitbook/assets/10 (1) (2).jpg>)
 
 Let's return to the platform.
 
@@ -115,7 +115,7 @@ Let's select 'Execute' from the options above
 
 ## Who Performed the Activity?&#x20;
 
-![](<../.gitbook/assets/12 (2).jpg>)
+![](<../.gitbook/assets/12 (1).jpg>)
 
 > Who performed the suspicious/malicious activity using a binary? It would be helpful to control the binary’s parent process.
 
@@ -150,8 +150,6 @@ Let’s proceed to submit evidence collected so far, that is relevant to the att
 ## ​Analyst's Notes
 
 ![](../.gitbook/assets/18.jpg)
-
-
 
 > Finish the playbook
 

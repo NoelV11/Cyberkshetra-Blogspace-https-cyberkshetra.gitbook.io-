@@ -4,11 +4,15 @@ description: Here is everything you need to know, about me!
 
 # Welcome to my Gitbooks Page
 
-👋Thank you for visiting my Gitbooks page, where I host personalized walkthroughs of SOC Investigations and rooms that I solve on the Let's Defend and Try Hack Me platforms
+👋Thank you for visiting my Gitbooks page, where I host personalized walkthroughs of ethical hacking boxes that i solve on HackTheBox, Blue Team Investigation Writeups from various platforms and Cyber Security Articles.&#x20;
+
+
 
 😃 I am Noel Varghese, a Cybersecurity enthusiast - experienced in Secure Coding, OSINT, Pentesting & Threat Intelligence fields, having taken part in Internships, training, and competitions in these. I am an undergraduate student pursuing B.Tech in Computer Science Engineering, with specialization in Cyber Security, at Vellore Institute of Technology, Bhopal.
 
-💡Now, I am branching my journey towards Blue Teaming, where I will be documenting my journey and cases I solve on LetsDefend, Try Hack Me & Rangeforce platforms, in this blog space.
+
+
+🙌I believe in being equipped with some red-team techniques and knowledge, by practicing on boxes from HTB, while working in the Threat Intelligence Domain, which can aid me in real-world investigations at CloudSEK, as a Threat Researcher.
 
 :pencil: Certification held:-
 

@@ -22,7 +22,7 @@ We are met with this Chirp login page (mimicking Twitter again!)&#x20;
 
 ![](<../../.gitbook/assets/2 (2).png>)
 
-I guess we won't have to think hard to crack this, unless it involves creating a wordlist using [crunch ](https://www.irongeek.com/i.php?page=backtrack-r1-man-pages/crunch)(to generate passwords) and using it to bruteforce the login page, using [Hydra](https://www.mankier.com/1/hydra) or [Burp Suite](https://www.pluralsight.com/paths/web-security-testing-with-burp-suite#:\~:text=Burp%20Suite%20is%20an%20integrated%20platform%2Fgraphical%20tool%20for%20performing,finding%20and%20exploiting%20security%20vulnerabilities.)
+I guess we won't have to think hard to crack this, unless it involves creating a wordlist using [crunch ](https://www.irongeek.com/i.php?page=backtrack-r1-man-pages/crunch)(to generate passwords) and using it to bruteforce the login page, using [Hydra](https://www.mankier.com/1/hydra) or [Burp Suite](https://www.pluralsight.com/paths/web-security-testing-with-burp-suite)
 
 I had these three combinations in mind:-&#x20;
 
@@ -48,7 +48,7 @@ We get the flag and submit it
 
 ### Scoreboard
 
-![](<../../.gitbook/assets/screenshot (2).png>)
+![](<../../.gitbook/assets/screenshot (2) (1).png>)
 
 There’s no looking back. Onward ahoy!
 

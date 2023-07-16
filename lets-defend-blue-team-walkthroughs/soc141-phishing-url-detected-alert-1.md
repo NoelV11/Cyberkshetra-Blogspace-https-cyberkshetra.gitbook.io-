@@ -95,7 +95,7 @@ When verifying against contacted hosts — Image 11 and 10(1)
 
 &#x20;                                  ![](https://cdn-images-1.medium.com/max/1000/1\*6R4t58RACvSWSWReV7qURA.png)
 
-We can find that the host hasn't contacted the malicious domain — from the ‘Contacted Hosts’ history, from [Hybrid-Analysis](https://www.hybrid-analysis.com)
+We can find that the host hasn't contacted the malicious domain — from the ‘Contacted Hosts’ history, from [Hybrid-Analysis](https://www.hybrid-analysis.com/)
 
 Answering the questions from above:-
 

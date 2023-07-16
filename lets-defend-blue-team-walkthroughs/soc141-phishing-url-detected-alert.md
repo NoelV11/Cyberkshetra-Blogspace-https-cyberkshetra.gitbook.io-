@@ -86,7 +86,7 @@ Reading Joe Sandbox’s [HTML report of the malicious domain](https://www.joesan
 
 Seems like a malicious domain and is capable of spreading Trojan(take a look at the pie chart)
 
-Let’s analyze it on the [Hybrid-Analysis](https://www.hybrid-analysis.com) platform as well, where 2 search results pop up for the domain
+Let’s analyze it on the [Hybrid-Analysis](https://www.hybrid-analysis.com/) platform as well, where 2 search results pop up for the domain
 
 &#x20;                                      ![](https://cdn-images-1.medium.com/max/1000/1\*u79cNM368Enx94Q0etOkrQ.png)
 
