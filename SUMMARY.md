@@ -51,3 +51,4 @@
   * [Zero Trust Network Access-A solution to Network Security](technical-cyber-articles/zero-trust-network-access-a-solution-to-network-security.md)
 * [Hack The Box : Starting Point Machines](hack-the-box-starting-point-machines/README.md)
   * [Meow](hack-the-box-starting-point-machines/meow.md)
+  * [Fawn](hack-the-box-starting-point-machines/fawn.md)

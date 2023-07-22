@@ -76,7 +76,7 @@ b) Login as root and press enter \[ a password would not be required]
 
 c) Running 'ls' command to list the files present, we find our flag file!
 
-&#x20;                  ![](<../.gitbook/assets/image (5).png>)
+&#x20;                  ![](<../.gitbook/assets/image (5) (1).png>)
 
 > A9) \<Your Flag>
 
