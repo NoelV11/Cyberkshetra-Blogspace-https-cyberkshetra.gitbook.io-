@@ -126,7 +126,7 @@ In the screenshot placed below, I have demonstrated the method of defining a key
 {% endtab %}
 {% endtabs %}
 
-Keys that i have created 'String' and 'ARG'
+Keys that i have created here, for example are - 'String' and 'ARG'
 
 <figure><img src="../.gitbook/assets/9 (1).png" alt=""><figcaption></figcaption></figure>
 
