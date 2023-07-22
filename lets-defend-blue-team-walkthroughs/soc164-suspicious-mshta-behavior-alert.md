@@ -16,7 +16,7 @@ Let’s jump headfirst into it.
 
 Alert particulars provided to the analyst:-
 
-![](../.gitbook/assets/3.jpg)
+![](<../.gitbook/assets/3 (2).jpg>)
 
 > Create the case
 
@@ -24,19 +24,19 @@ Alert particulars provided to the analyst:-
 
 ![](../.gitbook/assets/4.jpg)
 
-### What are Living-off-the-land binaries (LOLBins)?&#x20;
+### What are Living-off-the-land binaries (LOLBins)?
 
-A LoLBin is any binary supplied by the operating system that is normally used for legitimate purposes but can also be abused by malicious actors. Default system binaries have unexpected side effects, which may allow attackers to hide their activities post-exploitation.&#x20;
+A LoLBin is any binary supplied by the operating system that is normally used for legitimate purposes but can also be abused by malicious actors. Default system binaries have unexpected side effects, which may allow attackers to hide their activities post-exploitation.
 
 (Definition: [talosintelligence.com](https://talosintelligence.com/))
 
-## Identify the Binary&#x20;
+## Identify the Binary
 
 ![](<../.gitbook/assets/5 (1).jpg>)
 
 > Determine which binary is supplied by the operating system but is also home to suspicious activities. To do this, you can resort to the alert details on the Monitoring page or Endpoint Security.
 
-## Determine Suspicious Activity&#x20;
+## Determine Suspicious Activity
 
 ![](../.gitbook/assets/9.jpg)
 
@@ -71,7 +71,7 @@ According to [Red Canary](https://redcanary.com/threat-detection-report/techniqu
 
 Let’s have a look at [LOLBAS](https://lolbas-project.github.io), to identify any characteristics of the binary.Looking it up, we can find the execution methods it employs.They cover languages like JavaScript and VBScript
 
-![](<../.gitbook/assets/3 (1).jpg>) ![](<../.gitbook/assets/10 (1) (2).jpg>)
+![](<../.gitbook/assets/3 (1).jpg>) ![](<../.gitbook/assets/10 (3).jpg>)
 
 Let's return to the platform.
 
@@ -87,9 +87,9 @@ We are given further evidence that the payload was run, in CLI mode aided by a P
 
 Next, we proceed to check out the 'Log Management' section, to find any network traffic logs corresponding to the victim's IP
 
-We got 2 hits, but only 1 fit the bill. Seems like the binary was accessed from the malicious IP - 193.142.58.23&#x20;
+We got 2 hits, but only 1 fit the bill. Seems like the binary was accessed from the malicious IP - 193.142.58.23
 
-![](../.gitbook/assets/7.jpg)
+![](<../.gitbook/assets/7 (1).jpg>)
 
 When expanding the Process list, we can find an instance of Powershell being executed.
 
@@ -113,7 +113,7 @@ Let's select 'Execute' from the options above
 
 > Execute
 
-## Who Performed the Activity?&#x20;
+## Who Performed the Activity?
 
 ![](<../.gitbook/assets/12 (1).jpg>)
 
@@ -129,7 +129,7 @@ So the attack was supposedly done by a person (threat actor) and not by maliciou
 
 > User
 
-## Containment&#x20;
+## Containment
 
 ![](../.gitbook/assets/14.jpg)
 

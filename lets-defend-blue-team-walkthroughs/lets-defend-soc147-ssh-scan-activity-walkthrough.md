@@ -28,11 +28,11 @@ Under the description, we find the hash for the file (3361bf0051cc657ba90b46be53
 
 We run the hash on VirusTotal first, but it came with 0 flagged reports - no security vendors flagged the file as malicious.
 
-![](<../.gitbook/assets/3 (2).png>)
+![](<../.gitbook/assets/3 (3).png>)
 
 Next, we run the file's hash on hybrid-analysis.com Under 'Report Search' - enter the hash
 
-![](../.gitbook/assets/4.png)
+![](<../.gitbook/assets/4 (4).png>)
 
 There are many OS' acting like a sandbox- we get a hit for Linux 64bit. These are the malware's particulars:-
 
@@ -42,11 +42,11 @@ We get some indicators as well:-
 
 Scrolling down, we get to visualize what the file looks like
 
-![](<../.gitbook/assets/6 (1) (1).png>)
+![](<../.gitbook/assets/6 (1).png>)
 
 We also get some extracted strings at the bottom (Important)
 
-Let's take the IP Address - 172.16.20.5**.** We run it on the Endpoint Security and Log Management sections of LetsDefend
+Let's take the IP Address - 172.16.20.5\*\*.\*\* We run it on the Endpoint Security and Log Management sections of LetsDefend
 
 From the Log Management section, we get a lot of hits for the IP Address, but we try to narrow it down by the time, but don't get any matches for Jun 13,2021 - 04:23 PM (date and time stamp of SOC event occurrence)
 

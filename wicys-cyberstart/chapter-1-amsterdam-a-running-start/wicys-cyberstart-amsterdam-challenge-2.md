@@ -10,7 +10,7 @@ description: Reversing of text
 
 ### Mixed-up Messages
 
-![](<../../.gitbook/assets/1 (2).png>)
+![](<../../.gitbook/assets/1 (5).png>)
 
 > We’ve been informed that a group of hackers are communicating cryptically on a social media site.
 
@@ -22,7 +22,7 @@ description: Reversing of text
 
 Let's go to the challenge
 
-![](<../../.gitbook/assets/2 (1) (1).png>)
+![](<../../.gitbook/assets/2 (2).png>)
 
 We are met with a social media page named Chirp (mimicking Twitter!) with HACKERBOT'S chirp (tweet)
 
@@ -30,11 +30,11 @@ At first glance, it looks like the text is written backward
 
 ## Flag Capture
 
-Well, let's copy-paste the contents of the chirp and use on an [online utility](https://www.textreverse.com/) to reverse the text&#x20;
+Well, let's copy-paste the contents of the chirp and use on an [online utility](https://www.textreverse.com/) to reverse the text
 
 Upon reversing the text, we find human-readable text, indicating the motive of the hackers
 
-![So we have apparently got our flag - time4hackattack](<../../.gitbook/assets/3 (2) (1).png>)
+![So we have apparently got our flag - time4hackattack](<../../.gitbook/assets/3 (1).png>)
 
 So we have apparently got our flag - time4hackattack
 
@@ -44,6 +44,6 @@ Let's submit it and proceed to the next challenge.
 
 ![](<../../.gitbook/assets/screenshot (1).png>)
 
-&#x20;Onward Ahoy!
+Onward Ahoy!
 
 ![](<../../.gitbook/assets/4 (1).png>)

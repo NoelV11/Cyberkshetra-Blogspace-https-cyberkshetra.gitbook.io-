@@ -17,9 +17,9 @@ In other words, it is a private network, that is hard to detect. It is compared 
 
 The concept was put forward, by John Kindervaag, a principal analyst, at Forrester Research Organization. This was built upon, by the occurrence of Operation Aurora, a cyber-attack, whose victim organization was Google, with Gmail accounts of Chinese dissidents being targeted. Moreover, it took a decade to implement.
 
-&#x20;                                                  ![](https://cdn-images-1.medium.com/max/1000/1\*d-xDhPGI9v5ZICZUTTIgyQ.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*d-xDhPGI9v5ZICZUTTIgyQ.png)
 
-&#x20;                                                      `Pictorial representation of ZTNA`
+`Pictorial representation of ZTNA`
 
 ### **ZTNA-The need of the hour**
 
@@ -39,16 +39,16 @@ They include, but are not limited to:-
 * Identity and Access Management-Usage of complex passwords(combination of symbols and alpha-numerics) and biometrics.
 * Endpoint Security-Securing endpoints (devices), using authentication and encryption techniques, while connected on an enterprise’s network.
 
-&#x20;                                                ![](https://cdn-images-1.medium.com/max/1000/1\*uqIIj2rRjkAjK-uF0tTlqA.png)
+![](https://cdn-images-1.medium.com/max/1000/1\*uqIIj2rRjkAjK-uF0tTlqA.png)
 
-&#x20;                                            `ZTNA follows the Castle-moat security model`
+`ZTNA follows the Castle-moat security model`
 
 ## **Types of Zero Trust Network Architecture**
 
 They include the following:-
 
 * Endpoint Initiated ZTNA-Having previously defined devices as endpoints, these networks are monitored by the ZTNA Controller. Authorized users are given entry, after providing the correct credentials and are directed to an end-to-end encrypted network. In the unusual case of two devices, of the same user, trying to log in from different locations, it can be understood, that either one of the devices (or possibly both), has been compromised. In response, the user is flagged and is prevented from accessing the network.\
-  &#x20;
+
 * Service Initiated ZTNA-Unlike Endpoint ZTNA, which requires manpower to keep vigil, this architecture, instead, uses cloud technology, to accept/deny access to a network. This network contains a connector, that acts as a medium, between the cloud and network. Users are subjected to security measures, before gaining access. Most standard implementations of ZTNA follow this architecture.
 
 BeyondCorp is an example of a service-initiated ZTNA, implemented by Google.
@@ -60,7 +60,7 @@ One interesting point to note is that software used by an enterprise can be acce
 * Once a user is trying to gain access to the network (whether legitimately or else), the ZTNA will authenticate the user, with a directory of authorized users and roles working in the organization. At the same time, a push authentication notification is sent to the device, where the user can agree/deny access. It is a method for the network to verify that an authorized user is truly asking for access.
 * Once logged on to the network, users are termed as “zero/least privileged”. This is done to ensure minimal attempts at initiating an attack. Attempting to access an application, will provide the user with a one-one interaction, with the app.
 * Applications on the network, as specifically assigned to departments that they are useful in. For example, HR and Data Analyst teams will only be given access to MySQL Framework and cannot access other software applications.\
-  &#x20;
+
 * Micro segmentation-The term means to divide the vast network, to secure zones, to which assigned individuals can work. Individuals having access/gaining access to more than one zone will be flagged and recorded.
 
 ## D**isadvantages of ZTNA**

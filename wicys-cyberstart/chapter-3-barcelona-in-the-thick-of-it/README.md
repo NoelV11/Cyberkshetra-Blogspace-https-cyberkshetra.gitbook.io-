@@ -2,6 +2,6 @@
 description: Barcelona
 ---
 
-# Chapter 3 - Barcelona                        In the thick of it
+# Chapter 3 - Barcelona In the thick of it
 
-![](<../../.gitbook/assets/11 (1).jpg>)
+![](../../.gitbook/assets/11.jpg)
