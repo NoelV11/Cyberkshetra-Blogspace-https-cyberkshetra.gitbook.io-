@@ -3,7 +3,7 @@ description: >-
   OS Type:
   Unix                                                                                              
   Let's go Dancing!
-cover: ../.gitbook/assets/H6.png
+cover: ../.gitbook/assets/H6 (1).png
 coverY: 0
 ---
 
