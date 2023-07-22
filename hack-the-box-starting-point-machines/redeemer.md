@@ -1,10 +1,12 @@
 ---
 description: 'OS Type: Unix'
+cover: ../.gitbook/assets/11 (2).png
+coverY: 0
 ---
 
 # Redeemer
 
-Let's start by spawning the machine&#x20;
+Let's start by spawning the machine and connecting to Openvpn
 
 We obtain the Machine IP - 10.129.136.187
 
@@ -66,9 +68,7 @@ Meanwhile, let's attempt to connect with the Redis server, on our Hack The Box E
 
 The 'info' command would be useful in obtaining information about the redis server.
 
-We can see that our Redis Server has the following statistics
-
-
+We can see that our Redis Server has the following statistics \[selected a few metrics here]
 
 <table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td><h2>Server</h2><p>Redis_version:5.0.7 redis_mode:standalone uptime_in_seconds:1454 </p><p></p><p>executable:/usr/bin/redis-server </p><p>config_file:/etc/redis/redis.conf</p></td><td></td><td></td></tr><tr><td></td><td><h2>Clients</h2><p>connected_clients:1</p></td><td></td></tr><tr><td></td><td><h2>Memory</h2><p>used_memory:859624 total_system_memory:2084024320</p></td><td></td></tr><tr><td><h2>Stats</h2><p>total_connections_received:6 </p><p></p><p>total_commands_processed:7 </p><p></p><p>instantaneous_ops_per_sec:0</p></td><td></td><td></td></tr></tbody></table>
 
@@ -141,3 +141,5 @@ Keys can hold any value.
 We can find our root flag here. Observe that flag has been issued as a key here, to hold the alphanumeric value of the flag. Let's read it
 
 > GET flag
+
+<figure><img src="../.gitbook/assets/10 (1).png" alt=""><figcaption></figcaption></figure>
