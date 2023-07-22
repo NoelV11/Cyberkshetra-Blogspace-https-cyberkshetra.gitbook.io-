@@ -1,12 +1,17 @@
 ---
-description: Let's go Dancing!
+description: >-
+  OS Type:
+  Unix                                                                                              
+  Let's go Dancing!
+cover: ../.gitbook/assets/H6.png
+coverY: 0
 ---
 
 # Dancing
 
 IP Assigned - 10.129.54.22
 
-Let's begin by answering the questions
+Let's now dive into the questions.
 
 > Q1) What does the 3-letter acronym SMB stand for?
 

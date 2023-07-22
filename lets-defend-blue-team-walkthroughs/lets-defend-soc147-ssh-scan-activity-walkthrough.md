@@ -52,7 +52,7 @@ From the Log Management section, we get a lot of hits for the IP Address, but we
 
 Next, we move to Endpoint, where we paste the address and find a few particulars:-
 
-![](../.gitbook/assets/8.png)
+![](<../.gitbook/assets/8 (1).png>)
 
 Clicking on Command History, we get:-
 

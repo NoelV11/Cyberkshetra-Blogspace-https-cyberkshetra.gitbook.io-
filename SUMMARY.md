@@ -53,3 +53,4 @@
   * [Meow](hack-the-box-starting-point-machines/meow.md)
   * [Fawn](hack-the-box-starting-point-machines/fawn.md)
   * [Dancing](hack-the-box-starting-point-machines/dancing.md)
+  * [Redeemer](hack-the-box-starting-point-machines/redeemer.md)

@@ -48,7 +48,7 @@ Right-click -> Inspect element
 
 Keep expanding Highlight the keyword 'disabled' and delete it from the javascript
 
-![Before tampering](../../.gitbook/assets/4.png)
+![Before tampering](<../../.gitbook/assets/4 (1).png>)
 
 ![After tampering](../../.gitbook/assets/4\(1\).png)
 

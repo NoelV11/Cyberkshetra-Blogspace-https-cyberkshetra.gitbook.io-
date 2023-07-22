@@ -46,4 +46,4 @@ Let's submit it and proceed to the next challenge.
 
 Onward Ahoy!
 
-![](<../../.gitbook/assets/4 (1).png>)
+![](<../../.gitbook/assets/4 (1) (1).png>)
