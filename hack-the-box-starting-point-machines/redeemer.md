@@ -1,6 +1,6 @@
 ---
 description: 'OS Type: Unix'
-cover: ../.gitbook/assets/11 (3).png
+cover: ../.gitbook/assets/11.png
 coverY: 0
 ---
 

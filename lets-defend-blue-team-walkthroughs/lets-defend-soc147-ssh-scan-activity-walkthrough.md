@@ -74,7 +74,7 @@ We enter our data and findings
 
 ## Alert Scorecard
 
-![](<../.gitbook/assets/11 (1).png>)
+![](<../.gitbook/assets/11 (1) (1).png>)
 
 _False Positive or not? - We clicked Yes (+5 points)_
 
